@@ -1,0 +1,1054 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x33280
+ *(.text .stub)
+ .text          0x0000000000000000     0x18d7 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000                Fir_msdSetSMIC45PhyReg
+                0x00000000000002a0                Fir_msdGetSMIC45PhyReg
+                0x0000000000000550                Fir_msdSetSMIPhyReg
+                0x00000000000006e0                Fir_msdGetSMIPhyReg
+                0x00000000000008f0                Fir_msdSetSMIPhyRegField
+                0x00000000000009e0                Fir_msdGetSMIPhyRegField
+                0x0000000000000a80                Fir_msdSetPagedPhyRegField
+                0x0000000000000b00                Fir_msdGetPagedPhyRegField
+                0x0000000000000bd0                Fir_msdWritePagedPhyReg
+                0x0000000000000c30                Fir_msdReadPagedPhyReg
+                0x0000000000000c90                Fir_msdSetSMIPhyXMDIOReg
+                0x0000000000000da0                Fir_msdGetSMIPhyXMDIOReg
+                0x0000000000000ee0                Fir_msdPhyReset
+                0x00000000000010a0                Fir_msdDirectSetMultiChipReg
+                0x00000000000010c0                Fir_msdDirectGetMultiChipReg
+                0x00000000000010e0                Fir_msdDirectSetMultiChipRegField
+                0x00000000000011b0                Fir_msdDirectGetMultiChipRegField
+                0x0000000000001250                Fir_msdSetSMIExtPhyReg
+                0x00000000000013e0                Fir_msdGetSMIExtPhyReg
+                0x00000000000015f0                Fir_msdWritePagedExtPhyReg
+                0x0000000000001650                Fir_msdReadPagedExtPhyReg
+                0x00000000000016b0                Fir_msdSetSMIExtPhyXMDIOReg
+                0x00000000000017a0                Fir_msdGetSMIExtPhyXMDIOReg
+ *fill*         0x00000000000018d7        0x9 
+ .text          0x00000000000018e0    0x319a0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+                0x0000000000003310                Fir_gtcamFlushAll
+                0x0000000000003360                Fir_gtcamFlushEntry
+                0x00000000000033c0                Fir_gtcamLoadEntry
+                0x0000000000003450                Fir_gtcamReadTCAMData
+                0x00000000000034d0                Fir_gtcamGetNextTCAMData
+                0x0000000000003570                Fir_gtcamFindEntry
+                0x0000000000003640                Fir_gtcamSetMode
+                0x00000000000036a0                Fir_gtcamGetMode
+                0x0000000000003730                Fir_gtcamAddEntryPort
+                0x0000000000003820                Fir_gtcamRemoveEntryPort
+                0x0000000000003920                Fir_gtcamEgrFlushEntry
+                0x00000000000039a0                Fir_gtcamEgrFlushEntryAllPorts
+                0x0000000000003a00                Fir_gtcamEgrLoadEntry
+                0x0000000000003bf0                Fir_gtcamEgrGetNextTCAMData
+                0x0000000000003cc0                Fir_gtcamEgrReadTCAMData
+                0x0000000000003d80                Fir_gtcamDump
+                0x0000000000004650                Fir_gtcamAdvConfig
+                0x0000000000005b20                Fir_gtcamRCFlushAllEntry
+                0x0000000000005be0                Fir_gtcamRCFlushEntry
+                0x0000000000005cc0                Fir_gtcamRCLoadEntry
+                0x00000000000060c0                Fir_gtcamRCReadEntry
+                0x00000000000061c0                Fir_gtcamRCGetNextEntry
+                0x0000000000006300                Fir_gtcamRCFindEntry
+                0x0000000000006450                Fir_gtcamRCEntryDump
+                0x0000000000007040                Fir_gtcamRCCompFlushAll
+                0x0000000000007100                Fir_gtcamRCCompFlushPort
+                0x00000000000071e0                Fir_gtcamRCCompLoad
+                0x0000000000007440                Fir_gtcamRCCompRead
+                0x0000000000008830                Fir_gfdbGetAtuEntryNext
+                0x0000000000008850                Fir_gfdbFlush
+                0x00000000000088c0                Fir_gfdbFlushInDB
+                0x0000000000008940                Fir_gfdbMove
+                0x0000000000008a30                Fir_gfdbMoveInDB
+                0x0000000000008b20                Fir_gfdbAddMacEntry
+                0x0000000000008bf0                Fir_gfdbDelAtuEntry
+                0x0000000000008c80                Fir_gfdbGetViolation
+                0x0000000000008db0                Fir_gfdbFindAtuMacEntry
+                0x0000000000008ee0                Fir_gfdbSetAgingTimeout
+                0x0000000000008f60                Fir_gfdbGetAgingTimeout
+                0x0000000000008ff0                Fir_gfdbGetLearn2All
+                0x0000000000009090                Fir_gfdbSetLearn2All
+                0x00000000000090e0                Fir_gfdbSetPortLearnLimit
+                0x0000000000009250                Fir_gfdbGetPortLearnLimit
+                0x0000000000009360                Fir_gfdbGetPortLearnCount
+                0x0000000000009420                Fir_gfdbGetEntryCount
+                0x0000000000009470                Fir_gfdbGetEntryCountPerFid
+                0x00000000000094c0                Fir_gfdbGetNonStaticEntryCount
+                0x0000000000009510                Fir_gfdbGetNStaticEntryCountFid
+                0x00000000000097c0                Fir_gpolicySetMgmtCtrl
+                0x00000000000097e0                Fir_gpolicyGetMgmtCtrl
+                0x0000000000009800                Fir_gpolicySetCpuDest
+                0x00000000000098c0                Fir_gpolicyGetCpuDest
+                0x0000000000009950                Fir_gpolicySetIgrMonitorDest
+                0x0000000000009a10                Fir_gpolicyGetIgrMonitorDest
+                0x0000000000009aa0                Fir_gpolicySetRsvd2CpuEnables
+                0x0000000000009af0                Fir_gpolicyGetRsvd2CpuEnables
+                0x0000000000009b90                Fir_gpolicySetMGMTPri
+                0x0000000000009c30                Fir_gpolicyGetMGMTPri
+                0x0000000000009c90                Fir_gpolicySetRouteDest
+                0x0000000000009d50                Fir_gpolicyGetRouteDest
+                0x0000000000009de0                Fir_gpolicySetMirrorDest
+                0x0000000000009ea0                Fir_gpolicyGetMirrorDest
+                0x0000000000009f30                Fir_gpolicySetIllegalIPAddr
+                0x0000000000009fd0                Fir_gpolicyGetIllegalIPAddr
+                0x000000000000a030                Fir_gpolicySetDipDaMismatch
+                0x000000000000a0d0                Fir_gpolicyGetDipDaMismatch
+                0x000000000000a130                Fir_gpolicySetZeroSIP
+                0x000000000000a1d0                Fir_gpolicyGetZeroSIP
+                0x000000000000a230                Fir_gpolicySetMcTtlExceeded
+                0x000000000000a300                Fir_gpolicyGetMcTtlExceeded
+                0x000000000000a3d0                Fir_gpolicySetUcTtlExceeded
+                0x000000000000a490                Fir_gpolicyGetUcTtlExceeded
+                0x000000000000a4f0                Fir_gprtSetPortTtlThreshold
+                0x000000000000a580                Fir_gprtGetPortTtlThreshold
+                0x000000000000a5e0                Fir_gpolicySetIpHdrErr
+                0x000000000000a680                Fir_gpolicyGetIpHdrErr
+                0x000000000000a6e0                Fir_gpolicySetTCPFinUrgPsh
+                0x000000000000a780                Fir_gpolicyGetTCPFinUrgPsh
+                0x000000000000a7e0                Fir_gpolicySetTCPFlagsSeqNum
+                0x000000000000a880                Fir_gpolicyGetTCPFlagsSeqNum
+                0x000000000000a8e0                Fir_gpolicySetTCPSYN
+                0x000000000000a980                Fir_gpolicyGetTCPSYN
+                0x000000000000a9e0                Fir_gpolicySetTCPHSize
+                0x000000000000aa80                Fir_gpolicyGetTCPHSize
+                0x000000000000aae0                Fir_gprtSetPortTCPMinHdrSize
+                0x000000000000ab70                Fir_gprtGetPortTCPMinHdrSize
+                0x000000000000abd0                Fir_gpolicySetICMPSize
+                0x000000000000ac70                Fir_gpolicyGetICMPSize
+                0x000000000000acd0                Fir_gprtSetPortICMPMaxSize
+                0x000000000000ad20                Fir_gprtGetPortICMPMaxSize
+                0x000000000000adb0                Fir_gpolicySetUDPPort
+                0x000000000000ae50                Fir_gpolicyGetUDPPort
+                0x000000000000aeb0                Fir_gpolicySetTCPPort
+                0x000000000000af50                Fir_gpolicyGetTCPPort
+                0x000000000000afb0                Fir_gpolicySetTCPSynFin
+                0x000000000000b050                Fir_gpolicyGetTCPSynFin
+                0x000000000000b0b0                Fir_gpolicySetTCPFrag
+                0x000000000000b150                Fir_gpolicyGetTCPFrag
+                0x000000000000b1b0                Fir_gpolicySetNearNonTPMR
+                0x000000000000b250                Fir_gpolicyGetNearNonTPMR
+                0x000000000000b2b0                Fir_gpolicySetETag
+                0x000000000000b350                Fir_gpolicyGetETag
+                0x000000000000b3b0                Fir_gpolicySetNonETag
+                0x000000000000b450                Fir_gpolicyGetNonETag
+                0x000000000000b4b0                Fir_gpolicyDump
+                0x0000000000010180                Fir_gvtuGetEntryNext
+                0x00000000000102f0                Fir_gvtuFindVidEntry
+                0x00000000000104b0                Fir_gvtuFlush
+                0x00000000000104d0                Fir_gvtuAddEntry
+                0x0000000000010620                Fir_gvtuDelEntry
+                0x00000000000106a0                Fir_gvtuSetMode
+                0x0000000000010820                Fir_gvtuGetMode
+                0x00000000000109c0                Fir_gvtuGetViolation_MultiChip
+                0x0000000000010ad0                Fir_gvtuGetViolation
+                0x0000000000010c40                Fir_gvtuDump
+                0x00000000000113d0                Fir_garpLoadMcEntry
+                0x00000000000114f0                Fir_garpLoadUcEntry
+                0x00000000000115b0                Fir_garpFlushEntry
+                0x0000000000011610                Fir_garpFlushAll
+                0x0000000000011660                Fir_garpReadEntry
+                0x00000000000116e0                Fir_garpGetNextEntry
+                0x0000000000011b70                Fir_gstuGetEntryNext
+                0x0000000000011c70                Fir_gstuAddEntry
+                0x0000000000011d40                Fir_gstuDelEntry
+                0x0000000000011da0                Fir_gstuFindSidEntry
+                0x0000000000011eb0                Fir_gstuDump
+                0x0000000000012420                Fir_gpirlInitialize
+                0x0000000000012440                Fir_gpirlInitResource
+                0x00000000000124c0                Fir_gpirlCustomSetup_sr2c
+                0x00000000000126b0                Fir_gpirlReadResource
+                0x0000000000012880                Fir_gpirlWriteResource
+                0x0000000000012a20                Fir_gpirlGetResReg
+                0x0000000000012ac0                Fir_gpirlSetResReg
+                0x00000000000131c0                Fir_gstatsFlushAll
+                0x00000000000131e0                Fir_gstatsFlushPort
+                0x0000000000013220                Fir_gstatsGetPortCounter
+                0x0000000000013280                Fir_gstatsGetPortAllCounters
+                0x00000000000132d0                Fir_gstatsGetHistogramMode
+                0x0000000000013390                Fir_gstatsSetHistogramMode
+                0x00000000000133d0                Fir_gmibDump
+                0x0000000000013f10                Fir_gvlnSetPortVid
+                0x0000000000013f70                Fir_gvlnGetPortVid
+                0x0000000000014000                Fir_gprtSetForceDefaultVid
+                0x0000000000014060                Fir_gprtGetForceDefaultVid
+                0x0000000000014100                Fir_gvlnSetPortVlanDot1qMode
+                0x0000000000014160                Fir_gvlnGetPortVlanDot1qMode
+                0x00000000000141f0                Fir_gprtSetDiscardTagged
+                0x0000000000014250                Fir_gprtGetDiscardTagged
+                0x00000000000142f0                Fir_gprtSetDiscardUntagged
+                0x0000000000014350                Fir_gprtGetDiscardUntagged
+                0x00000000000143f0                Fir_gprtSetUnicastFloodBlock
+                0x0000000000014450                Fir_gprtGetUnicastFloodBlock
+                0x00000000000144f0                Fir_gprtSetMulticastFloodBlock
+                0x0000000000014550                Fir_gprtGetMulticastFloodBlock
+                0x00000000000145f0                Fir_gprtSetDiscardBCastMode
+                0x0000000000014650                Fir_gprtGetDiscardBCastMode
+                0x00000000000146f0                Fir_gprtSetIGMPSnoopEnable
+                0x0000000000014750                Fir_gprtGetIGMPSnoopEnable
+                0x00000000000147f0                Fir_gprtGetHeaderMode
+                0x0000000000014890                Fir_gprtSetHeaderMode
+                0x00000000000148f0                Fir_gprtGetDropOnLock
+                0x0000000000014990                Fir_gprtSetDropOnLock
+                0x00000000000149f0                Fir_gprtSetJumboMode
+                0x0000000000014a60                Fir_gprtGetJumboMode
+                0x0000000000014af0                Fir_gprtSetSpecifiedMTU
+                0x0000000000014b70                Fir_gprtGetSpecifiedMTU
+                0x0000000000014c00                Fir_gprtSetLearnEnable
+                0x0000000000014ce0                Fir_gprtGetLearnEnable
+                0x0000000000014d70                Fir_gprtGetVTUPriorityOverride
+                0x0000000000014e00                Fir_gprtSetVTUPriorityOverride
+                0x0000000000014e60                Fir_gprtGetSAPriorityOverride
+                0x0000000000014ef0                Fir_gprtSetSAPriorityOverride
+                0x0000000000014f50                Fir_gprtGetDAPriorityOverride
+                0x0000000000014fe0                Fir_gprtSetDAPriorityOverride
+                0x0000000000015040                Fir_gprtGetMessagePort
+                0x00000000000150e0                Fir_gprtSetMessagePort
+                0x0000000000015140                Fir_gprtGetEtherType
+                0x0000000000015160                Fir_gprtSetEtherType
+                0x0000000000015180                Fir_gprtGetAllowVidZero
+                0x0000000000015220                Fir_gprtSetAllowVidZero
+                0x0000000000015280                Fir_gprtSetTrunkPort
+                0x0000000000015340                Fir_gprtGetTrunkPort
+                0x0000000000015420                Fir_gprtSetFlowCtrl
+                0x00000000000154d0                Fir_gprtGetFlowCtrl
+                0x0000000000015540                Fir_gprtSetEgressMonitorSource
+                0x00000000000155a0                Fir_gprtGetEgressMonitorSource
+                0x0000000000015640                Fir_gprtSetIngressMonitorSource
+                0x00000000000156a0                Fir_gprtGetIngressMonitorSource
+                0x0000000000015740                Fir_grcSetEgressRate
+                0x0000000000015970                Fir_grcSetELimitMode
+                0x00000000000159d0                Fir_grcGetELimitMode
+                0x0000000000015a60                Fir_grcGetEgressRate
+                0x0000000000015ba0                Fir_gprtSetDuplex
+                0x0000000000015c10                Fir_gprtGetDuplex
+                0x0000000000015ce0                Fir_gprtGetDuplexStatus
+                0x0000000000015d70                Fir_gprtGetForceLink
+                0x0000000000015e40                Fir_gprtSetForceLink
+                0x0000000000015eb0                Fir_gprtGetLinkState
+                0x0000000000015f40                Fir_gprtSetForceSpeed
+                0x0000000000016200                Fir_gprtGetForceSpeed
+                0x00000000000163a0                Fir_gprtGetSpeed
+                0x00000000000164d0                Fir_gprtGetVlanPorts
+                0x00000000000165b0                Fir_gprtSetVlanPorts
+                0x00000000000166d0                Fir_gprtGetFrameMode
+                0x0000000000016760                Fir_gprtSetFrameMode
+                0x00000000000167c0                Fir_gprtSetPortECID
+                0x0000000000016860                Fir_gprtGetPortECID
+                0x00000000000168c0                Fir_gprtSetIgnoreETag
+                0x0000000000016950                Fir_gprtGetIgnoreETag
+                0x00000000000169b0                Fir_gprtSetEgressMode
+                0x0000000000016a10                Fir_gprtGetEgressMode
+                0x0000000000016aa0                Fir_gprtSetExtendedPortCtrlReg
+                0x0000000000016b80                Fir_gprtGetExtendedPortCtrlReg
+                0x0000000000016c20                Fir_gprtGetPortState
+                0x0000000000016cb0                Fir_gprtSetPortState
+                0x0000000000016d10                Fir_gprtSetIgnoreFcs
+                0x0000000000016d70                Fir_gprtGetIgnoreFcs
+                0x0000000000016e10                Fir_gprtSetAllowBadFcs
+                0x0000000000016e70                Fir_gprtGetAllowBadFcs
+                0x0000000000016f10                Fir_gprtSetPauseLimitOut
+                0x0000000000016f60                Fir_gprtGetPauseLimitOut
+                0x0000000000016fb0                Fir_gprtSetPauseLimitIn
+                0x0000000000016ff0                Fir_gprtGetPauseLimitIn
+                0x0000000000017040                Fir_gprtSetQueueToPause
+                0x0000000000017090                Fir_gprtGetQueueToPause
+                0x00000000000170e0                Fir_gprtSetRxPriFlowCtrlEnable
+                0x00000000000171d0                Fir_gprtGetRxPriFlowCtrlEnable
+                0x0000000000017280                Fir_gprtSetRxPriFlowCtrlToQueue
+                0x0000000000017370                Fir_gprtGetRxPriFlowCtrlToQueue
+                0x0000000000017410                Fir_gprtSetTxPriFlowCtrlEnable
+                0x0000000000017500                Fir_gprtGetTxPriFlowCtrlEnable
+                0x00000000000175b0                Fir_gprtGetOutQueueSize
+                0x0000000000017640                Fir_gprtSetMapDA
+                0x00000000000176a0                Fir_gprtGetMapDA
+                0x0000000000017740                Fir_gprtSetPortLocked
+                0x00000000000177a0                Fir_gprtGetPortLocked
+                0x0000000000017840                Fir_gprtSetHoldAt1
+                0x00000000000178a0                Fir_gprtGetHoldAt1
+                0x0000000000017940                Fir_gprtSetInt0nAgeOut
+                0x00000000000179a0                Fir_gprtGetInt0nAgeOut
+                0x0000000000017a40                Fir_gprtSetRefreshLocked
+                0x0000000000017aa0                Fir_gprtGetRefreshLocked
+                0x0000000000017b40                Fir_gprtSetIgnoreWrongData
+                0x0000000000017ba0                Fir_gprtGetIgnoreWrongData
+                0x0000000000017c40                Fir_gprtSetARPMirror
+                0x0000000000017ca0                Fir_gprtGetARPMirror
+                0x0000000000017d40                Fir_gprtSetPreemptSize
+                0x0000000000017da0                Fir_gprtGetPreemptSize
+                0x0000000000017e40                Fir_gprtSetPreemptEnable
+                0x0000000000017ea0                Fir_gprtGetPreemptEnable
+                0x0000000000017f40                Fir_gprtSetPreemptQueue
+                0x0000000000017fa0                Fir_gprtGetPreemptQueue
+                0x0000000000018040                Fir_gprtRegDump
+                0x0000000000018b10                Fir_gBpeEnableSet
+                0x0000000000018c60                Fir_gBpeEnableGet
+                0x0000000000018d00                Fir_gecidAddEntry
+                0x0000000000018d40                Fir_gecidFlushAll
+                0x0000000000018db0                Fir_gecidMove
+                0x0000000000018e70                Fir_gecidFlushEntry
+                0x0000000000018f00                Fir_gecidGetEcidEntryNext
+                0x0000000000018f80                Fir_gecidFindEcidEntry
+                0x0000000000019080                Fir_gecidGetEntryCount
+                0x0000000000019370                Fir_gecidDump
+                0x00000000000194e0                Fir_gqosSetPrioMapRule
+                0x0000000000019540                Fir_gqosGetPrioMapRule
+                0x00000000000195e0                Fir_gprtSetInitialPri
+                0x0000000000019650                Fir_gprtGetInitialPri
+                0x0000000000019720                Fir_gprtSetDefQpri
+                0x0000000000019780                Fir_gprtGetDefQpri
+                0x0000000000019820                Fir_gprtSetIEEEPrioMap
+                0x0000000000019a30                Fir_gprtGetIEEEPrioMap
+                0x0000000000019c50                Fir_gprtRewriteDscp
+                0x0000000000019cb0                Fir_gprtSetCosToQueue
+                0x0000000000019d40                Fir_gprtGetCosToQueue
+                0x0000000000019da0                Fir_gprtSetCosToDscp
+                0x0000000000019e30                Fir_gprtGetCosToDscp
+                0x0000000000019e90                Fir_gprtSetDefFpri
+                0x0000000000019ef0                Fir_gprtGetDefFpri
+                0x0000000000019f90                Fir_gprtSetQueueCtrl
+                0x000000000001a0a0                Fir_gprtGetQueueCtrl
+                0x000000000001a1e0                Fir_gprtSetPortSched
+                0x000000000001a230                Fir_gprtGetPortSched
+                0x000000000001a340                Fir_gprtSetQoSWeight
+                0x000000000001a6e0                Fir_gprtGetQoSWeight
+                0x000000000001aa00                Fir_gsysSetTrunkMaskTable
+                0x000000000001ab30                Fir_gsysGetTrunkMaskTable
+                0x000000000001aca0                Fir_gsysSetHashTrunk
+                0x000000000001acd0                Fir_gsysGetHashTrunk
+                0x000000000001ad40                Fir_gsysSetTrunkRouting
+                0x000000000001aea0                Fir_gsysGetTrunkRouting
+                0x000000000001b040                Fir_gsysSetFloodBC
+                0x000000000001b070                Fir_gsysGetFloodBC
+                0x000000000001b0e0                Fir_gsysSetEgressMonitorDest
+                0x000000000001b130                Fir_gsysGetEgressMonitorDest
+                0x000000000001b1d0                Fir_gsysSetSMISetup
+                0x000000000001b3b0                Fir_gsysGetSMISetup
+                0x000000000001b590                Fir_gsysGlobal1RegDump
+                0x000000000001b660                Fir_gsysGlobal2RegDump
+                0x000000000001b730                Fir_gsysSetRMUMode
+                0x000000000001b7c0                Fir_gsysGetRMUMode
+                0x000000000001b820                Fir_gsysQbvWrite
+                0x000000000001b8f0                Fir_gsysQbvRead
+                0x000000000001b9d0                Fir_gsysDevIntEnableSet
+                0x000000000001b9f0                Fir_gsysDevIntEnableGet
+                0x000000000001ba50                Fir_gsysDevIntStatusGet
+                0x000000000001bab0                Fir_gsysActiveIntEnableSet
+                0x000000000001bb40                Fir_gsysActiveIntEnableGet
+                0x000000000001bba0                Fir_gsysActiveIntStatusGet
+                0x000000000001bc00                Fir_serdesReset
+                0x000000000001c6e0                Fir_msdRmuGetID
+                0x000000000001c810                Fir_msdRmuAtuDump
+                0x000000000001ca30                Fir_msdRmuEcidDump
+                0x000000000001cc80                Fir_msdRmuMib2Dump
+                0x000000000001d0b0                Fir_msdRmuReadRegister
+                0x000000000001d0e0                Fir_msdRmuWriteRegister
+                0x000000000001d100                Fir_msdRmuMultiRegAccess
+                0x000000000001d2f0                Fir_msdRmuTCAMDump
+                0x000000000001d460                Fir_msdRmuTCAMWrite
+                0x000000000001d610                Fir_msdRmuTCAMRead
+                0x000000000001d7c0                Fir_msdRmuRegDump
+                0x000000000001d890                Fir_gtcamLoadEntryIntf
+                0x000000000001daf0                Fir_gtcamReadTCAMDataIntf
+                0x000000000001dd70                Fir_gtcamGetNextTCAMDataIntf
+                0x000000000001dff0                Fir_gtcamFindEntryIntf
+                0x000000000001e2a0                Fir_gtcamSetModeIntf
+                0x000000000001e2b0                Fir_gtcamGetModeIntf
+                0x000000000001e310                Fir_gtcamEgrFlushEntryIntf
+                0x000000000001e320                Fir_gtcamEgrFlushAllPortsIntf
+                0x000000000001e330                Fir_gtcamEgrLoadEntryIntf
+                0x000000000001e400                Fir_gtcamEgrGetNextTCAMDataIntf
+                0x000000000001e4f0                Fir_gtcamEgrReadTCAMDataIntf
+                0x000000000001e5e0                Fir_gtcamAdvConfigIntf
+                0x000000000001f290                Fir_gfrerSeqGenFlushAll
+                0x000000000001f2a0                Fir_gfrerSeqGenFlushEntry
+                0x000000000001f2c0                Fir_gfrerSeqGenRead
+                0x000000000001f360                Fir_gfrerSeqGenLoad
+                0x000000000001f3c0                Fir_gfrerIndvRcvyFlushAll
+                0x000000000001f3d0                Fir_gfrerIndvRcvyFlushEntry
+                0x000000000001f400                Fir_gfrerIndvRcvyRead
+                0x000000000001f520                Fir_gfrerIndvRcvyLoad
+                0x000000000001f5d0                Fir_gfrerIndvRcvyGetNext
+                0x000000000001f6f0                Fir_gfrerIndvRcvyReadClear
+                0x000000000001f810                Fir_gfrerSeqRcvyFlushAll
+                0x000000000001f820                Fir_gfrerSeqRcvyFlushEntry
+                0x000000000001f850                Fir_gfrerSeqRcvyRead
+                0x000000000001fa40                Fir_gfrerSeqRcvyLoad
+                0x000000000001fbb0                Fir_gfrerSeqRcvyGetNext
+                0x000000000001fda0                Fir_gfrerSeqRcvyGetViolation
+                0x000000000001ff90                Fir_gfrerSeqRcvyReadClear
+                0x0000000000020180                Fir_gfrerBank0SCtrFlushAll
+                0x0000000000020190                Fir_gfrerBank0SCtrFlushCtr
+                0x00000000000201a0                Fir_gfrerBank0SCtrRead
+                0x0000000000020450                Fir_gfrerBank0SCtrLoad
+                0x00000000000204d0                Fir_gfrerBank0SCtrGetNext
+                0x0000000000020790                Fir_gfrerBank0SCtrReadClear
+                0x0000000000020a50                Fir_gfrerBank1SCtrFlushAll
+                0x0000000000020a60                Fir_gfrerBank1SCtrFlushCtr
+                0x0000000000020a70                Fir_gfrerBank1SCtrRead
+                0x0000000000020cf0                Fir_gfrerBank1SCtrLoad
+                0x0000000000020d70                Fir_gfrerBank1SCtrGetNext
+                0x0000000000020ff0                Fir_gfrerBank1SCtrReadClear
+                0x0000000000021270                Fir_gfrerSeqGenLoadIntf
+                0x00000000000212f0                Fir_gfrerSeqGenReadIntf
+                0x0000000000021370                Fir_gfrerIndvRcvyLoadIntf
+                0x00000000000213f0                Fir_gfrerIndvRcvyReadIntf
+                0x0000000000021460                Fir_gfrerIndvRcvyGetNextIntf
+                0x00000000000214d0                Fir_gfrerIndvRcvyReadClearIntf
+                0x0000000000021540                Fir_gfrerSeqRcvyLoadIntf
+                0x00000000000215e0                Fir_gfrerSeqRcvyReadIntf
+                0x0000000000021670                Fir_gfrerSeqRcvyGetNextIntf
+                0x0000000000021700                Fir_gfrerSeqRcvyGetViolationIntf
+                0x0000000000021790                Fir_gfrerSeqRcvyReadClearIntf
+                0x0000000000021820                Fir_gfrerBank0SCtrReadIntf
+                0x00000000000218d0                Fir_gfrerBank0SCtrLoadIntf
+                0x0000000000021950                Fir_gfrerBank0SCtrGetNextIntf
+                0x0000000000021a00                Fir_gfrerBank0SCtrReadClearIntf
+                0x0000000000021ab0                Fir_gfrerBank1SCtrLoadIntf
+                0x0000000000021b30                Fir_gfrerBank1SCtrReadIntf
+                0x0000000000021be0                Fir_gfrerBank1SCtrGetNextIntf
+                0x0000000000021c90                Fir_gfrerBank1SCtrReadClearIntf
+                0x0000000000021d40                Fir_gfdbAddMacEntryIntf
+                0x0000000000021dc0                Fir_gfdbGetAtuEntryNextIntf
+                0x0000000000021ea0                Fir_gfdbFlushIntf
+                0x0000000000021eb0                Fir_gfdbFlushInDBIntf
+                0x0000000000021ec0                Fir_gfdbMoveIntf
+                0x0000000000021ed0                Fir_gfdbMoveInDBIntf
+                0x0000000000021ee0                Fir_gfdbPortRemoveIntf
+                0x0000000000021f10                Fir_gfdbPortRemoveInDBIntf
+                0x0000000000021f40                Fir_gfdbGetViolationIntf
+                0x0000000000022020                Fir_gfdbFindAtuMacEntryIntf
+                0x0000000000022110                Fir_gfdbDump
+                0x00000000000222c0                Fir_gvtuFindVidEntryIntf
+                0x0000000000022430                Fir_gvtuExistVidEntryIntf
+                0x00000000000224d0                Fir_gvtuFlushIntf
+                0x00000000000224e0                Fir_gvtuAddEntryIntf
+                0x0000000000022600                Fir_gvtuDelEntryIntf
+                0x0000000000022680                Fir_gvtuSetModeIntf
+                0x0000000000022690                Fir_gvtuGetModeIntf
+                0x00000000000226a0                Fir_gvtuGetViolationIntf
+                0x0000000000022760                Fir_gvtuGetEntryCountIntf
+                0x0000000000022810                Fir_gvtuSetMemberTagIntf
+                0x0000000000022900                Fir_gvtuGetMemberTagIntf
+                0x00000000000229e0                Fir_gvtuGetEntryNextIntf
+                0x0000000000022b10                Fir_gstuAddEntryIntf
+                0x0000000000022be0                Fir_gstuGetEntryNextIntf
+                0x0000000000022c90                Fir_gstuDelEntryIntf
+                0x0000000000022cf0                Fir_gstuFindSidEntryIntf
+                0x0000000000022e00                Fir_gstuGetEntryCountIntf
+                0x0000000000022ea0                Fir_gpirlInitializeIntf
+                0x0000000000022eb0                Fir_gpirlInitResourceIntf
+                0x0000000000022ec0                Fir_gpirlCustomSetup_sr2cIntf
+                0x0000000000022f80                Fir_gpirlReadResourceIntf
+                0x0000000000023060                Fir_gpirlWriteResourceIntf
+                0x0000000000023120                Fir_gpirlGetResRegIntf
+                0x0000000000023130                Fir_gpirlSetResRegIntf
+                0x0000000000023140                Fir_gpirlAdvConfigIntf
+                0x0000000000023240                Fir_gpirlAdvConfigDisableIntf
+                0x0000000000023670                Fir_gqavSetPortQpriXRate
+                0x00000000000237a0                Fir_gqavGetPortQpriXRate
+                0x0000000000023880                Fir_gqavSetPortQpriXHiLimit
+                0x0000000000023950                Fir_gqavGetPortQpriXHiLimit
+                0x0000000000023a00                Fir_garpLoadMcEntryIntf
+                0x0000000000023a60                Fir_garpLoadUcEntryIntf
+                0x0000000000023ac0                Fir_garpReadEntryIntf
+                0x0000000000023b50                Fir_garpGetNextEntryIntf
+                0x0000000000023be0                Fir_gstatsGetPortCounterIntf
+                0x0000000000023bf0                Fir_gstatsGetPortAllCntersIntf
+                0x0000000000023e00                Fir_gstatsGetHistogramModeIntf
+                0x0000000000023e10                Fir_gstatsSetHistogramModeIntf
+                0x0000000000023e20                Fir_gvlnSetPortVlanQModeIntf
+                0x0000000000023e30                Fir_gvlnGetPortVlanQModeIntf
+                0x0000000000023e40                Fir_gprtSetDiscardTaggedIntf
+                0x0000000000023e50                Fir_gprtGetDiscardTaggedIntf
+                0x0000000000023e60                Fir_gprtSetDiscardUntaggedIntf
+                0x0000000000023e70                Fir_gprtGetDiscardUntaggedIntf
+                0x0000000000023e80                Fir_gprtSetUnicFloodBlockIntf
+                0x0000000000023e90                Fir_gprtGetUnicFloodBlockIntf
+                0x0000000000023ea0                Fir_gprtSetMultiFloodBlockIntf
+                0x0000000000023eb0                Fir_gprtGetMultiFloodBlockIntf
+                0x0000000000023ec0                Fir_gprtSetDiscardBCastModeIntf
+                0x0000000000023ed0                Fir_gprtGetDiscardBCastModeIntf
+                0x0000000000023ee0                Fir_gprtSetJumboModeIntf
+                0x0000000000023ef0                Fir_gprtGetJumboModeIntf
+                0x0000000000023f00                Fir_gprtSetSpecifiedMTUIntf
+                0x0000000000023f10                Fir_gprtGetSpecifiedMTUIntf
+                0x0000000000023f20                Fir_gprtSetLearnEnableIntf
+                0x0000000000023f30                Fir_gprtGetLearnEnableIntf
+                0x0000000000023f40                Fir_gprtGetVTUPriOverrideIntf
+                0x0000000000023f50                Fir_gprtSetVTUPriOverrideIntf
+                0x0000000000023f60                Fir_gprtGetSAPriOverrideIntf
+                0x0000000000023f70                Fir_gprtSetSAPriOverrideIntf
+                0x0000000000023f80                Fir_gprtGetDAPriOverrideIntf
+                0x0000000000023f90                Fir_gprtSetDAPriOverrideIntf
+                0x0000000000023fa0                Fir_gprtSetFlowCtrlIntf
+                0x0000000000023fb0                Fir_gprtGetFlowCtrlIntf
+                0x0000000000023fc0                Fir_gprtSetForceSpeedIntf
+                0x0000000000023fe0                Fir_gprtGetForceSpeedIntf
+                0x0000000000023ff0                Fir_grcSetEgressRateIntf
+                0x0000000000024000                Fir_grcGetEgressRateIntf
+                0x0000000000024010                Fir_grcSetELimitModeIntf
+                0x0000000000024020                Fir_grcGetELimitModeIntf
+                0x0000000000024030                Fir_gprtSetDuplexIntf
+                0x0000000000024040                Fir_gprtGetDuplexIntf
+                0x0000000000024050                Fir_gprtGetDuplexStatusIntf
+                0x0000000000024060                Fir_gprtGetForceLinkIntf
+                0x0000000000024070                Fir_gprtSetForceLinkIntf
+                0x0000000000024080                Fir_gprtGetSpeedIntf
+                0x0000000000024090                Fir_gprtGetFrameModeIntf
+                0x00000000000240a0                Fir_gprtSetFrameModeIntf
+                0x00000000000240b0                Fir_gprtSetEgressModeIntf
+                0x00000000000240d0                Fir_gprtGetEgressModeIntf
+                0x00000000000240e0                Fir_gprtGetPortStateIntf
+                0x00000000000240f0                Fir_gprtSetPortStateIntf
+                0x0000000000024100                Fir_gqosSetPrioMapRuleIntf
+                0x0000000000024110                Fir_gqosGetPrioMapRuleIntf
+                0x0000000000024120                Fir_gprtSetInitialPriIntf
+                0x0000000000024130                Fir_gprtGetInitialPriIntf
+                0x0000000000024140                Fir_gprtSetDefQpriIntf
+                0x0000000000024150                Fir_gprtGetDefQpriIntf
+                0x0000000000024160                Fir_gprtSetIEEEPrioMapIntf
+                0x00000000000241c0                Fir_gprtGetIEEEPrioMapIntf
+                0x0000000000024280                Fir_gecidAddEntryIntf
+                0x0000000000024310                Fir_gecidGetEcidEntryNextIntf
+                0x00000000000243d0                Fir_gecidFindEcidEntryIntf
+                0x00000000000244a0                Fir_gprtSetQueueCtrlIntf
+                0x00000000000244b0                Fir_gprtGetQueueCtrlIntf
+                0x00000000000244c0                Fir_gprtSetPortSchedIntf
+                0x00000000000244d0                Fir_gprtGetPortSchedIntf
+                0x00000000000244e0                Fir_gprtSetQoSWeightIntf
+                0x00000000000245e0                Fir_gprtGetQoSWeightIntf
+                0x00000000000246e0                Fir_gtcamRCLoadEntryIntf
+                0x00000000000248a0                Fir_gtcamRCReadEntryIntf
+                0x0000000000024a80                Fir_gtcamRCGetNextEntryIntf
+                0x0000000000024c60                Fir_gtcamRCFindEntryIntf
+                0x0000000000024e70                Fir_msdRmuGetIDIntf
+                0x0000000000024e80                Fir_msdRmuAtuDumpIntf
+                0x0000000000024fe0                Fir_msdRmuEcidDumpIntf
+                0x0000000000025140                Fir_msdRmuMib2DumpIntf
+                0x0000000000025350                Fir_msdRmuReadRegisterIntf
+                0x0000000000025360                Fir_msdRmuWriteRegisterIntf
+                0x0000000000025380                Fir_msdRmuMultiRegAccessIntf
+                0x0000000000025390                Fir_msdRmuTCAMDumpIntf
+                0x0000000000025670                Fir_msdRmuTCAMWriteIntf
+                0x0000000000025830                Fir_msdRmuTCAMReadIntf
+                0x0000000000026720                Fir_gptpSetIntEnable
+                0x0000000000026820                Fir_gptpGetIntEnable
+                0x00000000000268d0                Fir_gptpSetPortPTPEn
+                0x00000000000269b0                Fir_gptpGetPortPTPEn
+                0x0000000000026a50                Fir_gptpGetTimeStamp
+                0x0000000000026b80                Fir_gptpGetTSValidSt
+                0x0000000000026c60                Fir_gptpResetTimeStamp
+                0x0000000000026d30                Fir_gptpGetIntStatus
+                0x0000000000026df0                Fir_gptpSetMeanPathDelay
+                0x0000000000026e90                Fir_gptpGetMeanPathDelay
+                0x0000000000026f30                Fir_gptpSetIgrPathDelayAsym
+                0x0000000000026fd0                Fir_gptpGetIgrPathDelayAsym
+                0x0000000000027070                Fir_gptpSetEgrPathDelayAsym
+                0x0000000000027110                Fir_gptpGetEgrPathDelayAsym
+                0x00000000000271b0                Fir_gptpGetTODBusyBitStatus
+                0x0000000000027230                Fir_gptpTODStoreCompensation
+                0x00000000000272f0                Fir_gptpTODStoreAll
+                0x00000000000273b0                Fir_gptpTODCaptureAll
+                0x0000000000027680                Fir_gptpSetPulse
+                0x0000000000027730                Fir_gptpGetPulse
+                0x00000000000277d0                Fir_gtaiGetPTPGlobalTime
+                0x0000000000027850                Fir_gptpPortRegGet
+                0x0000000000027900                Fir_gptpPortRegSet
+                0x00000000000279b0                Fir_gptpGlobalRegGet
+                0x0000000000027a20                Fir_gptpGlobalRegSet
+                0x0000000000027a90                Fir_gTaiRegGet
+                0x0000000000027b00                Fir_gTaiRegSet
+                0x0000000000027b70                Fir_gptp1588v2ConfigSet
+                0x0000000000027d40                Fir_gptp8021asConfigSet
+                0x0000000000027f00                Fir_gptp8021asRevConfigSet
+                0x00000000000280c0                Fir_gptpPreemptTimestampSelSet
+                0x00000000000281a0                Fir_gptpPreemptTimestampSelGet
+                0x0000000000028240                Fir_gptpPreemptCtrlSet
+                0x0000000000028320                Fir_gptpPreemptCtrlGet
+                0x00000000000283c0                Fir_gtaiTrigGenTimerSelGet
+                0x0000000000028440                Fir_gtaiTrigGenTimerSelSet
+                0x0000000000028500                Fir_gptpSetIntEnableIntf
+                0x0000000000028560                Fir_gptpGetIntEnableIntf
+                0x00000000000285c0                Fir_gptpGetTimeStampIntf
+                0x0000000000028630                Fir_gptpGetIntStatusIntf
+                0x00000000000286a0                Fir_gptpTODStoreCompenIntf
+                0x0000000000028720                Fir_gptpTODStoreAllIntf
+                0x00000000000287a0                Fir_gptpTODCaptureAllIntf
+                0x0000000000028830                Fir_gptpSetPulseIntf
+                0x0000000000028890                Fir_gptpGetPulseIntf
+                0x00000000000288f0                Fir_gptp1588v2ConfigSetIntf
+                0x0000000000028900                Fir_gptp8021asConfigSetIntf
+                0x0000000000028910                Fir_gptp8021asRevConfigSetIntf
+                0x0000000000028b80                Fir_gledForceOn
+                0x0000000000028c40                Fir_gledForceOff
+                0x0000000000028d00                Fir_gledLinkAct
+                0x0000000000028df0                Fir_gledModeSet
+                0x0000000000028ec0                Fir_gledModeGet
+                0x0000000000028f50                Fir_gledBlinkRateSet
+                0x0000000000029000                Fir_gledBlinkRateGet
+                0x00000000000290e0                Fir_gledPulseStretchSet
+                0x0000000000029190                Fir_gledPulseStretchGet
+                0x0000000000029260                Fir_gledSpecialModeSet
+                0x0000000000029310                Fir_gledSpecialModeGet
+                0x0000000000029380                Fir_gledCtrlSet
+                0x00000000000293c0                Fir_gledCtrlGet
+                0x0000000000029430                Fir_gledDump
+                0x0000000000029700                Fir_gledForceOnIntf
+                0x0000000000029710                Fir_gledForceOffIntf
+                0x0000000000029720                Fir_gledLinkActIntf
+                0x0000000000029730                Fir_gledModeSetIntf
+                0x0000000000029740                Fir_gledModeGetIntf
+                0x0000000000029750                Fir_gledBlinkRateSetIntf
+                0x0000000000029760                Fir_gledBlinkRateGetIntf
+                0x0000000000029770                Fir_gledPulseStretchSetIntf
+                0x0000000000029780                Fir_gledPulseStretchGetIntf
+                0x0000000000029790                Fir_gledSpecialModeSetIntf
+                0x00000000000297a0                Fir_gledSpecialModeGetIntf
+                0x00000000000297b0                Fir_gledCtrlSetIntf
+                0x00000000000297c0                Fir_gledCtrlGetIntf
+                0x00000000000297d0                Fir_gtcamRCCompLoadIntf
+                0x00000000000298b0                Fir_gtcamRCCompReadIntf
+                0x00000000000299a0                Fir_EEPROMWrite
+                0x0000000000029ad0                Fir_EEPROMRead
+                0x0000000000029c30                Fir_EEPROMChipSelSet
+                0x0000000000029d00                Fir_EEPROMChipSelGet
+                0x0000000000029e40                Fir_EEPROMWriteIntf
+                0x0000000000029e50                Fir_EEPROMReadIntf
+                0x0000000000029e60                Fir_EEPROMChipSelSetIntf
+                0x0000000000029e70                Fir_EEPROMChipSelGetIntf
+                0x000000000002a690                Fir_gatsFlushAll
+                0x000000000002a6a0                Fir_gatsFlushOne
+                0x000000000002a6c0                Fir_gatsSetGrpId
+                0x000000000002a770                Fir_gatsGetGrpId
+                0x000000000002a810                Fir_gatsSetCbsLimit
+                0x000000000002a8c0                Fir_gatsGetCbsLimit
+                0x000000000002a960                Fir_gatsSetRateLimit
+                0x000000000002aad0                Fir_gatsGetRateLimit
+                0x000000000002ab80                Fir_gatsSetMaxResidenceTime
+                0x000000000002ac40                Fir_gatsGetMaxResidenceTime
+                0x000000000002ace0                Fir_gatsSetQueueEnables
+                0x000000000002ad70                Fir_gatsGetQueueEnables
+                0x000000000002b640                Fir_gqciStreamFiltFlushAll
+                0x000000000002b690                Fir_gqciStreamFiltSet
+                0x000000000002b820                Fir_gqciStreamFiltBlockStatSet
+                0x000000000002b950                Fir_gqciStreamFiltBlockStatGet
+                0x000000000002ba20                Fir_gqciStreamFiltEnAts
+                0x000000000002bb50                Fir_gqciStreamFiltEnGate
+                0x000000000002bc80                Fir_gqciStreamFiltMatchCtrGet
+                0x000000000002bd50                Fir_gqciStreamFiltFilterCtrGet
+                0x000000000002be20                Fir_gqciStreamGateFiltCtrGet
+                0x000000000002bef0                Fir_gqciFlowMeterFiltCtrGet
+                0x000000000002bfc0                Fir_gqciStreamGateFlushAll
+                0x000000000002c010                Fir_gqciStreamGateDefStateSet
+                0x000000000002c170                Fir_gqciStreamGateScaleSet
+                0x000000000002c2b0                Fir_gqciStreamGateTimeGenIdSet
+                0x000000000002c3d0                Fir_gqciStreamGateEntryAdd
+                0x000000000002c6e0                Fir_gqciStreamGateTimeGenFlush
+                0x000000000002c7b0                Fir_gqciStreamGateTimeGenSet
+                0x000000000002c9c0                Fir_gqciFlowMeterFlushAll
+                0x000000000002ca10                Fir_gqciFlowMeterCoupleFlagSet
+                0x000000000002cb40                Fir_gqciFlowMeterCoupleFlagGet
+                0x000000000002cc20                Fir_gqciFlowMeterDropOnYelSet
+                0x000000000002cd50                Fir_gqciFlowMeterDropOnYelGet
+                0x000000000002ce30                Fir_gqciFlowMeterRedBlockEnSet
+                0x000000000002cf50                Fir_gqciFlowMeterRedBlockEnGet
+                0x000000000002d030                Fir_gqciFlowMeterRedBlkStatSet
+                0x000000000002d160                Fir_gqciFlowMeterRedBlkStatGet
+                0x000000000002d240                Fir_gqciFlowMeterAdvConfig
+                0x000000000002d700                Fir_gqciStreamGateEntryAddIntf
+                0x000000000002d7a0                Fir_gmacsecRead
+                0x000000000002e6a0                Fir_gmacsecWrite
+                0x000000000002fd30                Fir_gmacsecFlushAll
+                0x000000000002fe20                Fir_gmacsecCreateRule
+                0x000000000002fef0                Fir_gmacsecDeleteRule
+                0x000000000002ff40                Fir_gmacsecGetRule
+                0x0000000000030010                Fir_gmacsecCreateRxSecY
+                0x00000000000300b0                Fir_gmacsecCreateTxSecY
+                0x0000000000030150                Fir_gmacsecDeleteTxSecY
+                0x0000000000030180                Fir_gmacsecDeleteRxSecY
+                0x00000000000301b0                Fir_gmacsecGetTxSecY
+                0x0000000000030250                Fir_gmacsecGetRxSecY
+                0x00000000000302f0                Fir_gmacsecCreateRxSC
+                0x0000000000030390                Fir_gmacsecDeleteRxSC
+                0x00000000000303c0                Fir_gmacsecGetRxSC
+                0x0000000000030460                Fir_gmacsecCreateTxSC
+                0x0000000000030500                Fir_gmacsecDeleteTxSC
+                0x0000000000030530                Fir_gmacsecGetTxSC
+                0x00000000000305d0                Fir_gmacsecCreateRxSA
+                0x0000000000030680                Fir_gmacsecDeleteRxSA
+                0x00000000000306b0                Fir_gmacsecGetRxSA
+                0x0000000000030760                Fir_gmacsecCreateTxSA
+                0x0000000000030810                Fir_gmacsecDeleteTxSA
+                0x0000000000030840                Fir_gmacsecGetTxSA
+                0x00000000000308f0                Fir_gmacsecGetTXSecYStates
+                0x0000000000030c80                Fir_gmacsecGetTXSCStates
+                0x0000000000030dd0                Fir_gmacsecGetRXSecYStates
+                0x00000000000311d0                Fir_gmacsecGetRXSCStates
+                0x0000000000031400                Fir_gmacsecSetTxPNThreshold
+                0x0000000000031440                Fir_gmacsecGetTxPNThreshold
+                0x00000000000314d0                Fir_gmacsecSetTxXPNThreshold
+                0x0000000000031550                Fir_gmacsecGetTxXPNThreshold
+                0x0000000000031620                Fir_gmacsecSetRxDefaultSCI
+                0x00000000000316d0                Fir_gmacsecGetRxDefaultSCI
+                0x00000000000317c0                Fir_gmacsecSetTxSCIntCtrl
+                0x0000000000031a40                Fir_gmacsecGetTxSCIntCtrl
+                0x0000000000031c80                Fir_gmacsecGetNextTxSCIntStatus
+                0x0000000000031f30                Fir_gmacsecEnableIngressSet
+                0x0000000000032020                Fir_gmacsecEnableEgressSet
+                0x0000000000032110                Fir_gmacsecEnableIngressGet
+                0x00000000000321c0                Fir_gmacsecEnableEgressGet
+                0x0000000000032270                Fir_gmacsecGetEvent
+                0x00000000000323c0                Fir_gmacsecGetEventIntf
+                0x0000000000032440                Fir_gmacsecCreateRuleIntf
+                0x0000000000032540                Fir_gmacsecGetRuleIntf
+                0x0000000000032700                Fir_gmacsecCreateTxSecYIntf
+                0x00000000000327a0                Fir_gmacsecCreateRxSecYIntf
+                0x0000000000032830                Fir_gmacsecGetTxSecYIntf
+                0x00000000000328d0                Fir_gmacsecGetRxSecYIntf
+                0x0000000000032960                Fir_gmacsecCreateRxSCIntf
+                0x00000000000329f0                Fir_gmacsecGetRxSCIntf
+                0x0000000000032a80                Fir_gmacsecCreateRxSAIntf
+                0x0000000000032b30                Fir_gmacsecGetRxSAIntf
+                0x0000000000032be0                Fir_gmacsecCreateTxSCIntf
+                0x0000000000032c80                Fir_gmacsecGetTxSCIntf
+                0x0000000000032d20                Fir_gmacsecCreateTxSAIntf
+                0x0000000000032dd0                Fir_gmacsecGetTxSAIntf
+                0x0000000000032e80                Fir_gmacsecGetRXSCStatesIntf
+                0x0000000000032f10                Fir_gmacsecGetRXSecYStatesIntf
+                0x0000000000032fc0                Fir_gmacsecGetTXSCStatesIntf
+                0x0000000000033040                Fir_gmacsecGetTXSecYStatesIntf
+                0x00000000000330f0                Fir_gmacsecSetTxSCIntCtrlIntf
+                0x0000000000033170                Fir_gmacsecGetTxSCIntCtrlIntf
+                0x00000000000331f0                Fir_gmacsecGetNextTxSCIntStatusIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x28
+ .text.unlikely
+                0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x135c
+ *(.rodata)
+ .rodata        0x0000000000000000     0x135c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.rodata.str1.8  0x0000000000000000     0x342d
+ .rodata.str1.8
+                0x0000000000000000     0x342d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.rodata.str1.1  0x0000000000000000      0xbe5
+ .rodata.str1.1
+                0x0000000000000000      0xbe5 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.rodata.cst8    0x0000000000000000       0x38
+ .rodata.cst8   0x0000000000000000       0x38 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0xa8e4
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x678 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+                                        0x674 (size before relaxing)
+ *fill*         0x0000000000000678        0x0 
+ .eh_frame      0x0000000000000678     0xa26c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+                                       0xa2bc (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000      0x2f4
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000      0x2f4 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x86c
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x840 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/driver/msdDrv_obj/driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/src/api/msdDrv_obj/api.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/fir/msdDrv_Fir.o elf64-x86-64)

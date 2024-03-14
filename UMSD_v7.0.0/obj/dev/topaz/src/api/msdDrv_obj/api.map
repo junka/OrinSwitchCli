@@ -1,0 +1,1136 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x14c3c
+ *(.text .stub)
+ .text          0x0000000000000000     0x2025 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+                0x0000000000000eb0                Topaz_gtcamFlushAll
+                0x0000000000000f00                Topaz_gtcamFlushEntry
+                0x0000000000000f60                Topaz_gtcamLoadEntry
+                0x0000000000000fe0                Topaz_gtcamReadTCAMData
+                0x0000000000001070                Topaz_gtcamGetNextTCAMData
+                0x0000000000001110                Topaz_gtcamFindEntry
+                0x00000000000011e0                Topaz_gtcamSetMode
+                0x0000000000001240                Topaz_gtcamGetMode
+                0x00000000000012d0                Topaz_gtcamAddEntryPort
+                0x00000000000013c0                Topaz_gtcamRemoveEntryPort
+                0x00000000000014b0                Topaz_gtcamDump
+                0x0000000000001850                Topaz_gtcamAdvConfig
+ *fill*         0x0000000000002025        0xb 
+ .text          0x0000000000002030      0xcbd /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+                0x0000000000002540                Topaz_gvctGetAdvCableDiag
+                0x00000000000029b0                Topaz_gvctGetAdvExtendedStatus
+ *fill*         0x0000000000002ced        0x3 
+ .text          0x0000000000002cf0     0x1455 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+                0x0000000000003500                Topaz_gfdbGetAtuEntryNext
+                0x0000000000003520                Topaz_gfdbFlush
+                0x0000000000003590                Topaz_gfdbFlushInDB
+                0x0000000000003620                Topaz_gfdbMove
+                0x0000000000003710                Topaz_gfdbMoveInDB
+                0x0000000000003810                Topaz_gfdbAddMacEntry
+                0x00000000000038d0                Topaz_gfdbDelAtuEntry
+                0x0000000000003960                Topaz_gfdbGetViolation
+                0x0000000000003a60                Topaz_gfdbFindAtuMacEntry
+                0x0000000000003b90                Topaz_gfdbSetAgingTimeout
+                0x0000000000003bf0                Topaz_gfdbGetAgingTimeout
+                0x0000000000003c60                Topaz_gfdbGetLearn2All
+                0x0000000000003ce0                Topaz_gfdbSetLearn2All
+                0x0000000000003d10                Topaz_gfdbSetPortLearnLimit
+                0x0000000000003e40                Topaz_gfdbGetPortLearnLimit
+                0x0000000000003f50                Topaz_gfdbGetPortLearnCount
+                0x0000000000004010                Topaz_gfdbGetEntryCount
+                0x0000000000004060                Topaz_gfdbGetEntryCountPerFid
+                0x00000000000040b0                Topaz_gfdbGetNonStaticEntryCount
+                0x0000000000004100                Topaz_gfdbGetNonStaticEntryCountPerFid
+ *fill*         0x0000000000004145        0xb 
+ .text          0x0000000000004150      0xcf6 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+                0x00000000000047f0                Topaz_gvtuGetEntryNext
+                0x0000000000004900                Topaz_gvtuFlush
+                0x0000000000004920                Topaz_gvtuAddEntry
+                0x0000000000004a40                Topaz_gvtuDelEntry
+                0x0000000000004aa0                Topaz_gvtuGetViolation
+                0x0000000000004bb0                Topaz_gvtuFindVidEntry
+                0x0000000000004d20                Topaz_gvtuDump
+ *fill*         0x0000000000004e46        0xa 
+ .text          0x0000000000004e50      0x9e0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+                0x0000000000005430                Topaz_gstuGetEntryNext
+                0x0000000000005510                Topaz_gstuAddEntry
+                0x00000000000055e0                Topaz_gstuDelEntry
+                0x0000000000005640                Topaz_gstuFindSidEntry
+                0x0000000000005740                Topaz_gstuDump
+ .text          0x0000000000005830      0xc9c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+                0x0000000000005ad0                Topaz_gpirlInitialize
+                0x0000000000005af0                Topaz_gpirlInitResource
+                0x0000000000005b70                Topaz_gpirlCustomSetup
+                0x0000000000005ef0                Topaz_gpirlReadResource
+                0x0000000000006120                Topaz_gpirlWriteResource
+                0x0000000000006380                Topaz_gpirlGetResReg
+                0x0000000000006430                Topaz_gpirlSetResReg
+ *fill*         0x00000000000064cc        0x4 
+ .text          0x00000000000064d0      0xb77 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+                0x00000000000068c0                Topaz_gstatsFlushAll
+                0x00000000000068e0                Topaz_gstatsFlushPort
+                0x0000000000006920                Topaz_gstatsGetPortCounter
+                0x0000000000006980                Topaz_gstatsGetPortAllCounters
+                0x00000000000069d0                Topaz_gstatsGetHistogramMode
+                0x0000000000006a80                Topaz_gstatsSetHistogramMode
+                0x0000000000006ac0                Topaz_gmibDump
+ *fill*         0x0000000000007047        0x9 
+ .text          0x0000000000007050      0x73e /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+                0x00000000000071c0                Topaz_impRun
+                0x00000000000072a0                Topaz_impReset
+                0x00000000000073a0                Topaz_impWriteEEPROM
+                0x00000000000074a0                Topaz_impLoadToEEPROM
+                0x00000000000075f0                Topaz_impLoadToRAM
+                0x0000000000007750                Topaz_impStop
+ *fill*         0x000000000000778e        0x2 
+ .text          0x0000000000007790      0xd6b /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+                0x0000000000007a40                Topaz_gphyReset
+                0x0000000000007b10                Topaz_serdesReset
+                0x0000000000007bd0                Topaz_gphySetPortLoopback
+                0x0000000000007cc0                Topaz_gphySetPortSpeed
+                0x0000000000007e50                Topaz_gphyPortPowerDown
+                0x0000000000007f40                Topaz_gphySetPortDuplexMode
+                0x0000000000008060                Topaz_gphySetPortAutoMode
+                0x0000000000008130                Topaz_gphySetEEE
+                0x0000000000008230                Topaz_gphySetFlowControlEnable
+                0x0000000000008350                Topaz_gphySetIntEnable
+                0x00000000000083c0                Topaz_gphyGetIntEnable
+                0x0000000000008460                Topaz_gphyGetIntStatus
+ *fill*         0x00000000000084fb        0x5 
+ .text          0x0000000000008500     0x3318 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+                0x0000000000008500                Topaz_gprtSetForceDefaultVid
+                0x0000000000008560                Topaz_gprtGetForceDefaultVid
+                0x00000000000085f0                Topaz_gvlnSetPortVid
+                0x0000000000008650                Topaz_gvlnGetPortVid
+                0x00000000000086e0                Topaz_gvlnSetPortVlanDot1qMode
+                0x0000000000008740                Topaz_gvlnGetPortVlanDot1qMode
+                0x00000000000087d0                Topaz_gprtSetDiscardTagged
+                0x0000000000008830                Topaz_gprtGetDiscardTagged
+                0x00000000000088c0                Topaz_gprtSetDiscardUntagged
+                0x0000000000008920                Topaz_gprtGetDiscardUntagged
+                0x00000000000089b0                Topaz_gprtSetUnicastFloodBlock
+                0x0000000000008a10                Topaz_gprtGetUnicastFloodBlock
+                0x0000000000008aa0                Topaz_gprtSetMulticastFloodBlock
+                0x0000000000008b00                Topaz_gprtGetMulticastFloodBlock
+                0x0000000000008b90                Topaz_gprtSetDiscardBCastMode
+                0x0000000000008bf0                Topaz_gprtGetDiscardBCastMode
+                0x0000000000008c90                Topaz_gprtSetIGMPSnoopEnable
+                0x0000000000008cf0                Topaz_gprtGetIGMPSnoopEnable
+                0x0000000000008d90                Topaz_gprtGetHeaderMode
+                0x0000000000008e30                Topaz_gprtSetHeaderMode
+                0x0000000000008e90                Topaz_gprtGetDropOnLock
+                0x0000000000008f30                Topaz_gprtSetDropOnLock
+                0x0000000000008f90                Topaz_gprtSetJumboMode
+                0x0000000000009000                Topaz_gprtGetJumboMode
+                0x0000000000009090                Topaz_gprtSetLearnEnable
+                0x0000000000009100                Topaz_gprtGetLearnEnable
+                0x0000000000009190                Topaz_gprtGetVTUPriorityOverride
+                0x0000000000009220                Topaz_gprtSetVTUPriorityOverride
+                0x0000000000009280                Topaz_gprtGetSAPriorityOverride
+                0x0000000000009310                Topaz_gprtSetSAPriorityOverride
+                0x0000000000009370                Topaz_gprtGetDAPriorityOverride
+                0x0000000000009400                Topaz_gprtSetDAPriorityOverride
+                0x0000000000009460                Topaz_gprtGetMessagePort
+                0x00000000000094f0                Topaz_gprtSetMessagePort
+                0x0000000000009550                Topaz_gprtGetEtherType
+                0x00000000000095a0                Topaz_gprtSetEtherType
+                0x00000000000095f0                Topaz_gprtSetTrunkPort
+                0x0000000000009690                Topaz_gprtGetTrunkPort
+                0x0000000000009770                Topaz_gprtSetFlowCtrl
+                0x00000000000097e0                Topaz_gprtGetFlowCtrl
+                0x0000000000009890                Topaz_gprtSetEgressMonitorSource
+                0x00000000000098f0                Topaz_gprtGetEgressMonitorSource
+                0x0000000000009980                Topaz_gprtSetIngressMonitorSource
+                0x00000000000099e0                Topaz_gprtGetIngressMonitorSource
+                0x0000000000009a70                Topaz_grcSetELimitMode
+                0x0000000000009ad0                Topaz_grcSetEgressRate
+                0x0000000000009c80                Topaz_grcGetELimitMode
+                0x0000000000009d10                Topaz_grcGetEgressRate
+                0x0000000000009e50                Topaz_gprtSetDuplex
+                0x0000000000009ec0                Topaz_gprtGetDuplex
+                0x0000000000009f90                Topaz_gprtGetDuplexStatus
+                0x000000000000a020                Topaz_gprtGetForceLink
+                0x000000000000a0e0                Topaz_gprtSetForceLink
+                0x000000000000a150                Topaz_gprtGetLinkState
+                0x000000000000a1e0                Topaz_gprtSetForceSpeed
+                0x000000000000a450                Topaz_gprtGetForceSpeed
+                0x000000000000a5d0                Topaz_gprtGetSpeed
+                0x000000000000a750                Topaz_gprtGetVlanPorts
+                0x000000000000a810                Topaz_gprtSetVlanPorts
+                0x000000000000a8c0                Topaz_gprtGetFrameMode
+                0x000000000000a950                Topaz_gprtSetFrameMode
+                0x000000000000a9b0                Topaz_gprtSetEgressMode
+                0x000000000000aa10                Topaz_gprtGetEgressMode
+                0x000000000000aaa0                Topaz_gprtGetPortState
+                0x000000000000ab30                Topaz_gprtSetPortState
+                0x000000000000ab90                Topaz_gprtSetCutThrouthEnable
+                0x000000000000ac00                Topaz_gprtGetCutThrouthEnable
+                0x000000000000ac90                Topaz_gprtSetIgnoreFcs
+                0x000000000000acf0                Topaz_gprtGetIgnoreFcs
+                0x000000000000ad80                Topaz_gprtSetAllowBadFcs
+                0x000000000000ade0                Topaz_gprtGetAllowBadFcs
+                0x000000000000ae70                Topaz_gprtSetPauseLimitOut
+                0x000000000000aed0                Topaz_gprtGetPauseLimitOut
+                0x000000000000af30                Topaz_gprtSetPauseLimitIn
+                0x000000000000af90                Topaz_gprtGetPauseLimitIn
+                0x000000000000aff0                Topaz_gprtGetOutQueueSize
+                0x000000000000b090                Topaz_gprtSetMapDA
+                0x000000000000b0f0                Topaz_gprtGetMapDA
+                0x000000000000b180                Topaz_gprtSetPortLocked
+                0x000000000000b1e0                Topaz_gprtGetPortLocked
+                0x000000000000b270                Topaz_gprtSetHoldAt1
+                0x000000000000b2d0                Topaz_gprtGetHoldAt1
+                0x000000000000b360                Topaz_gprtSetInt0nAgeOut
+                0x000000000000b3c0                Topaz_gprtGetInt0nAgeOut
+                0x000000000000b450                Topaz_gprtSetRefreshLocked
+                0x000000000000b4b0                Topaz_gprtGetRefreshLocked
+                0x000000000000b540                Topaz_gprtSetIgnoreWrongData
+                0x000000000000b5a0                Topaz_gprtGetIgnoreWrongData
+                0x000000000000b630                Topaz_gprtSetARPMirror
+                0x000000000000b690                Topaz_gprtGetARPMirror
+                0x000000000000b720                Topaz_gprtRegDump
+ *fill*         0x000000000000b818        0x8 
+ .text          0x000000000000b820      0x407 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+                0x000000000000b820                Topaz_gqosSetPrioMapRule
+                0x000000000000b880                Topaz_gqosGetPrioMapRule
+                0x000000000000b910                Topaz_gprtSetInitialPri
+                0x000000000000b980                Topaz_gprtGetInitialPri
+                0x000000000000ba40                Topaz_gprtSetDefQpri
+                0x000000000000baa0                Topaz_gprtGetDefQpri
+                0x000000000000bb40                Topaz_gprtSetDefFpri
+                0x000000000000bba0                Topaz_gprtGetDefFpri
+ *fill*         0x000000000000bc27        0x9 
+ .text          0x000000000000bc30      0x59c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+                0x000000000000bf40                Topaz_gqavSetPortQpriXRate
+                0x000000000000bfe0                Topaz_gqavGetPortQpriXRate
+                0x000000000000c080                Topaz_gqavSetPortQpriXHiLimit
+                0x000000000000c130                Topaz_gqavGetPortQpriXHiLimit
+ *fill*         0x000000000000c1cc        0x4 
+ .text          0x000000000000c1d0      0x8ec /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+                0x000000000000c1d0                Topaz_gprtSetQueueCtrl
+                0x000000000000c2e0                Topaz_gprtGetQueueCtrl
+                0x000000000000c420                Topaz_gprtSetPortSched
+                0x000000000000c480                Topaz_gprtGetPortSched
+                0x000000000000c550                Topaz_gsysSetQoSWeight
+                0x000000000000c800                Topaz_gsysGetQoSWeight
+ *fill*         0x000000000000cabc        0x4 
+ .text          0x000000000000cac0     0x17f3 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+                0x000000000000cce0                Topaz_gsysSetTrunkMaskTable
+                0x000000000000ce10                Topaz_gsysGetTrunkMaskTable
+                0x000000000000cf70                Topaz_gsysSetHashTrunk
+                0x000000000000cfa0                Topaz_gsysGetHashTrunk
+                0x000000000000d010                Topaz_gsysSetTrunkRouting
+                0x000000000000d130                Topaz_gsysGetTrunkRouting
+                0x000000000000d280                Topaz_gsysSetFloodBC
+                0x000000000000d2b0                Topaz_gsysGetFloodBC
+                0x000000000000d320                Topaz_gsysSetMonitorMgmtCtrl
+                0x000000000000d350                Topaz_gsysGetMonitorMgmtCtrl
+                0x000000000000d370                Topaz_gsysSetCPUDest
+                0x000000000000d430                Topaz_gsysGetCPUDest
+                0x000000000000d4c0                Topaz_gsysSetIngressMonitorDest
+                0x000000000000d520                Topaz_gsysGetIngressMonitorDest
+                0x000000000000d5a0                Topaz_gsysSetEgressMonitorDest
+                0x000000000000d600                Topaz_gsysGetEgressMonitorDest
+                0x000000000000d680                Topaz_gsysSetRsvd2CpuEnables
+                0x000000000000d6c0                Topaz_gsysGetRsvd2CpuEnables
+                0x000000000000d740                Topaz_gsysSetMGMTPri
+                0x000000000000d7e0                Topaz_gsysGetMGMTPri
+                0x000000000000d840                Topaz_gsysSetSMISetup
+                0x000000000000d960                Topaz_gsysGetSMISetup
+                0x000000000000da70                Topaz_gsysGlobal1RegDump
+                0x000000000000db40                Topaz_gsysGlobal2RegDump
+                0x000000000000dc10                Topaz_gsysSetRMUMode
+                0x000000000000dcd0                Topaz_gsysGetRMUMode
+                0x000000000000dd60                Topaz_gsysQbvWrite
+                0x000000000000de70                Topaz_gsysQbvRead
+                0x000000000000df70                Topaz_gsysDevIntEnableSet
+                0x000000000000dfd0                Topaz_gsysDevIntEnableGet
+                0x000000000000e060                Topaz_gsysDevIntStatusGet
+                0x000000000000e0e0                Topaz_gsysActiveIntEnableSet
+                0x000000000000e1a0                Topaz_gsysActiveIntEnableGet
+                0x000000000000e230                Topaz_gsysActiveIntStatusGet
+ *fill*         0x000000000000e2b3        0xd 
+ .text          0x000000000000e2c0     0x1515 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+                0x000000000000e890                Topaz_msdRmuGetID
+                0x000000000000e9c0                Topaz_msdRmuAtuDump
+                0x000000000000ebd0                Topaz_msdRmuMib2Dump
+                0x000000000000f000                Topaz_msdRmuReadRegister
+                0x000000000000f030                Topaz_msdRmuWriteRegister
+                0x000000000000f050                Topaz_msdRmuMultiRegAccess
+                0x000000000000f240                Topaz_msdRmuTCAMDump
+                0x000000000000f3b0                Topaz_msdRmuTCAMWrite
+                0x000000000000f560                Topaz_msdRmuTCAMRead
+                0x000000000000f710                Topaz_msdRmuRegDump
+ *fill*         0x000000000000f7d5        0xb 
+ .text          0x000000000000f7e0      0x861 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+                0x000000000000f7e0                Topaz_gtcamLoadEntryIntf
+                0x000000000000f950                Topaz_gtcamReadTCAMDataIntf
+                0x000000000000fae0                Topaz_gtcamGetNextTCAMDataIntf
+                0x000000000000fc70                Topaz_gtcamFindEntryIntf
+                0x000000000000fe40                Topaz_gtcamSetModeIntf
+                0x000000000000fe50                Topaz_gtcamGetModeIntf
+                0x000000000000feb0                Topaz_gtcamAdvConfigIntf
+ *fill*         0x0000000000010041        0xf 
+ .text          0x0000000000010050      0x19d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+                0x0000000000010050                Topaz_gvctGetAdvCableDiagIntf
+                0x0000000000010150                Topaz_gvctGetAdvExtendedStatusIntf
+ *fill*         0x00000000000101ed        0x3 
+ .text          0x00000000000101f0      0x530 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+                0x00000000000101f0                Topaz_gfdbAddMacEntryIntf
+                0x0000000000010270                Topaz_gfdbFlushIntf
+                0x0000000000010280                Topaz_gfdbFlushInDBIntf
+                0x0000000000010290                Topaz_gfdbMoveIntf
+                0x00000000000102a0                Topaz_gfdbMoveInDBIntf
+                0x00000000000102b0                Topaz_gfdbPortRemoveIntf
+                0x00000000000102e0                Topaz_gfdbPortRemoveInDBIntf
+                0x0000000000010310                Topaz_gfdbGetAtuEntryNextIntf
+                0x00000000000103e0                Topaz_gfdbGetViolationIntf
+                0x00000000000104c0                Topaz_gfdbFindAtuMacEntryIntf
+                0x00000000000105b0                Topaz_gfdbDump
+ .text          0x0000000000010720      0x76c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+                0x0000000000010720                Topaz_gvtuFindVidEntryIntf
+                0x0000000000010890                Topaz_gvtuGetEntryNextIntf
+                0x0000000000010990                Topaz_gvtuExistVidEntryIntf
+                0x0000000000010a20                Topaz_gvtuFlushIntf
+                0x0000000000010a30                Topaz_gvtuAddEntryIntf
+                0x0000000000010b30                Topaz_gvtuDelEntryIntf
+                0x0000000000010ba0                Topaz_gvtuGetViolationIntf
+                0x0000000000010c60                Topaz_gvtuGetEntryCountIntf
+                0x0000000000010d00                Topaz_gvtuSetMemberTagIntf
+                0x0000000000010dd0                Topaz_gvtuGetMemberTagIntf
+ *fill*         0x0000000000010e8c        0x4 
+ .text          0x0000000000010e90      0x3ac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+                0x0000000000010e90                Topaz_gstuAddEntryIntf
+                0x0000000000010f60                Topaz_gstuGetEntryNextIntf
+                0x0000000000011010                Topaz_gstuDelEntryIntf
+                0x0000000000011070                Topaz_gstuFindSidEntryIntf
+                0x00000000000111a0                Topaz_gstuGetEntryCountIntf
+ *fill*         0x000000000001123c        0x4 
+ .text          0x0000000000011240      0x454 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+                0x0000000000011240                Topaz_gpirlInitializeIntf
+                0x0000000000011250                Topaz_gpirlInitResourceIntf
+                0x0000000000011260                Topaz_gpirlCustomSetupIntf
+                0x0000000000011320                Topaz_gpirlReadResourceIntf
+                0x0000000000011400                Topaz_gpirlWriteResourceIntf
+                0x00000000000114e0                Topaz_gpirlGetResRegIntf
+                0x00000000000114f0                Topaz_gpirlSetResRegIntf
+                0x0000000000011500                Topaz_gpirlAdvConfigIntf
+                0x0000000000011620                Topaz_gpirlAdvConfigDisableIntf
+ *fill*         0x0000000000011694        0xc 
+ .text          0x00000000000116a0      0x229 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+                0x00000000000116a0                Topaz_gstatsGetPortCounterIntf
+                0x00000000000116b0                Topaz_gstatsGetPortAllCountersIntf
+                0x00000000000118b0                Topaz_gstatsGetHistogramModeIntf
+                0x00000000000118c0                Topaz_gstatsSetHistogramModeIntf
+ *fill*         0x00000000000118c9        0x7 
+ .text          0x00000000000118d0       0x59 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+                0x00000000000118d0                Topaz_impRunIntf
+                0x00000000000118e0                Topaz_impResetIntf
+                0x00000000000118f0                Topaz_impWriteEEPROMIntf
+                0x0000000000011900                Topaz_impLoadToEEPROMIntf
+                0x0000000000011910                Topaz_impLoadToRAMIntf
+                0x0000000000011920                Topaz_impStopIntf
+ *fill*         0x0000000000011929        0x7 
+ .text          0x0000000000011930      0x2f3 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+                0x0000000000011930                Topaz_EEPROMWrite
+                0x0000000000011ab0                Topaz_EEPROMRead
+ *fill*         0x0000000000011c23        0xd 
+ .text          0x0000000000011c30       0x19 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+                0x0000000000011c30                Topaz_gphySetPortSpeedIntf
+                0x0000000000011c40                Topaz_gphySetPortAutoModeIntf
+ *fill*         0x0000000000011c49        0x7 
+ .text          0x0000000000011c50      0x319 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+                0x0000000000011c50                Topaz_gvlnSetPortVlanDot1qModeIntf
+                0x0000000000011c60                Topaz_gvlnGetPortVlanDot1qModeIntf
+                0x0000000000011c70                Topaz_gprtSetDiscardTaggedIntf
+                0x0000000000011c80                Topaz_gprtGetDiscardTaggedIntf
+                0x0000000000011c90                Topaz_gprtSetDiscardUntaggedIntf
+                0x0000000000011ca0                Topaz_gprtGetDiscardUntaggedIntf
+                0x0000000000011cb0                Topaz_gprtSetUnicastFloodBlockIntf
+                0x0000000000011cc0                Topaz_gprtGetUnicastFloodBlockIntf
+                0x0000000000011cd0                Topaz_gprtSetMulticastFloodBlockIntf
+                0x0000000000011ce0                Topaz_gprtGetMulticastFloodBlockIntf
+                0x0000000000011cf0                Topaz_gprtSetDiscardBCastModeIntf
+                0x0000000000011d00                Topaz_gprtGetDiscardBCastModeIntf
+                0x0000000000011d10                Topaz_gprtSetJumboModeIntf
+                0x0000000000011d20                Topaz_gprtGetJumboModeIntf
+                0x0000000000011d30                Topaz_gprtSetLearnEnableIntf
+                0x0000000000011d40                Topaz_gprtGetLearnEnableIntf
+                0x0000000000011d50                Topaz_gprtGetVTUPriorityOverrideIntf
+                0x0000000000011d60                Topaz_gprtSetVTUPriorityOverrideIntf
+                0x0000000000011d70                Topaz_gprtGetSAPriorityOverrideIntf
+                0x0000000000011d80                Topaz_gprtSetSAPriorityOverrideIntf
+                0x0000000000011d90                Topaz_gprtGetDAPriorityOverrideIntf
+                0x0000000000011da0                Topaz_gprtSetDAPriorityOverrideIntf
+                0x0000000000011db0                Topaz_gprtSetFlowCtrlIntf
+                0x0000000000011de0                Topaz_gprtGetFlowCtrlIntf
+                0x0000000000011df0                Topaz_gprtSetForceSpeedIntf
+                0x0000000000011e30                Topaz_gprtGetForceSpeedIntf
+                0x0000000000011e40                Topaz_grcSetEgressRateIntf
+                0x0000000000011e50                Topaz_grcGetEgressRateIntf
+                0x0000000000011e60                Topaz_grcSetELimitModeIntf
+                0x0000000000011e70                Topaz_grcGetELimitModeIntf
+                0x0000000000011e80                Topaz_gprtSetDuplexIntf
+                0x0000000000011e90                Topaz_gprtGetDuplexIntf
+                0x0000000000011ea0                Topaz_gprtGetDuplexStatusIntf
+                0x0000000000011eb0                Topaz_gprtGetForceLinkIntf
+                0x0000000000011ec0                Topaz_gprtSetForceLinkIntf
+                0x0000000000011ed0                Topaz_gprtGetSpeedIntf
+                0x0000000000011ee0                Topaz_gprtGetFrameModeIntf
+                0x0000000000011ef0                Topaz_gprtSetFrameModeIntf
+                0x0000000000011f00                Topaz_gprtSetEgressModeIntf
+                0x0000000000011f20                Topaz_gprtGetEgressModeIntf
+                0x0000000000011f30                Topaz_gprtGetPortStateIntf
+                0x0000000000011f40                Topaz_gprtSetPortStateIntf
+                0x0000000000011f50                Topaz_gprtSetCutThrouthEnableIntf
+                0x0000000000011f60                Topaz_gprtGetCutThrouthEnableIntf
+ *fill*         0x0000000000011f69        0x7 
+ .text          0x0000000000011f70       0x59 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+                0x0000000000011f70                Topaz_gqosSetPrioMapRuleIntf
+                0x0000000000011f80                Topaz_gqosGetPrioMapRuleIntf
+                0x0000000000011f90                Topaz_gprtSetInitialPriIntf
+                0x0000000000011fa0                Topaz_gprtGetInitialPriIntf
+                0x0000000000011fb0                Topaz_gprtSetDefQpriIntf
+                0x0000000000011fc0                Topaz_gprtGetDefQpriIntf
+ *fill*         0x0000000000011fc9        0x7 
+ .text          0x0000000000011fd0      0x262 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+                0x0000000000011fd0                Topaz_gprtSetQueueCtrlIntf
+                0x0000000000011fe0                Topaz_gprtGetQueueCtrlIntf
+                0x0000000000011ff0                Topaz_gprtSetPortSchedIntf
+                0x0000000000012030                Topaz_gprtGetPortSchedIntf
+                0x0000000000012040                Topaz_gsysSetQoSWeightIntf
+                0x0000000000012140                Topaz_gsysGetQoSWeightIntf
+ *fill*         0x0000000000012232        0xe 
+ .text          0x0000000000012240       0x1c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+                0x0000000000012240                Topaz_EEPROMWriteIntf
+                0x0000000000012250                Topaz_EEPROMReadIntf
+ .text          0x000000000001225c        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+ *fill*         0x000000000001225c        0x4 
+ .text          0x0000000000012260      0x91c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+                0x0000000000012260                Topaz_msdRmuGetIDIntf
+                0x0000000000012270                Topaz_msdRmuAtuDumpIntf
+                0x00000000000123c0                Topaz_msdRmuMib2DumpIntf
+                0x00000000000125c0                Topaz_msdRmuReadRegisterIntf
+                0x00000000000125d0                Topaz_msdRmuWriteRegisterIntf
+                0x00000000000125f0                Topaz_msdRmuMultiRegAccessIntf
+                0x0000000000012600                Topaz_msdRmuTCAMDumpIntf
+                0x0000000000012860                Topaz_msdRmuTCAMWriteIntf
+                0x00000000000129d0                Topaz_msdRmuTCAMReadIntf
+ *fill*         0x0000000000012b7c        0x4 
+ .text          0x0000000000012b80      0xe8a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+                0x0000000000012f20                Topaz_gptpSetIntEnable
+                0x0000000000013000                Topaz_gptpGetIntEnable
+                0x00000000000130a0                Topaz_gptpSetProtPTPEn
+                0x0000000000013160                Topaz_gptpGetProtPTPEn
+                0x00000000000131f0                Topaz_gptpSetPortConfig
+                0x00000000000133d0                Topaz_gptpGetPortConfig
+                0x0000000000013590                Topaz_gptpGetTimeStamp
+                0x0000000000013690                Topaz_gptpGetTSValidSt
+                0x0000000000013750                Topaz_gptpResetTimeStamp
+                0x0000000000013810                Topaz_gptpSetGlobalConfig
+                0x00000000000138d0                Topaz_gptpGetGlobalConfig
+                0x0000000000013990                Topaz_gptpGetIntStatus
+ *fill*         0x0000000000013a0a        0x6 
+ .text          0x0000000000013a10      0x364 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+                0x0000000000013a10                Topaz_gptpSetIntEnableIntf
+                0x0000000000013a70                Topaz_gptpGetIntEnableIntf
+                0x0000000000013ad0                Topaz_gptpSetPortConfigIntf
+                0x0000000000013b50                Topaz_gptpGetPortConfigIntf
+                0x0000000000013bd0                Topaz_gptpGetTimeStampIntf
+                0x0000000000013c40                Topaz_gptpSetGlobalConfigIntf
+                0x0000000000013ca0                Topaz_gptpGetGlobalConfigIntf
+                0x0000000000013d10                Topaz_gptpGetIntStatusIntf
+ *fill*         0x0000000000013d74        0xc 
+ .text          0x0000000000013d80      0xdf0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+                0x0000000000013ff0                Topaz_gledForceOn
+                0x00000000000140b0                Topaz_gledForceOff
+                0x0000000000014180                Topaz_gledLinkAct
+                0x0000000000014260                Topaz_gledModeSet
+                0x0000000000014390                Topaz_gledModeGet
+                0x0000000000014420                Topaz_gledBlinkRateSet
+                0x00000000000144d0                Topaz_gledBlinkRateGet
+                0x00000000000145b0                Topaz_gledPulseStretchSet
+                0x0000000000014660                Topaz_gledPulseStretchGet
+                0x0000000000014730                Topaz_gledSpecialModeSet
+                0x00000000000147e0                Topaz_gledSpecialModeGet
+                0x0000000000014850                Topaz_gledCtrlSet
+                0x0000000000014890                Topaz_gledCtrlGet
+                0x00000000000148c0                Topaz_gledDump
+ .text          0x0000000000014b70       0xcc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+                0x0000000000014b70                Topaz_gledForceOnIntf
+                0x0000000000014b80                Topaz_gledForceOffIntf
+                0x0000000000014b90                Topaz_gledLinkActIntf
+                0x0000000000014ba0                Topaz_gledModeSetIntf
+                0x0000000000014bb0                Topaz_gledModeGetIntf
+                0x0000000000014bc0                Topaz_gledBlinkRateSetIntf
+                0x0000000000014bd0                Topaz_gledBlinkRateGetIntf
+                0x0000000000014be0                Topaz_gledPulseStretchSetIntf
+                0x0000000000014bf0                Topaz_gledPulseStretchGetIntf
+                0x0000000000014c00                Topaz_gledSpecialModeSetIntf
+                0x0000000000014c10                Topaz_gledSpecialModeGetIntf
+                0x0000000000014c20                Topaz_gledCtrlSetIntf
+                0x0000000000014c30                Topaz_gledCtrlGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x1e
+ .text.unlikely
+                0x0000000000000000        0xa /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .text.unlikely
+                0x000000000000000a       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x1360
+ *(.rodata)
+ .rodata        0x0000000000000000       0x60 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .rodata        0x0000000000000060       0x30 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ *fill*         0x0000000000000090       0x10 
+ .rodata        0x00000000000000a0      0x62c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ *fill*         0x00000000000006cc       0x14 
+ .rodata        0x00000000000006e0      0xc00 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .rodata        0x00000000000012e0       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .rodata        0x0000000000001300       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .rodata        0x0000000000001320       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+
+.rodata.str1.8  0x0000000000000000      0x585
+ .rodata.str1.8
+                0x0000000000000000       0xa4 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ *fill*         0x00000000000000a4        0x4 
+ .rodata.str1.8
+                0x00000000000000a8      0x169 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ *fill*         0x0000000000000211        0x7 
+ .rodata.str1.8
+                0x0000000000000218       0x39 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ *fill*         0x0000000000000251        0x7 
+ .rodata.str1.8
+                0x0000000000000258       0x73 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ *fill*         0x00000000000002cb        0x5 
+ .rodata.str1.8
+                0x00000000000002d0       0xea /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ *fill*         0x00000000000003ba        0x6 
+ .rodata.str1.8
+                0x00000000000003c0      0x1c5 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+
+.rodata.str1.1  0x0000000000000000      0xa82
+ .rodata.str1.1
+                0x0000000000000000      0x2da /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ .rodata.str1.1
+                0x00000000000002da        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .rodata.str1.1
+                0x00000000000002dc       0x59 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .rodata.str1.1
+                0x0000000000000335      0x682 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .rodata.str1.1
+                0x00000000000009b7        0xb /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .rodata.str1.1
+                0x00000000000009c2       0x16 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .rodata.str1.1
+                0x00000000000009d8        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .rodata.str1.1
+                0x00000000000009da       0xa8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+
+.rodata.cst8    0x0000000000000000       0x28
+ .rodata.cst8   0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x515c
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ .eh_frame      0x0000000000000340      0x1a8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+ .eh_frame      0x00000000000004e8      0x430 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+ .eh_frame      0x0000000000000918      0x1e0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .eh_frame      0x0000000000000af8      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .eh_frame      0x0000000000000c78      0x208 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+ .eh_frame      0x0000000000000e80      0x1b8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .eh_frame      0x0000000000001038      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+ .eh_frame      0x0000000000001238      0x320 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ .eh_frame      0x0000000000001558     0x1268 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .eh_frame      0x00000000000027c0      0x1a0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+ .eh_frame      0x0000000000002960      0x130 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+ .eh_frame      0x0000000000002a90      0x1a8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+ .eh_frame      0x0000000000002c38      0x7c8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .eh_frame      0x0000000000003400      0x2f8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+ .eh_frame      0x00000000000036f8      0x158 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+ .eh_frame      0x0000000000003850       0x80 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+ .eh_frame      0x00000000000038d0      0x1d8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .eh_frame      0x0000000000003aa8      0x220 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+ .eh_frame      0x0000000000003cc8      0x118 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+ .eh_frame      0x0000000000003de0      0x160 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+ .eh_frame      0x0000000000003f40       0x88 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+ .eh_frame      0x0000000000003fc8       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+ .eh_frame      0x0000000000004058       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+ .eh_frame      0x00000000000040e8       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+ .eh_frame      0x0000000000004128      0x388 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .eh_frame      0x00000000000044b0       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+ .eh_frame      0x0000000000004540       0xa8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .eh_frame      0x00000000000045e8       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+ .eh_frame      0x0000000000004628      0x198 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+ .eh_frame      0x00000000000047c0      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+ .eh_frame      0x0000000000004b00      0x120 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+ .eh_frame      0x0000000000004c20      0x420 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+ .eh_frame      0x0000000000005040      0x11c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+                                        0x120 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x180
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ .data          0x0000000000000000      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x604
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ .comment       0x000000000000002c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+ .comment       0x0000000000000058       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+ .comment       0x0000000000000084       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .comment       0x00000000000000b0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .comment       0x00000000000000dc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+ .comment       0x0000000000000108       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .comment       0x0000000000000134       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+ .comment       0x0000000000000160       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ .comment       0x000000000000018c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .comment       0x00000000000001b8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+ .comment       0x00000000000001e4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+ .comment       0x0000000000000210       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+ .comment       0x000000000000023c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .comment       0x0000000000000268       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+ .comment       0x0000000000000294       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+ .comment       0x00000000000002c0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+ .comment       0x00000000000002ec       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .comment       0x0000000000000318       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+ .comment       0x0000000000000344       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+ .comment       0x0000000000000370       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+ .comment       0x000000000000039c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+ .comment       0x00000000000003c8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+ .comment       0x00000000000003f4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+ .comment       0x0000000000000420       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+ .comment       0x000000000000044c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .comment       0x0000000000000478       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+ .comment       0x00000000000004a4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .comment       0x00000000000004d0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+ .comment       0x00000000000004fc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+ .comment       0x0000000000000528       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+ .comment       0x0000000000000554       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+ .comment       0x0000000000000580       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+ .comment       0x00000000000005ac       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+ .comment       0x00000000000005d8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVct.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdb.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRL.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmon.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQav.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMU.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdTCAMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdAdvVctIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgFdbIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgVtuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdBrgStuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPIRLIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortRmonIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdIMPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPhyCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPortPrioMapIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdQueueCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdEEPROMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdSysCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdRMUIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdPTPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLed.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/Topaz_msdLedIntf.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/topaz/src/api/msdDrv_obj/api.o elf64-x86-64)

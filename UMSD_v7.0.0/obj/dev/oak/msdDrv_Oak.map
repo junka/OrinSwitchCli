@@ -1,0 +1,900 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x25799
+ *(.text .stub)
+ .text          0x0000000000000000     0x1af7 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000                Oak_msdSetSMIC45PhyReg
+                0x00000000000002a0                Oak_msdGetSMIC45PhyReg
+                0x0000000000000560                Oak_msdSetSMIPhyReg
+                0x00000000000006e0                Oak_msdGetSMIPhyReg
+                0x00000000000008f0                Oak_msdSetSMIPhyRegField
+                0x00000000000009e0                Oak_msdGetSMIPhyRegField
+                0x0000000000000a80                Oak_msdSetPagedPhyRegField
+                0x0000000000000b00                Oak_msdGetPagedPhyRegField
+                0x0000000000000bd0                Oak_msdWritePagedPhyReg
+                0x0000000000000c30                Oak_msdReadPagedPhyReg
+                0x0000000000000c90                Oak_msdSetSMIPhyXMDIOReg
+                0x0000000000000da0                Oak_msdGetSMIPhyXMDIOReg
+                0x0000000000000ee0                Oak_msdPhyReset
+                0x00000000000010a0                Oak_msdDirectSetMultiChipReg
+                0x00000000000010c0                Oak_msdDirectGetMultiChipReg
+                0x00000000000010e0                Oak_msdDirectSetMultiChipRegField
+                0x00000000000011b0                Oak_msdDirectGetMultiChipRegField
+                0x0000000000001250                Oak_msdDirectSetMultiChipExtendedReg
+                0x00000000000012a0                Oak_msdDirectGetMultiChipExtendedReg
+                0x0000000000001320                Oak_msdDirectSetMultiChipExtendedRegField
+                0x00000000000013f0                Oak_msdDirectGetMultiChipExtendedRegField
+                0x0000000000001480                Oak_msdSetSMIExtPhyReg
+                0x0000000000001600                Oak_msdGetSMIExtPhyReg
+                0x0000000000001810                Oak_msdWritePagedExtPhyReg
+                0x0000000000001870                Oak_msdReadPagedExtPhyReg
+                0x00000000000018d0                Oak_msdSetSMIExtPhyXMDIOReg
+                0x00000000000019c0                Oak_msdGetSMIExtPhyXMDIOReg
+ *fill*         0x0000000000001af7        0x9 
+ .text          0x0000000000001b00    0x23c99 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+                0x0000000000003300                Oak_gtcamFlushAll
+                0x0000000000003350                Oak_gtcamFlushEntry
+                0x00000000000033b0                Oak_gtcamLoadEntry
+                0x0000000000003440                Oak_gtcamReadTCAMData
+                0x00000000000034c0                Oak_gtcamGetNextTCAMData
+                0x0000000000003560                Oak_gtcamFindEntry
+                0x0000000000003630                Oak_gtcamSetMode
+                0x0000000000003690                Oak_gtcamGetMode
+                0x0000000000003720                Oak_gtcamAddEntryPort
+                0x0000000000003810                Oak_gtcamRemoveEntryPort
+                0x0000000000003910                Oak_gtcamEgrFlushEntry
+                0x0000000000003990                Oak_gtcamEgrFlushEntryAllPorts
+                0x00000000000039f0                Oak_gtcamEgrLoadEntry
+                0x0000000000003bc0                Oak_gtcamEgrGetNextTCAMData
+                0x0000000000003c90                Oak_gtcamEgrReadTCAMData
+                0x0000000000003d50                Oak_gtcamDump
+                0x00000000000043d0                Oak_gtcamAdvConfig
+                0x0000000000005670                Oak_gtcamRCFlushAllEntry
+                0x0000000000005730                Oak_gtcamRCFlushEntry
+                0x0000000000005810                Oak_gtcamRCLoadEntry
+                0x0000000000005af0                Oak_gtcamRCReadEntry
+                0x0000000000005bf0                Oak_gtcamRCGetNextEntry
+                0x0000000000005d30                Oak_gtcamRCFindEntry
+                0x0000000000005e80                Oak_gtcamRCEntryDump
+                0x0000000000006830                Oak_gtcamRCCompFlushAll
+                0x00000000000068f0                Oak_gtcamRCCompFlushPort
+                0x00000000000069d0                Oak_gtcamRCCompLoad
+                0x0000000000006c30                Oak_gtcamRCCompRead
+                0x0000000000008060                Oak_gfdbGetAtuEntryNext
+                0x0000000000008080                Oak_gfdbFlush
+                0x00000000000080f0                Oak_gfdbFlushInDB
+                0x0000000000008170                Oak_gfdbMove
+                0x0000000000008260                Oak_gfdbMoveInDB
+                0x0000000000008350                Oak_gfdbAddMacEntry
+                0x0000000000008420                Oak_gfdbDelAtuEntry
+                0x00000000000084b0                Oak_gfdbGetViolation
+                0x00000000000085e0                Oak_gfdbFindAtuMacEntry
+                0x0000000000008710                Oak_gfdbSetAgingTimeout
+                0x0000000000008790                Oak_gfdbGetAgingTimeout
+                0x0000000000008820                Oak_gfdbGetLearn2All
+                0x00000000000088c0                Oak_gfdbSetLearn2All
+                0x0000000000008910                Oak_gfdbSetPortLearnLimit
+                0x0000000000008a80                Oak_gfdbGetPortLearnLimit
+                0x0000000000008b90                Oak_gfdbGetPortLearnCount
+                0x0000000000008c50                Oak_gfdbGetEntryCount
+                0x0000000000008ca0                Oak_gfdbGetEntryCountPerFid
+                0x0000000000008cf0                Oak_gfdbGetNonStaticEntryCount
+                0x0000000000008d40                Oak_gfdbGetNStaticEntryCountFid
+                0x0000000000008ff0                Oak_gpolicySetMgmtCtrl
+                0x0000000000009010                Oak_gpolicyGetMgmtCtrl
+                0x0000000000009030                Oak_gpolicySetCpuDest
+                0x00000000000090f0                Oak_gpolicyGetCpuDest
+                0x0000000000009180                Oak_gpolicySetIgrMonitorDest
+                0x0000000000009240                Oak_gpolicyGetIgrMonitorDest
+                0x00000000000092d0                Oak_gpolicySetRsvd2CpuEnables
+                0x0000000000009320                Oak_gpolicyGetRsvd2CpuEnables
+                0x00000000000093c0                Oak_gpolicySetMGMTPri
+                0x0000000000009460                Oak_gpolicyGetMGMTPri
+                0x00000000000094c0                Oak_gpolicySetRouteDest
+                0x0000000000009580                Oak_gpolicyGetRouteDest
+                0x0000000000009610                Oak_gpolicySetMirrorDest
+                0x00000000000096d0                Oak_gpolicyGetMirrorDest
+                0x0000000000009760                Oak_gpolicySetIllegalIPAddr
+                0x0000000000009800                Oak_gpolicyGetIllegalIPAddr
+                0x0000000000009860                Oak_gpolicySetDipDaMismatch
+                0x0000000000009900                Oak_gpolicyGetDipDaMismatch
+                0x0000000000009960                Oak_gpolicySetZeroSIP
+                0x0000000000009a00                Oak_gpolicyGetZeroSIP
+                0x0000000000009a60                Oak_gpolicySetMcTtlExceeded
+                0x0000000000009b30                Oak_gpolicyGetMcTtlExceeded
+                0x0000000000009c00                Oak_gpolicySetUcTtlExceeded
+                0x0000000000009cc0                Oak_gpolicyGetUcTtlExceeded
+                0x0000000000009d20                Oak_gprtSetPortTtlThreshold
+                0x0000000000009db0                Oak_gprtGetPortTtlThreshold
+                0x0000000000009e10                Oak_gpolicySetIpHdrErr
+                0x0000000000009eb0                Oak_gpolicyGetIpHdrErr
+                0x0000000000009f10                Oak_gpolicySetTCPFinUrgPsh
+                0x0000000000009fb0                Oak_gpolicyGetTCPFinUrgPsh
+                0x000000000000a010                Oak_gpolicySetTCPFlagsSeqNum
+                0x000000000000a0b0                Oak_gpolicyGetTCPFlagsSeqNum
+                0x000000000000a110                Oak_gpolicySetTCPSYN
+                0x000000000000a1b0                Oak_gpolicyGetTCPSYN
+                0x000000000000a210                Oak_gpolicySetTCPHSize
+                0x000000000000a2b0                Oak_gpolicyGetTCPHSize
+                0x000000000000a310                Oak_gprtSetPortTCPMinHdrSize
+                0x000000000000a3a0                Oak_gprtGetPortTCPMinHdrSize
+                0x000000000000a400                Oak_gpolicySetICMPSize
+                0x000000000000a4a0                Oak_gpolicyGetICMPSize
+                0x000000000000a500                Oak_gprtSetPortICMPMaxSize
+                0x000000000000a550                Oak_gprtGetPortICMPMaxSize
+                0x000000000000a5e0                Oak_gpolicySetUDPPort
+                0x000000000000a680                Oak_gpolicyGetUDPPort
+                0x000000000000a6e0                Oak_gpolicySetTCPPort
+                0x000000000000a780                Oak_gpolicyGetTCPPort
+                0x000000000000a7e0                Oak_gpolicySetTCPSynFin
+                0x000000000000a880                Oak_gpolicyGetTCPSynFin
+                0x000000000000a8e0                Oak_gpolicySetTCPFrag
+                0x000000000000a980                Oak_gpolicyGetTCPFrag
+                0x000000000000a9e0                Oak_gpolicySetNearNonTPMR
+                0x000000000000aa80                Oak_gpolicyGetNearNonTPMR
+                0x000000000000aae0                Oak_gpolicySetETag
+                0x000000000000ab80                Oak_gpolicyGetETag
+                0x000000000000abe0                Oak_gpolicySetNonETag
+                0x000000000000ac80                Oak_gpolicyGetNonETag
+                0x000000000000ace0                Oak_gpolicyDump
+                0x000000000000fa20                Oak_gvtuGetEntryNext
+                0x000000000000fb90                Oak_gvtuFindVidEntry
+                0x000000000000fd50                Oak_gvtuFlush
+                0x000000000000fd70                Oak_gvtuAddEntry
+                0x000000000000fec0                Oak_gvtuDelEntry
+                0x000000000000ff40                Oak_gvtuSetMode
+                0x00000000000100c0                Oak_gvtuGetMode
+                0x0000000000010260                Oak_gvtuGetViolation_MultiChip
+                0x0000000000010370                Oak_gvtuGetViolation
+                0x00000000000104e0                Oak_gvtuDump
+                0x0000000000010c80                Oak_garpLoadMcEntry
+                0x0000000000010da0                Oak_garpLoadUcEntry
+                0x0000000000010e60                Oak_garpFlushEntry
+                0x0000000000010ec0                Oak_garpFlushAll
+                0x0000000000010f10                Oak_garpReadEntry
+                0x0000000000010f90                Oak_garpGetNextEntry
+                0x0000000000011450                Oak_gstuGetEntryNext
+                0x0000000000011550                Oak_gstuAddEntry
+                0x0000000000011620                Oak_gstuDelEntry
+                0x0000000000011680                Oak_gstuFindSidEntry
+                0x0000000000011790                Oak_gstuDump
+                0x0000000000011d10                Oak_gpirlInitialize
+                0x0000000000011d30                Oak_gpirlInitResource
+                0x0000000000011db0                Oak_gpirlCustomSetup_sr2c
+                0x0000000000011fa0                Oak_gpirlReadResource
+                0x0000000000012170                Oak_gpirlWriteResource
+                0x0000000000012310                Oak_gpirlGetResReg
+                0x00000000000123b0                Oak_gpirlSetResReg
+                0x0000000000012a90                Oak_gstatsFlushAll
+                0x0000000000012ab0                Oak_gstatsFlushPort
+                0x0000000000012af0                Oak_gstatsGetPortCounter
+                0x0000000000012b50                Oak_gstatsGetPortAllCounters
+                0x0000000000012ba0                Oak_gstatsGetHistogramMode
+                0x0000000000012c60                Oak_gstatsSetHistogramMode
+                0x0000000000012ca0                Oak_gmibDump
+                0x00000000000137c0                Oak_gvlnSetPortVid
+                0x0000000000013820                Oak_gvlnGetPortVid
+                0x00000000000138b0                Oak_gprtSetForceDefaultVid
+                0x0000000000013910                Oak_gprtGetForceDefaultVid
+                0x00000000000139b0                Oak_gvlnSetPortVlanDot1qMode
+                0x0000000000013a10                Oak_gvlnGetPortVlanDot1qMode
+                0x0000000000013aa0                Oak_gprtSetDiscardTagged
+                0x0000000000013b00                Oak_gprtGetDiscardTagged
+                0x0000000000013ba0                Oak_gprtSetDiscardUntagged
+                0x0000000000013c00                Oak_gprtGetDiscardUntagged
+                0x0000000000013ca0                Oak_gprtSetUnicastFloodBlock
+                0x0000000000013d00                Oak_gprtGetUnicastFloodBlock
+                0x0000000000013da0                Oak_gprtSetMulticastFloodBlock
+                0x0000000000013e00                Oak_gprtGetMulticastFloodBlock
+                0x0000000000013ea0                Oak_gprtSetDiscardBCastMode
+                0x0000000000013f00                Oak_gprtGetDiscardBCastMode
+                0x0000000000013fa0                Oak_gprtSetIGMPSnoopEnable
+                0x0000000000014000                Oak_gprtGetIGMPSnoopEnable
+                0x00000000000140a0                Oak_gprtGetHeaderMode
+                0x0000000000014140                Oak_gprtSetHeaderMode
+                0x00000000000141a0                Oak_gprtGetDropOnLock
+                0x0000000000014240                Oak_gprtSetDropOnLock
+                0x00000000000142a0                Oak_gprtSetJumboMode
+                0x0000000000014310                Oak_gprtGetJumboMode
+                0x00000000000143a0                Oak_gprtSetSpecifiedMTU
+                0x0000000000014420                Oak_gprtGetSpecifiedMTU
+                0x00000000000144b0                Oak_gprtSetLearnEnable
+                0x00000000000145b0                Oak_gprtGetLearnEnable
+                0x0000000000014640                Oak_gprtGetVTUPriorityOverride
+                0x00000000000146d0                Oak_gprtSetVTUPriorityOverride
+                0x0000000000014730                Oak_gprtGetSAPriorityOverride
+                0x00000000000147c0                Oak_gprtSetSAPriorityOverride
+                0x0000000000014820                Oak_gprtGetDAPriorityOverride
+                0x00000000000148b0                Oak_gprtSetDAPriorityOverride
+                0x0000000000014910                Oak_gprtGetMessagePort
+                0x00000000000149b0                Oak_gprtSetMessagePort
+                0x0000000000014a10                Oak_gprtGetEtherType
+                0x0000000000014a30                Oak_gprtSetEtherType
+                0x0000000000014a50                Oak_gprtGetAllowVidZero
+                0x0000000000014af0                Oak_gprtSetAllowVidZero
+                0x0000000000014b50                Oak_gprtSetTrunkPort
+                0x0000000000014c10                Oak_gprtGetTrunkPort
+                0x0000000000014cf0                Oak_gprtSetFlowCtrl
+                0x0000000000014da0                Oak_gprtGetFlowCtrl
+                0x0000000000014e10                Oak_gprtSetEgressMonitorSource
+                0x0000000000014e70                Oak_gprtGetEgressMonitorSource
+                0x0000000000014f10                Oak_gprtSetIngressMonitorSource
+                0x0000000000014f70                Oak_gprtGetIngressMonitorSource
+                0x0000000000015010                Oak_grcSetEgressRate
+                0x0000000000015240                Oak_grcSetELimitMode
+                0x00000000000152a0                Oak_grcGetELimitMode
+                0x0000000000015330                Oak_grcGetEgressRate
+                0x0000000000015470                Oak_gprtSetDuplex
+                0x00000000000154e0                Oak_gprtGetDuplex
+                0x00000000000155b0                Oak_gprtGetDuplexStatus
+                0x0000000000015640                Oak_gprtGetForceLink
+                0x0000000000015710                Oak_gprtSetForceLink
+                0x0000000000015780                Oak_gprtGetLinkState
+                0x0000000000015810                Oak_gprtSetForceSpeed
+                0x0000000000015ab0                Oak_gprtGetForceSpeed
+                0x0000000000015c50                Oak_gprtGetSpeed
+                0x0000000000015d80                Oak_gprtGetVlanPorts
+                0x0000000000015e60                Oak_gprtSetVlanPorts
+                0x0000000000015fa0                Oak_gprtGetFrameMode
+                0x0000000000016030                Oak_gprtSetFrameMode
+                0x0000000000016090                Oak_gprtSetPortECID
+                0x0000000000016130                Oak_gprtGetPortECID
+                0x0000000000016190                Oak_gprtSetIgnoreETag
+                0x0000000000016220                Oak_gprtGetIgnoreETag
+                0x0000000000016280                Oak_gprtSetEgressMode
+                0x00000000000162e0                Oak_gprtGetEgressMode
+                0x0000000000016370                Oak_gprtSetExtendedPortCtrlReg
+                0x0000000000016450                Oak_gprtGetExtendedPortCtrlReg
+                0x00000000000164f0                Oak_gprtGetPortState
+                0x0000000000016580                Oak_gprtSetPortState
+                0x00000000000165e0                Oak_gprtSetIgnoreFcs
+                0x0000000000016640                Oak_gprtGetIgnoreFcs
+                0x00000000000166e0                Oak_gprtSetAllowBadFcs
+                0x0000000000016740                Oak_gprtGetAllowBadFcs
+                0x00000000000167e0                Oak_gprtSetPauseLimitOut
+                0x0000000000016830                Oak_gprtGetPauseLimitOut
+                0x0000000000016880                Oak_gprtSetPauseLimitIn
+                0x00000000000168c0                Oak_gprtGetPauseLimitIn
+                0x0000000000016910                Oak_gprtSetQueueToPause
+                0x0000000000016960                Oak_gprtGetQueueToPause
+                0x00000000000169b0                Oak_gprtSetRxPriFlowCtrlEnable
+                0x0000000000016aa0                Oak_gprtGetRxPriFlowCtrlEnable
+                0x0000000000016b50                Oak_gprtSetRxPriFlowCtrlToQueue
+                0x0000000000016c40                Oak_gprtGetRxPriFlowCtrlToQueue
+                0x0000000000016ce0                Oak_gprtSetTxPriFlowCtrlEnable
+                0x0000000000016dd0                Oak_gprtGetTxPriFlowCtrlEnable
+                0x0000000000016e80                Oak_gprtGetOutQueueSize
+                0x0000000000016f10                Oak_gprtSetMapDA
+                0x0000000000016f70                Oak_gprtGetMapDA
+                0x0000000000017010                Oak_gprtSetPortLocked
+                0x0000000000017070                Oak_gprtGetPortLocked
+                0x0000000000017110                Oak_gprtSetHoldAt1
+                0x0000000000017170                Oak_gprtGetHoldAt1
+                0x0000000000017210                Oak_gprtSetInt0nAgeOut
+                0x0000000000017270                Oak_gprtGetInt0nAgeOut
+                0x0000000000017310                Oak_gprtSetRefreshLocked
+                0x0000000000017370                Oak_gprtGetRefreshLocked
+                0x0000000000017410                Oak_gprtSetIgnoreWrongData
+                0x0000000000017470                Oak_gprtGetIgnoreWrongData
+                0x0000000000017510                Oak_gprtSetARPMirror
+                0x0000000000017570                Oak_gprtGetARPMirror
+                0x0000000000017610                Oak_gprtSetPreemptSize
+                0x0000000000017670                Oak_gprtGetPreemptSize
+                0x0000000000017710                Oak_gprtSetPreemptEnable
+                0x0000000000017770                Oak_gprtGetPreemptEnable
+                0x0000000000017810                Oak_gprtSetPreemptQueue
+                0x0000000000017870                Oak_gprtGetPreemptQueue
+                0x0000000000017910                Oak_gprtRegDump
+                0x0000000000018480                Oak_gBpeEnableSet
+                0x00000000000185d0                Oak_gBpeEnableGet
+                0x0000000000018670                Oak_gecidAddEntry
+                0x00000000000186b0                Oak_gecidFlushAll
+                0x0000000000018720                Oak_gecidMove
+                0x00000000000187e0                Oak_gecidFlushEntry
+                0x0000000000018870                Oak_gecidGetEcidEntryNext
+                0x00000000000188f0                Oak_gecidFindEcidEntry
+                0x00000000000189f0                Oak_gecidGetEntryCount
+                0x0000000000018ce0                Oak_gecidDump
+                0x0000000000018e50                Oak_gqosSetPrioMapRule
+                0x0000000000018eb0                Oak_gqosGetPrioMapRule
+                0x0000000000018f50                Oak_gprtSetInitialPri
+                0x0000000000018fc0                Oak_gprtGetInitialPri
+                0x0000000000019090                Oak_gprtSetDefQpri
+                0x00000000000190f0                Oak_gprtGetDefQpri
+                0x0000000000019190                Oak_gprtSetIEEEPrioMap
+                0x00000000000193a0                Oak_gprtGetIEEEPrioMap
+                0x00000000000195c0                Oak_gprtRewriteDscp
+                0x0000000000019620                Oak_gprtSetCosToQueue
+                0x00000000000196b0                Oak_gprtGetCosToQueue
+                0x0000000000019710                Oak_gprtSetCosToDscp
+                0x00000000000197a0                Oak_gprtGetCosToDscp
+                0x0000000000019800                Oak_gprtSetDefFpri
+                0x0000000000019860                Oak_gprtGetDefFpri
+                0x0000000000019900                Oak_gprtSetQueueCtrl
+                0x0000000000019a10                Oak_gprtGetQueueCtrl
+                0x0000000000019b50                Oak_gprtSetPortSched
+                0x0000000000019ba0                Oak_gprtGetPortSched
+                0x0000000000019cb0                Oak_gsysSetQoSWeight
+                0x0000000000019ef0                Oak_gsysGetQoSWeight
+                0x000000000001a140                Oak_gsysSetTrunkMaskTable
+                0x000000000001a280                Oak_gsysGetTrunkMaskTable
+                0x000000000001a410                Oak_gsysSetHashTrunk
+                0x000000000001a440                Oak_gsysGetHashTrunk
+                0x000000000001a4b0                Oak_gsysSetTrunkRouting
+                0x000000000001a610                Oak_gsysGetTrunkRouting
+                0x000000000001a7d0                Oak_gsysSetFloodBC
+                0x000000000001a800                Oak_gsysGetFloodBC
+                0x000000000001a870                Oak_gsysSetEgressMonitorDest
+                0x000000000001a8c0                Oak_gsysGetEgressMonitorDest
+                0x000000000001a960                Oak_gsysSetSMISetup
+                0x000000000001ab40                Oak_gsysGetSMISetup
+                0x000000000001ad20                Oak_gsysGlobal1RegDump
+                0x000000000001adf0                Oak_gsysGlobal2RegDump
+                0x000000000001aec0                Oak_gsysSetRMUMode
+                0x000000000001af50                Oak_gsysGetRMUMode
+                0x000000000001afb0                Oak_gsysQbvWrite
+                0x000000000001b080                Oak_gsysQbvRead
+                0x000000000001b160                Oak_gsysDevIntEnableSet
+                0x000000000001b190                Oak_gsysDevIntEnableGet
+                0x000000000001b210                Oak_gsysDevIntStatusGet
+                0x000000000001b280                Oak_gsysActiveIntEnableSet
+                0x000000000001b310                Oak_gsysActiveIntEnableGet
+                0x000000000001b370                Oak_gsysActiveIntStatusGet
+                0x000000000001b3d0                Oak_serdesReset
+                0x000000000001bc70                Oak_msdRmuGetID
+                0x000000000001bda0                Oak_msdRmuAtuDump
+                0x000000000001bfc0                Oak_msdRmuEcidDump
+                0x000000000001c210                Oak_msdRmuMib2Dump
+                0x000000000001c640                Oak_msdRmuReadRegister
+                0x000000000001c670                Oak_msdRmuWriteRegister
+                0x000000000001c690                Oak_msdRmuMultiRegAccess
+                0x000000000001c880                Oak_msdRmuTCAMDump
+                0x000000000001c9f0                Oak_msdRmuTCAMWrite
+                0x000000000001cba0                Oak_msdRmuTCAMRead
+                0x000000000001cd50                Oak_msdRmuRegDump
+                0x000000000001ce20                Oak_gtcamLoadEntryIntf
+                0x000000000001cff0                Oak_gtcamReadTCAMDataIntf
+                0x000000000001d1e0                Oak_gtcamGetNextTCAMDataIntf
+                0x000000000001d3d0                Oak_gtcamFindEntryIntf
+                0x000000000001d600                Oak_gtcamSetModeIntf
+                0x000000000001d610                Oak_gtcamGetModeIntf
+                0x000000000001d670                Oak_gtcamEgrFlushEntryIntf
+                0x000000000001d680                Oak_gtcamEgrFlushAllPortsIntf
+                0x000000000001d690                Oak_gtcamEgrLoadEntryIntf
+                0x000000000001d750                Oak_gtcamEgrGetNextTCAMDataIntf
+                0x000000000001d830                Oak_gtcamEgrReadTCAMDataIntf
+                0x000000000001d910                Oak_gtcamAdvConfigIntf
+                0x000000000001dad0                Oak_gfdbAddMacEntryIntf
+                0x000000000001db50                Oak_gfdbGetAtuEntryNextIntf
+                0x000000000001dc30                Oak_gfdbFlushIntf
+                0x000000000001dc40                Oak_gfdbFlushInDBIntf
+                0x000000000001dc50                Oak_gfdbMoveIntf
+                0x000000000001dc60                Oak_gfdbMoveInDBIntf
+                0x000000000001dc70                Oak_gfdbPortRemoveIntf
+                0x000000000001dca0                Oak_gfdbPortRemoveInDBIntf
+                0x000000000001dcd0                Oak_gfdbGetViolationIntf
+                0x000000000001ddb0                Oak_gfdbFindAtuMacEntryIntf
+                0x000000000001dea0                Oak_gfdbDump
+                0x000000000001e050                Oak_gvtuFindVidEntryIntf
+                0x000000000001e1c0                Oak_gvtuExistVidEntryIntf
+                0x000000000001e260                Oak_gvtuFlushIntf
+                0x000000000001e270                Oak_gvtuAddEntryIntf
+                0x000000000001e390                Oak_gvtuDelEntryIntf
+                0x000000000001e410                Oak_gvtuSetModeIntf
+                0x000000000001e420                Oak_gvtuGetModeIntf
+                0x000000000001e430                Oak_gvtuGetViolationIntf
+                0x000000000001e4f0                Oak_gvtuGetEntryCountIntf
+                0x000000000001e5a0                Oak_gvtuSetMemberTagIntf
+                0x000000000001e690                Oak_gvtuGetMemberTagIntf
+                0x000000000001e770                Oak_gvtuGetEntryNextIntf
+                0x000000000001e8a0                Oak_gstuAddEntryIntf
+                0x000000000001e970                Oak_gstuGetEntryNextIntf
+                0x000000000001ea20                Oak_gstuDelEntryIntf
+                0x000000000001ea80                Oak_gstuFindSidEntryIntf
+                0x000000000001eb90                Oak_gstuGetEntryCountIntf
+                0x000000000001ec30                Oak_gpirlInitializeIntf
+                0x000000000001ec40                Oak_gpirlInitResourceIntf
+                0x000000000001ec50                Oak_gpirlCustomSetup_sr2cIntf
+                0x000000000001ed10                Oak_gpirlReadResourceIntf
+                0x000000000001edf0                Oak_gpirlWriteResourceIntf
+                0x000000000001eeb0                Oak_gpirlGetResRegIntf
+                0x000000000001eec0                Oak_gpirlSetResRegIntf
+                0x000000000001eed0                Oak_gpirlAdvConfigIntf
+                0x000000000001efd0                Oak_gpirlAdvConfigDisableIntf
+                0x000000000001f400                Oak_gqavSetPortQpriXRate
+                0x000000000001f530                Oak_gqavGetPortQpriXRate
+                0x000000000001f610                Oak_gqavSetPortQpriXHiLimit
+                0x000000000001f6e0                Oak_gqavGetPortQpriXHiLimit
+                0x000000000001f790                Oak_garpLoadMcEntryIntf
+                0x000000000001f7f0                Oak_garpLoadUcEntryIntf
+                0x000000000001f850                Oak_garpReadEntryIntf
+                0x000000000001f8e0                Oak_garpGetNextEntryIntf
+                0x000000000001f970                Oak_gstatsGetPortCounterIntf
+                0x000000000001f980                Oak_gstatsGetPortAllCntersIntf
+                0x000000000001fb90                Oak_gstatsGetHistogramModeIntf
+                0x000000000001fba0                Oak_gstatsSetHistogramModeIntf
+                0x000000000001fbb0                Oak_gvlnSetPortVlanQModeIntf
+                0x000000000001fbc0                Oak_gvlnGetPortVlanQModeIntf
+                0x000000000001fbd0                Oak_gprtSetDiscardTaggedIntf
+                0x000000000001fbe0                Oak_gprtGetDiscardTaggedIntf
+                0x000000000001fbf0                Oak_gprtSetDiscardUntaggedIntf
+                0x000000000001fc00                Oak_gprtGetDiscardUntaggedIntf
+                0x000000000001fc10                Oak_gprtSetUnicFloodBlockIntf
+                0x000000000001fc20                Oak_gprtGetUnicFloodBlockIntf
+                0x000000000001fc30                Oak_gprtSetMultiFloodBlockIntf
+                0x000000000001fc40                Oak_gprtGetMultiFloodBlockIntf
+                0x000000000001fc50                Oak_gprtSetDiscardBCastModeIntf
+                0x000000000001fc60                Oak_gprtGetDiscardBCastModeIntf
+                0x000000000001fc70                Oak_gprtSetJumboModeIntf
+                0x000000000001fc80                Oak_gprtGetJumboModeIntf
+                0x000000000001fc90                Oak_gprtSetSpecifiedMTUIntf
+                0x000000000001fca0                Oak_gprtGetSpecifiedMTUIntf
+                0x000000000001fcb0                Oak_gprtSetLearnEnableIntf
+                0x000000000001fcc0                Oak_gprtGetLearnEnableIntf
+                0x000000000001fcd0                Oak_gprtGetVTUPriOverrideIntf
+                0x000000000001fce0                Oak_gprtSetVTUPriOverrideIntf
+                0x000000000001fcf0                Oak_gprtGetSAPriOverrideIntf
+                0x000000000001fd00                Oak_gprtSetSAPriOverrideIntf
+                0x000000000001fd10                Oak_gprtGetDAPriOverrideIntf
+                0x000000000001fd20                Oak_gprtSetDAPriOverrideIntf
+                0x000000000001fd30                Oak_gprtSetFlowCtrlIntf
+                0x000000000001fd40                Oak_gprtGetFlowCtrlIntf
+                0x000000000001fd50                Oak_gprtSetForceSpeedIntf
+                0x000000000001fd70                Oak_gprtGetForceSpeedIntf
+                0x000000000001fd80                Oak_grcSetEgressRateIntf
+                0x000000000001fd90                Oak_grcGetEgressRateIntf
+                0x000000000001fda0                Oak_grcSetELimitModeIntf
+                0x000000000001fdb0                Oak_grcGetELimitModeIntf
+                0x000000000001fdc0                Oak_gprtSetDuplexIntf
+                0x000000000001fdd0                Oak_gprtGetDuplexIntf
+                0x000000000001fde0                Oak_gprtGetDuplexStatusIntf
+                0x000000000001fdf0                Oak_gprtGetForceLinkIntf
+                0x000000000001fe00                Oak_gprtSetForceLinkIntf
+                0x000000000001fe10                Oak_gprtGetSpeedIntf
+                0x000000000001fe20                Oak_gprtGetFrameModeIntf
+                0x000000000001fe30                Oak_gprtSetFrameModeIntf
+                0x000000000001fe40                Oak_gprtSetEgressModeIntf
+                0x000000000001fe60                Oak_gprtGetEgressModeIntf
+                0x000000000001fe70                Oak_gprtGetPortStateIntf
+                0x000000000001fe80                Oak_gprtSetPortStateIntf
+                0x000000000001fe90                Oak_gqosSetPrioMapRuleIntf
+                0x000000000001fea0                Oak_gqosGetPrioMapRuleIntf
+                0x000000000001feb0                Oak_gprtSetInitialPriIntf
+                0x000000000001fec0                Oak_gprtGetInitialPriIntf
+                0x000000000001fed0                Oak_gprtSetDefQpriIntf
+                0x000000000001fee0                Oak_gprtGetDefQpriIntf
+                0x000000000001fef0                Oak_gprtSetIEEEPrioMapIntf
+                0x000000000001ff50                Oak_gprtGetIEEEPrioMapIntf
+                0x0000000000020010                Oak_gecidAddEntryIntf
+                0x00000000000200a0                Oak_gecidGetEcidEntryNextIntf
+                0x0000000000020160                Oak_gecidFindEcidEntryIntf
+                0x0000000000020230                Oak_gprtSetQueueCtrlIntf
+                0x0000000000020240                Oak_gprtGetQueueCtrlIntf
+                0x0000000000020250                Oak_gprtSetPortSchedIntf
+                0x0000000000020260                Oak_gprtGetPortSchedIntf
+                0x0000000000020270                Oak_gsysSetQoSWeightIntf
+                0x0000000000020370                Oak_gsysGetQoSWeightIntf
+                0x0000000000020470                Oak_gtcamRCLoadEntryIntf
+                0x0000000000020590                Oak_gtcamRCReadEntryIntf
+                0x00000000000206e0                Oak_gtcamRCGetNextEntryIntf
+                0x0000000000020830                Oak_gtcamRCFindEntryIntf
+                0x00000000000209b0                Oak_msdRmuGetIDIntf
+                0x00000000000209c0                Oak_msdRmuAtuDumpIntf
+                0x0000000000020b20                Oak_msdRmuEcidDumpIntf
+                0x0000000000020c80                Oak_msdRmuMib2DumpIntf
+                0x0000000000020e90                Oak_msdRmuReadRegisterIntf
+                0x0000000000020ea0                Oak_msdRmuWriteRegisterIntf
+                0x0000000000020ec0                Oak_msdRmuMultiRegAccessIntf
+                0x0000000000020ed0                Oak_msdRmuTCAMDumpIntf
+                0x00000000000211c0                Oak_msdRmuTCAMWriteIntf
+                0x0000000000021390                Oak_msdRmuTCAMReadIntf
+                0x0000000000022290                Oak_gptpSetIntEnable
+                0x0000000000022380                Oak_gptpGetIntEnable
+                0x0000000000022430                Oak_gptpSetPortPTPEn
+                0x0000000000022510                Oak_gptpGetPortPTPEn
+                0x00000000000225b0                Oak_gptpGetTimeStamp
+                0x00000000000226e0                Oak_gptpGetTSValidSt
+                0x00000000000227b0                Oak_gptpResetTimeStamp
+                0x0000000000022880                Oak_gptpGetIntStatus
+                0x0000000000022940                Oak_gptpSetMeanPathDelay
+                0x00000000000229e0                Oak_gptpGetMeanPathDelay
+                0x0000000000022a80                Oak_gptpSetIgrPathDelayAsym
+                0x0000000000022b20                Oak_gptpGetIgrPathDelayAsym
+                0x0000000000022bc0                Oak_gptpSetEgrPathDelayAsym
+                0x0000000000022c60                Oak_gptpGetEgrPathDelayAsym
+                0x0000000000022d00                Oak_gptpGetTODBusyBitStatus
+                0x0000000000022d80                Oak_gptpTODStoreCompensation
+                0x0000000000022e40                Oak_gptpTODStoreAll
+                0x0000000000022f00                Oak_gptpTODCaptureAll
+                0x00000000000231d0                Oak_gptpSetPulse
+                0x0000000000023280                Oak_gptpGetPulse
+                0x0000000000023320                Oak_gtaiGetPTPGlobalTime
+                0x00000000000233a0                Oak_gptpPortRegGet
+                0x0000000000023450                Oak_gptpPortRegSet
+                0x00000000000234f0                Oak_gptpGlobalRegGet
+                0x0000000000023560                Oak_gptpGlobalRegSet
+                0x00000000000235d0                Oak_gptp1588v2ConfigSet
+                0x00000000000237a0                Oak_gptp8021asConfigSet
+                0x0000000000023960                Oak_gptp8021asRevConfigSet
+                0x0000000000023b20                Oak_gptpPreemptTimestampSelSet
+                0x0000000000023c00                Oak_gptpPreemptTimestampSelGet
+                0x0000000000023ca0                Oak_gptpPreemptCtrlSet
+                0x0000000000023d80                Oak_gptpPreemptCtrlGet
+                0x0000000000023e20                Oak_gptpSetIntEnableIntf
+                0x0000000000023e80                Oak_gptpGetIntEnableIntf
+                0x0000000000023ee0                Oak_gptpGetTimeStampIntf
+                0x0000000000023f50                Oak_gptpGetIntStatusIntf
+                0x0000000000023fc0                Oak_gptpTODStoreCompenIntf
+                0x0000000000024040                Oak_gptpTODStoreAllIntf
+                0x00000000000240c0                Oak_gptpTODCaptureAllIntf
+                0x0000000000024150                Oak_gptpSetPulseIntf
+                0x00000000000241b0                Oak_gptpGetPulseIntf
+                0x0000000000024210                Oak_gptp1588v2ConfigSetIntf
+                0x0000000000024220                Oak_gptp8021asConfigSetIntf
+                0x0000000000024230                Oak_gptp8021asRevConfigSetIntf
+                0x00000000000244a0                Oak_gledForceOn
+                0x0000000000024560                Oak_gledForceOff
+                0x0000000000024620                Oak_gledLinkAct
+                0x0000000000024710                Oak_gledModeSet
+                0x00000000000247e0                Oak_gledModeGet
+                0x0000000000024870                Oak_gledBlinkRateSet
+                0x0000000000024920                Oak_gledBlinkRateGet
+                0x0000000000024a00                Oak_gledPulseStretchSet
+                0x0000000000024ab0                Oak_gledPulseStretchGet
+                0x0000000000024b80                Oak_gledSpecialModeSet
+                0x0000000000024c30                Oak_gledSpecialModeGet
+                0x0000000000024ca0                Oak_gledCtrlSet
+                0x0000000000024ce0                Oak_gledCtrlGet
+                0x0000000000024d50                Oak_gledDump
+                0x0000000000025020                Oak_gledForceOnIntf
+                0x0000000000025030                Oak_gledForceOffIntf
+                0x0000000000025040                Oak_gledLinkActIntf
+                0x0000000000025050                Oak_gledModeSetIntf
+                0x0000000000025060                Oak_gledModeGetIntf
+                0x0000000000025070                Oak_gledBlinkRateSetIntf
+                0x0000000000025080                Oak_gledBlinkRateGetIntf
+                0x0000000000025090                Oak_gledPulseStretchSetIntf
+                0x00000000000250a0                Oak_gledPulseStretchGetIntf
+                0x00000000000250b0                Oak_gledSpecialModeSetIntf
+                0x00000000000250c0                Oak_gledSpecialModeGetIntf
+                0x00000000000250d0                Oak_gledCtrlSetIntf
+                0x00000000000250e0                Oak_gledCtrlGetIntf
+                0x00000000000250f0                Oak_gtcamRCCompLoadIntf
+                0x00000000000251d0                Oak_gtcamRCCompReadIntf
+                0x00000000000252c0                Oak_EEPROMWrite
+                0x00000000000253f0                Oak_EEPROMRead
+                0x0000000000025550                Oak_EEPROMChipSelSet
+                0x0000000000025620                Oak_EEPROMChipSelGet
+                0x0000000000025760                Oak_EEPROMWriteIntf
+                0x0000000000025770                Oak_EEPROMReadIntf
+                0x0000000000025780                Oak_EEPROMChipSelSetIntf
+                0x0000000000025790                Oak_EEPROMChipSelGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x28
+ .text.unlikely
+                0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x130c
+ *(.rodata)
+ .rodata        0x0000000000000000     0x130c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.rodata.str1.8  0x0000000000000000     0x340d
+ .rodata.str1.8
+                0x0000000000000000     0x340d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.rodata.str1.1  0x0000000000000000      0x871
+ .rodata.str1.1
+                0x0000000000000000      0x871 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.rodata.cst8    0x0000000000000000       0x18
+ .rodata.cst8   0x0000000000000000       0x18 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x7e84
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x758 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+ .eh_frame      0x0000000000000758     0x772c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+                                       0x7768 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x738
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x70c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/api/msdDrv_obj/api.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/msdDrv_Oak.o elf64-x86-64)

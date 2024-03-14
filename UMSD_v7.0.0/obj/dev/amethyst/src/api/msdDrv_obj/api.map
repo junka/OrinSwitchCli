@@ -1,0 +1,1428 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x25359
+ *(.text .stub)
+ .text          0x0000000000000000     0x2fc6 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+                0x00000000000017c0                Amethyst_gtcamFlushAll
+                0x0000000000001810                Amethyst_gtcamFlushEntry
+                0x0000000000001870                Amethyst_gtcamLoadEntry
+                0x0000000000001900                Amethyst_gtcamReadTCAMData
+                0x0000000000001990                Amethyst_gtcamGetNextTCAMData
+                0x0000000000001a30                Amethyst_gtcamFindEntry
+                0x0000000000001b10                Amethyst_gtcamSetMode
+                0x0000000000001b70                Amethyst_gtcamGetMode
+                0x0000000000001c00                Amethyst_gtcamAddEntryPort
+                0x0000000000001cf0                Amethyst_gtcamRemoveEntryPort
+                0x0000000000001de0                Amethyst_gtcamEgrFlushEntry
+                0x0000000000001e60                Amethyst_gtcamEgrFlushEntryAllPorts
+                0x0000000000001ec0                Amethyst_gtcamEgrLoadEntry
+                0x0000000000002080                Amethyst_gtcamEgrGetNextTCAMData
+                0x0000000000002140                Amethyst_gtcamEgrReadTCAMData
+                0x00000000000021f0                Amethyst_gtcamDump
+                0x00000000000026b0                Amethyst_gtcamAdvConfig
+ *fill*         0x0000000000002fc6        0xa 
+ .text          0x0000000000002fd0     0x14f3 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+                0x0000000000003920                Amethyst_gtcamRCFlushAllEntry
+                0x00000000000039e0                Amethyst_gtcamRCFlushEntry
+                0x0000000000003ab0                Amethyst_gtcamRCLoadEntry
+                0x0000000000003dc0                Amethyst_gtcamRCReadEntry
+                0x0000000000003ec0                Amethyst_gtcamRCGetNextEntry
+                0x0000000000003fe0                Amethyst_gtcamRCFindEntry
+                0x0000000000004130                Amethyst_gtcamRCEntryDump
+ *fill*         0x00000000000044c3        0xd 
+ .text          0x00000000000044d0      0xa53 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+                0x0000000000004920                Amethyst_gtcamRCCompFlushAll
+                0x00000000000049e0                Amethyst_gtcamRCCompFlushPort
+                0x0000000000004ac0                Amethyst_gtcamRCCompLoad
+                0x0000000000004d30                Amethyst_gtcamRCCompRead
+ *fill*         0x0000000000004f23        0xd 
+ .text          0x0000000000004f30      0xcce /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+                0x0000000000005440                Amethyst_gvctGetAdvCableDiag
+                0x00000000000058b0                Amethyst_gvctGetAdvExtendedStatus
+ *fill*         0x0000000000005bfe        0x2 
+ .text          0x0000000000005c00     0x1f25 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+                0x0000000000006dd0                Amethyst_gfdbGetAtuEntryNext
+                0x0000000000006df0                Amethyst_gfdbFlush
+                0x0000000000006e60                Amethyst_gfdbFlushInDB
+                0x0000000000006ef0                Amethyst_gfdbMove
+                0x0000000000006fe0                Amethyst_gfdbMoveInDB
+                0x00000000000070e0                Amethyst_gfdbAddMacEntry
+                0x00000000000071b0                Amethyst_gfdbDelAtuEntry
+                0x0000000000007240                Amethyst_gfdbGetViolation
+                0x0000000000007370                Amethyst_gfdbFindAtuMacEntry
+                0x00000000000074b0                Amethyst_gfdbSetAgingTimeout
+                0x0000000000007530                Amethyst_gfdbGetAgingTimeout
+                0x00000000000075c0                Amethyst_gfdbGetLearn2All
+                0x0000000000007660                Amethyst_gfdbSetLearn2All
+                0x00000000000076b0                Amethyst_gfdbSetPortLearnLimit
+                0x0000000000007820                Amethyst_gfdbGetPortLearnLimit
+                0x0000000000007930                Amethyst_gfdbGetPortLearnCount
+                0x00000000000079f0                Amethyst_gfdbGetEntryCount
+                0x0000000000007a40                Amethyst_gfdbGetEntryCountPerFid
+                0x0000000000007a90                Amethyst_gfdbGetNonStaticEntryCount
+                0x0000000000007ae0                Amethyst_gfdbGetNonStaticEntryCountPerFid
+ *fill*         0x0000000000007b25        0xb 
+ .text          0x0000000000007b30     0x5a94 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+                0x0000000000007da0                Amethyst_gpolicySetMgmtCtrl
+                0x0000000000007dc0                Amethyst_gpolicyGetMgmtCtrl
+                0x0000000000007de0                Amethyst_gpolicySetCpuDest
+                0x0000000000007ec0                Amethyst_gpolicyGetCpuDest
+                0x0000000000007f50                Amethyst_gpolicySetIngressMonitorDest
+                0x0000000000008030                Amethyst_gpolicyGetIngressMonitorDest
+                0x00000000000080c0                Amethyst_gpolicySetRsvd2CpuEnables
+                0x0000000000008110                Amethyst_gpolicyGetRsvd2CpuEnables
+                0x00000000000081b0                Amethyst_gpolicySetMGMTPri
+                0x0000000000008250                Amethyst_gpolicyGetMGMTPri
+                0x00000000000082b0                Amethyst_gpolicySetRouteDest
+                0x0000000000008390                Amethyst_gpolicyGetRouteDest
+                0x0000000000008420                Amethyst_gpolicySetMirrorDest
+                0x0000000000008500                Amethyst_gpolicyGetMirrorDest
+                0x0000000000008590                Amethyst_gpolicySetIllegalIPAddr
+                0x0000000000008630                Amethyst_gpolicyGetIllegalIPAddr
+                0x0000000000008690                Amethyst_gpolicySetDipDaMismatch
+                0x0000000000008730                Amethyst_gpolicyGetDipDaMismatch
+                0x0000000000008790                Amethyst_gpolicySetZeroSIP
+                0x0000000000008830                Amethyst_gpolicyGetZeroSIP
+                0x0000000000008890                Amethyst_gpolicySetMcTtlExceeded
+                0x0000000000008970                Amethyst_gpolicyGetMcTtlExceeded
+                0x0000000000008a40                Amethyst_gpolicySetUcTtlExceeded
+                0x0000000000008b00                Amethyst_gpolicyGetUcTtlExceeded
+                0x0000000000008b60                Amethyst_gprtSetPortTtlThreshold
+                0x0000000000008bf0                Amethyst_gprtGetPortTtlThreshold
+                0x0000000000008c50                Amethyst_gpolicySetIpHdrErr
+                0x0000000000008cf0                Amethyst_gpolicyGetIpHdrErr
+                0x0000000000008d50                Amethyst_gpolicySetTCPFinUrgPsh
+                0x0000000000008df0                Amethyst_gpolicyGetTCPFinUrgPsh
+                0x0000000000008e50                Amethyst_gpolicySetTCPFlagsSeqNum
+                0x0000000000008ef0                Amethyst_gpolicyGetTCPFlagsSeqNum
+                0x0000000000008f50                Amethyst_gpolicySetTCPSYN
+                0x0000000000008ff0                Amethyst_gpolicyGetTCPSYN
+                0x0000000000009050                Amethyst_gpolicySetTCPHSize
+                0x00000000000090f0                Amethyst_gpolicyGetTCPHSize
+                0x0000000000009150                Amethyst_gprtSetPortTCPMinHdrSize
+                0x00000000000091e0                Amethyst_gprtGetPortTCPMinHdrSize
+                0x0000000000009240                Amethyst_gpolicySetICMPSize
+                0x00000000000092e0                Amethyst_gpolicyGetICMPSize
+                0x0000000000009340                Amethyst_gprtSetPortICMPMaxSize
+                0x0000000000009390                Amethyst_gprtGetPortICMPMaxSize
+                0x0000000000009420                Amethyst_gpolicySetUDPPort
+                0x00000000000094c0                Amethyst_gpolicyGetUDPPort
+                0x0000000000009520                Amethyst_gpolicySetTCPPort
+                0x00000000000095c0                Amethyst_gpolicyGetTCPPort
+                0x0000000000009620                Amethyst_gpolicySetTCPSynFin
+                0x00000000000096c0                Amethyst_gpolicyGetTCPSynFin
+                0x0000000000009720                Amethyst_gpolicySetTCPFrag
+                0x00000000000097c0                Amethyst_gpolicyGetTCPFrag
+                0x0000000000009820                Amethyst_gpolicySetNearNonTPMR
+                0x00000000000098c0                Amethyst_gpolicyGetNearNonTPMR
+                0x0000000000009920                Amethyst_gpolicySetETag
+                0x00000000000099c0                Amethyst_gpolicyGetETag
+                0x0000000000009a20                Amethyst_gpolicySetNonETag
+                0x0000000000009ac0                Amethyst_gpolicyGetNonETag
+                0x0000000000009b20                Amethyst_gpolicyDump
+ *fill*         0x000000000000d5c4        0xc 
+ .text          0x000000000000d5d0     0x18e2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+                0x000000000000e260                Amethyst_gvtuGetEntryNext
+                0x000000000000e3b0                Amethyst_gvtuFindVidEntry
+                0x000000000000e570                Amethyst_gvtuFlush
+                0x000000000000e590                Amethyst_gvtuAddEntry
+                0x000000000000e6e0                Amethyst_gvtuDelEntry
+                0x000000000000e760                Amethyst_gvtuSetMode
+                0x000000000000e8e0                Amethyst_gvtuGetMode
+                0x000000000000ea80                Amethyst_gvtuGetViolation_MultiChip
+                0x000000000000eb90                Amethyst_gvtuGetViolation
+                0x000000000000ed00                Amethyst_gvtuDump
+ *fill*         0x000000000000eeb2        0xe 
+ .text          0x000000000000eec0      0xc45 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+                0x000000000000f480                Amethyst_garpLoadMcEntry
+                0x000000000000f620                Amethyst_garpLoadUcEntry
+                0x000000000000f760                Amethyst_garpFlushEntry
+                0x000000000000f830                Amethyst_garpFlushAll
+                0x000000000000f8f0                Amethyst_garpReadEntry
+                0x000000000000f9f0                Amethyst_garpGetNextEntry
+ *fill*         0x000000000000fb05        0xb 
+ .text          0x000000000000fb10      0x824 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+                0x000000000000ff20                Amethyst_gstuGetEntryNext
+                0x0000000000010000                Amethyst_gstuAddEntry
+                0x00000000000100d0                Amethyst_gstuDelEntry
+                0x0000000000010130                Amethyst_gstuFindSidEntry
+                0x0000000000010230                Amethyst_gstuDump
+ *fill*         0x0000000000010334        0xc 
+ .text          0x0000000000010340      0xbac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+                0x00000000000107b0                Amethyst_gpirlInitialize
+                0x00000000000107d0                Amethyst_gpirlInitResource
+                0x0000000000010850                Amethyst_gpirlCustomSetup_sr2c
+                0x0000000000010a40                Amethyst_gpirlReadResource
+                0x0000000000010c10                Amethyst_gpirlWriteResource
+                0x0000000000010dc0                Amethyst_gpirlGetResReg
+                0x0000000000010e60                Amethyst_gpirlSetResReg
+ *fill*         0x0000000000010eec        0x4 
+ .text          0x0000000000010ef0      0xd97 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+                0x0000000000011500                Amethyst_gstatsFlushAll
+                0x0000000000011520                Amethyst_gstatsFlushPort
+                0x0000000000011560                Amethyst_gstatsGetPortCounter
+                0x00000000000115c0                Amethyst_gstatsGetPortAllCounters
+                0x0000000000011610                Amethyst_gstatsGetHistogramMode
+                0x00000000000116c0                Amethyst_gstatsSetHistogramMode
+                0x0000000000011700                Amethyst_gmibDump
+ *fill*         0x0000000000011c87        0x9 
+ .text          0x0000000000011c90     0x4238 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+                0x0000000000012240                Amethyst_gvlnSetPortVid
+                0x00000000000122a0                Amethyst_gvlnGetPortVid
+                0x0000000000012330                Amethyst_gprtSetForceDefaultVid
+                0x0000000000012390                Amethyst_gprtGetForceDefaultVid
+                0x0000000000012420                Amethyst_gvlnSetPortVlanDot1qMode
+                0x0000000000012480                Amethyst_gvlnGetPortVlanDot1qMode
+                0x0000000000012510                Amethyst_gprtSetDiscardTagged
+                0x0000000000012570                Amethyst_gprtGetDiscardTagged
+                0x0000000000012600                Amethyst_gprtSetDiscardUntagged
+                0x0000000000012660                Amethyst_gprtGetDiscardUntagged
+                0x00000000000126f0                Amethyst_gprtSetUnicastFloodBlock
+                0x0000000000012750                Amethyst_gprtGetUnicastFloodBlock
+                0x00000000000127e0                Amethyst_gprtSetMulticastFloodBlock
+                0x0000000000012840                Amethyst_gprtGetMulticastFloodBlock
+                0x00000000000128d0                Amethyst_gprtSetDiscardBCastMode
+                0x0000000000012930                Amethyst_gprtGetDiscardBCastMode
+                0x00000000000129d0                Amethyst_gprtSetIGMPSnoopEnable
+                0x0000000000012a30                Amethyst_gprtGetIGMPSnoopEnable
+                0x0000000000012ad0                Amethyst_gprtGetHeaderMode
+                0x0000000000012b70                Amethyst_gprtSetHeaderMode
+                0x0000000000012bd0                Amethyst_gprtGetDropOnLock
+                0x0000000000012c70                Amethyst_gprtSetDropOnLock
+                0x0000000000012cd0                Amethyst_gprtSetJumboMode
+                0x0000000000012d40                Amethyst_gprtGetJumboMode
+                0x0000000000012dd0                Amethyst_gprtSetLearnEnable
+                0x0000000000012e40                Amethyst_gprtGetLearnEnable
+                0x0000000000012ed0                Amethyst_gprtGetVTUPriorityOverride
+                0x0000000000012f60                Amethyst_gprtSetVTUPriorityOverride
+                0x0000000000012fc0                Amethyst_gprtGetSAPriorityOverride
+                0x0000000000013050                Amethyst_gprtSetSAPriorityOverride
+                0x00000000000130b0                Amethyst_gprtGetDAPriorityOverride
+                0x0000000000013140                Amethyst_gprtSetDAPriorityOverride
+                0x00000000000131a0                Amethyst_gprtGetMessagePort
+                0x0000000000013230                Amethyst_gprtSetMessagePort
+                0x0000000000013290                Amethyst_gprtGetEtherType
+                0x00000000000132b0                Amethyst_gprtSetEtherType
+                0x00000000000132d0                Amethyst_gprtGetAllowVidZero
+                0x0000000000013360                Amethyst_gprtSetAllowVidZero
+                0x00000000000133c0                Amethyst_gprtSetTrunkPort
+                0x0000000000013460                Amethyst_gprtGetTrunkPort
+                0x0000000000013540                Amethyst_gprtSetFlowCtrl
+                0x0000000000013600                Amethyst_gprtGetFlowCtrl
+                0x0000000000013670                Amethyst_gprtSetEgressMonitorSource
+                0x00000000000136d0                Amethyst_gprtGetEgressMonitorSource
+                0x0000000000013760                Amethyst_gprtSetIngressMonitorSource
+                0x00000000000137c0                Amethyst_gprtGetIngressMonitorSource
+                0x0000000000013850                Amethyst_grcSetELimitMode
+                0x00000000000138b0                Amethyst_grcSetEgressRate
+                0x0000000000013a90                Amethyst_grcGetELimitMode
+                0x0000000000013b20                Amethyst_grcGetEgressRate
+                0x0000000000013c60                Amethyst_gprtSetDuplex
+                0x0000000000013cd0                Amethyst_gprtGetDuplex
+                0x0000000000013da0                Amethyst_gprtGetDuplexStatus
+                0x0000000000013e30                Amethyst_gprtGetForceLink
+                0x0000000000013ef0                Amethyst_gprtSetForceLink
+                0x0000000000013f60                Amethyst_gprtGetLinkState
+                0x0000000000013ff0                Amethyst_gprtSetForceSpeed
+                0x00000000000142c0                Amethyst_gprtGetForceSpeed
+                0x0000000000014460                Amethyst_gprtGetSpeed
+                0x0000000000014590                Amethyst_gprtGetVlanPorts
+                0x0000000000014650                Amethyst_gprtSetVlanPorts
+                0x0000000000014700                Amethyst_gprtGetFrameMode
+                0x0000000000014790                Amethyst_gprtSetFrameMode
+                0x00000000000147f0                Amethyst_gprtSetPortECID
+                0x0000000000014890                Amethyst_gprtGetPortECID
+                0x00000000000148f0                Amethyst_gprtSetIgnoreETag
+                0x0000000000014980                Amethyst_gprtGetIgnoreETag
+                0x00000000000149e0                Amethyst_gprtSetEgressMode
+                0x0000000000014a40                Amethyst_gprtGetEgressMode
+                0x0000000000014ad0                Amethyst_gprtSetExtendedPortCtrlReg
+                0x0000000000014bb0                Amethyst_gprtGetExtendedPortCtrlReg
+                0x0000000000014c50                Amethyst_gprtGetPortState
+                0x0000000000014ce0                Amethyst_gprtSetPortState
+                0x0000000000014d40                Amethyst_gprtSetCutThrouthEnable
+                0x0000000000014db0                Amethyst_gprtGetCutThrouthEnable
+                0x0000000000014e40                Amethyst_gprtSetIgnoreFcs
+                0x0000000000014ea0                Amethyst_gprtGetIgnoreFcs
+                0x0000000000014f30                Amethyst_gprtSetAllowBadFcs
+                0x0000000000014f90                Amethyst_gprtGetAllowBadFcs
+                0x0000000000015020                Amethyst_gprtSetPauseLimitOut
+                0x0000000000015070                Amethyst_gprtGetPauseLimitOut
+                0x00000000000150c0                Amethyst_gprtSetPauseLimitIn
+                0x0000000000015100                Amethyst_gprtGetPauseLimitIn
+                0x0000000000015150                Amethyst_gprtSetQueueToPause
+                0x00000000000151a0                Amethyst_gprtGetQueueToPause
+                0x00000000000151f0                Amethyst_gprtSetRxPriorityFlowControlEnable
+                0x00000000000152e0                Amethyst_gprtGetRxPriorityFlowControlEnable
+                0x0000000000015380                Amethyst_gprtSetRxPriorityFlowControlToQueue
+                0x0000000000015470                Amethyst_gprtGetRxPriorityFlowControlToQueue
+                0x0000000000015510                Amethyst_gprtSetTxPriorityFlowControlEnable
+                0x0000000000015600                Amethyst_gprtGetTxPriorityFlowControlEnable
+                0x00000000000156a0                Amethyst_gprtGetOutQueueSize
+                0x0000000000015740                Amethyst_gprtSetMapDA
+                0x00000000000157a0                Amethyst_gprtGetMapDA
+                0x0000000000015830                Amethyst_gprtSetPortLocked
+                0x0000000000015890                Amethyst_gprtGetPortLocked
+                0x0000000000015920                Amethyst_gprtSetHoldAt1
+                0x0000000000015980                Amethyst_gprtGetHoldAt1
+                0x0000000000015a10                Amethyst_gprtSetInt0nAgeOut
+                0x0000000000015a70                Amethyst_gprtGetInt0nAgeOut
+                0x0000000000015b00                Amethyst_gprtSetRefreshLocked
+                0x0000000000015b60                Amethyst_gprtGetRefreshLocked
+                0x0000000000015bf0                Amethyst_gprtSetIgnoreWrongData
+                0x0000000000015c50                Amethyst_gprtGetIgnoreWrongData
+                0x0000000000015ce0                Amethyst_gprtSetARPMirror
+                0x0000000000015d40                Amethyst_gprtGetARPMirror
+                0x0000000000015dd0                Amethyst_gprtRegDump
+ *fill*         0x0000000000015ec8        0x8 
+ .text          0x0000000000015ed0     0x1399 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+                0x00000000000168a0                Amethyst_gBpeEnableSet
+                0x00000000000169f0                Amethyst_gBpeEnableGet
+                0x0000000000016a90                Amethyst_gecidAddEntry
+                0x0000000000016ad0                Amethyst_gecidFlushAll
+                0x0000000000016b40                Amethyst_gecidMove
+                0x0000000000016c00                Amethyst_gecidFlushEntry
+                0x0000000000016c90                Amethyst_gecidGetEcidEntryNext
+                0x0000000000016d10                Amethyst_gecidFindEcidEntry
+                0x0000000000016e30                Amethyst_gecidGetEntryCount
+                0x0000000000017110                Amethyst_gecidDump
+ *fill*         0x0000000000017269        0x7 
+ .text          0x0000000000017270      0xa67 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+                0x0000000000017270                Amethyst_gqosSetPrioMapRule
+                0x00000000000172d0                Amethyst_gqosGetPrioMapRule
+                0x0000000000017360                Amethyst_gprtSetInitialPri
+                0x00000000000173d0                Amethyst_gprtGetInitialPri
+                0x0000000000017490                Amethyst_gprtSetDefQpri
+                0x00000000000174f0                Amethyst_gprtGetDefQpri
+                0x0000000000017590                Amethyst_gprtSetIEEEPrioMap
+                0x00000000000177a0                Amethyst_gprtGetIEEEPrioMap
+                0x00000000000179c0                Amethyst_gprtRewriteDscp
+                0x0000000000017a20                Amethyst_gprtSetCosToQueue
+                0x0000000000017aa0                Amethyst_gprtGetCosToQueue
+                0x0000000000017b00                Amethyst_gprtSetCosToDscp
+                0x0000000000017b90                Amethyst_gprtGetCosToDscp
+                0x0000000000017bf0                Amethyst_gprtSetDefFpri
+                0x0000000000017c50                Amethyst_gprtGetDefFpri
+ *fill*         0x0000000000017cd7        0x9 
+ .text          0x0000000000017ce0      0x84a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+                0x0000000000017ce0                Amethyst_gprtSetQueueCtrl
+                0x0000000000017df0                Amethyst_gprtGetQueueCtrl
+                0x0000000000017f30                Amethyst_gprtSetPortSched
+                0x0000000000017f80                Amethyst_gprtGetPortSched
+                0x0000000000018090                Amethyst_gsysSetQoSWeight
+                0x00000000000182d0                Amethyst_gsysGetQoSWeight
+ *fill*         0x000000000001852a        0x6 
+ .text          0x0000000000018530     0x1a43 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+                0x0000000000018750                Amethyst_gsysSetTrunkMaskTable
+                0x0000000000018880                Amethyst_gsysGetTrunkMaskTable
+                0x00000000000189e0                Amethyst_gsysSetHashTrunk
+                0x0000000000018a10                Amethyst_gsysGetHashTrunk
+                0x0000000000018a80                Amethyst_gsysSetTrunkRouting
+                0x0000000000018be0                Amethyst_gsysGetTrunkRouting
+                0x0000000000018d70                Amethyst_gsysSetFloodBC
+                0x0000000000018da0                Amethyst_gsysGetFloodBC
+                0x0000000000018e10                Amethyst_gsysSetMonitorMgmtCtrl
+                0x0000000000018e40                Amethyst_gsysGetMonitorMgmtCtrl
+                0x0000000000018e60                Amethyst_gsysSetCPUDest
+                0x0000000000018f20                Amethyst_gsysGetCPUDest
+                0x0000000000018fb0                Amethyst_gsysSetIngressMonitorDest
+                0x0000000000019010                Amethyst_gsysGetIngressMonitorDest
+                0x00000000000190a0                Amethyst_gsysSetEgressMonitorDest
+                0x0000000000019110                Amethyst_gsysGetEgressMonitorDest
+                0x00000000000191b0                Amethyst_gsysSetRsvd2CpuEnables
+                0x00000000000191f0                Amethyst_gsysGetRsvd2CpuEnables
+                0x0000000000019270                Amethyst_gsysSetMGMTPri
+                0x0000000000019310                Amethyst_gsysGetMGMTPri
+                0x0000000000019370                Amethyst_gsysSetSMISetup
+                0x0000000000019560                Amethyst_gsysGetSMISetup
+                0x0000000000019730                Amethyst_gsysGlobal1RegDump
+                0x0000000000019800                Amethyst_gsysGlobal2RegDump
+                0x00000000000198d0                Amethyst_gsysSetRMUMode
+                0x0000000000019990                Amethyst_gsysGetRMUMode
+                0x0000000000019a20                Amethyst_gsysQbvWrite
+                0x0000000000019b30                Amethyst_gsysQbvRead
+                0x0000000000019c30                Amethyst_gsysDevIntEnableSet
+                0x0000000000019c90                Amethyst_gsysDevIntEnableGet
+                0x0000000000019d20                Amethyst_gsysDevIntStatusGet
+                0x0000000000019da0                Amethyst_gsysActiveIntEnableSet
+                0x0000000000019e60                Amethyst_gsysActiveIntEnableGet
+                0x0000000000019ef0                Amethyst_gsysActiveIntStatusGet
+ *fill*         0x0000000000019f73        0xd 
+ .text          0x0000000000019f80      0xd5b /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+                0x000000000001a230                Amethyst_gphyReset
+                0x000000000001a300                Amethyst_serdesReset
+                0x000000000001a3c0                Amethyst_gphySetPortLoopback
+                0x000000000001a4b0                Amethyst_gphySetPortSpeed
+                0x000000000001a640                Amethyst_gphyPortPowerDown
+                0x000000000001a730                Amethyst_gphySetPortDuplexMode
+                0x000000000001a850                Amethyst_gphySetPortAutoMode
+                0x000000000001a920                Amethyst_gphySetEEE
+                0x000000000001aa10                Amethyst_gphySetFlowControlEnable
+                0x000000000001ab30                Amethyst_gphySetIntEnable
+                0x000000000001aba0                Amethyst_gphyGetIntEnable
+                0x000000000001ac40                Amethyst_gphyGetIntStatus
+ *fill*         0x000000000001acdb        0x5 
+ .text          0x000000000001ace0      0x4fe /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+                0x000000000001ad90                Amethyst_impRun
+                0x000000000001af40                Amethyst_impReset
+                0x000000000001af90                Amethyst_impLoadToRAM
+                0x000000000001b190                Amethyst_impStop
+ *fill*         0x000000000001b1de        0x2 
+ .text          0x000000000001b1e0     0x1975 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+                0x000000000001b9b0                Amethyst_msdRmuGetID
+                0x000000000001bae0                Amethyst_msdRmuAtuDump
+                0x000000000001bd00                Amethyst_msdRmuEcidDump
+                0x000000000001bf50                Amethyst_msdRmuMib2Dump
+                0x000000000001c380                Amethyst_msdRmuReadRegister
+                0x000000000001c3b0                Amethyst_msdRmuWriteRegister
+                0x000000000001c3d0                Amethyst_msdRmuMultiRegAccess
+                0x000000000001c5c0                Amethyst_msdRmuTCAMDump
+                0x000000000001c730                Amethyst_msdRmuTCAMWrite
+                0x000000000001c8e0                Amethyst_msdRmuTCAMRead
+                0x000000000001ca90                Amethyst_msdRmuRegDump
+ *fill*         0x000000000001cb55        0xb 
+ .text          0x000000000001cb60      0xcb3 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+                0x000000000001cb60                Amethyst_gtcamLoadEntryIntf
+                0x000000000001cd30                Amethyst_gtcamReadTCAMDataIntf
+                0x000000000001cf20                Amethyst_gtcamGetNextTCAMDataIntf
+                0x000000000001d110                Amethyst_gtcamFindEntryIntf
+                0x000000000001d340                Amethyst_gtcamSetModeIntf
+                0x000000000001d350                Amethyst_gtcamGetModeIntf
+                0x000000000001d3b0                Amethyst_gtcamEgrFlushEntryIntf
+                0x000000000001d3c0                Amethyst_gtcamEgrFlushEntryAllPortsIntf
+                0x000000000001d3d0                Amethyst_gtcamEgrLoadEntryIntf
+                0x000000000001d490                Amethyst_gtcamEgrGetNextTCAMDataIntf
+                0x000000000001d570                Amethyst_gtcamEgrReadTCAMDataIntf
+                0x000000000001d650                Amethyst_gtcamAdvConfigIntf
+ *fill*         0x000000000001d813        0xd 
+ .text          0x000000000001d820      0x19d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+                0x000000000001d820                Amethyst_gvctGetAdvCableDiagIntf
+                0x000000000001d920                Amethyst_gvctGetAdvExtendedStatusIntf
+ *fill*         0x000000000001d9bd        0x3 
+ .text          0x000000000001d9c0      0x576 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+                0x000000000001d9c0                Amethyst_gfdbAddMacEntryIntf
+                0x000000000001da40                Amethyst_gfdbGetAtuEntryNextIntf
+                0x000000000001db20                Amethyst_gfdbFlushIntf
+                0x000000000001db30                Amethyst_gfdbFlushInDBIntf
+                0x000000000001db40                Amethyst_gfdbMoveIntf
+                0x000000000001db50                Amethyst_gfdbMoveInDBIntf
+                0x000000000001db60                Amethyst_gfdbPortRemoveIntf
+                0x000000000001db90                Amethyst_gfdbPortRemoveInDBIntf
+                0x000000000001dbc0                Amethyst_gfdbGetViolationIntf
+                0x000000000001dca0                Amethyst_gfdbFindAtuMacEntryIntf
+                0x000000000001dd90                Amethyst_gfdbDump
+ *fill*         0x000000000001df36        0xa 
+ .text          0x000000000001df40      0x848 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+                0x000000000001df40                Amethyst_gvtuFindVidEntryIntf
+                0x000000000001e0b0                Amethyst_gvtuExistVidEntryIntf
+                0x000000000001e150                Amethyst_gvtuFlushIntf
+                0x000000000001e160                Amethyst_gvtuAddEntryIntf
+                0x000000000001e280                Amethyst_gvtuDelEntryIntf
+                0x000000000001e300                Amethyst_gvtuSetModeIntf
+                0x000000000001e310                Amethyst_gvtuGetModeIntf
+                0x000000000001e320                Amethyst_gvtuGetViolationIntf
+                0x000000000001e3e0                Amethyst_gvtuGetEntryCountIntf
+                0x000000000001e490                Amethyst_gvtuSetMemberTagIntf
+                0x000000000001e580                Amethyst_gvtuGetMemberTagIntf
+                0x000000000001e660                Amethyst_gvtuGetEntryNextIntf
+ *fill*         0x000000000001e788        0x8 
+ .text          0x000000000001e790      0x38c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+                0x000000000001e790                Amethyst_gstuAddEntryIntf
+                0x000000000001e860                Amethyst_gstuGetEntryNextIntf
+                0x000000000001e910                Amethyst_gstuDelEntryIntf
+                0x000000000001e970                Amethyst_gstuFindSidEntryIntf
+                0x000000000001ea80                Amethyst_gstuGetEntryCountIntf
+ *fill*         0x000000000001eb1c        0x4 
+ .text          0x000000000001eb20      0x40c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+                0x000000000001eb20                Amethyst_gpirlInitializeIntf
+                0x000000000001eb30                Amethyst_gpirlInitResourceIntf
+                0x000000000001eb40                Amethyst_gpirlCustomSetup_sr2cIntf
+                0x000000000001ec00                Amethyst_gpirlReadResourceIntf
+                0x000000000001ece0                Amethyst_gpirlWriteResourceIntf
+                0x000000000001eda0                Amethyst_gpirlGetResRegIntf
+                0x000000000001edb0                Amethyst_gpirlSetResRegIntf
+                0x000000000001edc0                Amethyst_gpirlAdvConfigIntf
+                0x000000000001eec0                Amethyst_gpirlAdvConfigDisableIntf
+ *fill*         0x000000000001ef2c        0x4 
+ .text          0x000000000001ef30      0x67c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+                0x000000000001f2f0                Amethyst_gqavSetPortQpriXRate
+                0x000000000001f3a0                Amethyst_gqavGetPortQpriXRate
+                0x000000000001f450                Amethyst_gqavSetPortQpriXHiLimit
+                0x000000000001f500                Amethyst_gqavGetPortQpriXHiLimit
+ *fill*         0x000000000001f5ac        0x4 
+ .text          0x000000000001f5b0      0x1bd /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+                0x000000000001f5b0                Amethyst_garpLoadMcEntryIntf
+                0x000000000001f610                Amethyst_garpLoadUcEntryIntf
+                0x000000000001f670                Amethyst_garpReadEntryIntf
+                0x000000000001f6f0                Amethyst_garpGetNextEntryIntf
+ *fill*         0x000000000001f76d        0x3 
+ .text          0x000000000001f770      0x229 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+                0x000000000001f770                Amethyst_gstatsGetPortCounterIntf
+                0x000000000001f780                Amethyst_gstatsGetPortAllCountersIntf
+                0x000000000001f980                Amethyst_gstatsGetHistogramModeIntf
+                0x000000000001f990                Amethyst_gstatsSetHistogramModeIntf
+ *fill*         0x000000000001f999        0x7 
+ .text          0x000000000001f9a0      0x2d9 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+                0x000000000001f9a0                Amethyst_gvlnSetPortVlanDot1qModeIntf
+                0x000000000001f9b0                Amethyst_gvlnGetPortVlanDot1qModeIntf
+                0x000000000001f9c0                Amethyst_gprtSetDiscardTaggedIntf
+                0x000000000001f9d0                Amethyst_gprtGetDiscardTaggedIntf
+                0x000000000001f9e0                Amethyst_gprtSetDiscardUntaggedIntf
+                0x000000000001f9f0                Amethyst_gprtGetDiscardUntaggedIntf
+                0x000000000001fa00                Amethyst_gprtSetUnicastFloodBlockIntf
+                0x000000000001fa10                Amethyst_gprtGetUnicastFloodBlockIntf
+                0x000000000001fa20                Amethyst_gprtSetMulticastFloodBlockIntf
+                0x000000000001fa30                Amethyst_gprtGetMulticastFloodBlockIntf
+                0x000000000001fa40                Amethyst_gprtSetDiscardBCastModeIntf
+                0x000000000001fa50                Amethyst_gprtGetDiscardBCastModeIntf
+                0x000000000001fa60                Amethyst_gprtSetJumboModeIntf
+                0x000000000001fa70                Amethyst_gprtGetJumboModeIntf
+                0x000000000001fa80                Amethyst_gprtSetLearnEnableIntf
+                0x000000000001fa90                Amethyst_gprtGetLearnEnableIntf
+                0x000000000001faa0                Amethyst_gprtGetVTUPriorityOverrideIntf
+                0x000000000001fab0                Amethyst_gprtSetVTUPriorityOverrideIntf
+                0x000000000001fac0                Amethyst_gprtGetSAPriorityOverrideIntf
+                0x000000000001fad0                Amethyst_gprtSetSAPriorityOverrideIntf
+                0x000000000001fae0                Amethyst_gprtGetDAPriorityOverrideIntf
+                0x000000000001faf0                Amethyst_gprtSetDAPriorityOverrideIntf
+                0x000000000001fb00                Amethyst_gprtSetFlowCtrlIntf
+                0x000000000001fb10                Amethyst_gprtGetFlowCtrlIntf
+                0x000000000001fb20                Amethyst_gprtSetForceSpeedIntf
+                0x000000000001fb40                Amethyst_gprtGetForceSpeedIntf
+                0x000000000001fb50                Amethyst_grcSetEgressRateIntf
+                0x000000000001fb60                Amethyst_grcGetEgressRateIntf
+                0x000000000001fb70                Amethyst_grcSetELimitModeIntf
+                0x000000000001fb80                Amethyst_grcGetELimitModeIntf
+                0x000000000001fb90                Amethyst_gprtSetDuplexIntf
+                0x000000000001fba0                Amethyst_gprtGetDuplexIntf
+                0x000000000001fbb0                Amethyst_gprtGetDuplexStatusIntf
+                0x000000000001fbc0                Amethyst_gprtGetForceLinkIntf
+                0x000000000001fbd0                Amethyst_gprtSetForceLinkIntf
+                0x000000000001fbe0                Amethyst_gprtGetSpeedIntf
+                0x000000000001fbf0                Amethyst_gprtGetFrameModeIntf
+                0x000000000001fc00                Amethyst_gprtSetFrameModeIntf
+                0x000000000001fc10                Amethyst_gprtSetEgressModeIntf
+                0x000000000001fc30                Amethyst_gprtGetEgressModeIntf
+                0x000000000001fc40                Amethyst_gprtGetPortStateIntf
+                0x000000000001fc50                Amethyst_gprtSetPortStateIntf
+                0x000000000001fc60                Amethyst_gprtSetCutThrouthEnableIntf
+                0x000000000001fc70                Amethyst_gprtGetCutThrouthEnableIntf
+ *fill*         0x000000000001fc79        0x7 
+ .text          0x000000000001fc80      0x175 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+                0x000000000001fc80                Amethyst_gqosSetPrioMapRuleIntf
+                0x000000000001fc90                Amethyst_gqosGetPrioMapRuleIntf
+                0x000000000001fca0                Amethyst_gprtSetInitialPriIntf
+                0x000000000001fcb0                Amethyst_gprtGetInitialPriIntf
+                0x000000000001fcc0                Amethyst_gprtSetDefQpriIntf
+                0x000000000001fcd0                Amethyst_gprtGetDefQpriIntf
+                0x000000000001fce0                Amethyst_gprtSetIEEEPrioMapIntf
+                0x000000000001fd40                Amethyst_gprtGetIEEEPrioMapIntf
+ *fill*         0x000000000001fdf5        0xb 
+ .text          0x000000000001fe00      0x215 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+                0x000000000001fe00                Amethyst_gecidAddEntryIntf
+                0x000000000001fe90                Amethyst_gecidGetEcidEntryNextIntf
+                0x000000000001ff50                Amethyst_gecidFindEcidEntryIntf
+ *fill*         0x0000000000020015        0xb 
+ .text          0x0000000000020020      0x232 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+                0x0000000000020020                Amethyst_gprtSetQueueCtrlIntf
+                0x0000000000020030                Amethyst_gprtGetQueueCtrlIntf
+                0x0000000000020040                Amethyst_gprtSetPortSchedIntf
+                0x0000000000020050                Amethyst_gprtGetPortSchedIntf
+                0x0000000000020060                Amethyst_gsysSetQoSWeightIntf
+                0x0000000000020160                Amethyst_gsysGetQoSWeightIntf
+ .text          0x0000000000020252        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+ *fill*         0x0000000000020252        0xe 
+ .text          0x0000000000020260       0x19 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+                0x0000000000020260                Amethyst_gphySetPortSpeedIntf
+                0x0000000000020270                Amethyst_gphySetPortAutoModeIntf
+ .text          0x0000000000020279        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+ *fill*         0x0000000000020279        0x7 
+ .text          0x0000000000020280      0x53d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+                0x0000000000020280                Amethyst_gtcamRCLoadEntryIntf
+                0x00000000000203a0                Amethyst_gtcamRCReadEntryIntf
+                0x00000000000204f0                Amethyst_gtcamRCGetNextEntryIntf
+                0x0000000000020640                Amethyst_gtcamRCFindEntryIntf
+ *fill*         0x00000000000207bd        0x3 
+ .text          0x00000000000207c0       0x39 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+                0x00000000000207c0                Amethyst_impRunIntf
+                0x00000000000207d0                Amethyst_impResetIntf
+                0x00000000000207e0                Amethyst_impLoadToRAMIntf
+                0x00000000000207f0                Amethyst_impStopIntf
+ *fill*         0x00000000000207f9        0x7 
+ .text          0x0000000000020800      0xbe2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+                0x0000000000020800                Amethyst_msdRmuGetIDIntf
+                0x0000000000020810                Amethyst_msdRmuAtuDumpIntf
+                0x0000000000020970                Amethyst_msdRmuEcidDumpIntf
+                0x0000000000020ac0                Amethyst_msdRmuMib2DumpIntf
+                0x0000000000020cc0                Amethyst_msdRmuReadRegisterIntf
+                0x0000000000020cd0                Amethyst_msdRmuWriteRegisterIntf
+                0x0000000000020cf0                Amethyst_msdRmuMultiRegAccessIntf
+                0x0000000000020d00                Amethyst_msdRmuTCAMDumpIntf
+                0x0000000000021000                Amethyst_msdRmuTCAMWriteIntf
+                0x00000000000211d0                Amethyst_msdRmuTCAMReadIntf
+ *fill*         0x00000000000213e2        0xe 
+ .text          0x00000000000213f0     0x238c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+                0x0000000000021ef0                Amethyst_gptpSetIntEnable
+                0x0000000000021fe0                Amethyst_gptpGetIntEnable
+                0x0000000000022090                Amethyst_gptpSetProtPTPEn
+                0x0000000000022160                Amethyst_gptpGetProtPTPEn
+                0x0000000000022200                Amethyst_gptpSetPortConfig
+                0x0000000000022450                Amethyst_gptpGetPortConfig
+                0x00000000000226a0                Amethyst_gptpGetTimeStamp
+                0x00000000000227a0                Amethyst_gptpGetTSValidSt
+                0x0000000000022860                Amethyst_gptpResetTimeStamp
+                0x0000000000022920                Amethyst_gptpSetGlobalConfig
+                0x00000000000229e0                Amethyst_gptpGetGlobalConfig
+                0x0000000000022aa0                Amethyst_gptpGetIntStatus
+                0x0000000000022b20                Amethyst_gptpSetMeanPathDelay
+                0x0000000000022bb0                Amethyst_gptpGetMeanPathDelay
+                0x0000000000022c50                Amethyst_gptpSetIgrPathDelayAsym
+                0x0000000000022ce0                Amethyst_gptpGetIgrPathDelayAsym
+                0x0000000000022d80                Amethyst_gptpSetEgrPathDelayAsym
+                0x0000000000022e10                Amethyst_gptpGetEgrPathDelayAsym
+                0x0000000000022eb0                Amethyst_gptpSetMode
+                0x0000000000022f60                Amethyst_gptpGetMode
+                0x0000000000022fd0                Amethyst_gptpSetMasterSlave
+                0x0000000000023080                Amethyst_gptpGetMasterSlave
+                0x00000000000230e0                Amethyst_gptpGetTODBusyBitStatus
+                0x0000000000023160                Amethyst_gptpTODStoreCompensation
+                0x0000000000023220                Amethyst_gptpTODStoreAll
+                0x00000000000232e0                Amethyst_gptpTODCaptureAll
+                0x00000000000235b0                Amethyst_gptpSetPulse
+                0x0000000000023660                Amethyst_gptpGetPulse
+                0x0000000000023700                Amethyst_gtaiGetPTPGlobalTime
+ *fill*         0x000000000002377c        0x4 
+ .text          0x0000000000023780      0x6ac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+                0x0000000000023780                Amethyst_gptpSetIntEnableIntf
+                0x00000000000237e0                Amethyst_gptpGetIntEnableIntf
+                0x0000000000023840                Amethyst_gptpSetPortConfigIntf
+                0x00000000000238c0                Amethyst_gptpGetPortConfigIntf
+                0x0000000000023950                Amethyst_gptpGetTimeStampIntf
+                0x00000000000239c0                Amethyst_gptpSetGlobalConfigIntf
+                0x0000000000023a20                Amethyst_gptpGetGlobalConfigIntf
+                0x0000000000023a90                Amethyst_gptpGetIntStatusIntf
+                0x0000000000023b00                Amethyst_gptpSetModeIntf
+                0x0000000000023b60                Amethyst_gptpGetModeIntf
+                0x0000000000023bc0                Amethyst_gptpSetMasterSlaveIntf
+                0x0000000000023bd0                Amethyst_gptpGetMasterSlaveIntf
+                0x0000000000023be0                Amethyst_gptpTODStoreCompensationIntf
+                0x0000000000023c60                Amethyst_gptpTODStoreAllIntf
+                0x0000000000023ce0                Amethyst_gptpTODCaptureAllIntf
+                0x0000000000023d70                Amethyst_gptpSetPulseIntf
+                0x0000000000023dd0                Amethyst_gptpGetPulseIntf
+ *fill*         0x0000000000023e2c        0x4 
+ .text          0x0000000000023e30      0xd64 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+                0x00000000000240a0                Amethyst_gledForceOn
+                0x0000000000024150                Amethyst_gledForceOff
+                0x0000000000024210                Amethyst_gledLinkAct
+                0x0000000000024300                Amethyst_gledModeSet
+                0x00000000000243d0                Amethyst_gledModeGet
+                0x0000000000024470                Amethyst_gledBlinkRateSet
+                0x0000000000024520                Amethyst_gledBlinkRateGet
+                0x0000000000024600                Amethyst_gledPulseStretchSet
+                0x00000000000246b0                Amethyst_gledPulseStretchGet
+                0x0000000000024780                Amethyst_gledSpecialModeSet
+                0x0000000000024830                Amethyst_gledSpecialModeGet
+                0x00000000000248a0                Amethyst_gledCtrlSet
+                0x00000000000248e0                Amethyst_gledCtrlGet
+                0x0000000000024910                Amethyst_gledDump
+ *fill*         0x0000000000024b94        0xc 
+ .text          0x0000000000024ba0       0xcc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+                0x0000000000024ba0                Amethyst_gledForceOnIntf
+                0x0000000000024bb0                Amethyst_gledForceOffIntf
+                0x0000000000024bc0                Amethyst_gledLinkActIntf
+                0x0000000000024bd0                Amethyst_gledModeSetIntf
+                0x0000000000024be0                Amethyst_gledModeGetIntf
+                0x0000000000024bf0                Amethyst_gledBlinkRateSetIntf
+                0x0000000000024c00                Amethyst_gledBlinkRateGetIntf
+                0x0000000000024c10                Amethyst_gledPulseStretchSetIntf
+                0x0000000000024c20                Amethyst_gledPulseStretchGetIntf
+                0x0000000000024c30                Amethyst_gledSpecialModeSetIntf
+                0x0000000000024c40                Amethyst_gledSpecialModeGetIntf
+                0x0000000000024c50                Amethyst_gledCtrlSetIntf
+                0x0000000000024c60                Amethyst_gledCtrlGetIntf
+ *fill*         0x0000000000024c6c        0x4 
+ .text          0x0000000000024c70      0x1c4 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+                0x0000000000024c70                Amethyst_gtcamRCCompLoadIntf
+                0x0000000000024d50                Amethyst_gtcamRCCompReadIntf
+ *fill*         0x0000000000024e34        0xc 
+ .text          0x0000000000024e40      0x4db /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+                0x0000000000024e40                Amethyst_EEPROMWrite
+                0x0000000000024f80                Amethyst_EEPROMRead
+                0x0000000000025100                Amethyst_EEPROMChipSelSet
+                0x00000000000251e0                Amethyst_EEPROMChipSelGet
+ *fill*         0x000000000002531b        0x5 
+ .text          0x0000000000025320       0x39 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+                0x0000000000025320                Amethyst_EEPROMWriteIntf
+                0x0000000000025330                Amethyst_EEPROMReadIntf
+                0x0000000000025340                Amethyst_EEPROMChipSelSetIntf
+                0x0000000000025350                Amethyst_EEPROMChipSelGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x32
+ .text.unlikely
+                0x0000000000000000        0xa /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .text.unlikely
+                0x000000000000000a        0xa /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .text.unlikely
+                0x0000000000000014        0xa /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .text.unlikely
+                0x000000000000001e       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x133c
+ *(.rodata)
+ .rodata        0x0000000000000000       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ *fill*         0x0000000000000014        0xc 
+ .rodata        0x0000000000000020      0x64c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .rodata        0x000000000000066c       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .rodata        0x00000000000006ac       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ *fill*         0x00000000000006cc       0x14 
+ .rodata        0x00000000000006e0      0xc00 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .rodata        0x00000000000012e0       0x30 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .rodata        0x0000000000001310       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+
+.rodata.str1.8  0x0000000000000000     0x2595
+ .rodata.str1.8
+                0x0000000000000000       0xa4 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ *fill*         0x00000000000000a4        0x4 
+ .rodata.str1.8
+                0x00000000000000a8       0x2d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ *fill*         0x00000000000000d5        0x3 
+ .rodata.str1.8
+                0x00000000000000d8     0x1e28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .rodata.str1.8
+                0x0000000000001f00      0x219 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ *fill*         0x0000000000002119        0x7 
+ .rodata.str1.8
+                0x0000000000002120       0x29 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ *fill*         0x0000000000002149        0x7 
+ .rodata.str1.8
+                0x0000000000002150       0x39 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ *fill*         0x0000000000002189        0x7 
+ .rodata.str1.8
+                0x0000000000002190      0x117 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ *fill*         0x00000000000022a7        0x1 
+ .rodata.str1.8
+                0x00000000000022a8       0x73 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ *fill*         0x000000000000231b        0x5 
+ .rodata.str1.8
+                0x0000000000002320      0x10a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ *fill*         0x000000000000242a        0x6 
+ .rodata.str1.8
+                0x0000000000002430      0x165 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+
+.rodata.str1.1  0x0000000000000000      0xf5a
+ .rodata.str1.1
+                0x0000000000000000      0x42a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ .rodata.str1.1
+                0x000000000000042a      0x374 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .rodata.str1.1
+                0x000000000000079e        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .rodata.str1.1
+                0x00000000000007a0       0x55 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .rodata.str1.1
+                0x00000000000007f5      0x682 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .rodata.str1.1
+                0x0000000000000e77        0xb /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .rodata.str1.1
+                0x0000000000000e82       0x16 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .rodata.str1.1
+                0x0000000000000e98        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .rodata.str1.1
+                0x0000000000000e9a       0xc0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+
+.rodata.cst8    0x0000000000000000       0x20
+ .rodata.cst8   0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x7df8
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x488 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ .eh_frame      0x0000000000000488      0x238 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .eh_frame      0x00000000000006c0      0x138 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+ .eh_frame      0x00000000000007f8      0x1a8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+ .eh_frame      0x00000000000009a0      0x430 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+ .eh_frame      0x0000000000000dd0     0x12e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .eh_frame      0x00000000000020b8      0x2d0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .eh_frame      0x0000000000002388      0x1b0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+ .eh_frame      0x0000000000002538      0x190 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .eh_frame      0x00000000000026c8      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+ .eh_frame      0x00000000000028c8      0x1b8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .eh_frame      0x0000000000002a80     0x1758 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .eh_frame      0x00000000000041d8      0x2f8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ .eh_frame      0x00000000000044d0      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .eh_frame      0x0000000000004810      0x1d0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .eh_frame      0x00000000000049e0      0x7c8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .eh_frame      0x00000000000051a8      0x318 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .eh_frame      0x00000000000054c0      0x130 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+ .eh_frame      0x00000000000055f0      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+ .eh_frame      0x0000000000005930      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+ .eh_frame      0x0000000000005b30       0x80 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+ .eh_frame      0x0000000000005bb0      0x1e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .eh_frame      0x0000000000005d98      0x268 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+ .eh_frame      0x0000000000006000      0x108 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+ .eh_frame      0x0000000000006108      0x160 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+ .eh_frame      0x0000000000006268      0x148 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+ .eh_frame      0x00000000000063b0       0xa8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+ .eh_frame      0x0000000000006458       0x88 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+ .eh_frame      0x00000000000064e0      0x388 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+ .eh_frame      0x0000000000006868       0xf8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+ .eh_frame      0x0000000000006960       0x98 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+ .eh_frame      0x00000000000069f8       0xa8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+ .eh_frame      0x0000000000006aa0       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+ .eh_frame      0x0000000000006ae0       0xe0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+ .eh_frame      0x0000000000006bc0       0x68 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+ .eh_frame      0x0000000000006c28      0x1e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+ .eh_frame      0x0000000000006e10      0x700 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+ .eh_frame      0x0000000000007510      0x228 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+ .eh_frame      0x0000000000007738      0x3e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+ .eh_frame      0x0000000000007b20      0x120 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+ .eh_frame      0x0000000000007c40       0x58 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+ .eh_frame      0x0000000000007c98       0xf8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+ .eh_frame      0x0000000000007d90       0x68 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x200
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+ .data          0x0000000000000000      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x7bc
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ .comment       0x000000000000002c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .comment       0x0000000000000058       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+ .comment       0x0000000000000084       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+ .comment       0x00000000000000b0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+ .comment       0x00000000000000dc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .comment       0x0000000000000108       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .comment       0x0000000000000134       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+ .comment       0x0000000000000160       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .comment       0x000000000000018c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+ .comment       0x00000000000001b8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .comment       0x00000000000001e4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .comment       0x0000000000000210       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ .comment       0x000000000000023c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .comment       0x0000000000000268       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .comment       0x0000000000000294       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .comment       0x00000000000002c0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .comment       0x00000000000002ec       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+ .comment       0x0000000000000318       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+ .comment       0x0000000000000344       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+ .comment       0x0000000000000370       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+ .comment       0x000000000000039c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .comment       0x00000000000003c8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+ .comment       0x00000000000003f4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+ .comment       0x0000000000000420       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+ .comment       0x000000000000044c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+ .comment       0x0000000000000478       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+ .comment       0x00000000000004a4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+ .comment       0x00000000000004d0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+ .comment       0x00000000000004fc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+ .comment       0x0000000000000528       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+ .comment       0x0000000000000554       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+ .comment       0x0000000000000580       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+ .comment       0x00000000000005ac       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+ .comment       0x00000000000005d8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+ .comment       0x0000000000000604       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+ .comment       0x0000000000000630       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+ .comment       0x000000000000065c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+ .comment       0x0000000000000688       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+ .comment       0x00000000000006b4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+ .comment       0x00000000000006e0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+ .comment       0x000000000000070c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+ .comment       0x0000000000000738       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+ .comment       0x0000000000000764       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+ .comment       0x0000000000000790       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRC.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCComp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVct.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdb.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicy.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRL.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmon.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcid.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMU.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdAdvVctIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgFdbIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgVtuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdBrgStuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPIRLIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQav.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdArpIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortRmonIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPortPrioMapIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEcidIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdQueueCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdSysCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPhyCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPolicyIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdIMPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdRMUIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdPTPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLed.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdLedIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdTCAMRCCompIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/Amethyst_msdEEPROMIntf.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o elf64-x86-64)

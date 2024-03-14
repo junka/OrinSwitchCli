@@ -1,0 +1,9 @@
+ untar/unzip UMSD_v7.0.0 and UMSD_Debug_Tool_v7.0.0.
+copy "host" folder/directory from  UMSD_Debug_Tool_v7.0.0 to UMSD_v7.0.0 folder/directory.
+ cd UMSD_v7.0.0 
+ chmod 777 setenv
+ source setenv
+ make
+ cd host/linux
+ make
+ UMSD_MCLI application be created in UMSD_v7.0.0/host/linux folder/directory

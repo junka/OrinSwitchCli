@@ -1,0 +1,1201 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x1839c
+ *(.text .stub)
+ .text          0x0000000000000000     0x2cf6 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+                0x0000000000001620                Peridot_gtcamFlushAll
+                0x0000000000001670                Peridot_gtcamFlushEntry
+                0x00000000000016d0                Peridot_gtcamLoadEntry
+                0x0000000000001760                Peridot_gtcamReadTCAMData
+                0x00000000000017f0                Peridot_gtcamGetNextTCAMData
+                0x0000000000001890                Peridot_gtcamFindEntry
+                0x0000000000001970                Peridot_gtcamSetMode
+                0x00000000000019d0                Peridot_gtcamGetMode
+                0x0000000000001a60                Peridot_gtcamAddEntryPort
+                0x0000000000001b50                Peridot_gtcamRemoveEntryPort
+                0x0000000000001c40                Peridot_gtcamEgrFlushEntry
+                0x0000000000001cc0                Peridot_gtcamEgrFlushEntryAllPorts
+                0x0000000000001d20                Peridot_gtcamEgrLoadEntry
+                0x0000000000001eb0                Peridot_gtcamEgrGetNextTCAMData
+                0x0000000000001f70                Peridot_gtcamEgrReadTCAMData
+                0x0000000000002020                Peridot_gtcamDump
+                0x0000000000002450                Peridot_gtcamAdvConfig
+ *fill*         0x0000000000002cf6        0xa 
+ .text          0x0000000000002d00      0xcce /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+                0x0000000000003210                Peridot_gvctGetAdvCableDiag
+                0x0000000000003680                Peridot_gvctGetAdvExtendedStatus
+ *fill*         0x00000000000039ce        0x2 
+ .text          0x00000000000039d0     0x14d5 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+                0x0000000000004210                Peridot_gfdbGetAtuEntryNext
+                0x0000000000004230                Peridot_gfdbFlush
+                0x00000000000042a0                Peridot_gfdbFlushInDB
+                0x0000000000004330                Peridot_gfdbMove
+                0x0000000000004420                Peridot_gfdbMoveInDB
+                0x0000000000004520                Peridot_gfdbAddMacEntry
+                0x00000000000045f0                Peridot_gfdbDelAtuEntry
+                0x0000000000004680                Peridot_gfdbGetViolation
+                0x0000000000004770                Peridot_gfdbFindAtuMacEntry
+                0x00000000000048b0                Peridot_gfdbSetAgingTimeout
+                0x0000000000004910                Peridot_gfdbGetAgingTimeout
+                0x0000000000004980                Peridot_gfdbGetLearn2All
+                0x0000000000004a00                Peridot_gfdbSetLearn2All
+                0x0000000000004a30                Peridot_gfdbSetPortLearnLimit
+                0x0000000000004ba0                Peridot_gfdbGetPortLearnLimit
+                0x0000000000004cb0                Peridot_gfdbGetPortLearnCount
+                0x0000000000004d70                Peridot_gfdbGetEntryCount
+                0x0000000000004dc0                Peridot_gfdbGetEntryCountPerFid
+                0x0000000000004e10                Peridot_gfdbGetNonStaticEntryCount
+                0x0000000000004e60                Peridot_gfdbGetNonStaticEntryCountPerFid
+ *fill*         0x0000000000004ea5        0xb 
+ .text          0x0000000000004eb0     0x1014 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+                0x0000000000005560                Peridot_gvtuGetEntryNext
+                0x00000000000056a0                Peridot_gvtuFindVidEntry
+                0x0000000000005850                Peridot_gvtuFlush
+                0x0000000000005870                Peridot_gvtuAddEntry
+                0x00000000000059b0                Peridot_gvtuDelEntry
+                0x0000000000005a20                Peridot_gvtuSetMode
+                0x0000000000005b00                Peridot_gvtuGetMode
+                0x0000000000005c20                Peridot_gvtuGetViolation
+                0x0000000000005d40                Peridot_gvtuDump
+ *fill*         0x0000000000005ec4        0xc 
+ .text          0x0000000000005ed0      0x824 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+                0x00000000000062e0                Peridot_gstuGetEntryNext
+                0x00000000000063c0                Peridot_gstuAddEntry
+                0x0000000000006490                Peridot_gstuDelEntry
+                0x00000000000064f0                Peridot_gstuFindSidEntry
+                0x00000000000065f0                Peridot_gstuDump
+ *fill*         0x00000000000066f4        0xc 
+ .text          0x0000000000006700      0x9dc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+                0x00000000000069a0                Peridot_gpirlInitialize
+                0x00000000000069c0                Peridot_gpirlInitResource
+                0x0000000000006a40                Peridot_gpirlCustomSetup_sr2c
+                0x0000000000006c30                Peridot_gpirlReadResource
+                0x0000000000006e00                Peridot_gpirlWriteResource
+                0x0000000000006fb0                Peridot_gpirlGetResReg
+                0x0000000000007050                Peridot_gpirlSetResReg
+ *fill*         0x00000000000070dc        0x4 
+ .text          0x00000000000070e0      0xb57 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+                0x00000000000074b0                Peridot_gstatsFlushAll
+                0x00000000000074d0                Peridot_gstatsFlushPort
+                0x0000000000007510                Peridot_gstatsGetPortCounter
+                0x0000000000007570                Peridot_gstatsGetPortAllCounters
+                0x00000000000075c0                Peridot_gstatsGetHistogramMode
+                0x0000000000007670                Peridot_gstatsSetHistogramMode
+                0x00000000000076b0                Peridot_gmibDump
+ *fill*         0x0000000000007c37        0x9 
+ .text          0x0000000000007c40     0x3b88 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+                0x0000000000007eb0                Peridot_gprtSetForceDefaultVid
+                0x0000000000007f10                Peridot_gprtGetForceDefaultVid
+                0x0000000000007fa0                Peridot_gvlnSetPortVid
+                0x0000000000008000                Peridot_gvlnGetPortVid
+                0x0000000000008090                Peridot_gvlnSetPortVlanDot1qMode
+                0x00000000000080f0                Peridot_gvlnGetPortVlanDot1qMode
+                0x0000000000008180                Peridot_gprtSetDiscardTagged
+                0x00000000000081e0                Peridot_gprtGetDiscardTagged
+                0x0000000000008270                Peridot_gprtSetDiscardUntagged
+                0x00000000000082d0                Peridot_gprtGetDiscardUntagged
+                0x0000000000008360                Peridot_gprtSetUnicastFloodBlock
+                0x00000000000083c0                Peridot_gprtGetUnicastFloodBlock
+                0x0000000000008450                Peridot_gprtSetMulticastFloodBlock
+                0x00000000000084b0                Peridot_gprtGetMulticastFloodBlock
+                0x0000000000008540                Peridot_gprtSetDiscardBCastMode
+                0x00000000000085a0                Peridot_gprtGetDiscardBCastMode
+                0x0000000000008640                Peridot_gprtSetIGMPSnoopEnable
+                0x00000000000086a0                Peridot_gprtGetIGMPSnoopEnable
+                0x0000000000008740                Peridot_gprtGetHeaderMode
+                0x00000000000087e0                Peridot_gprtSetHeaderMode
+                0x0000000000008840                Peridot_gprtGetDropOnLock
+                0x00000000000088e0                Peridot_gprtSetDropOnLock
+                0x0000000000008940                Peridot_gprtSetJumboMode
+                0x00000000000089b0                Peridot_gprtGetJumboMode
+                0x0000000000008a40                Peridot_gprtSetLearnEnable
+                0x0000000000008ab0                Peridot_gprtGetLearnEnable
+                0x0000000000008b40                Peridot_gprtGetVTUPriorityOverride
+                0x0000000000008bd0                Peridot_gprtSetVTUPriorityOverride
+                0x0000000000008c30                Peridot_gprtGetSAPriorityOverride
+                0x0000000000008cc0                Peridot_gprtSetSAPriorityOverride
+                0x0000000000008d20                Peridot_gprtGetDAPriorityOverride
+                0x0000000000008db0                Peridot_gprtSetDAPriorityOverride
+                0x0000000000008e10                Peridot_gprtGetMessagePort
+                0x0000000000008ea0                Peridot_gprtSetMessagePort
+                0x0000000000008f00                Peridot_gprtGetEtherType
+                0x0000000000008f50                Peridot_gprtSetEtherType
+                0x0000000000008fa0                Peridot_gprtGetAllowVidZero
+                0x0000000000009030                Peridot_gprtSetAllowVidZero
+                0x0000000000009090                Peridot_gprtSetTrunkPort
+                0x0000000000009130                Peridot_gprtGetTrunkPort
+                0x0000000000009210                Peridot_gprtSetFlowCtrl
+                0x00000000000092d0                Peridot_gprtGetFlowCtrl
+                0x0000000000009340                Peridot_gprtSetEgressMonitorSource
+                0x00000000000093a0                Peridot_gprtGetEgressMonitorSource
+                0x0000000000009430                Peridot_gprtSetIngressMonitorSource
+                0x0000000000009490                Peridot_gprtGetIngressMonitorSource
+                0x0000000000009520                Peridot_grcSetELimitMode
+                0x0000000000009580                Peridot_grcSetEgressRate
+                0x0000000000009760                Peridot_grcGetELimitMode
+                0x00000000000097f0                Peridot_grcGetEgressRate
+                0x0000000000009930                Peridot_gprtSetDuplex
+                0x00000000000099a0                Peridot_gprtGetDuplex
+                0x0000000000009a70                Peridot_gprtGetDuplexStatus
+                0x0000000000009b00                Peridot_gprtGetForceLink
+                0x0000000000009bc0                Peridot_gprtSetForceLink
+                0x0000000000009c30                Peridot_gprtGetLinkState
+                0x0000000000009cc0                Peridot_gprtSetForceSpeed
+                0x0000000000009f60                Peridot_gprtGetForceSpeed
+                0x000000000000a0f0                Peridot_gprtGetSpeed
+                0x000000000000a200                Peridot_gprtGetVlanPorts
+                0x000000000000a2c0                Peridot_gprtSetVlanPorts
+                0x000000000000a370                Peridot_gprtGetFrameMode
+                0x000000000000a400                Peridot_gprtSetFrameMode
+                0x000000000000a460                Peridot_gprtSetEgressMode
+                0x000000000000a4c0                Peridot_gprtGetEgressMode
+                0x000000000000a550                Peridot_gprtGetPortState
+                0x000000000000a5e0                Peridot_gprtSetPortState
+                0x000000000000a640                Peridot_gprtSetCutThrouthEnable
+                0x000000000000a6b0                Peridot_gprtGetCutThrouthEnable
+                0x000000000000a740                Peridot_gprtSetIgnoreFcs
+                0x000000000000a7a0                Peridot_gprtGetIgnoreFcs
+                0x000000000000a830                Peridot_gprtSetAllowBadFcs
+                0x000000000000a890                Peridot_gprtGetAllowBadFcs
+                0x000000000000a920                Peridot_gprtSetPauseLimitOut
+                0x000000000000a970                Peridot_gprtGetPauseLimitOut
+                0x000000000000a9c0                Peridot_gprtSetPauseLimitIn
+                0x000000000000aa00                Peridot_gprtGetPauseLimitIn
+                0x000000000000aa50                Peridot_gprtSetQueueToPause
+                0x000000000000aaa0                Peridot_gprtGetQueueToPause
+                0x000000000000aaf0                Peridot_gprtSetRxPriorityFlowControlEnable
+                0x000000000000abe0                Peridot_gprtGetRxPriorityFlowControlEnable
+                0x000000000000ac80                Peridot_gprtSetRxPriorityFlowControlToQueue
+                0x000000000000ad70                Peridot_gprtGetRxPriorityFlowControlToQueue
+                0x000000000000ae10                Peridot_gprtSetTxPriorityFlowControlEnable
+                0x000000000000af00                Peridot_gprtGetTxPriorityFlowControlEnable
+                0x000000000000afa0                Peridot_gprtGetOutQueueSize
+                0x000000000000b040                Peridot_gprtSetMapDA
+                0x000000000000b0a0                Peridot_gprtGetMapDA
+                0x000000000000b130                Peridot_gprtSetPortLocked
+                0x000000000000b190                Peridot_gprtGetPortLocked
+                0x000000000000b220                Peridot_gprtSetHoldAt1
+                0x000000000000b280                Peridot_gprtGetHoldAt1
+                0x000000000000b310                Peridot_gprtSetInt0nAgeOut
+                0x000000000000b370                Peridot_gprtGetInt0nAgeOut
+                0x000000000000b400                Peridot_gprtSetRefreshLocked
+                0x000000000000b460                Peridot_gprtGetRefreshLocked
+                0x000000000000b4f0                Peridot_gprtSetIgnoreWrongData
+                0x000000000000b550                Peridot_gprtGetIgnoreWrongData
+                0x000000000000b5e0                Peridot_gprtSetARPMirror
+                0x000000000000b640                Peridot_gprtGetARPMirror
+                0x000000000000b6d0                Peridot_gprtRegDump
+ *fill*         0x000000000000b7c8        0x8 
+ .text          0x000000000000b7d0      0xa67 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+                0x000000000000b7d0                Peridot_gqosSetPrioMapRule
+                0x000000000000b830                Peridot_gqosGetPrioMapRule
+                0x000000000000b8c0                Peridot_gprtSetInitialPri
+                0x000000000000b930                Peridot_gprtGetInitialPri
+                0x000000000000b9f0                Peridot_gprtSetDefQpri
+                0x000000000000ba50                Peridot_gprtGetDefQpri
+                0x000000000000baf0                Peridot_gprtSetIEEEPrioMap
+                0x000000000000bd00                Peridot_gprtGetIEEEPrioMap
+                0x000000000000bf20                Peridot_gprtRewriteDscp
+                0x000000000000bf80                Peridot_gprtSetCosToQueue
+                0x000000000000c000                Peridot_gprtGetCosToQueue
+                0x000000000000c060                Peridot_gprtSetCosToDscp
+                0x000000000000c0f0                Peridot_gprtGetCosToDscp
+                0x000000000000c150                Peridot_gprtSetDefFpri
+                0x000000000000c1b0                Peridot_gprtGetDefFpri
+ *fill*         0x000000000000c237        0x9 
+ .text          0x000000000000c240      0x83a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+                0x000000000000c240                Peridot_gprtSetQueueCtrl
+                0x000000000000c350                Peridot_gprtGetQueueCtrl
+                0x000000000000c490                Peridot_gprtSetPortSched
+                0x000000000000c4e0                Peridot_gprtGetPortSched
+                0x000000000000c5f0                Peridot_gsysSetQoSWeight
+                0x000000000000c820                Peridot_gsysGetQoSWeight
+ *fill*         0x000000000000ca7a        0x6 
+ .text          0x000000000000ca80     0x18a3 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+                0x000000000000cca0                Peridot_gsysSetTrunkMaskTable
+                0x000000000000cdd0                Peridot_gsysGetTrunkMaskTable
+                0x000000000000cf30                Peridot_gsysSetHashTrunk
+                0x000000000000cf60                Peridot_gsysGetHashTrunk
+                0x000000000000cfd0                Peridot_gsysSetTrunkRouting
+                0x000000000000d130                Peridot_gsysGetTrunkRouting
+                0x000000000000d2c0                Peridot_gsysSetFloodBC
+                0x000000000000d2f0                Peridot_gsysGetFloodBC
+                0x000000000000d360                Peridot_gsysSetMonitorMgmtCtrl
+                0x000000000000d390                Peridot_gsysGetMonitorMgmtCtrl
+                0x000000000000d3b0                Peridot_gsysSetCPUDest
+                0x000000000000d470                Peridot_gsysGetCPUDest
+                0x000000000000d500                Peridot_gsysSetIngressMonitorDest
+                0x000000000000d560                Peridot_gsysGetIngressMonitorDest
+                0x000000000000d5f0                Peridot_gsysSetEgressMonitorDest
+                0x000000000000d650                Peridot_gsysGetEgressMonitorDest
+                0x000000000000d6e0                Peridot_gsysSetRsvd2CpuEnables
+                0x000000000000d720                Peridot_gsysGetRsvd2CpuEnables
+                0x000000000000d7a0                Peridot_gsysSetMGMTPri
+                0x000000000000d840                Peridot_gsysGetMGMTPri
+                0x000000000000d8a0                Peridot_gsysSetSMISetup
+                0x000000000000d9d0                Peridot_gsysGetSMISetup
+                0x000000000000dae0                Peridot_gsysGlobal1RegDump
+                0x000000000000dbb0                Peridot_gsysGlobal2RegDump
+                0x000000000000dc80                Peridot_gsysSetRMUMode
+                0x000000000000dd40                Peridot_gsysGetRMUMode
+                0x000000000000ddd0                Peridot_gsysQbvWrite
+                0x000000000000dee0                Peridot_gsysQbvRead
+                0x000000000000dfe0                Peridot_gsysDevIntEnableSet
+                0x000000000000e040                Peridot_gsysDevIntEnableGet
+                0x000000000000e0d0                Peridot_gsysDevIntStatusGet
+                0x000000000000e150                Peridot_gsysActiveIntEnableSet
+                0x000000000000e210                Peridot_gsysActiveIntEnableGet
+                0x000000000000e2a0                Peridot_gsysActiveIntStatusGet
+ *fill*         0x000000000000e323        0xd 
+ .text          0x000000000000e330      0xd5b /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+                0x000000000000e5e0                Peridot_gphyReset
+                0x000000000000e6b0                Peridot_serdesReset
+                0x000000000000e770                Peridot_gphySetPortLoopback
+                0x000000000000e860                Peridot_gphySetPortSpeed
+                0x000000000000e9f0                Peridot_gphyPortPowerDown
+                0x000000000000eae0                Peridot_gphySetPortDuplexMode
+                0x000000000000ec00                Peridot_gphySetPortAutoMode
+                0x000000000000ecd0                Peridot_gphySetEEE
+                0x000000000000edc0                Peridot_gphySetFlowControlEnable
+                0x000000000000eee0                Peridot_gphySetIntEnable
+                0x000000000000ef50                Peridot_gphyGetIntEnable
+                0x000000000000eff0                Peridot_gphyGetIntStatus
+ *fill*         0x000000000000f08b        0x5 
+ .text          0x000000000000f090      0x73e /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+                0x000000000000f200                Peridot_impRun
+                0x000000000000f2e0                Peridot_impReset
+                0x000000000000f3e0                Peridot_impWriteEEPROM
+                0x000000000000f4e0                Peridot_impLoadToEEPROM
+                0x000000000000f630                Peridot_impLoadToRAM
+                0x000000000000f790                Peridot_impStop
+ *fill*         0x000000000000f7ce        0x2 
+ .text          0x000000000000f7d0     0x1615 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+                0x000000000000fea0                Peridot_msdRmuGetID
+                0x000000000000ffd0                Peridot_msdRmuAtuDump
+                0x00000000000101e0                Peridot_msdRmuMib2Dump
+                0x0000000000010610                Peridot_msdRmuReadRegister
+                0x0000000000010640                Peridot_msdRmuWriteRegister
+                0x0000000000010660                Peridot_msdRmuMultiRegAccess
+                0x0000000000010850                Peridot_msdRmuTCAMDump
+                0x00000000000109c0                Peridot_msdRmuTCAMWrite
+                0x0000000000010b70                Peridot_msdRmuTCAMRead
+                0x0000000000010d20                Peridot_msdRmuRegDump
+ *fill*         0x0000000000010de5        0xb 
+ .text          0x0000000000010df0      0xbe9 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+                0x0000000000010df0                Peridot_gtcamLoadEntryIntf
+                0x0000000000010fa0                Peridot_gtcamReadTCAMDataIntf
+                0x0000000000011170                Peridot_gtcamGetNextTCAMDataIntf
+                0x0000000000011340                Peridot_gtcamFindEntryIntf
+                0x0000000000011550                Peridot_gtcamSetModeIntf
+                0x0000000000011560                Peridot_gtcamGetModeIntf
+                0x00000000000115c0                Peridot_gtcamEgrFlushEntryIntf
+                0x00000000000115d0                Peridot_gtcamEgrFlushEntryAllPortsIntf
+                0x00000000000115e0                Peridot_gtcamEgrLoadEntryIntf
+                0x0000000000011690                Peridot_gtcamEgrGetNextTCAMDataIntf
+                0x0000000000011750                Peridot_gtcamEgrReadTCAMDataIntf
+                0x0000000000011810                Peridot_gtcamAdvConfigIntf
+ *fill*         0x00000000000119d9        0x7 
+ .text          0x00000000000119e0      0x19d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+                0x00000000000119e0                Peridot_gvctGetAdvCableDiagIntf
+                0x0000000000011ae0                Peridot_gvctGetAdvExtendedStatusIntf
+ *fill*         0x0000000000011b7d        0x3 
+ .text          0x0000000000011b80      0x576 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+                0x0000000000011b80                Peridot_gfdbAddMacEntryIntf
+                0x0000000000011c00                Peridot_gfdbGetAtuEntryNextIntf
+                0x0000000000011ce0                Peridot_gfdbFlushIntf
+                0x0000000000011cf0                Peridot_gfdbFlushInDBIntf
+                0x0000000000011d00                Peridot_gfdbMoveIntf
+                0x0000000000011d10                Peridot_gfdbMoveInDBIntf
+                0x0000000000011d20                Peridot_gfdbPortRemoveIntf
+                0x0000000000011d50                Peridot_gfdbPortRemoveInDBIntf
+                0x0000000000011d80                Peridot_gfdbGetViolationIntf
+                0x0000000000011e60                Peridot_gfdbFindAtuMacEntryIntf
+                0x0000000000011f50                Peridot_gfdbDump
+ *fill*         0x00000000000120f6        0xa 
+ .text          0x0000000000012100      0x7e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+                0x0000000000012100                Peridot_gvtuFindVidEntryIntf
+                0x0000000000012260                Peridot_gvtuExistVidEntryIntf
+                0x00000000000122f0                Peridot_gvtuFlushIntf
+                0x0000000000012300                Peridot_gvtuAddEntryIntf
+                0x0000000000012410                Peridot_gvtuDelEntryIntf
+                0x0000000000012490                Peridot_gvtuSetModeIntf
+                0x00000000000124a0                Peridot_gvtuGetModeIntf
+                0x00000000000124b0                Peridot_gvtuGetViolationIntf
+                0x0000000000012570                Peridot_gvtuGetEntryCountIntf
+                0x0000000000012620                Peridot_gvtuSetMemberTagIntf
+                0x0000000000012700                Peridot_gvtuGetMemberTagIntf
+                0x00000000000127d0                Peridot_gvtuGetEntryNextIntf
+ *fill*         0x00000000000128e8        0x8 
+ .text          0x00000000000128f0      0x38c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+                0x00000000000128f0                Peridot_gstuAddEntryIntf
+                0x00000000000129c0                Peridot_gstuGetEntryNextIntf
+                0x0000000000012a70                Peridot_gstuDelEntryIntf
+                0x0000000000012ad0                Peridot_gstuFindSidEntryIntf
+                0x0000000000012be0                Peridot_gstuGetEntryCountIntf
+ *fill*         0x0000000000012c7c        0x4 
+ .text          0x0000000000012c80      0x40c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+                0x0000000000012c80                Peridot_gpirlInitializeIntf
+                0x0000000000012c90                Peridot_gpirlInitResourceIntf
+                0x0000000000012ca0                Peridot_gpirlCustomSetup_sr2cIntf
+                0x0000000000012d60                Peridot_gpirlReadResourceIntf
+                0x0000000000012e40                Peridot_gpirlWriteResourceIntf
+                0x0000000000012f00                Peridot_gpirlGetResRegIntf
+                0x0000000000012f10                Peridot_gpirlSetResRegIntf
+                0x0000000000012f20                Peridot_gpirlAdvConfigIntf
+                0x0000000000013020                Peridot_gpirlAdvConfigDisableIntf
+ *fill*         0x000000000001308c        0x4 
+ .text          0x0000000000013090      0x6fd /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+                0x0000000000013090                Peridot_gqavSetPortQpriXRate
+                0x0000000000013220                Peridot_gqavGetPortQpriXRate
+                0x0000000000013410                Peridot_gqavSetPortQpriXHiLimit
+                0x00000000000135a0                Peridot_gqavGetPortQpriXHiLimit
+ *fill*         0x000000000001378d        0x3 
+ .text          0x0000000000013790      0x229 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+                0x0000000000013790                Peridot_gstatsGetPortCounterIntf
+                0x00000000000137a0                Peridot_gstatsGetPortAllCountersIntf
+                0x00000000000139a0                Peridot_gstatsGetHistogramModeIntf
+                0x00000000000139b0                Peridot_gstatsSetHistogramModeIntf
+ *fill*         0x00000000000139b9        0x7 
+ .text          0x00000000000139c0      0x2f9 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+                0x00000000000139c0                Peridot_gvlnSetPortVlanDot1qModeIntf
+                0x00000000000139d0                Peridot_gvlnGetPortVlanDot1qModeIntf
+                0x00000000000139e0                Peridot_gprtSetDiscardTaggedIntf
+                0x00000000000139f0                Peridot_gprtGetDiscardTaggedIntf
+                0x0000000000013a00                Peridot_gprtSetDiscardUntaggedIntf
+                0x0000000000013a10                Peridot_gprtGetDiscardUntaggedIntf
+                0x0000000000013a20                Peridot_gprtSetUnicastFloodBlockIntf
+                0x0000000000013a30                Peridot_gprtGetUnicastFloodBlockIntf
+                0x0000000000013a40                Peridot_gprtSetMulticastFloodBlockIntf
+                0x0000000000013a50                Peridot_gprtGetMulticastFloodBlockIntf
+                0x0000000000013a60                Peridot_gprtSetDiscardBCastModeIntf
+                0x0000000000013a70                Peridot_gprtGetDiscardBCastModeIntf
+                0x0000000000013a80                Peridot_gprtSetJumboModeIntf
+                0x0000000000013a90                Peridot_gprtGetJumboModeIntf
+                0x0000000000013aa0                Peridot_gprtSetLearnEnableIntf
+                0x0000000000013ab0                Peridot_gprtGetLearnEnableIntf
+                0x0000000000013ac0                Peridot_gprtGetVTUPriorityOverrideIntf
+                0x0000000000013ad0                Peridot_gprtSetVTUPriorityOverrideIntf
+                0x0000000000013ae0                Peridot_gprtGetSAPriorityOverrideIntf
+                0x0000000000013af0                Peridot_gprtSetSAPriorityOverrideIntf
+                0x0000000000013b00                Peridot_gprtGetDAPriorityOverrideIntf
+                0x0000000000013b10                Peridot_gprtSetDAPriorityOverrideIntf
+                0x0000000000013b20                Peridot_gprtSetFlowCtrlIntf
+                0x0000000000013b30                Peridot_gprtGetFlowCtrlIntf
+                0x0000000000013b40                Peridot_gprtSetForceSpeedIntf
+                0x0000000000013b80                Peridot_gprtGetForceSpeedIntf
+                0x0000000000013b90                Peridot_grcSetEgressRateIntf
+                0x0000000000013ba0                Peridot_grcGetEgressRateIntf
+                0x0000000000013bb0                Peridot_grcSetELimitModeIntf
+                0x0000000000013bc0                Peridot_grcGetELimitModeIntf
+                0x0000000000013bd0                Peridot_gprtSetDuplexIntf
+                0x0000000000013be0                Peridot_gprtGetDuplexIntf
+                0x0000000000013bf0                Peridot_gprtGetDuplexStatusIntf
+                0x0000000000013c00                Peridot_gprtGetForceLinkIntf
+                0x0000000000013c10                Peridot_gprtSetForceLinkIntf
+                0x0000000000013c20                Peridot_gprtGetSpeedIntf
+                0x0000000000013c30                Peridot_gprtGetFrameModeIntf
+                0x0000000000013c40                Peridot_gprtSetFrameModeIntf
+                0x0000000000013c50                Peridot_gprtSetEgressModeIntf
+                0x0000000000013c70                Peridot_gprtGetEgressModeIntf
+                0x0000000000013c80                Peridot_gprtGetPortStateIntf
+                0x0000000000013c90                Peridot_gprtSetPortStateIntf
+                0x0000000000013ca0                Peridot_gprtSetCutThrouthEnableIntf
+                0x0000000000013cb0                Peridot_gprtGetCutThrouthEnableIntf
+ *fill*         0x0000000000013cb9        0x7 
+ .text          0x0000000000013cc0      0x1a5 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+                0x0000000000013cc0                Peridot_gqosSetPrioMapRuleIntf
+                0x0000000000013cd0                Peridot_gqosGetPrioMapRuleIntf
+                0x0000000000013ce0                Peridot_gprtSetInitialPriIntf
+                0x0000000000013cf0                Peridot_gprtGetInitialPriIntf
+                0x0000000000013d00                Peridot_gprtSetDefQpriIntf
+                0x0000000000013d10                Peridot_gprtGetDefQpriIntf
+                0x0000000000013d20                Peridot_gprtSetIEEEPrioMapIntf
+                0x0000000000013db0                Peridot_gprtGetIEEEPrioMapIntf
+ *fill*         0x0000000000013e65        0xb 
+ .text          0x0000000000013e70      0x2b3 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+                0x0000000000013e70                Peridot_EEPROMWrite
+                0x0000000000013fb0                Peridot_EEPROMRead
+ *fill*         0x0000000000014123        0xd 
+ .text          0x0000000000014130      0x232 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+                0x0000000000014130                Peridot_gprtSetQueueCtrlIntf
+                0x0000000000014140                Peridot_gprtGetQueueCtrlIntf
+                0x0000000000014150                Peridot_gprtSetPortSchedIntf
+                0x0000000000014160                Peridot_gprtGetPortSchedIntf
+                0x0000000000014170                Peridot_gsysSetQoSWeightIntf
+                0x0000000000014270                Peridot_gsysGetQoSWeightIntf
+ .text          0x0000000000014362        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+ *fill*         0x0000000000014362        0xe 
+ .text          0x0000000000014370       0x19 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+                0x0000000000014370                Peridot_gphySetPortSpeedIntf
+                0x0000000000014380                Peridot_gphySetPortAutoModeIntf
+ *fill*         0x0000000000014389        0x7 
+ .text          0x0000000000014390       0x1c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+                0x0000000000014390                Peridot_EEPROMWriteIntf
+                0x00000000000143a0                Peridot_EEPROMReadIntf
+ *fill*         0x00000000000143ac        0x4 
+ .text          0x00000000000143b0       0x59 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+                0x00000000000143b0                Peridot_impRunIntf
+                0x00000000000143c0                Peridot_impResetIntf
+                0x00000000000143d0                Peridot_impWriteEEPROMIntf
+                0x00000000000143e0                Peridot_impLoadToEEPROMIntf
+                0x00000000000143f0                Peridot_impLoadToRAMIntf
+                0x0000000000014400                Peridot_impStopIntf
+ *fill*         0x0000000000014409        0x7 
+ .text          0x0000000000014410      0xa01 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+                0x0000000000014410                Peridot_msdRmuGetIDIntf
+                0x0000000000014420                Peridot_msdRmuAtuDumpIntf
+                0x0000000000014580                Peridot_msdRmuMib2DumpIntf
+                0x0000000000014780                Peridot_msdRmuReadRegisterIntf
+                0x0000000000014790                Peridot_msdRmuWriteRegisterIntf
+                0x00000000000147b0                Peridot_msdRmuMultiRegAccessIntf
+                0x00000000000147c0                Peridot_msdRmuTCAMDumpIntf
+                0x0000000000014a70                Peridot_msdRmuTCAMWriteIntf
+                0x0000000000014c20                Peridot_msdRmuTCAMReadIntf
+ *fill*         0x0000000000014e11        0xf 
+ .text          0x0000000000014e20     0x20bc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+                0x0000000000015680                Peridot_gptpSetIntEnable
+                0x0000000000015770                Peridot_gptpGetIntEnable
+                0x0000000000015820                Peridot_gptpSetProtPTPEn
+                0x00000000000158f0                Peridot_gptpGetProtPTPEn
+                0x0000000000015990                Peridot_gptpSetPortConfig
+                0x0000000000015be0                Peridot_gptpGetPortConfig
+                0x0000000000015e30                Peridot_gptpGetTimeStamp
+                0x0000000000015f30                Peridot_gptpGetTSValidSt
+                0x0000000000015ff0                Peridot_gptpResetTimeStamp
+                0x00000000000160b0                Peridot_gptpSetGlobalConfig
+                0x0000000000016170                Peridot_gptpGetGlobalConfig
+                0x0000000000016230                Peridot_gptpGetIntStatus
+                0x00000000000162b0                Peridot_gptpSetMeanPathDelay
+                0x0000000000016340                Peridot_gptpGetMeanPathDelay
+                0x00000000000163e0                Peridot_gptpSetIgrPathDelayAsym
+                0x0000000000016470                Peridot_gptpGetIgrPathDelayAsym
+                0x0000000000016510                Peridot_gptpSetEgrPathDelayAsym
+                0x00000000000165a0                Peridot_gptpGetEgrPathDelayAsym
+                0x0000000000016640                Peridot_gptpSetMode
+                0x00000000000166f0                Peridot_gptpGetMode
+                0x0000000000016760                Peridot_gptpSetMasterSlave
+                0x0000000000016810                Peridot_gptpGetMasterSlave
+                0x0000000000016870                Peridot_gptpGetTODBusyBitStatus
+                0x00000000000168f0                Peridot_gptpTODStoreCompensation
+                0x00000000000169b0                Peridot_gptpTODStoreAll
+                0x0000000000016a70                Peridot_gptpTODCaptureAll
+                0x0000000000016d40                Peridot_gptpSetPulse
+                0x0000000000016dd0                Peridot_gptpGetPulse
+                0x0000000000016e60                Peridot_gtaiGetPTPGlobalTime
+ *fill*         0x0000000000016edc        0x4 
+ .text          0x0000000000016ee0      0x6cc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+                0x0000000000016ee0                Peridot_gptpSetIntEnableIntf
+                0x0000000000016f40                Peridot_gptpGetIntEnableIntf
+                0x0000000000016fa0                Peridot_gptpSetPortConfigIntf
+                0x0000000000017020                Peridot_gptpGetPortConfigIntf
+                0x00000000000170b0                Peridot_gptpGetTimeStampIntf
+                0x0000000000017120                Peridot_gptpSetGlobalConfigIntf
+                0x0000000000017180                Peridot_gptpGetGlobalConfigIntf
+                0x00000000000171f0                Peridot_gptpGetIntStatusIntf
+                0x0000000000017260                Peridot_gptpSetModeIntf
+                0x00000000000172c0                Peridot_gptpGetModeIntf
+                0x0000000000017320                Peridot_gptpSetMasterSlaveIntf
+                0x0000000000017330                Peridot_gptpGetMasterSlaveIntf
+                0x0000000000017340                Peridot_gptpTODStoreCompensationIntf
+                0x00000000000173c0                Peridot_gptpTODStoreAllIntf
+                0x0000000000017440                Peridot_gptpTODCaptureAllIntf
+                0x00000000000174d0                Peridot_gptpSetPulseIntf
+                0x0000000000017540                Peridot_gptpGetPulseIntf
+ *fill*         0x00000000000175ac        0x4 
+ .text          0x00000000000175b0      0xd14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+                0x0000000000017820                Peridot_gledForceOn
+                0x00000000000178d0                Peridot_gledForceOff
+                0x0000000000017990                Peridot_gledLinkAct
+                0x0000000000017a80                Peridot_gledModeSet
+                0x0000000000017b50                Peridot_gledModeGet
+                0x0000000000017bf0                Peridot_gledBlinkRateSet
+                0x0000000000017ca0                Peridot_gledBlinkRateGet
+                0x0000000000017d80                Peridot_gledPulseStretchSet
+                0x0000000000017e30                Peridot_gledPulseStretchGet
+                0x0000000000017f00                Peridot_gledSpecialModeSet
+                0x0000000000017fb0                Peridot_gledSpecialModeGet
+                0x0000000000018020                Peridot_gledCtrlSet
+                0x0000000000018060                Peridot_gledCtrlGet
+                0x0000000000018090                Peridot_gledDump
+ *fill*         0x00000000000182c4        0xc 
+ .text          0x00000000000182d0       0xcc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+                0x00000000000182d0                Peridot_gledForceOnIntf
+                0x00000000000182e0                Peridot_gledForceOffIntf
+                0x00000000000182f0                Peridot_gledLinkActIntf
+                0x0000000000018300                Peridot_gledModeSetIntf
+                0x0000000000018310                Peridot_gledModeGetIntf
+                0x0000000000018320                Peridot_gledBlinkRateSetIntf
+                0x0000000000018330                Peridot_gledBlinkRateGetIntf
+                0x0000000000018340                Peridot_gledPulseStretchSetIntf
+                0x0000000000018350                Peridot_gledPulseStretchGetIntf
+                0x0000000000018360                Peridot_gledSpecialModeSetIntf
+                0x0000000000018370                Peridot_gledSpecialModeGetIntf
+                0x0000000000018380                Peridot_gledCtrlSetIntf
+                0x0000000000018390                Peridot_gledCtrlGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x1e
+ .text.unlikely
+                0x0000000000000000        0xa /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .text.unlikely
+                0x000000000000000a       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x135c
+ *(.rodata)
+ .rodata        0x0000000000000000      0x64c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .rodata        0x000000000000064c       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .rodata        0x000000000000068c       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ *fill*         0x00000000000006ac       0x14 
+ .rodata        0x00000000000006c0      0xc00 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .rodata        0x00000000000012c0       0x30 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .rodata        0x00000000000012f0       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .rodata        0x0000000000001310       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .rodata        0x0000000000001330       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+
+.rodata.str1.8  0x0000000000000000      0x5b5
+ .rodata.str1.8
+                0x0000000000000000       0xa4 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ *fill*         0x00000000000000a4        0x4 
+ .rodata.str1.8
+                0x00000000000000a8      0x1ad /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ *fill*         0x0000000000000255        0x3 
+ .rodata.str1.8
+                0x0000000000000258       0x29 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ *fill*         0x0000000000000281        0x7 
+ .rodata.str1.8
+                0x0000000000000288       0x39 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ *fill*         0x00000000000002c1        0x7 
+ .rodata.str1.8
+                0x00000000000002c8       0x73 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ *fill*         0x000000000000033b        0x5 
+ .rodata.str1.8
+                0x0000000000000340      0x10a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ *fill*         0x000000000000044a        0x6 
+ .rodata.str1.8
+                0x0000000000000450      0x165 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+
+.rodata.str1.1  0x0000000000000000      0xaff
+ .rodata.str1.1
+                0x0000000000000000      0x374 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ .rodata.str1.1
+                0x0000000000000374        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .rodata.str1.1
+                0x0000000000000376       0x54 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .rodata.str1.1
+                0x00000000000003ca      0x682 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .rodata.str1.1
+                0x0000000000000a4c        0xb /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .rodata.str1.1
+                0x0000000000000a57       0x16 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .rodata.str1.1
+                0x0000000000000a6d        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .rodata.str1.1
+                0x0000000000000a6f       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+
+.rodata.cst8    0x0000000000000000       0x20
+ .rodata.cst8   0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x5e1c
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x488 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ .eh_frame      0x0000000000000488      0x1a8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+ .eh_frame      0x0000000000000630      0x430 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+ .eh_frame      0x0000000000000a60      0x280 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .eh_frame      0x0000000000000ce0      0x190 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .eh_frame      0x0000000000000e70      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+ .eh_frame      0x0000000000001070      0x1b8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .eh_frame      0x0000000000001228     0x1580 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .eh_frame      0x00000000000027a8      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .eh_frame      0x0000000000002ae8      0x1d0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .eh_frame      0x0000000000002cb8      0x7c8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .eh_frame      0x0000000000003480      0x318 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .eh_frame      0x0000000000003798      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+ .eh_frame      0x0000000000003998      0x2f8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+ .eh_frame      0x0000000000003c90      0x1f8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+ .eh_frame      0x0000000000003e88       0x80 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+ .eh_frame      0x0000000000003f08      0x1e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .eh_frame      0x00000000000040f0      0x268 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+ .eh_frame      0x0000000000004358      0x108 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+ .eh_frame      0x0000000000004460      0x160 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+ .eh_frame      0x00000000000045c0      0x148 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+ .eh_frame      0x0000000000004708       0x88 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+ .eh_frame      0x0000000000004790      0x388 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .eh_frame      0x0000000000004b18       0xf8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .eh_frame      0x0000000000004c10       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+ .eh_frame      0x0000000000004ca0       0xa8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+ .eh_frame      0x0000000000004d48       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+ .eh_frame      0x0000000000004d88       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+ .eh_frame      0x0000000000004dc8       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+ .eh_frame      0x0000000000004e58      0x198 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+ .eh_frame      0x0000000000004ff0      0x700 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+ .eh_frame      0x00000000000056f0      0x228 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+ .eh_frame      0x0000000000005918      0x3e8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+ .eh_frame      0x0000000000005d00      0x11c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+                                        0x120 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x200
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ .data          0x0000000000000000      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+ .data          0x0000000000000200        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x604
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ .comment       0x000000000000002c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+ .comment       0x0000000000000058       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+ .comment       0x0000000000000084       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .comment       0x00000000000000b0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .comment       0x00000000000000dc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+ .comment       0x0000000000000108       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .comment       0x0000000000000134       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .comment       0x0000000000000160       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .comment       0x000000000000018c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .comment       0x00000000000001b8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .comment       0x00000000000001e4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .comment       0x0000000000000210       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+ .comment       0x000000000000023c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+ .comment       0x0000000000000268       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+ .comment       0x0000000000000294       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+ .comment       0x00000000000002c0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .comment       0x00000000000002ec       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+ .comment       0x0000000000000318       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+ .comment       0x0000000000000344       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+ .comment       0x0000000000000370       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+ .comment       0x000000000000039c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+ .comment       0x00000000000003c8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .comment       0x00000000000003f4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .comment       0x0000000000000420       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+ .comment       0x000000000000044c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+ .comment       0x0000000000000478       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+ .comment       0x00000000000004a4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+ .comment       0x00000000000004d0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+ .comment       0x00000000000004fc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+ .comment       0x0000000000000528       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+ .comment       0x0000000000000554       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+ .comment       0x0000000000000580       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+ .comment       0x00000000000005ac       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+ .comment       0x00000000000005d8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVct.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdb.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRL.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmon.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMU.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdTCAMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdAdvVctIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgFdbIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgVtuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdBrgStuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPIRLIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQav.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortRmonIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPortPrioMapIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdQueueCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdSysCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPhyCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdEEPROMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdIMPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdRMUIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdPTPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLed.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/Peridot_msdLedIntf.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/peridot/src/api/msdDrv_obj/api.o elf64-x86-64)

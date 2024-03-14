@@ -1,0 +1,929 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x26c39
+ *(.text .stub)
+ .text          0x0000000000000000     0x18d7 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000                Amethyst_msdSetSMIC45PhyReg
+                0x00000000000002a0                Amethyst_msdGetSMIC45PhyReg
+                0x0000000000000550                Amethyst_msdSetSMIPhyReg
+                0x00000000000006e0                Amethyst_msdGetSMIPhyReg
+                0x00000000000008f0                Amethyst_msdSetSMIPhyRegField
+                0x00000000000009e0                Amethyst_msdGetSMIPhyRegField
+                0x0000000000000a80                Amethyst_msdSetPagedPhyRegField
+                0x0000000000000b00                Amethyst_msdGetPagedPhyRegField
+                0x0000000000000bd0                Amethyst_msdWritePagedPhyReg
+                0x0000000000000c30                Amethyst_msdReadPagedPhyReg
+                0x0000000000000c90                Amethyst_msdSetSMIPhyXMDIOReg
+                0x0000000000000da0                Amethyst_msdGetSMIPhyXMDIOReg
+                0x0000000000000ee0                Amethyst_msdPhyReset
+                0x00000000000010a0                Amethyst_msdDirectSetMultiChipReg
+                0x00000000000010c0                Amethyst_msdDirectGetMultiChipReg
+                0x00000000000010e0                Amethyst_msdDirectSetMultiChipRegField
+                0x00000000000011b0                Amethyst_msdDirectGetMultiChipRegField
+                0x0000000000001250                Amethyst_msdSetSMIExtPhyReg
+                0x00000000000013e0                Amethyst_msdGetSMIExtPhyReg
+                0x00000000000015f0                Amethyst_msdWritePagedExtPhyReg
+                0x0000000000001650                Amethyst_msdReadPagedExtPhyReg
+                0x00000000000016b0                Amethyst_msdSetSMIExtPhyXMDIOReg
+                0x00000000000017a0                Amethyst_msdGetSMIExtPhyXMDIOReg
+ *fill*         0x00000000000018d7        0x9 
+ .text          0x00000000000018e0    0x25359 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                0x00000000000030a0                Amethyst_gtcamFlushAll
+                0x00000000000030f0                Amethyst_gtcamFlushEntry
+                0x0000000000003150                Amethyst_gtcamLoadEntry
+                0x00000000000031e0                Amethyst_gtcamReadTCAMData
+                0x0000000000003270                Amethyst_gtcamGetNextTCAMData
+                0x0000000000003310                Amethyst_gtcamFindEntry
+                0x00000000000033f0                Amethyst_gtcamSetMode
+                0x0000000000003450                Amethyst_gtcamGetMode
+                0x00000000000034e0                Amethyst_gtcamAddEntryPort
+                0x00000000000035d0                Amethyst_gtcamRemoveEntryPort
+                0x00000000000036c0                Amethyst_gtcamEgrFlushEntry
+                0x0000000000003740                Amethyst_gtcamEgrFlushEntryAllPorts
+                0x00000000000037a0                Amethyst_gtcamEgrLoadEntry
+                0x0000000000003960                Amethyst_gtcamEgrGetNextTCAMData
+                0x0000000000003a20                Amethyst_gtcamEgrReadTCAMData
+                0x0000000000003ad0                Amethyst_gtcamDump
+                0x0000000000003f90                Amethyst_gtcamAdvConfig
+                0x0000000000005200                Amethyst_gtcamRCFlushAllEntry
+                0x00000000000052c0                Amethyst_gtcamRCFlushEntry
+                0x0000000000005390                Amethyst_gtcamRCLoadEntry
+                0x00000000000056a0                Amethyst_gtcamRCReadEntry
+                0x00000000000057a0                Amethyst_gtcamRCGetNextEntry
+                0x00000000000058c0                Amethyst_gtcamRCFindEntry
+                0x0000000000005a10                Amethyst_gtcamRCEntryDump
+                0x0000000000006200                Amethyst_gtcamRCCompFlushAll
+                0x00000000000062c0                Amethyst_gtcamRCCompFlushPort
+                0x00000000000063a0                Amethyst_gtcamRCCompLoad
+                0x0000000000006610                Amethyst_gtcamRCCompRead
+                0x0000000000006d20                Amethyst_gvctGetAdvCableDiag
+                0x0000000000007190                Amethyst_gvctGetAdvExtendedStatus
+                0x00000000000086b0                Amethyst_gfdbGetAtuEntryNext
+                0x00000000000086d0                Amethyst_gfdbFlush
+                0x0000000000008740                Amethyst_gfdbFlushInDB
+                0x00000000000087d0                Amethyst_gfdbMove
+                0x00000000000088c0                Amethyst_gfdbMoveInDB
+                0x00000000000089c0                Amethyst_gfdbAddMacEntry
+                0x0000000000008a90                Amethyst_gfdbDelAtuEntry
+                0x0000000000008b20                Amethyst_gfdbGetViolation
+                0x0000000000008c50                Amethyst_gfdbFindAtuMacEntry
+                0x0000000000008d90                Amethyst_gfdbSetAgingTimeout
+                0x0000000000008e10                Amethyst_gfdbGetAgingTimeout
+                0x0000000000008ea0                Amethyst_gfdbGetLearn2All
+                0x0000000000008f40                Amethyst_gfdbSetLearn2All
+                0x0000000000008f90                Amethyst_gfdbSetPortLearnLimit
+                0x0000000000009100                Amethyst_gfdbGetPortLearnLimit
+                0x0000000000009210                Amethyst_gfdbGetPortLearnCount
+                0x00000000000092d0                Amethyst_gfdbGetEntryCount
+                0x0000000000009320                Amethyst_gfdbGetEntryCountPerFid
+                0x0000000000009370                Amethyst_gfdbGetNonStaticEntryCount
+                0x00000000000093c0                Amethyst_gfdbGetNonStaticEntryCountPerFid
+                0x0000000000009680                Amethyst_gpolicySetMgmtCtrl
+                0x00000000000096a0                Amethyst_gpolicyGetMgmtCtrl
+                0x00000000000096c0                Amethyst_gpolicySetCpuDest
+                0x00000000000097a0                Amethyst_gpolicyGetCpuDest
+                0x0000000000009830                Amethyst_gpolicySetIngressMonitorDest
+                0x0000000000009910                Amethyst_gpolicyGetIngressMonitorDest
+                0x00000000000099a0                Amethyst_gpolicySetRsvd2CpuEnables
+                0x00000000000099f0                Amethyst_gpolicyGetRsvd2CpuEnables
+                0x0000000000009a90                Amethyst_gpolicySetMGMTPri
+                0x0000000000009b30                Amethyst_gpolicyGetMGMTPri
+                0x0000000000009b90                Amethyst_gpolicySetRouteDest
+                0x0000000000009c70                Amethyst_gpolicyGetRouteDest
+                0x0000000000009d00                Amethyst_gpolicySetMirrorDest
+                0x0000000000009de0                Amethyst_gpolicyGetMirrorDest
+                0x0000000000009e70                Amethyst_gpolicySetIllegalIPAddr
+                0x0000000000009f10                Amethyst_gpolicyGetIllegalIPAddr
+                0x0000000000009f70                Amethyst_gpolicySetDipDaMismatch
+                0x000000000000a010                Amethyst_gpolicyGetDipDaMismatch
+                0x000000000000a070                Amethyst_gpolicySetZeroSIP
+                0x000000000000a110                Amethyst_gpolicyGetZeroSIP
+                0x000000000000a170                Amethyst_gpolicySetMcTtlExceeded
+                0x000000000000a250                Amethyst_gpolicyGetMcTtlExceeded
+                0x000000000000a320                Amethyst_gpolicySetUcTtlExceeded
+                0x000000000000a3e0                Amethyst_gpolicyGetUcTtlExceeded
+                0x000000000000a440                Amethyst_gprtSetPortTtlThreshold
+                0x000000000000a4d0                Amethyst_gprtGetPortTtlThreshold
+                0x000000000000a530                Amethyst_gpolicySetIpHdrErr
+                0x000000000000a5d0                Amethyst_gpolicyGetIpHdrErr
+                0x000000000000a630                Amethyst_gpolicySetTCPFinUrgPsh
+                0x000000000000a6d0                Amethyst_gpolicyGetTCPFinUrgPsh
+                0x000000000000a730                Amethyst_gpolicySetTCPFlagsSeqNum
+                0x000000000000a7d0                Amethyst_gpolicyGetTCPFlagsSeqNum
+                0x000000000000a830                Amethyst_gpolicySetTCPSYN
+                0x000000000000a8d0                Amethyst_gpolicyGetTCPSYN
+                0x000000000000a930                Amethyst_gpolicySetTCPHSize
+                0x000000000000a9d0                Amethyst_gpolicyGetTCPHSize
+                0x000000000000aa30                Amethyst_gprtSetPortTCPMinHdrSize
+                0x000000000000aac0                Amethyst_gprtGetPortTCPMinHdrSize
+                0x000000000000ab20                Amethyst_gpolicySetICMPSize
+                0x000000000000abc0                Amethyst_gpolicyGetICMPSize
+                0x000000000000ac20                Amethyst_gprtSetPortICMPMaxSize
+                0x000000000000ac70                Amethyst_gprtGetPortICMPMaxSize
+                0x000000000000ad00                Amethyst_gpolicySetUDPPort
+                0x000000000000ada0                Amethyst_gpolicyGetUDPPort
+                0x000000000000ae00                Amethyst_gpolicySetTCPPort
+                0x000000000000aea0                Amethyst_gpolicyGetTCPPort
+                0x000000000000af00                Amethyst_gpolicySetTCPSynFin
+                0x000000000000afa0                Amethyst_gpolicyGetTCPSynFin
+                0x000000000000b000                Amethyst_gpolicySetTCPFrag
+                0x000000000000b0a0                Amethyst_gpolicyGetTCPFrag
+                0x000000000000b100                Amethyst_gpolicySetNearNonTPMR
+                0x000000000000b1a0                Amethyst_gpolicyGetNearNonTPMR
+                0x000000000000b200                Amethyst_gpolicySetETag
+                0x000000000000b2a0                Amethyst_gpolicyGetETag
+                0x000000000000b300                Amethyst_gpolicySetNonETag
+                0x000000000000b3a0                Amethyst_gpolicyGetNonETag
+                0x000000000000b400                Amethyst_gpolicyDump
+                0x000000000000fb40                Amethyst_gvtuGetEntryNext
+                0x000000000000fc90                Amethyst_gvtuFindVidEntry
+                0x000000000000fe50                Amethyst_gvtuFlush
+                0x000000000000fe70                Amethyst_gvtuAddEntry
+                0x000000000000ffc0                Amethyst_gvtuDelEntry
+                0x0000000000010040                Amethyst_gvtuSetMode
+                0x00000000000101c0                Amethyst_gvtuGetMode
+                0x0000000000010360                Amethyst_gvtuGetViolation_MultiChip
+                0x0000000000010470                Amethyst_gvtuGetViolation
+                0x00000000000105e0                Amethyst_gvtuDump
+                0x0000000000010d60                Amethyst_garpLoadMcEntry
+                0x0000000000010f00                Amethyst_garpLoadUcEntry
+                0x0000000000011040                Amethyst_garpFlushEntry
+                0x0000000000011110                Amethyst_garpFlushAll
+                0x00000000000111d0                Amethyst_garpReadEntry
+                0x00000000000112d0                Amethyst_garpGetNextEntry
+                0x0000000000011800                Amethyst_gstuGetEntryNext
+                0x00000000000118e0                Amethyst_gstuAddEntry
+                0x00000000000119b0                Amethyst_gstuDelEntry
+                0x0000000000011a10                Amethyst_gstuFindSidEntry
+                0x0000000000011b10                Amethyst_gstuDump
+                0x0000000000012090                Amethyst_gpirlInitialize
+                0x00000000000120b0                Amethyst_gpirlInitResource
+                0x0000000000012130                Amethyst_gpirlCustomSetup_sr2c
+                0x0000000000012320                Amethyst_gpirlReadResource
+                0x00000000000124f0                Amethyst_gpirlWriteResource
+                0x00000000000126a0                Amethyst_gpirlGetResReg
+                0x0000000000012740                Amethyst_gpirlSetResReg
+                0x0000000000012de0                Amethyst_gstatsFlushAll
+                0x0000000000012e00                Amethyst_gstatsFlushPort
+                0x0000000000012e40                Amethyst_gstatsGetPortCounter
+                0x0000000000012ea0                Amethyst_gstatsGetPortAllCounters
+                0x0000000000012ef0                Amethyst_gstatsGetHistogramMode
+                0x0000000000012fa0                Amethyst_gstatsSetHistogramMode
+                0x0000000000012fe0                Amethyst_gmibDump
+                0x0000000000013b20                Amethyst_gvlnSetPortVid
+                0x0000000000013b80                Amethyst_gvlnGetPortVid
+                0x0000000000013c10                Amethyst_gprtSetForceDefaultVid
+                0x0000000000013c70                Amethyst_gprtGetForceDefaultVid
+                0x0000000000013d00                Amethyst_gvlnSetPortVlanDot1qMode
+                0x0000000000013d60                Amethyst_gvlnGetPortVlanDot1qMode
+                0x0000000000013df0                Amethyst_gprtSetDiscardTagged
+                0x0000000000013e50                Amethyst_gprtGetDiscardTagged
+                0x0000000000013ee0                Amethyst_gprtSetDiscardUntagged
+                0x0000000000013f40                Amethyst_gprtGetDiscardUntagged
+                0x0000000000013fd0                Amethyst_gprtSetUnicastFloodBlock
+                0x0000000000014030                Amethyst_gprtGetUnicastFloodBlock
+                0x00000000000140c0                Amethyst_gprtSetMulticastFloodBlock
+                0x0000000000014120                Amethyst_gprtGetMulticastFloodBlock
+                0x00000000000141b0                Amethyst_gprtSetDiscardBCastMode
+                0x0000000000014210                Amethyst_gprtGetDiscardBCastMode
+                0x00000000000142b0                Amethyst_gprtSetIGMPSnoopEnable
+                0x0000000000014310                Amethyst_gprtGetIGMPSnoopEnable
+                0x00000000000143b0                Amethyst_gprtGetHeaderMode
+                0x0000000000014450                Amethyst_gprtSetHeaderMode
+                0x00000000000144b0                Amethyst_gprtGetDropOnLock
+                0x0000000000014550                Amethyst_gprtSetDropOnLock
+                0x00000000000145b0                Amethyst_gprtSetJumboMode
+                0x0000000000014620                Amethyst_gprtGetJumboMode
+                0x00000000000146b0                Amethyst_gprtSetLearnEnable
+                0x0000000000014720                Amethyst_gprtGetLearnEnable
+                0x00000000000147b0                Amethyst_gprtGetVTUPriorityOverride
+                0x0000000000014840                Amethyst_gprtSetVTUPriorityOverride
+                0x00000000000148a0                Amethyst_gprtGetSAPriorityOverride
+                0x0000000000014930                Amethyst_gprtSetSAPriorityOverride
+                0x0000000000014990                Amethyst_gprtGetDAPriorityOverride
+                0x0000000000014a20                Amethyst_gprtSetDAPriorityOverride
+                0x0000000000014a80                Amethyst_gprtGetMessagePort
+                0x0000000000014b10                Amethyst_gprtSetMessagePort
+                0x0000000000014b70                Amethyst_gprtGetEtherType
+                0x0000000000014b90                Amethyst_gprtSetEtherType
+                0x0000000000014bb0                Amethyst_gprtGetAllowVidZero
+                0x0000000000014c40                Amethyst_gprtSetAllowVidZero
+                0x0000000000014ca0                Amethyst_gprtSetTrunkPort
+                0x0000000000014d40                Amethyst_gprtGetTrunkPort
+                0x0000000000014e20                Amethyst_gprtSetFlowCtrl
+                0x0000000000014ee0                Amethyst_gprtGetFlowCtrl
+                0x0000000000014f50                Amethyst_gprtSetEgressMonitorSource
+                0x0000000000014fb0                Amethyst_gprtGetEgressMonitorSource
+                0x0000000000015040                Amethyst_gprtSetIngressMonitorSource
+                0x00000000000150a0                Amethyst_gprtGetIngressMonitorSource
+                0x0000000000015130                Amethyst_grcSetELimitMode
+                0x0000000000015190                Amethyst_grcSetEgressRate
+                0x0000000000015370                Amethyst_grcGetELimitMode
+                0x0000000000015400                Amethyst_grcGetEgressRate
+                0x0000000000015540                Amethyst_gprtSetDuplex
+                0x00000000000155b0                Amethyst_gprtGetDuplex
+                0x0000000000015680                Amethyst_gprtGetDuplexStatus
+                0x0000000000015710                Amethyst_gprtGetForceLink
+                0x00000000000157d0                Amethyst_gprtSetForceLink
+                0x0000000000015840                Amethyst_gprtGetLinkState
+                0x00000000000158d0                Amethyst_gprtSetForceSpeed
+                0x0000000000015ba0                Amethyst_gprtGetForceSpeed
+                0x0000000000015d40                Amethyst_gprtGetSpeed
+                0x0000000000015e70                Amethyst_gprtGetVlanPorts
+                0x0000000000015f30                Amethyst_gprtSetVlanPorts
+                0x0000000000015fe0                Amethyst_gprtGetFrameMode
+                0x0000000000016070                Amethyst_gprtSetFrameMode
+                0x00000000000160d0                Amethyst_gprtSetPortECID
+                0x0000000000016170                Amethyst_gprtGetPortECID
+                0x00000000000161d0                Amethyst_gprtSetIgnoreETag
+                0x0000000000016260                Amethyst_gprtGetIgnoreETag
+                0x00000000000162c0                Amethyst_gprtSetEgressMode
+                0x0000000000016320                Amethyst_gprtGetEgressMode
+                0x00000000000163b0                Amethyst_gprtSetExtendedPortCtrlReg
+                0x0000000000016490                Amethyst_gprtGetExtendedPortCtrlReg
+                0x0000000000016530                Amethyst_gprtGetPortState
+                0x00000000000165c0                Amethyst_gprtSetPortState
+                0x0000000000016620                Amethyst_gprtSetCutThrouthEnable
+                0x0000000000016690                Amethyst_gprtGetCutThrouthEnable
+                0x0000000000016720                Amethyst_gprtSetIgnoreFcs
+                0x0000000000016780                Amethyst_gprtGetIgnoreFcs
+                0x0000000000016810                Amethyst_gprtSetAllowBadFcs
+                0x0000000000016870                Amethyst_gprtGetAllowBadFcs
+                0x0000000000016900                Amethyst_gprtSetPauseLimitOut
+                0x0000000000016950                Amethyst_gprtGetPauseLimitOut
+                0x00000000000169a0                Amethyst_gprtSetPauseLimitIn
+                0x00000000000169e0                Amethyst_gprtGetPauseLimitIn
+                0x0000000000016a30                Amethyst_gprtSetQueueToPause
+                0x0000000000016a80                Amethyst_gprtGetQueueToPause
+                0x0000000000016ad0                Amethyst_gprtSetRxPriorityFlowControlEnable
+                0x0000000000016bc0                Amethyst_gprtGetRxPriorityFlowControlEnable
+                0x0000000000016c60                Amethyst_gprtSetRxPriorityFlowControlToQueue
+                0x0000000000016d50                Amethyst_gprtGetRxPriorityFlowControlToQueue
+                0x0000000000016df0                Amethyst_gprtSetTxPriorityFlowControlEnable
+                0x0000000000016ee0                Amethyst_gprtGetTxPriorityFlowControlEnable
+                0x0000000000016f80                Amethyst_gprtGetOutQueueSize
+                0x0000000000017020                Amethyst_gprtSetMapDA
+                0x0000000000017080                Amethyst_gprtGetMapDA
+                0x0000000000017110                Amethyst_gprtSetPortLocked
+                0x0000000000017170                Amethyst_gprtGetPortLocked
+                0x0000000000017200                Amethyst_gprtSetHoldAt1
+                0x0000000000017260                Amethyst_gprtGetHoldAt1
+                0x00000000000172f0                Amethyst_gprtSetInt0nAgeOut
+                0x0000000000017350                Amethyst_gprtGetInt0nAgeOut
+                0x00000000000173e0                Amethyst_gprtSetRefreshLocked
+                0x0000000000017440                Amethyst_gprtGetRefreshLocked
+                0x00000000000174d0                Amethyst_gprtSetIgnoreWrongData
+                0x0000000000017530                Amethyst_gprtGetIgnoreWrongData
+                0x00000000000175c0                Amethyst_gprtSetARPMirror
+                0x0000000000017620                Amethyst_gprtGetARPMirror
+                0x00000000000176b0                Amethyst_gprtRegDump
+                0x0000000000018180                Amethyst_gBpeEnableSet
+                0x00000000000182d0                Amethyst_gBpeEnableGet
+                0x0000000000018370                Amethyst_gecidAddEntry
+                0x00000000000183b0                Amethyst_gecidFlushAll
+                0x0000000000018420                Amethyst_gecidMove
+                0x00000000000184e0                Amethyst_gecidFlushEntry
+                0x0000000000018570                Amethyst_gecidGetEcidEntryNext
+                0x00000000000185f0                Amethyst_gecidFindEcidEntry
+                0x0000000000018710                Amethyst_gecidGetEntryCount
+                0x00000000000189f0                Amethyst_gecidDump
+                0x0000000000018b50                Amethyst_gqosSetPrioMapRule
+                0x0000000000018bb0                Amethyst_gqosGetPrioMapRule
+                0x0000000000018c40                Amethyst_gprtSetInitialPri
+                0x0000000000018cb0                Amethyst_gprtGetInitialPri
+                0x0000000000018d70                Amethyst_gprtSetDefQpri
+                0x0000000000018dd0                Amethyst_gprtGetDefQpri
+                0x0000000000018e70                Amethyst_gprtSetIEEEPrioMap
+                0x0000000000019080                Amethyst_gprtGetIEEEPrioMap
+                0x00000000000192a0                Amethyst_gprtRewriteDscp
+                0x0000000000019300                Amethyst_gprtSetCosToQueue
+                0x0000000000019380                Amethyst_gprtGetCosToQueue
+                0x00000000000193e0                Amethyst_gprtSetCosToDscp
+                0x0000000000019470                Amethyst_gprtGetCosToDscp
+                0x00000000000194d0                Amethyst_gprtSetDefFpri
+                0x0000000000019530                Amethyst_gprtGetDefFpri
+                0x00000000000195c0                Amethyst_gprtSetQueueCtrl
+                0x00000000000196d0                Amethyst_gprtGetQueueCtrl
+                0x0000000000019810                Amethyst_gprtSetPortSched
+                0x0000000000019860                Amethyst_gprtGetPortSched
+                0x0000000000019970                Amethyst_gsysSetQoSWeight
+                0x0000000000019bb0                Amethyst_gsysGetQoSWeight
+                0x000000000001a030                Amethyst_gsysSetTrunkMaskTable
+                0x000000000001a160                Amethyst_gsysGetTrunkMaskTable
+                0x000000000001a2c0                Amethyst_gsysSetHashTrunk
+                0x000000000001a2f0                Amethyst_gsysGetHashTrunk
+                0x000000000001a360                Amethyst_gsysSetTrunkRouting
+                0x000000000001a4c0                Amethyst_gsysGetTrunkRouting
+                0x000000000001a650                Amethyst_gsysSetFloodBC
+                0x000000000001a680                Amethyst_gsysGetFloodBC
+                0x000000000001a6f0                Amethyst_gsysSetMonitorMgmtCtrl
+                0x000000000001a720                Amethyst_gsysGetMonitorMgmtCtrl
+                0x000000000001a740                Amethyst_gsysSetCPUDest
+                0x000000000001a800                Amethyst_gsysGetCPUDest
+                0x000000000001a890                Amethyst_gsysSetIngressMonitorDest
+                0x000000000001a8f0                Amethyst_gsysGetIngressMonitorDest
+                0x000000000001a980                Amethyst_gsysSetEgressMonitorDest
+                0x000000000001a9f0                Amethyst_gsysGetEgressMonitorDest
+                0x000000000001aa90                Amethyst_gsysSetRsvd2CpuEnables
+                0x000000000001aad0                Amethyst_gsysGetRsvd2CpuEnables
+                0x000000000001ab50                Amethyst_gsysSetMGMTPri
+                0x000000000001abf0                Amethyst_gsysGetMGMTPri
+                0x000000000001ac50                Amethyst_gsysSetSMISetup
+                0x000000000001ae40                Amethyst_gsysGetSMISetup
+                0x000000000001b010                Amethyst_gsysGlobal1RegDump
+                0x000000000001b0e0                Amethyst_gsysGlobal2RegDump
+                0x000000000001b1b0                Amethyst_gsysSetRMUMode
+                0x000000000001b270                Amethyst_gsysGetRMUMode
+                0x000000000001b300                Amethyst_gsysQbvWrite
+                0x000000000001b410                Amethyst_gsysQbvRead
+                0x000000000001b510                Amethyst_gsysDevIntEnableSet
+                0x000000000001b570                Amethyst_gsysDevIntEnableGet
+                0x000000000001b600                Amethyst_gsysDevIntStatusGet
+                0x000000000001b680                Amethyst_gsysActiveIntEnableSet
+                0x000000000001b740                Amethyst_gsysActiveIntEnableGet
+                0x000000000001b7d0                Amethyst_gsysActiveIntStatusGet
+                0x000000000001bb10                Amethyst_gphyReset
+                0x000000000001bbe0                Amethyst_serdesReset
+                0x000000000001bca0                Amethyst_gphySetPortLoopback
+                0x000000000001bd90                Amethyst_gphySetPortSpeed
+                0x000000000001bf20                Amethyst_gphyPortPowerDown
+                0x000000000001c010                Amethyst_gphySetPortDuplexMode
+                0x000000000001c130                Amethyst_gphySetPortAutoMode
+                0x000000000001c200                Amethyst_gphySetEEE
+                0x000000000001c2f0                Amethyst_gphySetFlowControlEnable
+                0x000000000001c410                Amethyst_gphySetIntEnable
+                0x000000000001c480                Amethyst_gphyGetIntEnable
+                0x000000000001c520                Amethyst_gphyGetIntStatus
+                0x000000000001c670                Amethyst_impRun
+                0x000000000001c820                Amethyst_impReset
+                0x000000000001c870                Amethyst_impLoadToRAM
+                0x000000000001ca70                Amethyst_impStop
+                0x000000000001d290                Amethyst_msdRmuGetID
+                0x000000000001d3c0                Amethyst_msdRmuAtuDump
+                0x000000000001d5e0                Amethyst_msdRmuEcidDump
+                0x000000000001d830                Amethyst_msdRmuMib2Dump
+                0x000000000001dc60                Amethyst_msdRmuReadRegister
+                0x000000000001dc90                Amethyst_msdRmuWriteRegister
+                0x000000000001dcb0                Amethyst_msdRmuMultiRegAccess
+                0x000000000001dea0                Amethyst_msdRmuTCAMDump
+                0x000000000001e010                Amethyst_msdRmuTCAMWrite
+                0x000000000001e1c0                Amethyst_msdRmuTCAMRead
+                0x000000000001e370                Amethyst_msdRmuRegDump
+                0x000000000001e440                Amethyst_gtcamLoadEntryIntf
+                0x000000000001e610                Amethyst_gtcamReadTCAMDataIntf
+                0x000000000001e800                Amethyst_gtcamGetNextTCAMDataIntf
+                0x000000000001e9f0                Amethyst_gtcamFindEntryIntf
+                0x000000000001ec20                Amethyst_gtcamSetModeIntf
+                0x000000000001ec30                Amethyst_gtcamGetModeIntf
+                0x000000000001ec90                Amethyst_gtcamEgrFlushEntryIntf
+                0x000000000001eca0                Amethyst_gtcamEgrFlushEntryAllPortsIntf
+                0x000000000001ecb0                Amethyst_gtcamEgrLoadEntryIntf
+                0x000000000001ed70                Amethyst_gtcamEgrGetNextTCAMDataIntf
+                0x000000000001ee50                Amethyst_gtcamEgrReadTCAMDataIntf
+                0x000000000001ef30                Amethyst_gtcamAdvConfigIntf
+                0x000000000001f100                Amethyst_gvctGetAdvCableDiagIntf
+                0x000000000001f200                Amethyst_gvctGetAdvExtendedStatusIntf
+                0x000000000001f2a0                Amethyst_gfdbAddMacEntryIntf
+                0x000000000001f320                Amethyst_gfdbGetAtuEntryNextIntf
+                0x000000000001f400                Amethyst_gfdbFlushIntf
+                0x000000000001f410                Amethyst_gfdbFlushInDBIntf
+                0x000000000001f420                Amethyst_gfdbMoveIntf
+                0x000000000001f430                Amethyst_gfdbMoveInDBIntf
+                0x000000000001f440                Amethyst_gfdbPortRemoveIntf
+                0x000000000001f470                Amethyst_gfdbPortRemoveInDBIntf
+                0x000000000001f4a0                Amethyst_gfdbGetViolationIntf
+                0x000000000001f580                Amethyst_gfdbFindAtuMacEntryIntf
+                0x000000000001f670                Amethyst_gfdbDump
+                0x000000000001f820                Amethyst_gvtuFindVidEntryIntf
+                0x000000000001f990                Amethyst_gvtuExistVidEntryIntf
+                0x000000000001fa30                Amethyst_gvtuFlushIntf
+                0x000000000001fa40                Amethyst_gvtuAddEntryIntf
+                0x000000000001fb60                Amethyst_gvtuDelEntryIntf
+                0x000000000001fbe0                Amethyst_gvtuSetModeIntf
+                0x000000000001fbf0                Amethyst_gvtuGetModeIntf
+                0x000000000001fc00                Amethyst_gvtuGetViolationIntf
+                0x000000000001fcc0                Amethyst_gvtuGetEntryCountIntf
+                0x000000000001fd70                Amethyst_gvtuSetMemberTagIntf
+                0x000000000001fe60                Amethyst_gvtuGetMemberTagIntf
+                0x000000000001ff40                Amethyst_gvtuGetEntryNextIntf
+                0x0000000000020070                Amethyst_gstuAddEntryIntf
+                0x0000000000020140                Amethyst_gstuGetEntryNextIntf
+                0x00000000000201f0                Amethyst_gstuDelEntryIntf
+                0x0000000000020250                Amethyst_gstuFindSidEntryIntf
+                0x0000000000020360                Amethyst_gstuGetEntryCountIntf
+                0x0000000000020400                Amethyst_gpirlInitializeIntf
+                0x0000000000020410                Amethyst_gpirlInitResourceIntf
+                0x0000000000020420                Amethyst_gpirlCustomSetup_sr2cIntf
+                0x00000000000204e0                Amethyst_gpirlReadResourceIntf
+                0x00000000000205c0                Amethyst_gpirlWriteResourceIntf
+                0x0000000000020680                Amethyst_gpirlGetResRegIntf
+                0x0000000000020690                Amethyst_gpirlSetResRegIntf
+                0x00000000000206a0                Amethyst_gpirlAdvConfigIntf
+                0x00000000000207a0                Amethyst_gpirlAdvConfigDisableIntf
+                0x0000000000020bd0                Amethyst_gqavSetPortQpriXRate
+                0x0000000000020c80                Amethyst_gqavGetPortQpriXRate
+                0x0000000000020d30                Amethyst_gqavSetPortQpriXHiLimit
+                0x0000000000020de0                Amethyst_gqavGetPortQpriXHiLimit
+                0x0000000000020e90                Amethyst_garpLoadMcEntryIntf
+                0x0000000000020ef0                Amethyst_garpLoadUcEntryIntf
+                0x0000000000020f50                Amethyst_garpReadEntryIntf
+                0x0000000000020fd0                Amethyst_garpGetNextEntryIntf
+                0x0000000000021050                Amethyst_gstatsGetPortCounterIntf
+                0x0000000000021060                Amethyst_gstatsGetPortAllCountersIntf
+                0x0000000000021260                Amethyst_gstatsGetHistogramModeIntf
+                0x0000000000021270                Amethyst_gstatsSetHistogramModeIntf
+                0x0000000000021280                Amethyst_gvlnSetPortVlanDot1qModeIntf
+                0x0000000000021290                Amethyst_gvlnGetPortVlanDot1qModeIntf
+                0x00000000000212a0                Amethyst_gprtSetDiscardTaggedIntf
+                0x00000000000212b0                Amethyst_gprtGetDiscardTaggedIntf
+                0x00000000000212c0                Amethyst_gprtSetDiscardUntaggedIntf
+                0x00000000000212d0                Amethyst_gprtGetDiscardUntaggedIntf
+                0x00000000000212e0                Amethyst_gprtSetUnicastFloodBlockIntf
+                0x00000000000212f0                Amethyst_gprtGetUnicastFloodBlockIntf
+                0x0000000000021300                Amethyst_gprtSetMulticastFloodBlockIntf
+                0x0000000000021310                Amethyst_gprtGetMulticastFloodBlockIntf
+                0x0000000000021320                Amethyst_gprtSetDiscardBCastModeIntf
+                0x0000000000021330                Amethyst_gprtGetDiscardBCastModeIntf
+                0x0000000000021340                Amethyst_gprtSetJumboModeIntf
+                0x0000000000021350                Amethyst_gprtGetJumboModeIntf
+                0x0000000000021360                Amethyst_gprtSetLearnEnableIntf
+                0x0000000000021370                Amethyst_gprtGetLearnEnableIntf
+                0x0000000000021380                Amethyst_gprtGetVTUPriorityOverrideIntf
+                0x0000000000021390                Amethyst_gprtSetVTUPriorityOverrideIntf
+                0x00000000000213a0                Amethyst_gprtGetSAPriorityOverrideIntf
+                0x00000000000213b0                Amethyst_gprtSetSAPriorityOverrideIntf
+                0x00000000000213c0                Amethyst_gprtGetDAPriorityOverrideIntf
+                0x00000000000213d0                Amethyst_gprtSetDAPriorityOverrideIntf
+                0x00000000000213e0                Amethyst_gprtSetFlowCtrlIntf
+                0x00000000000213f0                Amethyst_gprtGetFlowCtrlIntf
+                0x0000000000021400                Amethyst_gprtSetForceSpeedIntf
+                0x0000000000021420                Amethyst_gprtGetForceSpeedIntf
+                0x0000000000021430                Amethyst_grcSetEgressRateIntf
+                0x0000000000021440                Amethyst_grcGetEgressRateIntf
+                0x0000000000021450                Amethyst_grcSetELimitModeIntf
+                0x0000000000021460                Amethyst_grcGetELimitModeIntf
+                0x0000000000021470                Amethyst_gprtSetDuplexIntf
+                0x0000000000021480                Amethyst_gprtGetDuplexIntf
+                0x0000000000021490                Amethyst_gprtGetDuplexStatusIntf
+                0x00000000000214a0                Amethyst_gprtGetForceLinkIntf
+                0x00000000000214b0                Amethyst_gprtSetForceLinkIntf
+                0x00000000000214c0                Amethyst_gprtGetSpeedIntf
+                0x00000000000214d0                Amethyst_gprtGetFrameModeIntf
+                0x00000000000214e0                Amethyst_gprtSetFrameModeIntf
+                0x00000000000214f0                Amethyst_gprtSetEgressModeIntf
+                0x0000000000021510                Amethyst_gprtGetEgressModeIntf
+                0x0000000000021520                Amethyst_gprtGetPortStateIntf
+                0x0000000000021530                Amethyst_gprtSetPortStateIntf
+                0x0000000000021540                Amethyst_gprtSetCutThrouthEnableIntf
+                0x0000000000021550                Amethyst_gprtGetCutThrouthEnableIntf
+                0x0000000000021560                Amethyst_gqosSetPrioMapRuleIntf
+                0x0000000000021570                Amethyst_gqosGetPrioMapRuleIntf
+                0x0000000000021580                Amethyst_gprtSetInitialPriIntf
+                0x0000000000021590                Amethyst_gprtGetInitialPriIntf
+                0x00000000000215a0                Amethyst_gprtSetDefQpriIntf
+                0x00000000000215b0                Amethyst_gprtGetDefQpriIntf
+                0x00000000000215c0                Amethyst_gprtSetIEEEPrioMapIntf
+                0x0000000000021620                Amethyst_gprtGetIEEEPrioMapIntf
+                0x00000000000216e0                Amethyst_gecidAddEntryIntf
+                0x0000000000021770                Amethyst_gecidGetEcidEntryNextIntf
+                0x0000000000021830                Amethyst_gecidFindEcidEntryIntf
+                0x0000000000021900                Amethyst_gprtSetQueueCtrlIntf
+                0x0000000000021910                Amethyst_gprtGetQueueCtrlIntf
+                0x0000000000021920                Amethyst_gprtSetPortSchedIntf
+                0x0000000000021930                Amethyst_gprtGetPortSchedIntf
+                0x0000000000021940                Amethyst_gsysSetQoSWeightIntf
+                0x0000000000021a40                Amethyst_gsysGetQoSWeightIntf
+                0x0000000000021b40                Amethyst_gphySetPortSpeedIntf
+                0x0000000000021b50                Amethyst_gphySetPortAutoModeIntf
+                0x0000000000021b60                Amethyst_gtcamRCLoadEntryIntf
+                0x0000000000021c80                Amethyst_gtcamRCReadEntryIntf
+                0x0000000000021dd0                Amethyst_gtcamRCGetNextEntryIntf
+                0x0000000000021f20                Amethyst_gtcamRCFindEntryIntf
+                0x00000000000220a0                Amethyst_impRunIntf
+                0x00000000000220b0                Amethyst_impResetIntf
+                0x00000000000220c0                Amethyst_impLoadToRAMIntf
+                0x00000000000220d0                Amethyst_impStopIntf
+                0x00000000000220e0                Amethyst_msdRmuGetIDIntf
+                0x00000000000220f0                Amethyst_msdRmuAtuDumpIntf
+                0x0000000000022250                Amethyst_msdRmuEcidDumpIntf
+                0x00000000000223a0                Amethyst_msdRmuMib2DumpIntf
+                0x00000000000225a0                Amethyst_msdRmuReadRegisterIntf
+                0x00000000000225b0                Amethyst_msdRmuWriteRegisterIntf
+                0x00000000000225d0                Amethyst_msdRmuMultiRegAccessIntf
+                0x00000000000225e0                Amethyst_msdRmuTCAMDumpIntf
+                0x00000000000228e0                Amethyst_msdRmuTCAMWriteIntf
+                0x0000000000022ab0                Amethyst_msdRmuTCAMReadIntf
+                0x00000000000237d0                Amethyst_gptpSetIntEnable
+                0x00000000000238c0                Amethyst_gptpGetIntEnable
+                0x0000000000023970                Amethyst_gptpSetProtPTPEn
+                0x0000000000023a40                Amethyst_gptpGetProtPTPEn
+                0x0000000000023ae0                Amethyst_gptpSetPortConfig
+                0x0000000000023d30                Amethyst_gptpGetPortConfig
+                0x0000000000023f80                Amethyst_gptpGetTimeStamp
+                0x0000000000024080                Amethyst_gptpGetTSValidSt
+                0x0000000000024140                Amethyst_gptpResetTimeStamp
+                0x0000000000024200                Amethyst_gptpSetGlobalConfig
+                0x00000000000242c0                Amethyst_gptpGetGlobalConfig
+                0x0000000000024380                Amethyst_gptpGetIntStatus
+                0x0000000000024400                Amethyst_gptpSetMeanPathDelay
+                0x0000000000024490                Amethyst_gptpGetMeanPathDelay
+                0x0000000000024530                Amethyst_gptpSetIgrPathDelayAsym
+                0x00000000000245c0                Amethyst_gptpGetIgrPathDelayAsym
+                0x0000000000024660                Amethyst_gptpSetEgrPathDelayAsym
+                0x00000000000246f0                Amethyst_gptpGetEgrPathDelayAsym
+                0x0000000000024790                Amethyst_gptpSetMode
+                0x0000000000024840                Amethyst_gptpGetMode
+                0x00000000000248b0                Amethyst_gptpSetMasterSlave
+                0x0000000000024960                Amethyst_gptpGetMasterSlave
+                0x00000000000249c0                Amethyst_gptpGetTODBusyBitStatus
+                0x0000000000024a40                Amethyst_gptpTODStoreCompensation
+                0x0000000000024b00                Amethyst_gptpTODStoreAll
+                0x0000000000024bc0                Amethyst_gptpTODCaptureAll
+                0x0000000000024e90                Amethyst_gptpSetPulse
+                0x0000000000024f40                Amethyst_gptpGetPulse
+                0x0000000000024fe0                Amethyst_gtaiGetPTPGlobalTime
+                0x0000000000025060                Amethyst_gptpSetIntEnableIntf
+                0x00000000000250c0                Amethyst_gptpGetIntEnableIntf
+                0x0000000000025120                Amethyst_gptpSetPortConfigIntf
+                0x00000000000251a0                Amethyst_gptpGetPortConfigIntf
+                0x0000000000025230                Amethyst_gptpGetTimeStampIntf
+                0x00000000000252a0                Amethyst_gptpSetGlobalConfigIntf
+                0x0000000000025300                Amethyst_gptpGetGlobalConfigIntf
+                0x0000000000025370                Amethyst_gptpGetIntStatusIntf
+                0x00000000000253e0                Amethyst_gptpSetModeIntf
+                0x0000000000025440                Amethyst_gptpGetModeIntf
+                0x00000000000254a0                Amethyst_gptpSetMasterSlaveIntf
+                0x00000000000254b0                Amethyst_gptpGetMasterSlaveIntf
+                0x00000000000254c0                Amethyst_gptpTODStoreCompensationIntf
+                0x0000000000025540                Amethyst_gptpTODStoreAllIntf
+                0x00000000000255c0                Amethyst_gptpTODCaptureAllIntf
+                0x0000000000025650                Amethyst_gptpSetPulseIntf
+                0x00000000000256b0                Amethyst_gptpGetPulseIntf
+                0x0000000000025980                Amethyst_gledForceOn
+                0x0000000000025a30                Amethyst_gledForceOff
+                0x0000000000025af0                Amethyst_gledLinkAct
+                0x0000000000025be0                Amethyst_gledModeSet
+                0x0000000000025cb0                Amethyst_gledModeGet
+                0x0000000000025d50                Amethyst_gledBlinkRateSet
+                0x0000000000025e00                Amethyst_gledBlinkRateGet
+                0x0000000000025ee0                Amethyst_gledPulseStretchSet
+                0x0000000000025f90                Amethyst_gledPulseStretchGet
+                0x0000000000026060                Amethyst_gledSpecialModeSet
+                0x0000000000026110                Amethyst_gledSpecialModeGet
+                0x0000000000026180                Amethyst_gledCtrlSet
+                0x00000000000261c0                Amethyst_gledCtrlGet
+                0x00000000000261f0                Amethyst_gledDump
+                0x0000000000026480                Amethyst_gledForceOnIntf
+                0x0000000000026490                Amethyst_gledForceOffIntf
+                0x00000000000264a0                Amethyst_gledLinkActIntf
+                0x00000000000264b0                Amethyst_gledModeSetIntf
+                0x00000000000264c0                Amethyst_gledModeGetIntf
+                0x00000000000264d0                Amethyst_gledBlinkRateSetIntf
+                0x00000000000264e0                Amethyst_gledBlinkRateGetIntf
+                0x00000000000264f0                Amethyst_gledPulseStretchSetIntf
+                0x0000000000026500                Amethyst_gledPulseStretchGetIntf
+                0x0000000000026510                Amethyst_gledSpecialModeSetIntf
+                0x0000000000026520                Amethyst_gledSpecialModeGetIntf
+                0x0000000000026530                Amethyst_gledCtrlSetIntf
+                0x0000000000026540                Amethyst_gledCtrlGetIntf
+                0x0000000000026550                Amethyst_gtcamRCCompLoadIntf
+                0x0000000000026630                Amethyst_gtcamRCCompReadIntf
+                0x0000000000026720                Amethyst_EEPROMWrite
+                0x0000000000026860                Amethyst_EEPROMRead
+                0x00000000000269e0                Amethyst_EEPROMChipSelSet
+                0x0000000000026ac0                Amethyst_EEPROMChipSelGet
+                0x0000000000026c00                Amethyst_EEPROMWriteIntf
+                0x0000000000026c10                Amethyst_EEPROMReadIntf
+                0x0000000000026c20                Amethyst_EEPROMChipSelSetIntf
+                0x0000000000026c30                Amethyst_EEPROMChipSelGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x32
+ .text.unlikely
+                0x0000000000000000       0x32 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x133c
+ *(.rodata)
+ .rodata        0x0000000000000000     0x133c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.rodata.str1.8  0x0000000000000000     0x2595
+ .rodata.str1.8
+                0x0000000000000000     0x2595 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.rodata.str1.1  0x0000000000000000      0xf5a
+ .rodata.str1.1
+                0x0000000000000000      0xf5a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.rodata.cst8    0x0000000000000000       0x20
+ .rodata.cst8   0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x8430
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x678 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+                                        0x674 (size before relaxing)
+ *fill*         0x0000000000000678        0x0 
+ .eh_frame      0x0000000000000678     0x7db8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                                       0x7df8 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x200
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x7e8
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x7bc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/msdDrv_Amethyst.o elf64-x86-64)

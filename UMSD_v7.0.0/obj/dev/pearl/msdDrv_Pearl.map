@@ -1,0 +1,724 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x1376c
+ *(.text .stub)
+ .text          0x0000000000000000      0xcc1 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000                Pearl_msdSetSMIC45PhyReg
+                0x0000000000000180                Pearl_msdGetSMIC45PhyReg
+                0x0000000000000300                Pearl_msdSetSMIPhyReg
+                0x00000000000003f0                Pearl_msdGetSMIPhyReg
+                0x0000000000000540                Pearl_msdSetSMIPhyRegField
+                0x0000000000000630                Pearl_msdGetSMIPhyRegField
+                0x00000000000006d0                Pearl_msdSetPagedPhyRegField
+                0x0000000000000750                Pearl_msdGetPagedPhyRegField
+                0x0000000000000820                Pearl_msdWritePagedPhyReg
+                0x0000000000000880                Pearl_msdReadPagedPhyReg
+                0x00000000000008e0                Pearl_msdSetSMIPhyXMDIOReg
+                0x00000000000009d0                Pearl_msdGetSMIPhyXMDIOReg
+                0x0000000000000b10                Pearl_msdPhyReset
+ *fill*         0x0000000000000cc1        0xf 
+ .text          0x0000000000000cd0    0x12a9c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+                0x0000000000001b40                Pearl_gtcamFlushAll
+                0x0000000000001b90                Pearl_gtcamFlushEntry
+                0x0000000000001bf0                Pearl_gtcamLoadEntry
+                0x0000000000001c80                Pearl_gtcamReadTCAMData
+                0x0000000000001d10                Pearl_gtcamGetNextTCAMData
+                0x0000000000001db0                Pearl_gtcamFindEntry
+                0x0000000000001e90                Pearl_gtcamSetMode
+                0x0000000000001ef0                Pearl_gtcamGetMode
+                0x0000000000001f80                Pearl_gtcamAddEntryPort
+                0x0000000000002070                Pearl_gtcamRemoveEntryPort
+                0x0000000000002160                Pearl_gtcamDump
+                0x00000000000024d0                Pearl_gtcamAdvConfig
+                0x00000000000031a0                Pearl_gvctGetAdvCableDiag
+                0x0000000000003610                Pearl_gvctGetAdvExtendedStatus
+                0x0000000000004170                Pearl_gfdbGetAtuEntryNext
+                0x0000000000004190                Pearl_gfdbFlush
+                0x0000000000004200                Pearl_gfdbFlushInDB
+                0x0000000000004290                Pearl_gfdbMove
+                0x0000000000004380                Pearl_gfdbMoveInDB
+                0x0000000000004480                Pearl_gfdbAddMacEntry
+                0x0000000000004540                Pearl_gfdbDelAtuEntry
+                0x00000000000045d0                Pearl_gfdbGetViolation
+                0x00000000000046d0                Pearl_gfdbFindAtuMacEntry
+                0x0000000000004800                Pearl_gfdbSetAgingTimeout
+                0x0000000000004860                Pearl_gfdbGetAgingTimeout
+                0x00000000000048d0                Pearl_gfdbGetLearn2All
+                0x0000000000004950                Pearl_gfdbSetLearn2All
+                0x0000000000004980                Pearl_gfdbSetPortLearnLimit
+                0x0000000000004ab0                Pearl_gfdbGetPortLearnLimit
+                0x0000000000004bc0                Pearl_gfdbGetPortLearnCount
+                0x0000000000004c80                Pearl_gfdbGetEntryCount
+                0x0000000000004cd0                Pearl_gfdbGetEntryCountPerFid
+                0x0000000000004d20                Pearl_gfdbGetNonStaticEntryCount
+                0x0000000000004d70                Pearl_gfdbGetNonStaticEntryCountPerFid
+                0x00000000000053e0                Pearl_gvtuGetEntryNext
+                0x00000000000054e0                Pearl_gvtuFlush
+                0x0000000000005500                Pearl_gvtuAddEntry
+                0x0000000000005610                Pearl_gvtuDelEntry
+                0x0000000000005670                Pearl_gvtuGetViolation
+                0x0000000000005780                Pearl_gvtuFindVidEntry
+                0x00000000000058e0                Pearl_gvtuDump
+                0x0000000000005fd0                Pearl_gstuGetEntryNext
+                0x00000000000060b0                Pearl_gstuAddEntry
+                0x0000000000006180                Pearl_gstuDelEntry
+                0x00000000000061e0                Pearl_gstuFindSidEntry
+                0x00000000000062e0                Pearl_gstuDump
+                0x0000000000006670                Pearl_gpirlInitialize
+                0x0000000000006690                Pearl_gpirlInitResource
+                0x0000000000006710                Pearl_gpirlCustomSetup
+                0x0000000000006a90                Pearl_gpirlReadResource
+                0x0000000000006cc0                Pearl_gpirlWriteResource
+                0x0000000000006f20                Pearl_gpirlGetResReg
+                0x0000000000006fd0                Pearl_gpirlSetResReg
+                0x0000000000007490                Pearl_gstatsFlushAll
+                0x00000000000074b0                Pearl_gstatsFlushPort
+                0x00000000000074f0                Pearl_gstatsGetPortCounter
+                0x0000000000007550                Pearl_gstatsGetPortAllCounters
+                0x00000000000075a0                Pearl_gstatsGetHistogramMode
+                0x0000000000007650                Pearl_gstatsSetHistogramMode
+                0x0000000000007690                Pearl_gmibDump
+                0x0000000000007c20                Pearl_gprtSetForceDefaultVid
+                0x0000000000007c80                Pearl_gprtGetForceDefaultVid
+                0x0000000000007d10                Pearl_gvlnSetPortVid
+                0x0000000000007d70                Pearl_gvlnGetPortVid
+                0x0000000000007e00                Pearl_gvlnSetPortVlanDot1qMode
+                0x0000000000007e60                Pearl_gvlnGetPortVlanDot1qMode
+                0x0000000000007ef0                Pearl_gprtSetDiscardTagged
+                0x0000000000007f50                Pearl_gprtGetDiscardTagged
+                0x0000000000007fe0                Pearl_gprtSetDiscardUntagged
+                0x0000000000008040                Pearl_gprtGetDiscardUntagged
+                0x00000000000080d0                Pearl_gprtSetUnicastFloodBlock
+                0x0000000000008130                Pearl_gprtGetUnicastFloodBlock
+                0x00000000000081c0                Pearl_gprtSetMulticastFloodBlock
+                0x0000000000008220                Pearl_gprtGetMulticastFloodBlock
+                0x00000000000082b0                Pearl_gprtSetDiscardBCastMode
+                0x0000000000008310                Pearl_gprtGetDiscardBCastMode
+                0x00000000000083b0                Pearl_gprtSetIGMPSnoopEnable
+                0x0000000000008410                Pearl_gprtGetIGMPSnoopEnable
+                0x00000000000084b0                Pearl_gprtGetHeaderMode
+                0x0000000000008550                Pearl_gprtSetHeaderMode
+                0x00000000000085b0                Pearl_gprtGetDropOnLock
+                0x0000000000008650                Pearl_gprtSetDropOnLock
+                0x00000000000086b0                Pearl_gprtSetJumboMode
+                0x0000000000008720                Pearl_gprtGetJumboMode
+                0x00000000000087b0                Pearl_gprtSetLearnEnable
+                0x0000000000008820                Pearl_gprtGetLearnEnable
+                0x00000000000088b0                Pearl_gprtGetVTUPriorityOverride
+                0x0000000000008940                Pearl_gprtSetVTUPriorityOverride
+                0x00000000000089a0                Pearl_gprtGetSAPriorityOverride
+                0x0000000000008a30                Pearl_gprtSetSAPriorityOverride
+                0x0000000000008a90                Pearl_gprtGetDAPriorityOverride
+                0x0000000000008b20                Pearl_gprtSetDAPriorityOverride
+                0x0000000000008b80                Pearl_gprtGetMessagePort
+                0x0000000000008c10                Pearl_gprtSetMessagePort
+                0x0000000000008c70                Pearl_gprtGetEtherType
+                0x0000000000008cc0                Pearl_gprtSetEtherType
+                0x0000000000008d10                Pearl_gprtSetTrunkPort
+                0x0000000000008db0                Pearl_gprtGetTrunkPort
+                0x0000000000008e90                Pearl_gprtSetFlowCtrl
+                0x0000000000008f00                Pearl_gprtGetFlowCtrl
+                0x0000000000008fb0                Pearl_gprtSetEgressMonitorSource
+                0x0000000000009010                Pearl_gprtGetEgressMonitorSource
+                0x00000000000090a0                Pearl_gprtSetIngressMonitorSource
+                0x0000000000009100                Pearl_gprtGetIngressMonitorSource
+                0x0000000000009190                Pearl_grcSetELimitMode
+                0x00000000000091f0                Pearl_grcSetEgressRate
+                0x00000000000093a0                Pearl_grcGetELimitMode
+                0x0000000000009430                Pearl_grcGetEgressRate
+                0x0000000000009570                Pearl_gprtSetDuplex
+                0x00000000000095e0                Pearl_gprtGetDuplex
+                0x00000000000096b0                Pearl_gprtGetDuplexStatus
+                0x0000000000009740                Pearl_gprtGetForceLink
+                0x0000000000009800                Pearl_gprtSetForceLink
+                0x0000000000009870                Pearl_gprtGetLinkState
+                0x0000000000009900                Pearl_gprtSetForceSpeed
+                0x0000000000009aa0                Pearl_gprtGetForceSpeed
+                0x0000000000009be0                Pearl_gprtGetSpeed
+                0x0000000000009cf0                Pearl_gprtGetVlanPorts
+                0x0000000000009db0                Pearl_gprtSetVlanPorts
+                0x0000000000009e60                Pearl_gprtGetFrameMode
+                0x0000000000009ef0                Pearl_gprtSetFrameMode
+                0x0000000000009f50                Pearl_gprtGetEgressMode
+                0x0000000000009fe0                Pearl_gprtSetEgressMode
+                0x000000000000a040                Pearl_gprtGetPortState
+                0x000000000000a0d0                Pearl_gprtSetPortState
+                0x000000000000a130                Pearl_gprtSetCutThrouthEnable
+                0x000000000000a1a0                Pearl_gprtGetCutThrouthEnable
+                0x000000000000a230                Pearl_gprtSetIgnoreFcs
+                0x000000000000a290                Pearl_gprtGetIgnoreFcs
+                0x000000000000a320                Pearl_gprtSetAllowBadFcs
+                0x000000000000a380                Pearl_gprtGetAllowBadFcs
+                0x000000000000a410                Pearl_gprtSetPauseLimitOut
+                0x000000000000a470                Pearl_gprtGetPauseLimitOut
+                0x000000000000a4d0                Pearl_gprtSetPauseLimitIn
+                0x000000000000a530                Pearl_gprtGetPauseLimitIn
+                0x000000000000a590                Pearl_gprtGetOutQueueSize
+                0x000000000000a630                Pearl_gprtSetMapDA
+                0x000000000000a690                Pearl_gprtGetMapDA
+                0x000000000000a720                Pearl_gprtSetPortLocked
+                0x000000000000a780                Pearl_gprtGetPortLocked
+                0x000000000000a810                Pearl_gprtSetHoldAt1
+                0x000000000000a870                Pearl_gprtGetHoldAt1
+                0x000000000000a900                Pearl_gprtSetInt0nAgeOut
+                0x000000000000a960                Pearl_gprtGetInt0nAgeOut
+                0x000000000000a9f0                Pearl_gprtSetRefreshLocked
+                0x000000000000aa50                Pearl_gprtGetRefreshLocked
+                0x000000000000aae0                Pearl_gprtSetIgnoreWrongData
+                0x000000000000ab40                Pearl_gprtGetIgnoreWrongData
+                0x000000000000abd0                Pearl_gprtSetARPMirror
+                0x000000000000ac30                Pearl_gprtGetARPMirror
+                0x000000000000acc0                Pearl_gprtRegDump
+                0x000000000000adc0                Pearl_gqosSetPrioMapRule
+                0x000000000000ae20                Pearl_gqosGetPrioMapRule
+                0x000000000000aeb0                Pearl_gprtSetInitialPri
+                0x000000000000af20                Pearl_gprtGetInitialPri
+                0x000000000000afe0                Pearl_gprtSetDefQpri
+                0x000000000000b040                Pearl_gprtGetDefQpri
+                0x000000000000b0e0                Pearl_gprtSetDefFpri
+                0x000000000000b140                Pearl_gprtGetDefFpri
+                0x000000000000b1d0                Pearl_gsysSetTrunkMaskTable
+                0x000000000000b300                Pearl_gsysGetTrunkMaskTable
+                0x000000000000b460                Pearl_gsysSetHashTrunk
+                0x000000000000b490                Pearl_gsysGetHashTrunk
+                0x000000000000b500                Pearl_gsysSetTrunkRouting
+                0x000000000000b650                Pearl_gsysGetTrunkRouting
+                0x000000000000b7d0                Pearl_gsysSetFloodBC
+                0x000000000000b800                Pearl_gsysGetFloodBC
+                0x000000000000b870                Pearl_gsysSetCPUDest
+                0x000000000000b920                Pearl_gsysGetCPUDest
+                0x000000000000b980                Pearl_gsysSetIngressMonitorDest
+                0x000000000000ba50                Pearl_gsysGetIngressMonitorDest
+                0x000000000000bac0                Pearl_gsysSetEgressMonitorDest
+                0x000000000000bb90                Pearl_gsysGetEgressMonitorDest
+                0x000000000000bc30                Pearl_gsysSetRsvd2CpuEnables
+                0x000000000000bcd0                Pearl_gsysGetRsvd2CpuEnables
+                0x000000000000bd30                Pearl_gsysSetMGMTPri
+                0x000000000000bdc0                Pearl_gsysGetMGMTPri
+                0x000000000000be20                Pearl_gsysGlobal1RegDump
+                0x000000000000bef0                Pearl_gsysGlobal2RegDump
+                0x000000000000bfc0                Pearl_gsysSetRMUMode
+                0x000000000000c080                Pearl_gsysGetRMUMode
+                0x000000000000c110                Pearl_gsysDevIntEnableSet
+                0x000000000000c170                Pearl_gsysDevIntEnableGet
+                0x000000000000c200                Pearl_gsysDevIntStatusGet
+                0x000000000000c280                Pearl_gsysActiveIntEnableSet
+                0x000000000000c340                Pearl_gsysActiveIntEnableGet
+                0x000000000000c3d0                Pearl_gsysActiveIntStatusGet
+                0x000000000000c710                Pearl_gphyReset
+                0x000000000000c7e0                Pearl_serdesReset
+                0x000000000000c8a0                Pearl_gphySetPortLoopback
+                0x000000000000c990                Pearl_gphySetPortSpeed
+                0x000000000000cb20                Pearl_gphyPortPowerDown
+                0x000000000000cc10                Pearl_gphySetPortDuplexMode
+                0x000000000000cd30                Pearl_gphySetPortAutoMode
+                0x000000000000ce00                Pearl_gphySetEEE
+                0x000000000000cef0                Pearl_gphySetFlowControlEnable
+                0x000000000000d010                Pearl_gphySetIntEnable
+                0x000000000000d080                Pearl_gphyGetIntEnable
+                0x000000000000d120                Pearl_gphyGetIntStatus
+                0x000000000000d1c0                Pearl_gprtSetPortSched
+                0x000000000000d220                Pearl_gprtGetPortSched
+                0x000000000000d2f0                Pearl_gsysSetQoSWeight
+                0x000000000000d5a0                Pearl_gsysGetQoSWeight
+                0x000000000000d860                Pearl_msdRmuGetID
+                0x000000000000d990                Pearl_msdRmuAtuDump
+                0x000000000000dba0                Pearl_msdRmuMib2Dump
+                0x000000000000dfd0                Pearl_msdRmuReadRegister
+                0x000000000000e000                Pearl_msdRmuWriteRegister
+                0x000000000000e020                Pearl_msdRmuMultiRegAccess
+                0x000000000000e210                Pearl_msdRmuRegDump
+                0x000000000000e2e0                Pearl_EEPROMWrite
+                0x000000000000e450                Pearl_EEPROMRead
+                0x000000000000e5d0                Pearl_gtcamLoadEntryIntf
+                0x000000000000e770                Pearl_gtcamReadTCAMDataIntf
+                0x000000000000e920                Pearl_gtcamGetNextTCAMDataIntf
+                0x000000000000ead0                Pearl_gtcamFindEntryIntf
+                0x000000000000ecc0                Pearl_gtcamSetModeIntf
+                0x000000000000ecd0                Pearl_gtcamGetModeIntf
+                0x000000000000ed30                Pearl_gtcamAdvConfigIntf
+                0x000000000000eef0                Pearl_gvctGetAdvCableDiagIntf
+                0x000000000000eff0                Pearl_gvctGetAdvExtendedStatusIntf
+                0x000000000000f090                Pearl_gfdbAddMacEntryIntf
+                0x000000000000f110                Pearl_gfdbFlushIntf
+                0x000000000000f120                Pearl_gfdbFlushInDBIntf
+                0x000000000000f130                Pearl_gfdbMoveIntf
+                0x000000000000f140                Pearl_gfdbMoveInDBIntf
+                0x000000000000f150                Pearl_gfdbPortRemoveIntf
+                0x000000000000f180                Pearl_gfdbPortRemoveInDBIntf
+                0x000000000000f1b0                Pearl_gfdbGetAtuEntryNextIntf
+                0x000000000000f280                Pearl_gfdbGetViolationIntf
+                0x000000000000f360                Pearl_gfdbFindAtuMacEntryIntf
+                0x000000000000f450                Pearl_gfdbDump
+                0x000000000000f5c0                Pearl_gvtuFindVidEntryIntf
+                0x000000000000f720                Pearl_gvtuGetEntryNextIntf
+                0x000000000000f800                Pearl_gvtuExistVidEntryIntf
+                0x000000000000f890                Pearl_gvtuFlushIntf
+                0x000000000000f8a0                Pearl_gvtuAddEntryIntf
+                0x000000000000f990                Pearl_gvtuDelEntryIntf
+                0x000000000000fa00                Pearl_gvtuGetViolationIntf
+                0x000000000000fac0                Pearl_gvtuGetEntryCountIntf
+                0x000000000000fb60                Pearl_gvtuSetMemberTagIntf
+                0x000000000000fc30                Pearl_gvtuGetMemberTagIntf
+                0x000000000000fcf0                Pearl_gstuAddEntryIntf
+                0x000000000000fdc0                Pearl_gstuGetEntryNextIntf
+                0x000000000000fe70                Pearl_gstuDelEntryIntf
+                0x000000000000fed0                Pearl_gstuFindSidEntryIntf
+                0x0000000000010000                Pearl_gstuGetEntryCountIntf
+                0x00000000000100a0                Pearl_gpirlInitializeIntf
+                0x00000000000100b0                Pearl_gpirlInitResourceIntf
+                0x00000000000100c0                Pearl_gpirlCustomSetupIntf
+                0x0000000000010180                Pearl_gpirlReadResourceIntf
+                0x0000000000010260                Pearl_gpirlWriteResourceIntf
+                0x0000000000010340                Pearl_gpirlGetResRegIntf
+                0x0000000000010350                Pearl_gpirlSetResRegIntf
+                0x0000000000010360                Pearl_gpirlAdvConfigIntf
+                0x0000000000010480                Pearl_gpirlAdvConfigDisableIntf
+                0x0000000000010500                Pearl_gqavSetPortQpriXRate
+                0x0000000000010690                Pearl_gqavGetPortQpriXRate
+                0x0000000000010880                Pearl_gqavSetPortQpriXHiLimit
+                0x0000000000010a10                Pearl_gqavGetPortQpriXHiLimit
+                0x0000000000010c00                Pearl_gstatsGetPortCounterIntf
+                0x0000000000010c20                Pearl_gstatsGetPortAllCountersIntf
+                0x0000000000010e20                Pearl_gstatsGetHistogramModeIntf
+                0x0000000000010e30                Pearl_gstatsSetHistogramModeIntf
+                0x0000000000010e40                Pearl_gvlnSetPortVlanDot1qModeIntf
+                0x0000000000010e50                Pearl_gvlnGetPortVlanDot1qModeIntf
+                0x0000000000010e60                Pearl_gprtSetDiscardTaggedIntf
+                0x0000000000010e70                Pearl_gprtGetDiscardTaggedIntf
+                0x0000000000010e80                Pearl_gprtSetDiscardUntaggedIntf
+                0x0000000000010e90                Pearl_gprtGetDiscardUntaggedIntf
+                0x0000000000010ea0                Pearl_gprtSetUnicastFloodBlockIntf
+                0x0000000000010eb0                Pearl_gprtGetUnicastFloodBlockIntf
+                0x0000000000010ec0                Pearl_gprtSetMulticastFloodBlockIntf
+                0x0000000000010ed0                Pearl_gprtGetMulticastFloodBlockIntf
+                0x0000000000010ee0                Pearl_gprtSetDiscardBCastModeIntf
+                0x0000000000010ef0                Pearl_gprtGetDiscardBCastModeIntf
+                0x0000000000010f00                Pearl_gprtSetJumboModeIntf
+                0x0000000000010f10                Pearl_gprtGetJumboModeIntf
+                0x0000000000010f20                Pearl_gprtSetLearnEnableIntf
+                0x0000000000010f30                Pearl_gprtGetLearnEnableIntf
+                0x0000000000010f40                Pearl_gprtGetVTUPriorityOverrideIntf
+                0x0000000000010f50                Pearl_gprtSetVTUPriorityOverrideIntf
+                0x0000000000010f60                Pearl_gprtGetSAPriorityOverrideIntf
+                0x0000000000010f70                Pearl_gprtSetSAPriorityOverrideIntf
+                0x0000000000010f80                Pearl_gprtGetDAPriorityOverrideIntf
+                0x0000000000010f90                Pearl_gprtSetDAPriorityOverrideIntf
+                0x0000000000010fa0                Pearl_gprtSetFlowCtrlIntf
+                0x0000000000010fd0                Pearl_gprtGetFlowCtrlIntf
+                0x0000000000010fe0                Pearl_gprtSetForceSpeedIntf
+                0x0000000000011020                Pearl_gprtGetForceSpeedIntf
+                0x0000000000011030                Pearl_grcSetEgressRateIntf
+                0x0000000000011040                Pearl_grcGetEgressRateIntf
+                0x0000000000011050                Pearl_grcSetELimitModeIntf
+                0x0000000000011060                Pearl_grcGetELimitModeIntf
+                0x0000000000011070                Pearl_gprtSetDuplexIntf
+                0x0000000000011080                Pearl_gprtGetDuplexIntf
+                0x0000000000011090                Pearl_gprtGetDuplexStatusIntf
+                0x00000000000110a0                Pearl_gprtGetForceLinkIntf
+                0x00000000000110b0                Pearl_gprtSetForceLinkIntf
+                0x00000000000110c0                Pearl_gprtGetSpeedIntf
+                0x00000000000110d0                Pearl_gprtGetFrameModeIntf
+                0x00000000000110e0                Pearl_gprtSetFrameModeIntf
+                0x00000000000110f0                Pearl_gprtGetEgressModeIntf
+                0x0000000000011100                Pearl_gprtSetEgressModeIntf
+                0x0000000000011120                Pearl_gprtGetPortStateIntf
+                0x0000000000011130                Pearl_gprtSetPortStateIntf
+                0x0000000000011140                Pearl_gprtSetCutThrouthEnableIntf
+                0x0000000000011150                Pearl_gprtGetCutThrouthEnableIntf
+                0x0000000000011160                Pearl_gqosSetPrioMapRuleIntf
+                0x0000000000011170                Pearl_gqosGetPrioMapRuleIntf
+                0x0000000000011180                Pearl_gprtSetInitialPriIntf
+                0x0000000000011190                Pearl_gprtGetInitialPriIntf
+                0x00000000000111a0                Pearl_gprtSetDefQpriIntf
+                0x00000000000111b0                Pearl_gprtGetDefQpriIntf
+                0x00000000000111c0                Pearl_gprtSetPortSchedIntf
+                0x0000000000011200                Pearl_gprtGetPortSchedIntf
+                0x0000000000011210                Pearl_gsysSetQoSWeightIntf
+                0x0000000000011310                Pearl_gsysGetQoSWeightIntf
+                0x0000000000011410                Pearl_gphySetPortSpeedIntf
+                0x0000000000011420                Pearl_gphySetPortAutoModeIntf
+                0x0000000000011430                Pearl_EEPROMWriteIntf
+                0x0000000000011440                Pearl_EEPROMReadIntf
+                0x0000000000011450                Pearl_msdRmuGetIDIntf
+                0x0000000000011460                Pearl_msdRmuAtuDumpIntf
+                0x00000000000115b0                Pearl_msdRmuMib2DumpIntf
+                0x00000000000117b0                Pearl_msdRmuReadRegisterIntf
+                0x00000000000117c0                Pearl_msdRmuWriteRegisterIntf
+                0x00000000000117e0                Pearl_msdRmuMultiRegAccessIntf
+                0x0000000000011b90                Pearl_gptpSetIntEnable
+                0x0000000000011c70                Pearl_gptpGetIntEnable
+                0x0000000000011d10                Pearl_gptpSetProtPTPEn
+                0x0000000000011dd0                Pearl_gptpGetProtPTPEn
+                0x0000000000011e60                Pearl_gptpSetPortConfig
+                0x0000000000012040                Pearl_gptpGetPortConfig
+                0x0000000000012200                Pearl_gptpGetTimeStamp
+                0x0000000000012300                Pearl_gptpGetTSValidSt
+                0x00000000000123c0                Pearl_gptpResetTimeStamp
+                0x0000000000012480                Pearl_gptpSetGlobalConfig
+                0x0000000000012540                Pearl_gptpGetGlobalConfig
+                0x0000000000012600                Pearl_gptpGetIntStatus
+                0x0000000000012680                Pearl_gptpSetIntEnableIntf
+                0x00000000000126e0                Pearl_gptpGetIntEnableIntf
+                0x0000000000012740                Pearl_gptpSetPortConfigIntf
+                0x00000000000127c0                Pearl_gptpGetPortConfigIntf
+                0x0000000000012840                Pearl_gptpGetTimeStampIntf
+                0x00000000000128b0                Pearl_gptpSetGlobalConfigIntf
+                0x0000000000012910                Pearl_gptpGetGlobalConfigIntf
+                0x0000000000012980                Pearl_gptpGetIntStatusIntf
+                0x0000000000012c60                Pearl_gledForceOn
+                0x0000000000012d10                Pearl_gledForceOff
+                0x0000000000012dd0                Pearl_gledLinkAct
+                0x0000000000012ed0                Pearl_gledModeSet
+                0x0000000000012fa0                Pearl_gledModeGet
+                0x0000000000013040                Pearl_gledBlinkRateSet
+                0x00000000000130f0                Pearl_gledBlinkRateGet
+                0x00000000000131d0                Pearl_gledPulseStretchSet
+                0x0000000000013280                Pearl_gledPulseStretchGet
+                0x0000000000013350                Pearl_gledSpecialModeSet
+                0x0000000000013400                Pearl_gledSpecialModeGet
+                0x0000000000013460                Pearl_gledCtrlSet
+                0x00000000000134a0                Pearl_gledCtrlGet
+                0x00000000000134d0                Pearl_gledDump
+                0x0000000000013620                Pearl_gledForceOnIntf
+                0x0000000000013630                Pearl_gledForceOffIntf
+                0x0000000000013640                Pearl_gledLinkActIntf
+                0x0000000000013650                Pearl_gledModeSetIntf
+                0x0000000000013660                Pearl_gledModeGetIntf
+                0x0000000000013670                Pearl_gledBlinkRateSetIntf
+                0x0000000000013680                Pearl_gledBlinkRateGetIntf
+                0x0000000000013690                Pearl_gledPulseStretchSetIntf
+                0x00000000000136a0                Pearl_gledPulseStretchGetIntf
+                0x00000000000136b0                Pearl_gledSpecialModeSetIntf
+                0x0000000000013700                Pearl_gledSpecialModeGetIntf
+                0x0000000000013750                Pearl_gledCtrlSetIntf
+                0x0000000000013760                Pearl_gledCtrlGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x14
+ .text.unlikely
+                0x0000000000000000       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x131c
+ *(.rodata)
+ .rodata        0x0000000000000000     0x131c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.rodata.str1.8  0x0000000000000000      0x4ab
+ .rodata.str1.8
+                0x0000000000000000      0x4ab /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.rodata.str1.1  0x0000000000000000      0x9a6
+ .rodata.str1.1
+                0x0000000000000000      0x9a6 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.rodata.cst8    0x0000000000000000       0x28
+ .rodata.cst8   0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x4d48
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x3f0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+ .eh_frame      0x00000000000003f0     0x4958 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+                                       0x4974 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x180
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x5d8
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x5ac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/driver/msdDrv_obj/driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/msdDrv_Pearl.o elf64-x86-64)

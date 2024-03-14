@@ -1,0 +1,1083 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x12a9c
+ *(.text .stub)
+ .text          0x0000000000000000     0x1fbd /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+                0x0000000000000e70                Pearl_gtcamFlushAll
+                0x0000000000000ec0                Pearl_gtcamFlushEntry
+                0x0000000000000f20                Pearl_gtcamLoadEntry
+                0x0000000000000fb0                Pearl_gtcamReadTCAMData
+                0x0000000000001040                Pearl_gtcamGetNextTCAMData
+                0x00000000000010e0                Pearl_gtcamFindEntry
+                0x00000000000011c0                Pearl_gtcamSetMode
+                0x0000000000001220                Pearl_gtcamGetMode
+                0x00000000000012b0                Pearl_gtcamAddEntryPort
+                0x00000000000013a0                Pearl_gtcamRemoveEntryPort
+                0x0000000000001490                Pearl_gtcamDump
+                0x0000000000001800                Pearl_gtcamAdvConfig
+ *fill*         0x0000000000001fbd        0x3 
+ .text          0x0000000000001fc0      0xcbd /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+                0x00000000000024d0                Pearl_gvctGetAdvCableDiag
+                0x0000000000002940                Pearl_gvctGetAdvExtendedStatus
+ *fill*         0x0000000000002c7d        0x3 
+ .text          0x0000000000002c80     0x1465 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+                0x00000000000034a0                Pearl_gfdbGetAtuEntryNext
+                0x00000000000034c0                Pearl_gfdbFlush
+                0x0000000000003530                Pearl_gfdbFlushInDB
+                0x00000000000035c0                Pearl_gfdbMove
+                0x00000000000036b0                Pearl_gfdbMoveInDB
+                0x00000000000037b0                Pearl_gfdbAddMacEntry
+                0x0000000000003870                Pearl_gfdbDelAtuEntry
+                0x0000000000003900                Pearl_gfdbGetViolation
+                0x0000000000003a00                Pearl_gfdbFindAtuMacEntry
+                0x0000000000003b30                Pearl_gfdbSetAgingTimeout
+                0x0000000000003b90                Pearl_gfdbGetAgingTimeout
+                0x0000000000003c00                Pearl_gfdbGetLearn2All
+                0x0000000000003c80                Pearl_gfdbSetLearn2All
+                0x0000000000003cb0                Pearl_gfdbSetPortLearnLimit
+                0x0000000000003de0                Pearl_gfdbGetPortLearnLimit
+                0x0000000000003ef0                Pearl_gfdbGetPortLearnCount
+                0x0000000000003fb0                Pearl_gfdbGetEntryCount
+                0x0000000000004000                Pearl_gfdbGetEntryCountPerFid
+                0x0000000000004050                Pearl_gfdbGetNonStaticEntryCount
+                0x00000000000040a0                Pearl_gfdbGetNonStaticEntryCountPerFid
+ *fill*         0x00000000000040e5        0xb 
+ .text          0x00000000000040f0      0xc2a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+                0x0000000000004710                Pearl_gvtuGetEntryNext
+                0x0000000000004810                Pearl_gvtuFlush
+                0x0000000000004830                Pearl_gvtuAddEntry
+                0x0000000000004940                Pearl_gvtuDelEntry
+                0x00000000000049a0                Pearl_gvtuGetViolation
+                0x0000000000004ab0                Pearl_gvtuFindVidEntry
+                0x0000000000004c10                Pearl_gvtuDump
+ *fill*         0x0000000000004d1a        0x6 
+ .text          0x0000000000004d20      0x9e0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+                0x0000000000005300                Pearl_gstuGetEntryNext
+                0x00000000000053e0                Pearl_gstuAddEntry
+                0x00000000000054b0                Pearl_gstuDelEntry
+                0x0000000000005510                Pearl_gstuFindSidEntry
+                0x0000000000005610                Pearl_gstuDump
+ .text          0x0000000000005700      0xc9c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+                0x00000000000059a0                Pearl_gpirlInitialize
+                0x00000000000059c0                Pearl_gpirlInitResource
+                0x0000000000005a40                Pearl_gpirlCustomSetup
+                0x0000000000005dc0                Pearl_gpirlReadResource
+                0x0000000000005ff0                Pearl_gpirlWriteResource
+                0x0000000000006250                Pearl_gpirlGetResReg
+                0x0000000000006300                Pearl_gpirlSetResReg
+ *fill*         0x000000000000639c        0x4 
+ .text          0x00000000000063a0      0xba7 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+                0x00000000000067c0                Pearl_gstatsFlushAll
+                0x00000000000067e0                Pearl_gstatsFlushPort
+                0x0000000000006820                Pearl_gstatsGetPortCounter
+                0x0000000000006880                Pearl_gstatsGetPortAllCounters
+                0x00000000000068d0                Pearl_gstatsGetHistogramMode
+                0x0000000000006980                Pearl_gstatsSetHistogramMode
+                0x00000000000069c0                Pearl_gmibDump
+ *fill*         0x0000000000006f47        0x9 
+ .text          0x0000000000006f50     0x3198 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+                0x0000000000006f50                Pearl_gprtSetForceDefaultVid
+                0x0000000000006fb0                Pearl_gprtGetForceDefaultVid
+                0x0000000000007040                Pearl_gvlnSetPortVid
+                0x00000000000070a0                Pearl_gvlnGetPortVid
+                0x0000000000007130                Pearl_gvlnSetPortVlanDot1qMode
+                0x0000000000007190                Pearl_gvlnGetPortVlanDot1qMode
+                0x0000000000007220                Pearl_gprtSetDiscardTagged
+                0x0000000000007280                Pearl_gprtGetDiscardTagged
+                0x0000000000007310                Pearl_gprtSetDiscardUntagged
+                0x0000000000007370                Pearl_gprtGetDiscardUntagged
+                0x0000000000007400                Pearl_gprtSetUnicastFloodBlock
+                0x0000000000007460                Pearl_gprtGetUnicastFloodBlock
+                0x00000000000074f0                Pearl_gprtSetMulticastFloodBlock
+                0x0000000000007550                Pearl_gprtGetMulticastFloodBlock
+                0x00000000000075e0                Pearl_gprtSetDiscardBCastMode
+                0x0000000000007640                Pearl_gprtGetDiscardBCastMode
+                0x00000000000076e0                Pearl_gprtSetIGMPSnoopEnable
+                0x0000000000007740                Pearl_gprtGetIGMPSnoopEnable
+                0x00000000000077e0                Pearl_gprtGetHeaderMode
+                0x0000000000007880                Pearl_gprtSetHeaderMode
+                0x00000000000078e0                Pearl_gprtGetDropOnLock
+                0x0000000000007980                Pearl_gprtSetDropOnLock
+                0x00000000000079e0                Pearl_gprtSetJumboMode
+                0x0000000000007a50                Pearl_gprtGetJumboMode
+                0x0000000000007ae0                Pearl_gprtSetLearnEnable
+                0x0000000000007b50                Pearl_gprtGetLearnEnable
+                0x0000000000007be0                Pearl_gprtGetVTUPriorityOverride
+                0x0000000000007c70                Pearl_gprtSetVTUPriorityOverride
+                0x0000000000007cd0                Pearl_gprtGetSAPriorityOverride
+                0x0000000000007d60                Pearl_gprtSetSAPriorityOverride
+                0x0000000000007dc0                Pearl_gprtGetDAPriorityOverride
+                0x0000000000007e50                Pearl_gprtSetDAPriorityOverride
+                0x0000000000007eb0                Pearl_gprtGetMessagePort
+                0x0000000000007f40                Pearl_gprtSetMessagePort
+                0x0000000000007fa0                Pearl_gprtGetEtherType
+                0x0000000000007ff0                Pearl_gprtSetEtherType
+                0x0000000000008040                Pearl_gprtSetTrunkPort
+                0x00000000000080e0                Pearl_gprtGetTrunkPort
+                0x00000000000081c0                Pearl_gprtSetFlowCtrl
+                0x0000000000008230                Pearl_gprtGetFlowCtrl
+                0x00000000000082e0                Pearl_gprtSetEgressMonitorSource
+                0x0000000000008340                Pearl_gprtGetEgressMonitorSource
+                0x00000000000083d0                Pearl_gprtSetIngressMonitorSource
+                0x0000000000008430                Pearl_gprtGetIngressMonitorSource
+                0x00000000000084c0                Pearl_grcSetELimitMode
+                0x0000000000008520                Pearl_grcSetEgressRate
+                0x00000000000086d0                Pearl_grcGetELimitMode
+                0x0000000000008760                Pearl_grcGetEgressRate
+                0x00000000000088a0                Pearl_gprtSetDuplex
+                0x0000000000008910                Pearl_gprtGetDuplex
+                0x00000000000089e0                Pearl_gprtGetDuplexStatus
+                0x0000000000008a70                Pearl_gprtGetForceLink
+                0x0000000000008b30                Pearl_gprtSetForceLink
+                0x0000000000008ba0                Pearl_gprtGetLinkState
+                0x0000000000008c30                Pearl_gprtSetForceSpeed
+                0x0000000000008dd0                Pearl_gprtGetForceSpeed
+                0x0000000000008f10                Pearl_gprtGetSpeed
+                0x0000000000009020                Pearl_gprtGetVlanPorts
+                0x00000000000090e0                Pearl_gprtSetVlanPorts
+                0x0000000000009190                Pearl_gprtGetFrameMode
+                0x0000000000009220                Pearl_gprtSetFrameMode
+                0x0000000000009280                Pearl_gprtGetEgressMode
+                0x0000000000009310                Pearl_gprtSetEgressMode
+                0x0000000000009370                Pearl_gprtGetPortState
+                0x0000000000009400                Pearl_gprtSetPortState
+                0x0000000000009460                Pearl_gprtSetCutThrouthEnable
+                0x00000000000094d0                Pearl_gprtGetCutThrouthEnable
+                0x0000000000009560                Pearl_gprtSetIgnoreFcs
+                0x00000000000095c0                Pearl_gprtGetIgnoreFcs
+                0x0000000000009650                Pearl_gprtSetAllowBadFcs
+                0x00000000000096b0                Pearl_gprtGetAllowBadFcs
+                0x0000000000009740                Pearl_gprtSetPauseLimitOut
+                0x00000000000097a0                Pearl_gprtGetPauseLimitOut
+                0x0000000000009800                Pearl_gprtSetPauseLimitIn
+                0x0000000000009860                Pearl_gprtGetPauseLimitIn
+                0x00000000000098c0                Pearl_gprtGetOutQueueSize
+                0x0000000000009960                Pearl_gprtSetMapDA
+                0x00000000000099c0                Pearl_gprtGetMapDA
+                0x0000000000009a50                Pearl_gprtSetPortLocked
+                0x0000000000009ab0                Pearl_gprtGetPortLocked
+                0x0000000000009b40                Pearl_gprtSetHoldAt1
+                0x0000000000009ba0                Pearl_gprtGetHoldAt1
+                0x0000000000009c30                Pearl_gprtSetInt0nAgeOut
+                0x0000000000009c90                Pearl_gprtGetInt0nAgeOut
+                0x0000000000009d20                Pearl_gprtSetRefreshLocked
+                0x0000000000009d80                Pearl_gprtGetRefreshLocked
+                0x0000000000009e10                Pearl_gprtSetIgnoreWrongData
+                0x0000000000009e70                Pearl_gprtGetIgnoreWrongData
+                0x0000000000009f00                Pearl_gprtSetARPMirror
+                0x0000000000009f60                Pearl_gprtGetARPMirror
+                0x0000000000009ff0                Pearl_gprtRegDump
+ *fill*         0x000000000000a0e8        0x8 
+ .text          0x000000000000a0f0      0x407 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+                0x000000000000a0f0                Pearl_gqosSetPrioMapRule
+                0x000000000000a150                Pearl_gqosGetPrioMapRule
+                0x000000000000a1e0                Pearl_gprtSetInitialPri
+                0x000000000000a250                Pearl_gprtGetInitialPri
+                0x000000000000a310                Pearl_gprtSetDefQpri
+                0x000000000000a370                Pearl_gprtGetDefQpri
+                0x000000000000a410                Pearl_gprtSetDefFpri
+                0x000000000000a470                Pearl_gprtGetDefFpri
+ *fill*         0x000000000000a4f7        0x9 
+ .text          0x000000000000a500     0x1283 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+                0x000000000000a500                Pearl_gsysSetTrunkMaskTable
+                0x000000000000a630                Pearl_gsysGetTrunkMaskTable
+                0x000000000000a790                Pearl_gsysSetHashTrunk
+                0x000000000000a7c0                Pearl_gsysGetHashTrunk
+                0x000000000000a830                Pearl_gsysSetTrunkRouting
+                0x000000000000a980                Pearl_gsysGetTrunkRouting
+                0x000000000000ab00                Pearl_gsysSetFloodBC
+                0x000000000000ab30                Pearl_gsysGetFloodBC
+                0x000000000000aba0                Pearl_gsysSetCPUDest
+                0x000000000000ac50                Pearl_gsysGetCPUDest
+                0x000000000000acb0                Pearl_gsysSetIngressMonitorDest
+                0x000000000000ad80                Pearl_gsysGetIngressMonitorDest
+                0x000000000000adf0                Pearl_gsysSetEgressMonitorDest
+                0x000000000000aec0                Pearl_gsysGetEgressMonitorDest
+                0x000000000000af60                Pearl_gsysSetRsvd2CpuEnables
+                0x000000000000b000                Pearl_gsysGetRsvd2CpuEnables
+                0x000000000000b060                Pearl_gsysSetMGMTPri
+                0x000000000000b0f0                Pearl_gsysGetMGMTPri
+                0x000000000000b150                Pearl_gsysGlobal1RegDump
+                0x000000000000b220                Pearl_gsysGlobal2RegDump
+                0x000000000000b2f0                Pearl_gsysSetRMUMode
+                0x000000000000b3b0                Pearl_gsysGetRMUMode
+                0x000000000000b440                Pearl_gsysDevIntEnableSet
+                0x000000000000b4a0                Pearl_gsysDevIntEnableGet
+                0x000000000000b530                Pearl_gsysDevIntStatusGet
+                0x000000000000b5b0                Pearl_gsysActiveIntEnableSet
+                0x000000000000b670                Pearl_gsysActiveIntEnableGet
+                0x000000000000b700                Pearl_gsysActiveIntStatusGet
+ *fill*         0x000000000000b783        0xd 
+ .text          0x000000000000b790      0xd5b /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+                0x000000000000ba40                Pearl_gphyReset
+                0x000000000000bb10                Pearl_serdesReset
+                0x000000000000bbd0                Pearl_gphySetPortLoopback
+                0x000000000000bcc0                Pearl_gphySetPortSpeed
+                0x000000000000be50                Pearl_gphyPortPowerDown
+                0x000000000000bf40                Pearl_gphySetPortDuplexMode
+                0x000000000000c060                Pearl_gphySetPortAutoMode
+                0x000000000000c130                Pearl_gphySetEEE
+                0x000000000000c220                Pearl_gphySetFlowControlEnable
+                0x000000000000c340                Pearl_gphySetIntEnable
+                0x000000000000c3b0                Pearl_gphyGetIntEnable
+                0x000000000000c450                Pearl_gphyGetIntStatus
+ *fill*         0x000000000000c4eb        0x5 
+ .text          0x000000000000c4f0      0x69c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+                0x000000000000c4f0                Pearl_gprtSetPortSched
+                0x000000000000c550                Pearl_gprtGetPortSched
+                0x000000000000c620                Pearl_gsysSetQoSWeight
+                0x000000000000c8d0                Pearl_gsysGetQoSWeight
+ *fill*         0x000000000000cb8c        0x4 
+ .text          0x000000000000cb90      0xa75 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+                0x000000000000cb90                Pearl_msdRmuGetID
+                0x000000000000ccc0                Pearl_msdRmuAtuDump
+                0x000000000000ced0                Pearl_msdRmuMib2Dump
+                0x000000000000d300                Pearl_msdRmuReadRegister
+                0x000000000000d330                Pearl_msdRmuWriteRegister
+                0x000000000000d350                Pearl_msdRmuMultiRegAccess
+                0x000000000000d540                Pearl_msdRmuRegDump
+ *fill*         0x000000000000d605        0xb 
+ .text          0x000000000000d610      0x2ea /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+                0x000000000000d610                Pearl_EEPROMWrite
+                0x000000000000d780                Pearl_EEPROMRead
+ *fill*         0x000000000000d8fa        0x6 
+ .text          0x000000000000d900      0x91c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+                0x000000000000d900                Pearl_gtcamLoadEntryIntf
+                0x000000000000daa0                Pearl_gtcamReadTCAMDataIntf
+                0x000000000000dc50                Pearl_gtcamGetNextTCAMDataIntf
+                0x000000000000de00                Pearl_gtcamFindEntryIntf
+                0x000000000000dff0                Pearl_gtcamSetModeIntf
+                0x000000000000e000                Pearl_gtcamGetModeIntf
+                0x000000000000e060                Pearl_gtcamAdvConfigIntf
+ *fill*         0x000000000000e21c        0x4 
+ .text          0x000000000000e220      0x19d /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+                0x000000000000e220                Pearl_gvctGetAdvCableDiagIntf
+                0x000000000000e320                Pearl_gvctGetAdvExtendedStatusIntf
+ *fill*         0x000000000000e3bd        0x3 
+ .text          0x000000000000e3c0      0x526 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+                0x000000000000e3c0                Pearl_gfdbAddMacEntryIntf
+                0x000000000000e440                Pearl_gfdbFlushIntf
+                0x000000000000e450                Pearl_gfdbFlushInDBIntf
+                0x000000000000e460                Pearl_gfdbMoveIntf
+                0x000000000000e470                Pearl_gfdbMoveInDBIntf
+                0x000000000000e480                Pearl_gfdbPortRemoveIntf
+                0x000000000000e4b0                Pearl_gfdbPortRemoveInDBIntf
+                0x000000000000e4e0                Pearl_gfdbGetAtuEntryNextIntf
+                0x000000000000e5b0                Pearl_gfdbGetViolationIntf
+                0x000000000000e690                Pearl_gfdbFindAtuMacEntryIntf
+                0x000000000000e780                Pearl_gfdbDump
+ *fill*         0x000000000000e8e6        0xa 
+ .text          0x000000000000e8f0      0x72c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+                0x000000000000e8f0                Pearl_gvtuFindVidEntryIntf
+                0x000000000000ea50                Pearl_gvtuGetEntryNextIntf
+                0x000000000000eb30                Pearl_gvtuExistVidEntryIntf
+                0x000000000000ebc0                Pearl_gvtuFlushIntf
+                0x000000000000ebd0                Pearl_gvtuAddEntryIntf
+                0x000000000000ecc0                Pearl_gvtuDelEntryIntf
+                0x000000000000ed30                Pearl_gvtuGetViolationIntf
+                0x000000000000edf0                Pearl_gvtuGetEntryCountIntf
+                0x000000000000ee90                Pearl_gvtuSetMemberTagIntf
+                0x000000000000ef60                Pearl_gvtuGetMemberTagIntf
+ *fill*         0x000000000000f01c        0x4 
+ .text          0x000000000000f020      0x3ac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+                0x000000000000f020                Pearl_gstuAddEntryIntf
+                0x000000000000f0f0                Pearl_gstuGetEntryNextIntf
+                0x000000000000f1a0                Pearl_gstuDelEntryIntf
+                0x000000000000f200                Pearl_gstuFindSidEntryIntf
+                0x000000000000f330                Pearl_gstuGetEntryCountIntf
+ *fill*         0x000000000000f3cc        0x4 
+ .text          0x000000000000f3d0      0x454 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+                0x000000000000f3d0                Pearl_gpirlInitializeIntf
+                0x000000000000f3e0                Pearl_gpirlInitResourceIntf
+                0x000000000000f3f0                Pearl_gpirlCustomSetupIntf
+                0x000000000000f4b0                Pearl_gpirlReadResourceIntf
+                0x000000000000f590                Pearl_gpirlWriteResourceIntf
+                0x000000000000f670                Pearl_gpirlGetResRegIntf
+                0x000000000000f680                Pearl_gpirlSetResRegIntf
+                0x000000000000f690                Pearl_gpirlAdvConfigIntf
+                0x000000000000f7b0                Pearl_gpirlAdvConfigDisableIntf
+ *fill*         0x000000000000f824        0xc 
+ .text          0x000000000000f830      0x6fd /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+                0x000000000000f830                Pearl_gqavSetPortQpriXRate
+                0x000000000000f9c0                Pearl_gqavGetPortQpriXRate
+                0x000000000000fbb0                Pearl_gqavSetPortQpriXHiLimit
+                0x000000000000fd40                Pearl_gqavGetPortQpriXHiLimit
+ *fill*         0x000000000000ff2d        0x3 
+ .text          0x000000000000ff30      0x239 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+                0x000000000000ff30                Pearl_gstatsGetPortCounterIntf
+                0x000000000000ff50                Pearl_gstatsGetPortAllCountersIntf
+                0x0000000000010150                Pearl_gstatsGetHistogramModeIntf
+                0x0000000000010160                Pearl_gstatsSetHistogramModeIntf
+ *fill*         0x0000000000010169        0x7 
+ .text          0x0000000000010170      0x319 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+                0x0000000000010170                Pearl_gvlnSetPortVlanDot1qModeIntf
+                0x0000000000010180                Pearl_gvlnGetPortVlanDot1qModeIntf
+                0x0000000000010190                Pearl_gprtSetDiscardTaggedIntf
+                0x00000000000101a0                Pearl_gprtGetDiscardTaggedIntf
+                0x00000000000101b0                Pearl_gprtSetDiscardUntaggedIntf
+                0x00000000000101c0                Pearl_gprtGetDiscardUntaggedIntf
+                0x00000000000101d0                Pearl_gprtSetUnicastFloodBlockIntf
+                0x00000000000101e0                Pearl_gprtGetUnicastFloodBlockIntf
+                0x00000000000101f0                Pearl_gprtSetMulticastFloodBlockIntf
+                0x0000000000010200                Pearl_gprtGetMulticastFloodBlockIntf
+                0x0000000000010210                Pearl_gprtSetDiscardBCastModeIntf
+                0x0000000000010220                Pearl_gprtGetDiscardBCastModeIntf
+                0x0000000000010230                Pearl_gprtSetJumboModeIntf
+                0x0000000000010240                Pearl_gprtGetJumboModeIntf
+                0x0000000000010250                Pearl_gprtSetLearnEnableIntf
+                0x0000000000010260                Pearl_gprtGetLearnEnableIntf
+                0x0000000000010270                Pearl_gprtGetVTUPriorityOverrideIntf
+                0x0000000000010280                Pearl_gprtSetVTUPriorityOverrideIntf
+                0x0000000000010290                Pearl_gprtGetSAPriorityOverrideIntf
+                0x00000000000102a0                Pearl_gprtSetSAPriorityOverrideIntf
+                0x00000000000102b0                Pearl_gprtGetDAPriorityOverrideIntf
+                0x00000000000102c0                Pearl_gprtSetDAPriorityOverrideIntf
+                0x00000000000102d0                Pearl_gprtSetFlowCtrlIntf
+                0x0000000000010300                Pearl_gprtGetFlowCtrlIntf
+                0x0000000000010310                Pearl_gprtSetForceSpeedIntf
+                0x0000000000010350                Pearl_gprtGetForceSpeedIntf
+                0x0000000000010360                Pearl_grcSetEgressRateIntf
+                0x0000000000010370                Pearl_grcGetEgressRateIntf
+                0x0000000000010380                Pearl_grcSetELimitModeIntf
+                0x0000000000010390                Pearl_grcGetELimitModeIntf
+                0x00000000000103a0                Pearl_gprtSetDuplexIntf
+                0x00000000000103b0                Pearl_gprtGetDuplexIntf
+                0x00000000000103c0                Pearl_gprtGetDuplexStatusIntf
+                0x00000000000103d0                Pearl_gprtGetForceLinkIntf
+                0x00000000000103e0                Pearl_gprtSetForceLinkIntf
+                0x00000000000103f0                Pearl_gprtGetSpeedIntf
+                0x0000000000010400                Pearl_gprtGetFrameModeIntf
+                0x0000000000010410                Pearl_gprtSetFrameModeIntf
+                0x0000000000010420                Pearl_gprtGetEgressModeIntf
+                0x0000000000010430                Pearl_gprtSetEgressModeIntf
+                0x0000000000010450                Pearl_gprtGetPortStateIntf
+                0x0000000000010460                Pearl_gprtSetPortStateIntf
+                0x0000000000010470                Pearl_gprtSetCutThrouthEnableIntf
+                0x0000000000010480                Pearl_gprtGetCutThrouthEnableIntf
+ *fill*         0x0000000000010489        0x7 
+ .text          0x0000000000010490       0x59 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+                0x0000000000010490                Pearl_gqosSetPrioMapRuleIntf
+                0x00000000000104a0                Pearl_gqosGetPrioMapRuleIntf
+                0x00000000000104b0                Pearl_gprtSetInitialPriIntf
+                0x00000000000104c0                Pearl_gprtGetInitialPriIntf
+                0x00000000000104d0                Pearl_gprtSetDefQpriIntf
+                0x00000000000104e0                Pearl_gprtGetDefQpriIntf
+ *fill*         0x00000000000104e9        0x7 
+ .text          0x00000000000104f0      0x242 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+                0x00000000000104f0                Pearl_gprtSetPortSchedIntf
+                0x0000000000010530                Pearl_gprtGetPortSchedIntf
+                0x0000000000010540                Pearl_gsysSetQoSWeightIntf
+                0x0000000000010640                Pearl_gsysGetQoSWeightIntf
+ .text          0x0000000000010732        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+ *fill*         0x0000000000010732        0xe 
+ .text          0x0000000000010740       0x19 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+                0x0000000000010740                Pearl_gphySetPortSpeedIntf
+                0x0000000000010750                Pearl_gphySetPortAutoModeIntf
+ *fill*         0x0000000000010759        0x7 
+ .text          0x0000000000010760       0x1c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+                0x0000000000010760                Pearl_EEPROMWriteIntf
+                0x0000000000010770                Pearl_EEPROMReadIntf
+ *fill*         0x000000000001077c        0x4 
+ .text          0x0000000000010780      0x399 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+                0x0000000000010780                Pearl_msdRmuGetIDIntf
+                0x0000000000010790                Pearl_msdRmuAtuDumpIntf
+                0x00000000000108e0                Pearl_msdRmuMib2DumpIntf
+                0x0000000000010ae0                Pearl_msdRmuReadRegisterIntf
+                0x0000000000010af0                Pearl_msdRmuWriteRegisterIntf
+                0x0000000000010b10                Pearl_msdRmuMultiRegAccessIntf
+ *fill*         0x0000000000010b19        0x7 
+ .text          0x0000000000010b20      0xe8a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+                0x0000000000010ec0                Pearl_gptpSetIntEnable
+                0x0000000000010fa0                Pearl_gptpGetIntEnable
+                0x0000000000011040                Pearl_gptpSetProtPTPEn
+                0x0000000000011100                Pearl_gptpGetProtPTPEn
+                0x0000000000011190                Pearl_gptpSetPortConfig
+                0x0000000000011370                Pearl_gptpGetPortConfig
+                0x0000000000011530                Pearl_gptpGetTimeStamp
+                0x0000000000011630                Pearl_gptpGetTSValidSt
+                0x00000000000116f0                Pearl_gptpResetTimeStamp
+                0x00000000000117b0                Pearl_gptpSetGlobalConfig
+                0x0000000000011870                Pearl_gptpGetGlobalConfig
+                0x0000000000011930                Pearl_gptpGetIntStatus
+ *fill*         0x00000000000119aa        0x6 
+ .text          0x00000000000119b0      0x364 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+                0x00000000000119b0                Pearl_gptpSetIntEnableIntf
+                0x0000000000011a10                Pearl_gptpGetIntEnableIntf
+                0x0000000000011a70                Pearl_gptpSetPortConfigIntf
+                0x0000000000011af0                Pearl_gptpGetPortConfigIntf
+                0x0000000000011b70                Pearl_gptpGetTimeStampIntf
+                0x0000000000011be0                Pearl_gptpSetGlobalConfigIntf
+                0x0000000000011c40                Pearl_gptpGetGlobalConfigIntf
+                0x0000000000011cb0                Pearl_gptpGetIntStatusIntf
+ *fill*         0x0000000000011d14        0xc 
+ .text          0x0000000000011d20      0xc29 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+                0x0000000000011f90                Pearl_gledForceOn
+                0x0000000000012040                Pearl_gledForceOff
+                0x0000000000012100                Pearl_gledLinkAct
+                0x0000000000012200                Pearl_gledModeSet
+                0x00000000000122d0                Pearl_gledModeGet
+                0x0000000000012370                Pearl_gledBlinkRateSet
+                0x0000000000012420                Pearl_gledBlinkRateGet
+                0x0000000000012500                Pearl_gledPulseStretchSet
+                0x00000000000125b0                Pearl_gledPulseStretchGet
+                0x0000000000012680                Pearl_gledSpecialModeSet
+                0x0000000000012730                Pearl_gledSpecialModeGet
+                0x0000000000012790                Pearl_gledCtrlSet
+                0x00000000000127d0                Pearl_gledCtrlGet
+                0x0000000000012800                Pearl_gledDump
+ *fill*         0x0000000000012949        0x7 
+ .text          0x0000000000012950      0x14c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+                0x0000000000012950                Pearl_gledForceOnIntf
+                0x0000000000012960                Pearl_gledForceOffIntf
+                0x0000000000012970                Pearl_gledLinkActIntf
+                0x0000000000012980                Pearl_gledModeSetIntf
+                0x0000000000012990                Pearl_gledModeGetIntf
+                0x00000000000129a0                Pearl_gledBlinkRateSetIntf
+                0x00000000000129b0                Pearl_gledBlinkRateGetIntf
+                0x00000000000129c0                Pearl_gledPulseStretchSetIntf
+                0x00000000000129d0                Pearl_gledPulseStretchGetIntf
+                0x00000000000129e0                Pearl_gledSpecialModeSetIntf
+                0x0000000000012a30                Pearl_gledSpecialModeGetIntf
+                0x0000000000012a80                Pearl_gledCtrlSetIntf
+                0x0000000000012a90                Pearl_gledCtrlGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x14
+ .text.unlikely
+                0x0000000000000000       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x131c
+ *(.rodata)
+ .rodata        0x0000000000000000       0x60 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .rodata        0x0000000000000060      0x60c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ *fill*         0x000000000000066c       0x14 
+ .rodata        0x0000000000000680      0xc00 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .rodata        0x0000000000001280       0x30 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .rodata        0x00000000000012b0       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .rodata        0x00000000000012d0       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .rodata        0x00000000000012f0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+
+.rodata.str1.8  0x0000000000000000      0x4ab
+ .rodata.str1.8
+                0x0000000000000000       0xa4 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ *fill*         0x00000000000000a4        0x4 
+ .rodata.str1.8
+                0x00000000000000a8      0x101 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ *fill*         0x00000000000001a9        0x7 
+ .rodata.str1.8
+                0x00000000000001b0       0x39 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ *fill*         0x00000000000001e9        0x7 
+ .rodata.str1.8
+                0x00000000000001f0       0x73 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ *fill*         0x0000000000000263        0x5 
+ .rodata.str1.8
+                0x0000000000000268       0xde /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ *fill*         0x0000000000000346        0x2 
+ .rodata.str1.8
+                0x0000000000000348      0x163 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+
+.rodata.str1.1  0x0000000000000000      0x9a6
+ .rodata.str1.1
+                0x0000000000000000      0x2a6 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ .rodata.str1.1
+                0x00000000000002a6        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .rodata.str1.1
+                0x00000000000002a8       0x59 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .rodata.str1.1
+                0x0000000000000301      0x682 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .rodata.str1.1
+                0x0000000000000983        0xb /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .rodata.str1.1
+                0x000000000000098e       0x16 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .rodata.str1.1
+                0x00000000000009a4        0x2 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+
+.rodata.cst8    0x0000000000000000       0x28
+ .rodata.cst8   0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x4974
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ .eh_frame      0x0000000000000340      0x1a8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+ .eh_frame      0x00000000000004e8      0x430 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+ .eh_frame      0x0000000000000918      0x1d0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .eh_frame      0x0000000000000ae8      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .eh_frame      0x0000000000000c68      0x208 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+ .eh_frame      0x0000000000000e70      0x1b8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .eh_frame      0x0000000000001028     0x1238 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .eh_frame      0x0000000000002260      0x1a0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+ .eh_frame      0x0000000000002400      0x5a0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .eh_frame      0x00000000000029a0      0x318 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .eh_frame      0x0000000000002cb8      0x110 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+ .eh_frame      0x0000000000002dc8      0x198 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+ .eh_frame      0x0000000000002f60       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+ .eh_frame      0x0000000000002ff0      0x160 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+ .eh_frame      0x0000000000003150       0x80 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+ .eh_frame      0x00000000000031d0      0x1d0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ .eh_frame      0x00000000000033a0      0x220 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+ .eh_frame      0x00000000000035c0      0x118 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+ .eh_frame      0x00000000000036d8      0x160 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+ .eh_frame      0x0000000000003838      0x148 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+ .eh_frame      0x0000000000003980       0x88 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+ .eh_frame      0x0000000000003a08      0x388 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .eh_frame      0x0000000000003d90       0x90 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+ .eh_frame      0x0000000000003e20       0x80 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .eh_frame      0x0000000000003ea0       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+ .eh_frame      0x0000000000003ee0       0x40 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+ .eh_frame      0x0000000000003f20       0xe8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+ .eh_frame      0x0000000000004008      0x340 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+ .eh_frame      0x0000000000004348      0x120 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+ .eh_frame      0x0000000000004468      0x3f0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+ .eh_frame      0x0000000000004858      0x11c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+                                        0x120 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x180
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ .data          0x0000000000000000      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+ .data          0x0000000000000180        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x5ac
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ .comment       0x000000000000002c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+ .comment       0x0000000000000058       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+ .comment       0x0000000000000084       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .comment       0x00000000000000b0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .comment       0x00000000000000dc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+ .comment       0x0000000000000108       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .comment       0x0000000000000134       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .comment       0x0000000000000160       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+ .comment       0x000000000000018c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .comment       0x00000000000001b8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .comment       0x00000000000001e4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+ .comment       0x0000000000000210       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+ .comment       0x000000000000023c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+ .comment       0x0000000000000268       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+ .comment       0x0000000000000294       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+ .comment       0x00000000000002c0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ .comment       0x00000000000002ec       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+ .comment       0x0000000000000318       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+ .comment       0x0000000000000344       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+ .comment       0x0000000000000370       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+ .comment       0x000000000000039c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+ .comment       0x00000000000003c8       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .comment       0x00000000000003f4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+ .comment       0x0000000000000420       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .comment       0x000000000000044c       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+ .comment       0x0000000000000478       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+ .comment       0x00000000000004a4       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+ .comment       0x00000000000004d0       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+ .comment       0x00000000000004fc       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+ .comment       0x0000000000000528       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+ .comment       0x0000000000000554       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+ .comment       0x0000000000000580       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVct.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdb.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRL.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmon.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMU.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROM.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdTCAMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdAdvVctIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgFdbIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgVtuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdBrgStuIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPIRLIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQav.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortRmonIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPortPrioMapIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdQueueCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdSysCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPhyCtrlIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdEEPROMIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdRMUIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTP.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdPTPIntf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLed.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/Pearl_msdLedIntf.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/pearl/src/api/msdDrv_obj/api.o elf64-x86-64)

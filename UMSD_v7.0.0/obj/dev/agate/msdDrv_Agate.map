@@ -1,0 +1,722 @@
+
+Merging program properties
+
+
+Discarded input sections
+
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.interp
+ *(.interp)
+
+.note.gnu.property
+                0x0000000000000000       0x20
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.relr.dyn
+ *(.relr.dyn)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x134dc
+ *(.text .stub)
+ .text          0x0000000000000000      0xca1 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000                Agate_msdSetSMIC45PhyReg
+                0x0000000000000180                Agate_msdGetSMIC45PhyReg
+                0x0000000000000300                Agate_msdSetSMIPhyReg
+                0x00000000000003f0                Agate_msdGetSMIPhyReg
+                0x0000000000000520                Agate_msdSetSMIPhyRegField
+                0x0000000000000610                Agate_msdGetSMIPhyRegField
+                0x00000000000006b0                Agate_msdSetPagedPhyRegField
+                0x0000000000000730                Agate_msdGetPagedPhyRegField
+                0x0000000000000800                Agate_msdWritePagedPhyReg
+                0x0000000000000860                Agate_msdReadPagedPhyReg
+                0x00000000000008c0                Agate_msdSetSMIPhyXMDIOReg
+                0x00000000000009b0                Agate_msdGetSMIPhyXMDIOReg
+                0x0000000000000af0                Agate_msdPhyReset
+ *fill*         0x0000000000000ca1        0xf 
+ .text          0x0000000000000cb0    0x1282c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                0x0000000000001b20                Agate_gtcamFlushAll
+                0x0000000000001b70                Agate_gtcamFlushEntry
+                0x0000000000001bd0                Agate_gtcamLoadEntry
+                0x0000000000001c60                Agate_gtcamReadTCAMData
+                0x0000000000001cf0                Agate_gtcamGetNextTCAMData
+                0x0000000000001d90                Agate_gtcamFindEntry
+                0x0000000000001e70                Agate_gtcamSetMode
+                0x0000000000001ed0                Agate_gtcamGetMode
+                0x0000000000001f60                Agate_gtcamAddEntryPort
+                0x0000000000002050                Agate_gtcamRemoveEntryPort
+                0x0000000000002140                Agate_gtcamDump
+                0x00000000000024b0                Agate_gtcamAdvConfig
+                0x0000000000003180                Agate_gvctGetAdvCableDiag
+                0x00000000000035f0                Agate_gvctGetAdvExtendedStatus
+                0x0000000000004160                Agate_gfdbGetAtuEntryNext
+                0x0000000000004180                Agate_gfdbFlush
+                0x00000000000041f0                Agate_gfdbFlushInDB
+                0x0000000000004280                Agate_gfdbMove
+                0x0000000000004370                Agate_gfdbMoveInDB
+                0x0000000000004470                Agate_gfdbAddMacEntry
+                0x0000000000004530                Agate_gfdbDelAtuEntry
+                0x00000000000045c0                Agate_gfdbGetViolation
+                0x00000000000046b0                Agate_gfdbFindAtuMacEntry
+                0x00000000000047e0                Agate_gfdbSetAgingTimeout
+                0x0000000000004840                Agate_gfdbGetAgingTimeout
+                0x00000000000048b0                Agate_gfdbGetLearn2All
+                0x0000000000004930                Agate_gfdbSetLearn2All
+                0x0000000000004960                Agate_gfdbSetPortLearnLimit
+                0x0000000000004a90                Agate_gfdbGetPortLearnLimit
+                0x0000000000004ba0                Agate_gfdbGetPortLearnCount
+                0x0000000000004c60                Agate_gfdbGetEntryCount
+                0x0000000000004cb0                Agate_gfdbGetEntryCountPerFid
+                0x0000000000004d00                Agate_gfdbGetNonStaticEntryCount
+                0x0000000000004d50                Agate_gfdbGetNonStaticEntryCountPerFid
+                0x00000000000053c0                Agate_gvtuGetEntryNext
+                0x00000000000054c0                Agate_gvtuFlush
+                0x00000000000054e0                Agate_gvtuAddEntry
+                0x00000000000055f0                Agate_gvtuDelEntry
+                0x0000000000005650                Agate_gvtuGetViolation
+                0x0000000000005760                Agate_gvtuFindVidEntry
+                0x00000000000058c0                Agate_gvtuDump
+                0x0000000000005fb0                Agate_gstuGetEntryNext
+                0x0000000000006090                Agate_gstuAddEntry
+                0x0000000000006160                Agate_gstuDelEntry
+                0x00000000000061c0                Agate_gstuFindSidEntry
+                0x00000000000062c0                Agate_gstuDump
+                0x0000000000006650                Agate_gpirlInitialize
+                0x0000000000006670                Agate_gpirlInitResource
+                0x00000000000066f0                Agate_gpirlCustomSetup
+                0x0000000000006a70                Agate_gpirlReadResource
+                0x0000000000006ca0                Agate_gpirlWriteResource
+                0x0000000000006f00                Agate_gpirlGetResReg
+                0x0000000000006fb0                Agate_gpirlSetResReg
+                0x00000000000073d0                Agate_gstatsFlushAll
+                0x00000000000073f0                Agate_gstatsFlushPort
+                0x0000000000007430                Agate_gstatsGetPortCounter
+                0x0000000000007480                Agate_gstatsGetPortAllCounters
+                0x00000000000074d0                Agate_gstatsGetHistogramMode
+                0x0000000000007580                Agate_gstatsSetHistogramMode
+                0x00000000000075c0                Agate_gmibDump
+                0x00000000000078b0                Agate_gvlnSetPortVid
+                0x0000000000007910                Agate_gvlnGetPortVid
+                0x00000000000079a0                Agate_gprtSetForceDefaultVid
+                0x0000000000007a00                Agate_gprtGetForceDefaultVid
+                0x0000000000007a90                Agate_gvlnSetPortVlanDot1qMode
+                0x0000000000007af0                Agate_gvlnGetPortVlanDot1qMode
+                0x0000000000007b80                Agate_gprtSetDiscardTagged
+                0x0000000000007be0                Agate_gprtGetDiscardTagged
+                0x0000000000007c70                Agate_gprtSetDiscardUntagged
+                0x0000000000007cd0                Agate_gprtGetDiscardUntagged
+                0x0000000000007d60                Agate_gprtSetUnicastFloodBlock
+                0x0000000000007dc0                Agate_gprtGetUnicastFloodBlock
+                0x0000000000007e50                Agate_gprtSetMulticastFloodBlock
+                0x0000000000007eb0                Agate_gprtGetMulticastFloodBlock
+                0x0000000000007f40                Agate_gprtSetDiscardBCastMode
+                0x0000000000007fa0                Agate_gprtGetDiscardBCastMode
+                0x0000000000008040                Agate_gprtSetIGMPSnoopEnable
+                0x00000000000080a0                Agate_gprtGetIGMPSnoopEnable
+                0x0000000000008140                Agate_gprtGetHeaderMode
+                0x00000000000081e0                Agate_gprtSetHeaderMode
+                0x0000000000008240                Agate_gprtGetDropOnLock
+                0x00000000000082e0                Agate_gprtSetDropOnLock
+                0x0000000000008340                Agate_gprtSetJumboMode
+                0x00000000000083b0                Agate_gprtGetJumboMode
+                0x0000000000008440                Agate_gprtSetLearnEnable
+                0x00000000000084b0                Agate_gprtGetLearnEnable
+                0x0000000000008540                Agate_gprtGetVTUPriorityOverride
+                0x00000000000085d0                Agate_gprtSetVTUPriorityOverride
+                0x0000000000008630                Agate_gprtGetSAPriorityOverride
+                0x00000000000086c0                Agate_gprtSetSAPriorityOverride
+                0x0000000000008720                Agate_gprtGetDAPriorityOverride
+                0x00000000000087b0                Agate_gprtSetDAPriorityOverride
+                0x0000000000008810                Agate_gprtGetMessagePort
+                0x00000000000088a0                Agate_gprtSetMessagePort
+                0x0000000000008900                Agate_gprtGetEtherType
+                0x0000000000008950                Agate_gprtSetEtherType
+                0x00000000000089a0                Agate_gprtSetTrunkPort
+                0x0000000000008a40                Agate_gprtGetTrunkPort
+                0x0000000000008b20                Agate_gprtSetFlowCtrl
+                0x0000000000008b90                Agate_gprtGetFlowCtrl
+                0x0000000000008c40                Agate_gprtSetEgressMonitorSource
+                0x0000000000008ca0                Agate_gprtGetEgressMonitorSource
+                0x0000000000008d30                Agate_gprtSetIngressMonitorSource
+                0x0000000000008d90                Agate_gprtGetIngressMonitorSource
+                0x0000000000008e20                Agate_grcSetELimitMode
+                0x0000000000008e80                Agate_grcSetEgressRate
+                0x0000000000009030                Agate_grcGetELimitMode
+                0x00000000000090c0                Agate_grcGetEgressRate
+                0x0000000000009200                Agate_gprtSetDuplex
+                0x0000000000009270                Agate_gprtGetDuplex
+                0x0000000000009340                Agate_gprtGetDuplexStatus
+                0x00000000000093d0                Agate_gprtGetForceLink
+                0x0000000000009490                Agate_gprtSetForceLink
+                0x0000000000009500                Agate_gprtGetLinkState
+                0x0000000000009590                Agate_gprtSetForceSpeed
+                0x0000000000009730                Agate_gprtGetForceSpeed
+                0x0000000000009870                Agate_gprtGetSpeed
+                0x0000000000009980                Agate_gprtGetVlanPorts
+                0x0000000000009a40                Agate_gprtSetVlanPorts
+                0x0000000000009af0                Agate_gprtGetFrameMode
+                0x0000000000009b80                Agate_gprtSetFrameMode
+                0x0000000000009be0                Agate_gprtSetEgressMode
+                0x0000000000009c40                Agate_gprtGetEgressMode
+                0x0000000000009cd0                Agate_gprtGetPortState
+                0x0000000000009d60                Agate_gprtSetPortState
+                0x0000000000009dc0                Agate_gprtSetIgnoreFcs
+                0x0000000000009e20                Agate_gprtGetIgnoreFcs
+                0x0000000000009eb0                Agate_gprtSetAllowBadFcs
+                0x0000000000009f10                Agate_gprtGetAllowBadFcs
+                0x0000000000009fa0                Agate_gprtSetPauseLimitOut
+                0x000000000000a000                Agate_gprtGetPauseLimitOut
+                0x000000000000a060                Agate_gprtSetPauseLimitIn
+                0x000000000000a0c0                Agate_gprtGetPauseLimitIn
+                0x000000000000a120                Agate_gprtGetOutQueueSize
+                0x000000000000a1c0                Agate_gprtSetMapDA
+                0x000000000000a220                Agate_gprtGetMapDA
+                0x000000000000a2b0                Agate_gprtSetPortLocked
+                0x000000000000a310                Agate_gprtGetPortLocked
+                0x000000000000a3a0                Agate_gprtSetHoldAt1
+                0x000000000000a400                Agate_gprtGetHoldAt1
+                0x000000000000a490                Agate_gprtSetInt0nAgeOut
+                0x000000000000a4f0                Agate_gprtGetInt0nAgeOut
+                0x000000000000a580                Agate_gprtSetRefreshLocked
+                0x000000000000a5e0                Agate_gprtGetRefreshLocked
+                0x000000000000a670                Agate_gprtSetIgnoreWrongData
+                0x000000000000a6d0                Agate_gprtGetIgnoreWrongData
+                0x000000000000a760                Agate_gprtSetARPMirror
+                0x000000000000a7c0                Agate_gprtGetARPMirror
+                0x000000000000a850                Agate_gprtRegDump
+                0x000000000000a950                Agate_gqosSetPrioMapRule
+                0x000000000000a9b0                Agate_gqosGetPrioMapRule
+                0x000000000000aa40                Agate_gprtSetInitialPri
+                0x000000000000aab0                Agate_gprtGetInitialPri
+                0x000000000000ab70                Agate_gprtSetDefQpri
+                0x000000000000abd0                Agate_gprtGetDefQpri
+                0x000000000000ac70                Agate_gprtSetDefFpri
+                0x000000000000acd0                Agate_gprtGetDefFpri
+                0x000000000000ad60                Agate_gsysSetTrunkMaskTable
+                0x000000000000ae90                Agate_gsysGetTrunkMaskTable
+                0x000000000000aff0                Agate_gsysSetHashTrunk
+                0x000000000000b020                Agate_gsysGetHashTrunk
+                0x000000000000b090                Agate_gsysSetTrunkRouting
+                0x000000000000b1e0                Agate_gsysGetTrunkRouting
+                0x000000000000b360                Agate_gsysSetFloodBC
+                0x000000000000b390                Agate_gsysGetFloodBC
+                0x000000000000b400                Agate_gsysSetCPUDest
+                0x000000000000b4b0                Agate_gsysGetCPUDest
+                0x000000000000b510                Agate_gsysSetIngressMonitorDest
+                0x000000000000b5e0                Agate_gsysGetIngressMonitorDest
+                0x000000000000b650                Agate_gsysSetEgressMonitorDest
+                0x000000000000b720                Agate_gsysGetEgressMonitorDest
+                0x000000000000b7c0                Agate_gsysSetRsvd2CpuEnables
+                0x000000000000b860                Agate_gsysGetRsvd2CpuEnables
+                0x000000000000b8c0                Agate_gsysSetMGMTPri
+                0x000000000000b950                Agate_gsysGetMGMTPri
+                0x000000000000b9b0                Agate_gsysGlobal1RegDump
+                0x000000000000ba80                Agate_gsysGlobal2RegDump
+                0x000000000000bb50                Agate_gsysSetRMUMode
+                0x000000000000bc10                Agate_gsysGetRMUMode
+                0x000000000000bca0                Agate_gsysDevIntEnableSet
+                0x000000000000bd00                Agate_gsysDevIntEnableGet
+                0x000000000000bd90                Agate_gsysDevIntStatusGet
+                0x000000000000be10                Agate_gsysActiveIntEnableSet
+                0x000000000000bed0                Agate_gsysActiveIntEnableGet
+                0x000000000000bf60                Agate_gsysActiveIntStatusGet
+                0x000000000000c2a0                Agate_gphyReset
+                0x000000000000c370                Agate_serdesReset
+                0x000000000000c430                Agate_gphySetPortLoopback
+                0x000000000000c520                Agate_gphySetPortSpeed
+                0x000000000000c6b0                Agate_gphyPortPowerDown
+                0x000000000000c7a0                Agate_gphySetPortDuplexMode
+                0x000000000000c8c0                Agate_gphySetPortAutoMode
+                0x000000000000c990                Agate_gphySetEEE
+                0x000000000000ca80                Agate_gphySetFlowControlEnable
+                0x000000000000cba0                Agate_gphySetIntEnable
+                0x000000000000cc10                Agate_gphyGetIntEnable
+                0x000000000000ccb0                Agate_gphyGetIntStatus
+                0x000000000000cd50                Agate_gprtSetPortSched
+                0x000000000000cdb0                Agate_gprtGetPortSched
+                0x000000000000ce80                Agate_gsysSetQoSWeight
+                0x000000000000d130                Agate_gsysGetQoSWeight
+                0x000000000000d3f0                Agate_msdRmuGetID
+                0x000000000000d520                Agate_msdRmuAtuDump
+                0x000000000000d730                Agate_msdRmuMibDump
+                0x000000000000d9a0                Agate_msdRmuMib2Dump
+                0x000000000000dce0                Agate_msdRmuReadRegister
+                0x000000000000dd10                Agate_msdRmuWriteRegister
+                0x000000000000dd30                Agate_msdRmuMultiRegAccess
+                0x000000000000df20                Agate_msdRmuRegDump
+                0x000000000000dff0                Agate_EEPROMWrite
+                0x000000000000e160                Agate_EEPROMRead
+                0x000000000000e2e0                Agate_gtcamLoadEntryIntf
+                0x000000000000e480                Agate_gtcamReadTCAMDataIntf
+                0x000000000000e630                Agate_gtcamGetNextTCAMDataIntf
+                0x000000000000e7e0                Agate_gtcamFindEntryIntf
+                0x000000000000e9d0                Agate_gtcamSetModeIntf
+                0x000000000000e9e0                Agate_gtcamGetModeIntf
+                0x000000000000ea40                Agate_gtcamAdvConfigIntf
+                0x000000000000ec00                Agate_gvctGetAdvCableDiagIntf
+                0x000000000000ed00                Agate_gvctGetAdvExtendedStatusIntf
+                0x000000000000eda0                Agate_gfdbAddMacEntryIntf
+                0x000000000000ee20                Agate_gfdbGetAtuEntryNextIntf
+                0x000000000000eef0                Agate_gfdbFlushIntf
+                0x000000000000ef00                Agate_gfdbFlushInDBIntf
+                0x000000000000ef10                Agate_gfdbMoveIntf
+                0x000000000000ef20                Agate_gfdbMoveInDBIntf
+                0x000000000000ef30                Agate_gfdbPortRemoveIntf
+                0x000000000000ef60                Agate_gfdbPortRemoveInDBIntf
+                0x000000000000ef90                Agate_gfdbGetViolationIntf
+                0x000000000000f070                Agate_gfdbFindAtuMacEntryIntf
+                0x000000000000f160                Agate_gfdbDump
+                0x000000000000f2f0                Agate_gvtuFindVidEntryIntf
+                0x000000000000f450                Agate_gvtuGetEntryNextIntf
+                0x000000000000f530                Agate_gvtuExistVidEntryIntf
+                0x000000000000f5c0                Agate_gvtuFlushIntf
+                0x000000000000f5d0                Agate_gvtuAddEntryIntf
+                0x000000000000f6c0                Agate_gvtuDelEntryIntf
+                0x000000000000f730                Agate_gvtuGetViolationIntf
+                0x000000000000f7f0                Agate_gvtuGetEntryCountIntf
+                0x000000000000f890                Agate_gvtuSetMemberTagIntf
+                0x000000000000f960                Agate_gvtuGetMemberTagIntf
+                0x000000000000fa20                Agate_gstuAddEntryIntf
+                0x000000000000faf0                Agate_gstuGetEntryNextIntf
+                0x000000000000fba0                Agate_gstuDelEntryIntf
+                0x000000000000fc00                Agate_gstuFindSidEntryIntf
+                0x000000000000fd10                Agate_gstuGetEntryCountIntf
+                0x000000000000fdb0                Agate_gpirlInitializeIntf
+                0x000000000000fdc0                Agate_gpirlInitResourceIntf
+                0x000000000000fdd0                Agate_gpirlCustomSetupIntf
+                0x000000000000fe90                Agate_gpirlReadResourceIntf
+                0x000000000000ff70                Agate_gpirlWriteResourceIntf
+                0x0000000000010050                Agate_gpirlGetResRegIntf
+                0x0000000000010060                Agate_gpirlSetResRegIntf
+                0x0000000000010070                Agate_gpirlAdvConfigIntf
+                0x0000000000010190                Agate_gpirlAdvConfigDisableIntf
+                0x0000000000010210                Agate_gqavSetPortQpriXRate
+                0x00000000000103a0                Agate_gqavGetPortQpriXRate
+                0x0000000000010590                Agate_gqavSetPortQpriXHiLimit
+                0x0000000000010720                Agate_gqavGetPortQpriXHiLimit
+                0x0000000000010910                Agate_gstatsGetPortCounterIntf
+                0x0000000000010920                Agate_gstatsGetPortAllCountersIntf
+                0x0000000000010ae0                Agate_gstatsGetHistogramModeIntf
+                0x0000000000010af0                Agate_gstatsSetHistogramModeIntf
+                0x0000000000010b00                Agate_gvlnSetPortVlanDot1qModeIntf
+                0x0000000000010b10                Agate_gvlnGetPortVlanDot1qModeIntf
+                0x0000000000010b20                Agate_gprtSetDiscardTaggedIntf
+                0x0000000000010b30                Agate_gprtGetDiscardTaggedIntf
+                0x0000000000010b40                Agate_gprtSetDiscardUntaggedIntf
+                0x0000000000010b50                Agate_gprtGetDiscardUntaggedIntf
+                0x0000000000010b60                Agate_gprtSetUnicastFloodBlockIntf
+                0x0000000000010b70                Agate_gprtGetUnicastFloodBlockIntf
+                0x0000000000010b80                Agate_gprtSetMulticastFloodBlockIntf
+                0x0000000000010b90                Agate_gprtGetMulticastFloodBlockIntf
+                0x0000000000010ba0                Agate_gprtSetDiscardBCastModeIntf
+                0x0000000000010bb0                Agate_gprtGetDiscardBCastModeIntf
+                0x0000000000010bc0                Agate_gprtSetJumboModeIntf
+                0x0000000000010bd0                Agate_gprtGetJumboModeIntf
+                0x0000000000010be0                Agate_gprtSetLearnEnableIntf
+                0x0000000000010bf0                Agate_gprtGetLearnEnableIntf
+                0x0000000000010c00                Agate_gprtGetVTUPriorityOverrideIntf
+                0x0000000000010c10                Agate_gprtSetVTUPriorityOverrideIntf
+                0x0000000000010c20                Agate_gprtGetSAPriorityOverrideIntf
+                0x0000000000010c30                Agate_gprtSetSAPriorityOverrideIntf
+                0x0000000000010c40                Agate_gprtGetDAPriorityOverrideIntf
+                0x0000000000010c50                Agate_gprtSetDAPriorityOverrideIntf
+                0x0000000000010c60                Agate_gprtSetFlowCtrlIntf
+                0x0000000000010c90                Agate_gprtGetFlowCtrlIntf
+                0x0000000000010ca0                Agate_gprtSetForceSpeedIntf
+                0x0000000000010ce0                Agate_gprtGetForceSpeedIntf
+                0x0000000000010cf0                Agate_grcSetEgressRateIntf
+                0x0000000000010d00                Agate_grcGetEgressRateIntf
+                0x0000000000010d10                Agate_grcSetELimitModeIntf
+                0x0000000000010d20                Agate_grcGetELimitModeIntf
+                0x0000000000010d30                Agate_gprtSetDuplexIntf
+                0x0000000000010d40                Agate_gprtGetDuplexIntf
+                0x0000000000010d50                Agate_gprtGetDuplexStatusIntf
+                0x0000000000010d60                Agate_gprtGetForceLinkIntf
+                0x0000000000010d70                Agate_gprtSetForceLinkIntf
+                0x0000000000010d80                Agate_gprtGetSpeedIntf
+                0x0000000000010d90                Agate_gprtGetFrameModeIntf
+                0x0000000000010da0                Agate_gprtSetFrameModeIntf
+                0x0000000000010db0                Agate_gprtSetEgressModeIntf
+                0x0000000000010dd0                Agate_gprtGetEgressModeIntf
+                0x0000000000010de0                Agate_gprtGetPortStateIntf
+                0x0000000000010df0                Agate_gprtSetPortStateIntf
+                0x0000000000010e00                Agate_gqosSetPrioMapRuleIntf
+                0x0000000000010e10                Agate_gqosGetPrioMapRuleIntf
+                0x0000000000010e20                Agate_gprtSetInitialPriIntf
+                0x0000000000010e30                Agate_gprtGetInitialPriIntf
+                0x0000000000010e40                Agate_gprtSetDefQpriIntf
+                0x0000000000010e50                Agate_gprtGetDefQpriIntf
+                0x0000000000010e60                Agate_gprtSetPortSchedIntf
+                0x0000000000010ea0                Agate_gprtGetPortSchedIntf
+                0x0000000000010eb0                Agate_gsysSetQoSWeightIntf
+                0x0000000000010fb0                Agate_gsysGetQoSWeightIntf
+                0x00000000000110b0                Agate_gphySetPortSpeedIntf
+                0x00000000000110c0                Agate_gphySetPortAutoModeIntf
+                0x00000000000110d0                Agate_EEPROMWriteIntf
+                0x00000000000110e0                Agate_EEPROMReadIntf
+                0x00000000000110f0                Agate_msdRmuGetIDIntf
+                0x0000000000011100                Agate_msdRmuAtuDumpIntf
+                0x0000000000011250                Agate_msdRmuMibDumpIntf
+                0x0000000000011360                Agate_msdRmuMib2DumpIntf
+                0x0000000000011560                Agate_msdRmuReadRegisterIntf
+                0x0000000000011570                Agate_msdRmuWriteRegisterIntf
+                0x0000000000011590                Agate_msdRmuMultiRegAccessIntf
+                0x0000000000011940                Agate_gptpSetIntEnable
+                0x0000000000011a20                Agate_gptpGetIntEnable
+                0x0000000000011ac0                Agate_gptpSetProtPTPEn
+                0x0000000000011b80                Agate_gptpGetProtPTPEn
+                0x0000000000011c10                Agate_gptpSetPortConfig
+                0x0000000000011de0                Agate_gptpGetPortConfig
+                0x0000000000011f90                Agate_gptpGetTimeStamp
+                0x0000000000012090                Agate_gptpGetTSValidSt
+                0x0000000000012150                Agate_gptpResetTimeStamp
+                0x0000000000012210                Agate_gptpSetGlobalConfig
+                0x00000000000122d0                Agate_gptpGetGlobalConfig
+                0x0000000000012390                Agate_gptpGetIntStatus
+                0x0000000000012410                Agate_gptpSetIntEnableIntf
+                0x0000000000012470                Agate_gptpGetIntEnableIntf
+                0x00000000000124d0                Agate_gptpSetPortConfigIntf
+                0x0000000000012550                Agate_gptpGetPortConfigIntf
+                0x00000000000125d0                Agate_gptpGetTimeStampIntf
+                0x0000000000012640                Agate_gptpSetGlobalConfigIntf
+                0x00000000000126a0                Agate_gptpGetGlobalConfigIntf
+                0x0000000000012710                Agate_gptpGetIntStatusIntf
+                0x00000000000129f0                Agate_gledForceOn
+                0x0000000000012aa0                Agate_gledForceOff
+                0x0000000000012b50                Agate_gledLinkAct
+                0x0000000000012c40                Agate_gledModeSet
+                0x0000000000012d10                Agate_gledModeGet
+                0x0000000000012db0                Agate_gledBlinkRateSet
+                0x0000000000012e60                Agate_gledBlinkRateGet
+                0x0000000000012f40                Agate_gledPulseStretchSet
+                0x0000000000012ff0                Agate_gledPulseStretchGet
+                0x00000000000130c0                Agate_gledSpecialModeSet
+                0x0000000000013170                Agate_gledSpecialModeGet
+                0x00000000000131d0                Agate_gledCtrlSet
+                0x0000000000013210                Agate_gledCtrlGet
+                0x0000000000013240                Agate_gledDump
+                0x0000000000013390                Agate_gledForceOnIntf
+                0x00000000000133a0                Agate_gledForceOffIntf
+                0x00000000000133b0                Agate_gledLinkActIntf
+                0x00000000000133c0                Agate_gledModeSetIntf
+                0x00000000000133d0                Agate_gledModeGetIntf
+                0x00000000000133e0                Agate_gledBlinkRateSetIntf
+                0x00000000000133f0                Agate_gledBlinkRateGetIntf
+                0x0000000000013400                Agate_gledPulseStretchSetIntf
+                0x0000000000013410                Agate_gledPulseStretchGetIntf
+                0x0000000000013420                Agate_gledSpecialModeSetIntf
+                0x0000000000013470                Agate_gledSpecialModeGetIntf
+                0x00000000000134c0                Agate_gledCtrlSetIntf
+                0x00000000000134d0                Agate_gledCtrlGetIntf
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000       0x14
+ .text.unlikely
+                0x0000000000000000       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x131c
+ *(.rodata)
+ .rodata        0x0000000000000000     0x131c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.rodata.str1.8  0x0000000000000000      0x493
+ .rodata.str1.8
+                0x0000000000000000      0x493 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.rodata.str1.1  0x0000000000000000      0x666
+ .rodata.str1.1
+                0x0000000000000000      0x666 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.rodata.cst8    0x0000000000000000       0x28
+ .rodata.cst8   0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x4d48
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000      0x400 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .eh_frame      0x0000000000000400     0x4948 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                                       0x496c (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.exception_ranges
+ *(.exception_ranges)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+
+.data           0x0000000000000000      0x180
+ *(.data)
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.bss)
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.lbss
+ *(.lbss)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x5d8
+ *(.comment)
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x5ac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/msdDrv_Agate.o elf64-x86-64)
