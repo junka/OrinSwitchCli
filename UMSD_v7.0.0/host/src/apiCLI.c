@@ -13954,9 +13954,12 @@ static MSD_STATUS checkRMUInterface(void)
             "\n", retVal, reflectMSD_STATUS(retVal));
         return MSD_FAIL;
     }
+    printf("channel : %d\n", channel);
+    if (channel != MSD_INTERFACE_RMU && channel != MSD_INTERFACE_FW_RMU)
+    {
 
-    if (channel != MSD_INTERFACE_RMU)
         return MSD_FAIL;
+    }
 
     return retVal;
 }

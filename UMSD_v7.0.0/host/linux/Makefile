@@ -1,6 +1,6 @@
 #Makefile for Topaz API test program
 
-include ./makedef
+include /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/host/linux/makedef
 
 CFLAGS += $(MSD_INCLUDE) -DUSE_SEMAPHORE $(TOPAZ) $(PERIDOT) $(AGATE) $(PEARL) $(AMETHYST) $(OAK) $(SPRUCE) $(BONSAIZ1) $(FIR) $(BONSAI) $(DEBUG_DEFINES)
 LDFLAGS += -fPIC -L$(MSD_PATH)/host/linux/libMRegAccess -L$(MSD_PATH)/host/lib/libcli -lMRegAccess -lusb-1.0 -lpcap -lcli

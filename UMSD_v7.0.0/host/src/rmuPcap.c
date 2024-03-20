@@ -1,4 +1,4 @@
-#include <pcap.h>
+#include <pcap/pcap.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -61,11 +61,11 @@ int pcap_rmuOpenEthDevice()
 	bpf_u_int32 NetMask;
 	//dev = pcap_findalldevs_ex(errbuf);
 	//dev = pcap_findalldevs(errbuf);
-	if ((dev = pcap_lookupdev(errbuf)) == NULL)
-	{
-		printf("No Device Found: %s\n", errbuf);
-		return 1;
-	}
+	// if ((dev = pcap_lookupdev(errbuf)) == NULL)
+	// {
+	// 	printf("No Device Found: %s\n", errbuf);
+	// 	return 1;
+	// }
 	printf("\nUsing Interface: %s\n\n", pcap_device_name /*dev*/);
 
     if (gRmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE)
@@ -87,8 +87,10 @@ int pcap_rmuOpenEthDevice()
 		errbuf	           // error buffer
 		)) == NULL)
 	{
-		fprintf(stderr, "\nUnable to open the adapter %s.\n", dev);
+		fprintf(stderr, "\nUnable to open the adapter %s.\n", pcap_device_name);
+		perror("pcap_open_live");
 		return 1;
+		
 	}
 
 	// Let's do things simpler: we suppose to be in a C class network ;-)
