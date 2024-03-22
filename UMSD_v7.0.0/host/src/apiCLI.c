@@ -1208,11 +1208,22 @@ int SampleCases(void)
     return 0;
 }
 #endif
-extern void runCustomizeCode(MSD_U8 devNum);
-int CustomizedCases(void)
+extern int runCustomizeCode(MSD_U8 devNum, int portNum, char mode[]);
+void CustomizedCases(void)
 {
-    runCustomizeCode(sohoDevNum);
-    return 0;
+    int portNum;
+    char mode[6];
+
+    printf("Please enter PHY address(dec) and mode(master or slave): ");
+    scanf("%d %s", &portNum, mode);
+    clean_stdin();
+
+    printf("Port = %d, Mode = %s\n", portNum, mode);
+
+    if (runCustomizeCode(sohoDevNum, portNum, mode) == 0)
+        CLI_INFO("PHY register config done");
+    else
+        CLI_ERROR("PHY register config fail");    
 }
 
 static char* reflectMSD_STATUS(MSD_STATUS status)

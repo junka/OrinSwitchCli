@@ -634,15 +634,7 @@ int main(int argc, char *argv[])
 	MSD_STATUS status = 0;
 
     filename = getCfgFile(argc, argv);
-
-    if (filename != NULL)
-    {
-		ret = openBusWithCfgFile(filename, &bus_interface, &baseAddr);
-    }
-    else
-    {
-		ret = openBusInterface(&bus_interface, &baseAddr);
-    }
+	ret = openBusWithCfgFile(filename, &bus_interface, &baseAddr);
 
 	if (ret != 0)
 	{
