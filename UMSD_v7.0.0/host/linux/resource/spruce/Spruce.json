@@ -4951,9 +4951,9 @@
 		"subcmd":	{
 		}
 	},
-	"customized": {
-		"desc":	"customized: Run customized cases",
-		"help":	"customized: Run customized cases\n",
+	"setPhyMode": {
+		"desc":	"setPhyMode <phyAddr> <mode> : PHY set to Master or Slave mode",
+		"help":	"setPhyMode <phyAddr> <mode> : PHY set to Master or Slave mode\n",
 		"subcmd":	{
 		}
 	},
