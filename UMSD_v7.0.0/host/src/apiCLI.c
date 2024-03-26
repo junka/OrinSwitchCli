@@ -17,7 +17,7 @@
 #include "msdApi.h"
 #include "apiCLI.h"
 #include "version.h"
-
+#include <ctype.h>
 #define MAX_ARGS        200
 #define MAX_ARGS_LENGTH 200
 #define MAX_CMD_LENGTH  2000
@@ -335,6 +335,14 @@ CLI_COMMAND_STRUCT stuCMDList[] =
     { "delEntry", &stuDelEntry },
     { "getCount", &stuGetEntryCount },
     { "dump", &setDev },
+
+    { "", NULL },
+};
+
+CLI_COMMAND_STRUCT dqacVlanCMDList[] =
+{
+    { "bind", &CustomizedVlanCases },
+    { "reset", &resetPortBasedVlanCases },
 
     { "", NULL },
 };
@@ -943,7 +951,7 @@ CLI_COMMAND_STRUCT directCMDList[] =
     { "unittest", &UnitTestCases },
     { "sample", &SampleCases },
 #endif
-    { "customized", &CustomizedCases },
+    { "setPhyMode", &CustomizedPhyModeCases },
     { "enableHwSem", &enableHwSemaphore},
     { "disableHwSem", &disableHwSemaphore},
 
@@ -1058,6 +1066,7 @@ EXTERN_CLI_STRUCT externCLICMDList[] =
     { "stu", stuCMDList },
     { "ecid", ecidCMDList },
     { "vlan", vtuCMDList },
+    { "dqacVlan", dqacVlanCMDList },
     { "imp", impCMDList },
 	{ "interrupt", intCMDList },
     { "phy", phyCMDList },
@@ -1101,8 +1110,7 @@ EXTERN_CLI_STRUCT externCLICMDList[] =
     { "unittest", directCMDList }, /*UnitTestCases, NULL, NULL, "unittest   : Run the Unit test cases", "unittest   : Run the Unit test cases\n" },*/
     { "sample", directCMDList }, /*SampleCases, NULL, NULL, "sample     : Run the sample cases", "sample     : Run the sample cases\n" },*/
 #endif	           
-    { "customized", directCMDList }, /*CustomizedCases, NULL, NULL, "customized : Run customized cases", "customized : Run customized cases\n" },*/
-
+    { "setPhyMode", directCMDList }, /*CustomizedCases, NULL, NULL, "customized : Run customized cases", "customized : Run customized cases\n" },*/
     { "enableHwSem", directCMDList },
     { "disableHwSem", directCMDList },
 
@@ -1208,22 +1216,79 @@ int SampleCases(void)
     return 0;
 }
 #endif
-extern int runCustomizeCode(MSD_U8 devNum, int portNum, char mode[]);
-void CustomizedCases(void)
+extern int setDQAVlan(MSD_U8 devNum, MSD_U8 portNum, MSD_U8 vlanPort);
+extern int resetPortBasedVlan(MSD_U8 devNum);
+void resetPortBasedVlanCases(void)
 {
-    int portNum;
-    char mode[6];
+    if (resetPortBasedVlan(sohoDevNum) == 0)
+    {
+        CLI_INFO("Port based VLAN reset done\n");
+    }
+    return 0;
+}
 
-    printf("Please enter PHY address(dec) and mode(master or slave): ");
-    scanf("%d %s", &portNum, mode);
-    clean_stdin();
+void CustomizedVlanCases(void)
+{
+    MSD_U8 portNum_1;
+    MSD_U8 portNum_2;
 
-    printf("Port = %d, Mode = %s\n", portNum, mode);
+    //printf("Please enter port number(dec) and vlan port(dec): ");
+    //scanf("%d %d", &portNum, &vlanPort);
+    //clean_stdin();
+    if (nargs != 4)
+    {
+        CLI_ERROR("Syntax Error, Using command as follows: dqacVlan bind  <portNum_1> <portNum_2>\n");
+        return 1;
+    }
 
-    if (runCustomizeCode(sohoDevNum, portNum, mode) == 0)
-        CLI_INFO("PHY register config done");
+    portNum_1 = (MSD_U8)strtoul(CMD_ARGS[2], NULL, 0);
+    portNum_2 = (MSD_U8)strtoul(CMD_ARGS[3], NULL, 0);
+    printf("portNum_1 = %X, portNum_2 = %X\n", portNum_1, portNum_2);
+
+    if (setDQAVlan(sohoDevNum, portNum_1, portNum_2) == 0)
+    {
+        CLI_INFO("VLAN for DQAC config done\n");
+    }
+}
+extern int setPhyMode(MSD_U8 devNum, MSD_U8 portNum, char mode[]);
+void CustomizedPhyModeCases(void)
+{
+    MSD_U8 portNum;
+    char mode[10];
+
+    //printf("Please enter PHY address(dec) and mode(master or slave): ");
+    //scanf("%d %s", &portNum, mode);
+    //clean_stdin();
+    if (nargs != 3)
+    {
+        CLI_ERROR("Syntax Error, Using command as follows: setPhyMode  <phyAddr> <master/slave>\n");
+        return 1;
+    }
+
+    strncpy(mode, CMD_ARGS[2], sizeof(mode));
+    if (strcmp(mode,"master") != 0 && strcmp(mode, "slave") != 0)
+    {
+        CLI_ERROR("Invaild mode, Please check again.\n");
+        return 1;
+    }
+
+    portNum = (MSD_U8)strtoul(CMD_ARGS[1], NULL, 0);
+    printf("Port = %X, %s\n", portNum, mode);
+
+
+	/* Oak/Spruce support extended(bit 16) */
+	//if ((qddev->devName == MSD_OAK) || (qddev->devName == MSD_SPRUCE))
+
+
+    if (setPhyMode(sohoDevNum, portNum, mode) == 0)
+    {
+        CLI_INFO("PHY register config done\n");
+        CLI_INFO("Port \033[0;32m%d\033[0m set as \033[0;32m%s\033[0m mode done\n", portNum, mode);
+    }
     else
-        CLI_ERROR("PHY register config fail");    
+    {
+        CLI_ERROR("PHY register config fail\n");    
+    }
 }
 
 static char* reflectMSD_STATUS(MSD_STATUS status)
@@ -13494,7 +13559,7 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
 }

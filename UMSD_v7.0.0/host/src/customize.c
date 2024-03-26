@@ -37,7 +37,7 @@ typedef enum
     SLAVE
 } DeviceMode;
 
-MSD_U32 showPhyData(MSD_U8 *devNum, int *phyAddr)
+MSD_U32 checkPhyData(MSD_U8 *devNum, int *phyAddr)
 {
     MSD_U32 offset = 0x834;
     MSD_U32 phyData = 0;
@@ -83,7 +83,7 @@ MSD_U32 showPhyData(MSD_U8 *devNum, int *phyAddr)
         return 1;
     }
 
-    //printf("Read - phyAddr: 0x%X, offset: 0x%X, data = 0x%X \n", *phyAddr, regAddr, phyData);
+    printf("Read - phyAddr: 0x%X, offset: 0x%X, data = 0x%X \n", *phyAddr, regAddr, phyData);
     return phyData;
 }
 
@@ -97,21 +97,22 @@ int resetPortBasedVlan(MSD_U8 devNum)
         data = (port == 11) ? 0x7FF : (0x107FF - (1 << port));        
         retVal = msdSetAnyExtendedReg(devNum, port, 0x06, data);
     }
+    printf("Reset Port Based Vlan Success\n");
     return 0;
 }
 
-int setDQAVlan(MSD_U8 devNum, MSD_U8 portNum, MSD_U8 vlanPort)
+int setDQAVlan(MSD_U8 devNum, MSD_U8 portNum_1, MSD_U8 portNum_2)
 {
     MSD_STATUS retVal;
     MSD_U8 devAddr;
     MSD_U8 regAddr = 0x0006;
     MSD_U32 data;
-    devAddr = portNum;
-    data = (vlanPort == 11) ? 1 << 16 : 1 << vlanPort;
+    devAddr = portNum_1;
+    data = (portNum_2 == 11) ? 1 << 16 : 1 << portNum_2;
     retVal = msdSetAnyExtendedReg(devNum, devAddr, regAddr, data);
 
-    devAddr = vlanPort;
-    data = (portNum == 11) ? 1 << 16 : 1 << vlanPort;;
+    devAddr = portNum_2;
+    data = (portNum_1 == 11) ? 1 << 16 : 1 << portNum_1;;
     retVal = msdSetAnyExtendedReg(devNum, devAddr, regAddr, data);
 
     return 0;
@@ -173,16 +174,14 @@ int setMasterOrSlave(MSD_U8 devNum, int phyAddr, char mode[])
     }
     //printf("Write data into SMI PHY success\n");
     //printf("Write - dev: 0x%X, reg: 0x%X, data = 0x%X \n", devAddr, regAddr, data);
-    if (showPhyData(&devNum, &phyAddr) != phyData)
+    if (checkPhyData(&devNum, &phyAddr) != phyData)
     {
         return 1;
     }
-    else
-        printf("Port \033[0;32m%d\033[0m set as \033[0;32m%s\033[0m mode done\n", phyAddr, mode);
     return 0;
 }
 
-int runCustomizeCode(MSD_U8 devNum, int portNum, char mode[])
+int setPhyMode(MSD_U8 devNum, int portNum, char mode[])
 {
 	//Switch to Slave / Master
 	MSD_STATUS retVal;
@@ -195,7 +194,6 @@ int runCustomizeCode(MSD_U8 devNum, int portNum, char mode[])
         CLI_ERROR("Syntax Error, Using command as follows: rr  <devAddr> <regAddr> : Read register\n");
         return 1;
     }*/
-    return 0;
     //printf("Please enter the Target phy address(dec) and mode(master=0/slave=1)\n(phy_Addr=3 and mode=1(slave) please enter 3 1 for example): ");
     if( portNum == 0)
 		return -1;

@@ -148,7 +148,9 @@ static int displayNextInterruptStatus1(MSD_U8 nextIndex, MSD_MACSEC_INT_TXSC* in
 int strIcmp(const char* p1, const char* p2);
 int UnitTestCases(void);
 int SampleCases(void);
-void CustomizedCases(void);
+void CustomizedPhyModeCases(void);
+void CustomizedVlanCases(void);
+void resetPortBasedVlanCases(void);
 
 int fileOperation(void);
 int paraHelp(void);
