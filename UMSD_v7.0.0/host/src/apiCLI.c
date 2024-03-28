@@ -1222,7 +1222,7 @@ void resetPortBasedVlanCases(void)
 {
     if (resetPortBasedVlan(sohoDevNum) == 0)
     {
-        CLI_INFO("Port based VLAN reset done\n");
+        CLI_INFO("\033[1;32mPort based VLAN reset done\033[0m\n");
     }
     return 0;
 }
@@ -1247,7 +1247,7 @@ void CustomizedVlanCases(void)
         printf("portNum_1 = %X, portNum_2 = %X\n", portNum_1[i], portNum_2[i]);
         if (setDQAVlan(sohoDevNum, portNum_1[i], portNum_2[i]) == 0)
         {
-            CLI_INFO("VLAN for DQAC config done\n");
+            CLI_INFO("VLAN for DQAC bind \033[1;34m%d\033[0m \033[1;34m%d\033[0m done\n", portNum_1[i], portNum_2[i]);
         }
     }
 }
