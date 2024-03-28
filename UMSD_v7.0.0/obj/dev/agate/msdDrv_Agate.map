@@ -5,7 +5,7 @@ Merging program properties
 Discarded input sections
 
  .note.gnu.property
-                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 Memory Configuration
 
@@ -14,8 +14,8 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
-LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .interp
  *(.interp)
@@ -23,7 +23,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 .note.gnu.property
                 0x0000000000000000       0x20
  .note.gnu.property
-                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -117,7 +117,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 
 .text           0x0000000000000000    0x134dc
  *(.text .stub)
- .text          0x0000000000000000      0xca1 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .text          0x0000000000000000      0xca1 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
                 0x0000000000000000                Agate_msdSetSMIC45PhyReg
                 0x0000000000000180                Agate_msdGetSMIC45PhyReg
                 0x0000000000000300                Agate_msdSetSMIPhyReg
@@ -132,7 +132,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
                 0x00000000000009b0                Agate_msdGetSMIPhyXMDIOReg
                 0x0000000000000af0                Agate_msdPhyReset
  *fill*         0x0000000000000ca1        0xf 
- .text          0x0000000000000cb0    0x1282c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .text          0x0000000000000cb0    0x1282c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
                 0x0000000000001b20                Agate_gtcamFlushAll
                 0x0000000000001b70                Agate_gtcamFlushEntry
                 0x0000000000001bd0                Agate_gtcamLoadEntry
@@ -510,25 +510,25 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 
 .text.unlikely  0x0000000000000000       0x14
  .text.unlikely
-                0x0000000000000000       0x14 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                0x0000000000000000       0x14 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .fini
  *(SORT_NONE(.fini))
 
 .rodata         0x0000000000000000     0x131c
  *(.rodata)
- .rodata        0x0000000000000000     0x131c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .rodata        0x0000000000000000     0x131c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .rodata.str1.8  0x0000000000000000      0x493
  .rodata.str1.8
-                0x0000000000000000      0x493 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                0x0000000000000000      0x493 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .rodata.str1.1  0x0000000000000000      0x666
  .rodata.str1.1
-                0x0000000000000000      0x666 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                0x0000000000000000      0x666 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .rodata.cst8    0x0000000000000000       0x28
- .rodata.cst8   0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .rodata.cst8   0x0000000000000000       0x28 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .rodata1
  *(.rodata1)
@@ -538,8 +538,8 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 
 .eh_frame       0x0000000000000000     0x4d48
  *(.eh_frame)
- .eh_frame      0x0000000000000000      0x400 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
- .eh_frame      0x0000000000000400     0x4948 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .eh_frame      0x0000000000000000      0x400 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .eh_frame      0x0000000000000400     0x4948 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
                                        0x496c (size before relaxing)
 
 .gcc_except_table
@@ -583,16 +583,16 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 
 .data           0x0000000000000000      0x180
  *(.data)
- .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
- .data          0x0000000000000000      0x180 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000      0x180 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .data1
  *(.data1)
 
 .bss            0x0000000000000000        0x0
  *(.bss)
- .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
- .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .lbss
  *(.lbss)
@@ -623,15 +623,15 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 
 .comment        0x0000000000000000      0x5d8
  *(.comment)
- .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
- .comment       0x000000000000002c      0x5ac /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x5ac /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .note.GNU-stack
                 0x0000000000000000        0x0
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/driver/msdDrv_obj/driver.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/src/api/msdDrv_obj/api.o
 
 .gnu.build.attributes
  *(.gnu.build.attributes)
@@ -719,4 +719,4 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/src/api/ms
 
 .gnu.attributes
  *(.gnu.attributes)
-OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/agate/msdDrv_Agate.o elf64-x86-64)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/agate/msdDrv_Agate.o elf64-x86-64)

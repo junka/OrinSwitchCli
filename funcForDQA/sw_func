@@ -61,4 +61,6 @@ esac
 sleep 2
 sudo lsof -ti :8888 | xargs sudo kill -9
 
+echo -e "\nPress Enter to continue..."
+read
 exit 0

@@ -5,7 +5,7 @@ Merging program properties
 Discarded input sections
 
  .note.gnu.property
-                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 Memory Configuration
 
@@ -14,8 +14,8 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
-LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .interp
  *(.interp)
@@ -23,7 +23,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 .note.gnu.property
                 0x0000000000000000       0x20
  .note.gnu.property
-                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -117,7 +117,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 
 .text           0x0000000000000000    0x26c39
  *(.text .stub)
- .text          0x0000000000000000     0x18d7 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .text          0x0000000000000000     0x18d7 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
                 0x0000000000000000                Amethyst_msdSetSMIC45PhyReg
                 0x00000000000002a0                Amethyst_msdGetSMIC45PhyReg
                 0x0000000000000550                Amethyst_msdSetSMIPhyReg
@@ -142,7 +142,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
                 0x00000000000016b0                Amethyst_msdSetSMIExtPhyXMDIOReg
                 0x00000000000017a0                Amethyst_msdGetSMIExtPhyXMDIOReg
  *fill*         0x00000000000018d7        0x9 
- .text          0x00000000000018e0    0x25359 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .text          0x00000000000018e0    0x25359 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
                 0x00000000000030a0                Amethyst_gtcamFlushAll
                 0x00000000000030f0                Amethyst_gtcamFlushEntry
                 0x0000000000003150                Amethyst_gtcamLoadEntry
@@ -715,25 +715,25 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 
 .text.unlikely  0x0000000000000000       0x32
  .text.unlikely
-                0x0000000000000000       0x32 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                0x0000000000000000       0x32 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .fini
  *(SORT_NONE(.fini))
 
 .rodata         0x0000000000000000     0x133c
  *(.rodata)
- .rodata        0x0000000000000000     0x133c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .rodata        0x0000000000000000     0x133c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .rodata.str1.8  0x0000000000000000     0x2595
  .rodata.str1.8
-                0x0000000000000000     0x2595 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                0x0000000000000000     0x2595 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .rodata.str1.1  0x0000000000000000      0xf5a
  .rodata.str1.1
-                0x0000000000000000      0xf5a /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                0x0000000000000000      0xf5a /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .rodata.cst8    0x0000000000000000       0x20
- .rodata.cst8   0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .rodata.cst8   0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .rodata1
  *(.rodata1)
@@ -743,10 +743,10 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 
 .eh_frame       0x0000000000000000     0x8430
  *(.eh_frame)
- .eh_frame      0x0000000000000000      0x678 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .eh_frame      0x0000000000000000      0x678 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
                                         0x674 (size before relaxing)
  *fill*         0x0000000000000678        0x0 
- .eh_frame      0x0000000000000678     0x7db8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .eh_frame      0x0000000000000678     0x7db8 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
                                        0x7df8 (size before relaxing)
 
 .gcc_except_table
@@ -790,16 +790,16 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 
 .data           0x0000000000000000      0x200
  *(.data)
- .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
- .data          0x0000000000000000      0x200 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .data          0x0000000000000000      0x200 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .data1
  *(.data1)
 
 .bss            0x0000000000000000        0x0
  *(.bss)
- .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
- .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .lbss
  *(.lbss)
@@ -830,15 +830,15 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 
 .comment        0x0000000000000000      0x7e8
  *(.comment)
- .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
- .comment       0x000000000000002c      0x7bc /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+ .comment       0x000000000000002c      0x7bc /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .note.GNU-stack
                 0x0000000000000000        0x0
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/driver/msdDrv_obj/driver.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/src/api/msdDrv_obj/api.o
 
 .gnu.build.attributes
  *(.gnu.build.attributes)
@@ -926,4 +926,4 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/src/api
 
 .gnu.attributes
  *(.gnu.attributes)
-OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/amethyst/msdDrv_Amethyst.o elf64-x86-64)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/amethyst/msdDrv_Amethyst.o elf64-x86-64)

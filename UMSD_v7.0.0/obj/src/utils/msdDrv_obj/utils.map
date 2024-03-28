@@ -9,7 +9,7 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .interp
  *(.interp)
@@ -17,7 +17,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 .note.gnu.property
                 0x0000000000000000       0x20
  .note.gnu.property
-                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -111,7 +111,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 
 .text           0x0000000000000000      0x164
  *(.text .stub)
- .text          0x0000000000000000      0x164 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+ .text          0x0000000000000000      0x164 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
                 0x0000000000000000                msdMemSet
                 0x0000000000000030                msdMemCpy
                 0x0000000000000060                msdMemCmp
@@ -130,7 +130,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 
 .rodata         0x0000000000000000      0x100
  *(.rodata)
- .rodata        0x0000000000000000      0x100 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+ .rodata        0x0000000000000000      0x100 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .rodata1
  *(.rodata1)
@@ -140,7 +140,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 
 .eh_frame       0x0000000000000000       0xf8
  *(.eh_frame)
- .eh_frame      0x0000000000000000       0xf8 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+ .eh_frame      0x0000000000000000       0xf8 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .gcc_except_table
  *(.gcc_except_table)
@@ -183,14 +183,14 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 
 .data           0x0000000000000000        0x0
  *(.data)
- .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .data1
  *(.data1)
 
 .bss            0x0000000000000000        0x0
  *(.bss)
- .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .lbss
  *(.lbss)
@@ -221,12 +221,12 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 
 .comment        0x0000000000000000       0x2c
  *(.comment)
- .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .note.GNU-stack
                 0x0000000000000000        0x0
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/msdUtils.o
 
 .gnu.build.attributes
  *(.gnu.build.attributes)
@@ -314,4 +314,4 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj
 
 .gnu.attributes
  *(.gnu.attributes)
-OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/utils.o elf64-x86-64)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/src/utils/msdDrv_obj/utils.o elf64-x86-64)

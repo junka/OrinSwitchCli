@@ -9,7 +9,7 @@ Name             Origin             Length             Attributes
 
 Linker script and memory map
 
-LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+LOAD /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .interp
  *(.interp)
@@ -17,7 +17,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/m
 .note.gnu.property
                 0x0000000000000000       0x20
  .note.gnu.property
-                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+                0x0000000000000000       0x20 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -111,7 +111,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/m
 
 .text           0x0000000000000000     0x1af7
  *(.text .stub)
- .text          0x0000000000000000     0x1af7 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+ .text          0x0000000000000000     0x1af7 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
                 0x0000000000000000                Oak_msdSetSMIC45PhyReg
                 0x00000000000002a0                Oak_msdGetSMIC45PhyReg
                 0x0000000000000560                Oak_msdSetSMIPhyReg
@@ -155,7 +155,7 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/m
 
 .eh_frame       0x0000000000000000      0x758
  *(.eh_frame)
- .eh_frame      0x0000000000000000      0x758 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+ .eh_frame      0x0000000000000000      0x758 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .gcc_except_table
  *(.gcc_except_table)
@@ -198,14 +198,14 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/m
 
 .data           0x0000000000000000        0x0
  *(.data)
- .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+ .data          0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .data1
  *(.data1)
 
 .bss            0x0000000000000000        0x0
  *(.bss)
- .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+ .bss           0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .lbss
  *(.lbss)
@@ -236,12 +236,12 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/m
 
 .comment        0x0000000000000000       0x2c
  *(.comment)
- .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+ .comment       0x0000000000000000       0x2c /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .note.GNU-stack
                 0x0000000000000000        0x0
  .note.GNU-stack
-                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
+                0x0000000000000000        0x0 /home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/Oak_msdHwAccess.o
 
 .gnu.build.attributes
  *(.gnu.build.attributes)
@@ -329,4 +329,4 @@ LOAD /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/m
 
 .gnu.attributes
  *(.gnu.attributes)
-OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o elf64-x86-64)
+OUTPUT(/home/roscube/Desktop/UMSD_v7.0.0_ADLINK/UMSD_v7.0.0/obj/dev/oak/src/driver/msdDrv_obj/driver.o elf64-x86-64)
