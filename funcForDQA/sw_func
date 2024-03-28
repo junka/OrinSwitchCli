@@ -1,5 +1,6 @@
 #!/bin/bash
-   
+
+LOCAL_DIRECTORY=$(pwd)   
 BASE_DIRECTORY=$(dirname "$(pwd)")
 
 TOOL_DIRECTORY=$BASE_DIRECTORY/UMSD_v7.0.0/host/linux
@@ -11,8 +12,8 @@ shift
 cd $TOOL_DIRECTORY
 echo "$PASSWD" | sudo -S true
 
-gnome-terminal -- bash -c "echo $PASSWD | sudo -S ./UMSD_MCLI -f umsd.cfg"
-#MCLI_PID=$(echo $PASSWD | sudo -S lsof -i :5202 | grep "LISTEN" | awk '{print $2}')
+gnome-terminal -- bash -c "echo $PASSWD | sudo -S ./UMSD_MCLI -f $LOCAL_DIRECTORY/umsd.cfg"
+#MCLI_PID=$(echo $PASSWD | sudo -S lsof -i :8888 | grep "LISTEN" | awk '{print $2}')
 echo "$@"
 sleep 1
 cd - > /dev/null
@@ -30,7 +31,7 @@ case $COMMAND in
    *)
       echo -e "\n\nInvalid command: $COMMAND"
       echo "Usage: $0 {setPhy|setVlan|resetVlan} arg1 arg2 ..."
-      sudo sh -c 'lsof -ti :5202 | xargs sudo kill -9'
+      sudo sh -c 'lsof -ti :8888 | xargs sudo kill -9'
       echo -e "\nPress Enter to continue..."
       read  
       exit 1
@@ -40,7 +41,7 @@ esac
 
 #TELNET_PID=$(echo $PASSWD | sudo -S lsof -i :5202 | grep "telnet" | awk '{print $2}') 
 sleep 2
-sudo lsof -ti :5202 | xargs sudo kill -9
+sudo lsof -ti :8888 | xargs sudo kill -9
 
 
 exit 0
