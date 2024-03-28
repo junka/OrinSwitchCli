@@ -9,11 +9,16 @@ TOOL_DIRECTORY=$BASE_DIRECTORY/UMSD_v7.0.0/host/linux
 PASSWD=ros
 COMMAND=$1
 
-CONFIG_FILE=$LOCAL_DIRECTORY/umsd.cfg
+CONFIG_FILE=$TOOL_DIRECTORY/umsd.cfg
 
 if [ -f "$CONFIG_FILE" ]; then
-   sed -i "s/^[\t ]*nic_name.*/\t\tnic_name $NIC_NAME/" "$CONFIG_FILE"
-   echo "NIC name in the configuration file has been updated"
+   CURRENT_NIC_NAME=$(grep -Po '(?<=nic_name\s).*' "$CONFIG_FILE")
+   if [ "$CURRENT_NIC_NAME" = "$NIC_NAME" ];then
+      :
+   else
+      sed -i "s/^[\t ]*nic_name.*/\t\tnic_name $NIC_NAME/" "$CONFIG_FILE"
+      echo "NIC name in the configuration file has been updated"
+   fi
 else
    echo "Configuration file "umsd.cfg" not found."
    echo -e "\nPress Enter to continue..."
