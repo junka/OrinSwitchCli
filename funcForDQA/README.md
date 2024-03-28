@@ -1,5 +1,7 @@
 Usage Example:
 
+!!! Please check the name of the network interface card (NIC) you are using, and modify the "NIC_NAME" item in script file "sw_func" !!!
+
 If want to set PHY to master/slave mode, use ". sw_func setPhy {PHY address} {mode} {PHY address} {mode} ... "
 e.g: . sw_func setPhy 1 master => PHY address 1 set to master mode
      . sw_func setPhy 1 master 2 slave 3 master => set mulitple PHYs mode at same time
