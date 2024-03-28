@@ -4958,8 +4958,8 @@
 		}
 	},
 	"dqacVlan": {
-		"desc":	"dqacVlan <portNum_1> <portNum_2> : Configure a pair of port numbers intended for VLAN setup. ",
-		"help":	"dqacVlan <portNum_1> <portNum_2> : Configure a pair of port numbers intended for VLAN setup.\n",
+		"desc":	"VLAN function for DQAC. ",
+		"help":	"dqacVlan help [subcmd]: Display dqacVlan command options\n",
 		"subcmd":	{
 			"bind": {
 				"help":	"dqacVlan bind <portNum_1> <portNum_2> : Configure a pair of port numbers intended for VLAN setup.",

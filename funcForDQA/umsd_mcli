@@ -1,0 +1,11 @@
+#!/usr/bin/expect
+
+set timeout 15
+spawn telnet 127.0.0.1 5202
+expect "UMSD_MCLI>" {
+    send "[lindex $argv 0] [lindex $argv 1] [lindex $argv 2] [lindex $argv 3]\r"
+    expect "UMSD_MCLI>"
+    sleep 1
+    send "exit\r"
+    expect eof }
+exit

@@ -1229,66 +1229,66 @@ void resetPortBasedVlanCases(void)
 
 void CustomizedVlanCases(void)
 {
-    MSD_U8 portNum_1;
-    MSD_U8 portNum_2;
+    MSD_U8 portNum_1[10];
+    MSD_U8 portNum_2[10];
 
     //printf("Please enter port number(dec) and vlan port(dec): ");
     //scanf("%d %d", &portNum, &vlanPort);
     //clean_stdin();
-    if (nargs != 4)
+    if (nargs < 4 || ((nargs-2) % 2 != 0))
     {
-        CLI_ERROR("Syntax Error, Using command as follows: dqacVlan bind  <portNum_1> <portNum_2>\n");
+        CLI_ERROR("Syntax Error, Using command as follows: vlan bind <portNum_1> <portNum_2> ...\n");
         return 1;
     }
-
-    portNum_1 = (MSD_U8)strtoul(CMD_ARGS[2], NULL, 0);
-    portNum_2 = (MSD_U8)strtoul(CMD_ARGS[3], NULL, 0);
-    printf("portNum_1 = %X, portNum_2 = %X\n", portNum_1, portNum_2);
-
-    if (setDQAVlan(sohoDevNum, portNum_1, portNum_2) == 0)
+    for (int i = 0; i < (nargs - 2) / 2; i++)
     {
-        CLI_INFO("VLAN for DQAC config done\n");
+        portNum_1[i] = (MSD_U8)strtoul(CMD_ARGS[i*2 + 2], NULL, 0);
+        portNum_2[i] = (MSD_U8)strtoul(CMD_ARGS[i*2 + 3], NULL, 0);
+        printf("portNum_1 = %X, portNum_2 = %X\n", portNum_1[i], portNum_2[i]);
+        if (setDQAVlan(sohoDevNum, portNum_1[i], portNum_2[i]) == 0)
+        {
+            CLI_INFO("VLAN for DQAC config done\n");
+        }
     }
 }
 extern int setPhyMode(MSD_U8 devNum, MSD_U8 portNum, char mode[]);
 void CustomizedPhyModeCases(void)
 {
-    MSD_U8 portNum;
-    char mode[10];
+    MSD_U8 portNum[11];
+    char mode[11][10];
 
     //printf("Please enter PHY address(dec) and mode(master or slave): ");
     //scanf("%d %s", &portNum, mode);
     //clean_stdin();
-    if (nargs != 3)
+    if (nargs < 3 || ((nargs-1) % 2 != 0))
     {
-        CLI_ERROR("Syntax Error, Using command as follows: setPhyMode  <phyAddr> <master/slave>\n");
+        CLI_ERROR("Syntax Error, Using command as follows: setPhyMode  <phyAddr> <master/slave> ...\n");
         return 1;
     }
-
-    strncpy(mode, CMD_ARGS[2], sizeof(mode));
-    if (strcmp(mode,"master") != 0 && strcmp(mode, "slave") != 0)
+    for (int i = 0; i < (nargs - 1) / 2; i++)
     {
-        CLI_ERROR("Invaild mode, Please check again.\n");
-        return 1;
+        strncpy(mode[i], CMD_ARGS[ i*2 + 2], sizeof(mode[i]));
+        if (strcmp(mode[i],"master") != 0 && strcmp(mode[i], "slave") != 0)
+        {
+            CLI_ERROR("Invaild mode, Please check again.\n");
+            return 1;
+        }
+        portNum[i] = (MSD_U8)strtoul(CMD_ARGS[ i*2 + 1 ], NULL, 0);
+        printf("Port = %X, %s\n", portNum[i], mode[i]);
+
+        if (setPhyMode(sohoDevNum, portNum[i], mode[i]) == 0)
+        {
+            CLI_INFO("PHY register config done\n");
+            CLI_INFO("Port \033[0;32m%d\033[0m set as \033[0;32m%s\033[0m mode done\n", portNum[i], mode[i]);
+        }
+        else
+        {
+            CLI_ERROR("PHY register config fail\n");    
+        }
     }
-
-    portNum = (MSD_U8)strtoul(CMD_ARGS[1], NULL, 0);
-    printf("Port = %X, %s\n", portNum, mode);
-
 
 	/* Oak/Spruce support extended(bit 16) */
 	//if ((qddev->devName == MSD_OAK) || (qddev->devName == MSD_SPRUCE))
-
-
-    if (setPhyMode(sohoDevNum, portNum, mode) == 0)
-    {
-        CLI_INFO("PHY register config done\n");
-        CLI_INFO("Port \033[0;32m%d\033[0m set as \033[0;32m%s\033[0m mode done\n", portNum, mode);
-    }
-    else
-    {
-        CLI_ERROR("PHY register config fail\n");    
-    }
 }
 
 static char* reflectMSD_STATUS(MSD_STATUS status)

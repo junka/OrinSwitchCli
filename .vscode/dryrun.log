@@ -1,0 +1,15 @@
+/usr/bin/make all -f /home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/host/linux/Makefile --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/roscube/Desktop/UMSD_v7.0.0_comb'
+make -C /home/roscube/Desktop/UMSD_v7.0.0_comb
+make: Leaving directory '/home/roscube/Desktop/UMSD_v7.0.0_comb'
+ 
+make: *** No rule to make target 'customize.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'init.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'main.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'apiCLI.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'rmuPcap.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'cliCommand.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'bus_conf.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'cJSON.o', needed by 'UMSD_MCLI'.
+make: *** No rule to make target 'version.o', needed by 'UMSD_MCLI'.
+

@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+        "msdsample.h": "c",
+        "msdhwaccess.h": "c",
+        "msdsem.h": "c",
+        "msdutils.h": "c",
+        "msdsysconfig.h": "c",
+        "rmupcap.h": "c",
+        "msdapi.h": "c",
+        "string.h": "c",
+        "wrapper.h": "c"
+    },
+    "makefile.configureOnOpen": true,
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.makeDirectory": "",
+    "makefile.makefilePath": "/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/host/linux/Makefile",
+    "makefile.makePath": "/usr/bin/make",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/roscube/Desktop/UMSD_v7.0.0_comb",
+            "binaryPath": "/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_MCLI",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.alwaysPreConfigure": true,
+    "makefile.preConfigureScript": "/home/roscube/Desktop/UMSD_v7.0.0_comb/UMSD_v7.0.0/setenv"
+    
+}
