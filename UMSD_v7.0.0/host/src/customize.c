@@ -91,10 +91,12 @@ int resetPortBasedVlan(MSD_U8 devNum)
 {
     MSD_STATUS retVal;
     MSD_U32 data;
+    MSD_U32 mapDAdata = 0x2080;
 
     for (int port = 0; port <= 11; port++)
     {   
-        data = (port == 11) ? 0x7FF : (0x107FF - (1 << port));        
+        data = (port == 11) ? 0x7FF : (0x107FF - (1 << port));
+        retVal = msdSetAnyExtendedReg(devNum, port, 0x08, mapDAdata);       
         retVal = msdSetAnyExtendedReg(devNum, port, 0x06, data);
     }
     printf("Reset Port Based Vlan Success\n");
@@ -105,15 +107,21 @@ int setDQAVlan(MSD_U8 devNum, MSD_U8 portNum_1, MSD_U8 portNum_2)
 {
     MSD_STATUS retVal;
     MSD_U8 devAddr;
-    MSD_U8 regAddr = 0x0006;
+    MSD_U8 regAddr = 0x0008;
     MSD_U32 data;
-    devAddr = portNum_1;
-    data = (portNum_2 == 11) ? 1 << 16 : 1 << portNum_2;
-    retVal = msdSetAnyExtendedReg(devNum, devAddr, regAddr, data);
 
-    devAddr = portNum_2;
+    //MapDA disable
+    data = 0x2000;
+    retVal = msdSetAnyExtendedReg(devNum, portNum_1, regAddr, data);
+    retVal = msdSetAnyExtendedReg(devNum, portNum_2, regAddr, data);
+    
+    //A pair of ports bind with VLAN
+    regAddr = 0x0006;
+    data = (portNum_2 == 11) ? 1 << 16 : 1 << portNum_2;
+    retVal = msdSetAnyExtendedReg(devNum, portNum_1, regAddr, data);
+
     data = (portNum_1 == 11) ? 1 << 16 : 1 << portNum_1;;
-    retVal = msdSetAnyExtendedReg(devNum, devAddr, regAddr, data);
+    retVal = msdSetAnyExtendedReg(devNum, portNum_2, regAddr, data);
 
     return 0;
 }

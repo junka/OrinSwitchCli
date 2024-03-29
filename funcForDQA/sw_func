@@ -6,7 +6,7 @@ LOCAL_DIRECTORY=$(pwd)
 BASE_DIRECTORY=$(dirname "$(pwd)")
 
 TOOL_DIRECTORY=$BASE_DIRECTORY/UMSD_v7.0.0/host/linux
-PASSWD=ros
+PASSWD=ros #Please change this to your password.
 COMMAND=$1
 
 CONFIG_FILE=$TOOL_DIRECTORY/umsd.cfg
