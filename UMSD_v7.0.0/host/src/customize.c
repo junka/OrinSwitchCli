@@ -123,6 +123,22 @@ int setDQAVlan(MSD_U8 devNum, MSD_U8 portNum_1, MSD_U8 portNum_2)
     data = (portNum_1 == 11) ? 1 << 16 : 1 << portNum_1;;
     retVal = msdSetAnyExtendedReg(devNum, portNum_2, regAddr, data);
 
+    //Auto-Negotiation 1 setting 
+    data = (portNum_1 == 8) ? 0xa007 : 0xa007 + (portNum_1 << 5);
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x19, 0x200);
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x18, data);
+    data = (portNum_1 == 8) ? 0xa407 : 0xa407 + (portNum_1 << 5);
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x19, 0x1000);  // If 1000BT1 is using set 0x1000, if 100BT1 is using set 0x0
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x18, data);
+    
+    //Auto-Negotiation 1 setting 
+    data = (portNum_2 == 8) ? 0xa007 : 0xa007 + (portNum_2 << 5);
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x19, 0x200);
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x18, data);
+    data = (portNum_2 == 8) ? 0xa407 : 0xa407 + (portNum_2 << 5);
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x19, 0x1000);  // If 1000BT1 is using set 0x1000, if 100BT1 is using set 0x0
+    retVal = msdSetAnyExtendedReg(devNum, 0x1c, 0x18, data);
+
     return 0;
 }
 
@@ -152,7 +168,7 @@ int setMasterOrSlave(MSD_U8 devNum, int phyAddr, char mode[])
     //printf("Write - dev: 0x%X, reg: 0x%X, data = 0x%X \n", devAddr, regAddr, offset);
 //-------------------------------------
     regAddr = 0x0018;
-    data = 0xAC20 +  (phyAddr << 5) ;
+    data = 0xA001 +  (phyAddr << 5) ;
     retVal = msdSetAnyExtendedReg(devNum, devAddr, regAddr, data);
 
     if (retVal != MSD_OK) {
@@ -194,17 +210,12 @@ int setPhyMode(MSD_U8 devNum, int portNum, char mode[])
 	//Switch to Slave / Master
 	MSD_STATUS retVal;
     MSD_U8 devAddr, regAddr;
-    MSD_U32 data = 0;
-	MSD_U16 temp16 = 0;
-	MSD_U32 temp32 = 0;
     /*if (nargs != 3)
     {
         CLI_ERROR("Syntax Error, Using command as follows: rr  <devAddr> <regAddr> : Read register\n");
         return 1;
     }*/
     //printf("Please enter the Target phy address(dec) and mode(master=0/slave=1)\n(phy_Addr=3 and mode=1(slave) please enter 3 1 for example): ");
-    if( portNum == 0)
-		return -1;
 
     if (setMasterOrSlave(devNum, portNum, mode) != 0)
         return 1;
