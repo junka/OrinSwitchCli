@@ -1,10 +1,33 @@
 #!/usr/bin/expect
 
 set timeout 15
+set BANDWIDTH "100"
 spawn telnet 127.0.0.1 8888
 set args [lrange $argv 0 end]
+set ports [lrange $argv 2 end]
 expect "UMSD_MCLI>" {
     send "$args\r"
+    if {$BANDWIDTH == "100" && [lindex $args 1] eq "bind"} {
+        foreach port $ports {
+            if {$port == "8"} {
+                set phyAddr "0xA007"
+                set data "0xA407"
+            } else {
+                set phyAddr [expr (0xA007+($port << 5))]
+                set phyAddr [format 0x%x $phyAddr]
+                set data [expr (0xA407+($port << 5))]
+                set data [format 0x%x $data]
+            }
+            expect "UMSD_MCLI>"
+            send "rw 0x1c 0x19 0x200\r"
+            expect "UMSD_MCLI>"
+            send "rw 0x1c 0x18 $phyAddr\r"
+            expect "UMSD_MCLI>"
+            send "rw 0x1c 0x19 0x1000\r"
+            expect "UMSD_MCLI>"
+            send "rw 0x1c 0x18 $data\r"
+        }
+    }
     expect "UMSD_MCLI>"
     sleep 1
     send "exit\r"
