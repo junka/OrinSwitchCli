@@ -1,13 +1,19 @@
 Usage Example:
 
-!!! Please check the name of the network interface card (NIC) you are using, and modify the "NIC_NAME" item which in the script file "sw_func" !!!
+!!! Please ensure to verify and modify the "NIC_NAME" parameter in the script file "sw_func" according to the network interface card (NIC) you are using !!!
 
-If want to set PHY to master/slave mode, use ". sw_func setPhy {PHY address} {mode} {PHY address} {mode} ... "
-e.g: . sw_func setPhy 1 master => PHY address 1 set to master mode
-     . sw_func setPhy 1 master 2 slave 3 master => set mulitple PHYs mode at same time
+To set the PHY to master/slave mode, utilize the following command:
+. sw_func setPhy {PHY address} {mode} {PHY address} {mode} ...
+Example usage:
+- . sw_func setPhy 1 master => Set PHY address 1 to master mode
+- . sw_func setPhy 1 master 2 slave 3 master => Set multiple PHYs to different modes simultaneously
 
-If want to set VLAN for DQAC, use ". sw_func setVlan {Port1} {Port2} {Port3} {Port4}
-e.g: . sw_func setVlan 1 3 => Port 1 and Port 3 set the same VLAN 
-     . sw_func setVlan 1 2 3 4 5 6 => set Port 1 Port 2 same VLAN, Port 3 Port 4 same VLAN, 
-                                      Port 5 Port 6 same VLAN
-Reset all VLAN status : . sw_func resetVlan
+To set VLAN for DQAC, employ the command format:
+. sw_func setVlan {Port1} {Port2} {Port3} {Port4}
+Example usage:
+- . sw_func setVlan 1 3 => Set the same VLAN for Port 1 and Port 3
+- . sw_func setVlan 1 2 3 4 5 6 => Set the same VLAN for Port 1 and Port 2, Port 3 and Port 4, Port 5 and Port 6
+
+To reset all VLAN status, use the command:
+. sw_func resetVlan
+
