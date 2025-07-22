@@ -1,4 +1,3 @@
-#include <pcap.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -22,7 +21,6 @@ MSD_U32 EtherTypeValue = 0xed5a;
 MSD_U8 DevNum = DEV_NUM;
 
 extern MSD_QD_DEV       *qddev;
-extern char    pcap_device_name[512];
 extern char    AdapterList[Max_Num_Adapter][512];
 extern int     NumOfNIC;
 extern unsigned char  AdapterMACAddr[6];

@@ -10,6 +10,8 @@ MSD_INCLUDE = -I$(MSD_PATH)/include \
                -I$(MSD_PATH)/include/dev \
                -I$(MSD_PATH)/host/linux/libMRegAccess \
 			   -I$(MSD_PATH)/host/lib/libcli \
+			   -I$(MSD_PATH)/host/lib/libpcap \
+			   -I$(MSD_PATH)/host/lib/libusb \
 			   -I$(MSD_PATH)/host/lib/cJSON \
 			   -I$(MSD_PATH)/host/include
 

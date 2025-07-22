@@ -1,17 +1,9 @@
-CROSS_COMPILE = 
-#CROSS_COMPILE = mipsel-uclibc-
-CROSS         = $(CROSS_COMPILE)
-CXX       = $(CROSS_COMPILE)g++
+include $(MSD_USER_BASE)/host/linux/makedef
 
-#CFLAGS = -Wall -g 
-CFLAGS = -shared
-# -nostdlib
-CFLAGS += -fPIC
+CFLAGS = -static
+CFLAGS += $(MSD_INCLUDE)
 
-#LD_LIBRARY_PATH = /usr/lib/x86_64-linux-gnu/
-#LIBS = /usr/local/lib/libusb-1.0.so
-LIBS = -lusb-1.0
-#-lm -lc -ldl
+LIBS = -L$(MSD_PATH)/host/lib/libusb/libusb/.libs -lusb-1.0
 
 cyobject = libcyusb.o
 cysource= libcyusb.c
@@ -20,8 +12,9 @@ objects = libMRegAccess.o MRegAccess_v61xx.o MRegAccess_v6.o MRegAccess_v5.o Wra
 
 all: $(output) 
 $(output): $(objects)
-	$(CXX) $(CFLAGS)  $(objects) $(LIBS) -o $(output) -pthread
-	sudo cp $(output) /usr/lib
+	# $(CXX) $(CFLAGS)  $(objects) $(LIBS) -o $(output) -pthread
+	$(AR) rcs $(output) $(objects)
+
 %.o:%.cpp
 	$(CXX) $(CFLAGS) -c $<
 $(cyobject): $(cysource)

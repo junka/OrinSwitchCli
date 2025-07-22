@@ -9,8 +9,6 @@ DESTDIR =
 LIB = libcli.so
 LIB_STATIC = libcli.a
 
-CC = gcc
-AR = ar
 ARFLAGS = rcs
 DEBUG = -g
 OPTIM = -O3

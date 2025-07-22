@@ -15,7 +15,7 @@
  *                                                                                *
  \********************************************************************************/
 
-#include <libusb-1.0/libusb.h>
+#include <libusb/libusb.h>
 #include <linux/types.h>
 
 typedef struct libusb_device               cyusb_device;
