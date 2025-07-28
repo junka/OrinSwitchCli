@@ -1489,8 +1489,9 @@ static MSD_STATUS msdRmuRegRead (MSD_QD_DEV* dev, MSD_U8 phyAddr , MSD_U8 regAdd
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -1575,8 +1576,9 @@ static MSD_STATUS msdRmuRegWrite (MSD_QD_DEV* dev, MSD_U8 phyAddr , MSD_U8 regAd
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	msdRmuReqPktCreate(dev, cmd, &ReqPkt);

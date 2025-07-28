@@ -1218,7 +1218,7 @@ int SampleCases(void)
 #endif
 extern int setDQAVlan(MSD_U8 devNum, MSD_U8 portNum, MSD_U8 vlanPort);
 extern int resetPortBasedVlan(MSD_U8 devNum);
-void resetPortBasedVlanCases(void)
+int resetPortBasedVlanCases(void)
 {
     if (resetPortBasedVlan(sohoDevNum) == 0)
     {
@@ -1227,7 +1227,7 @@ void resetPortBasedVlanCases(void)
     return 0;
 }
 
-void CustomizedVlanCases(void)
+int CustomizedVlanCases(void)
 {
     MSD_U8 portNum_1[10];
     MSD_U8 portNum_2[10];
@@ -1250,9 +1250,10 @@ void CustomizedVlanCases(void)
             CLI_INFO("VLAN for DQAC bind \033[1;34m%d\033[0m \033[1;34m%d\033[0m done\n", portNum_1[i], portNum_2[i]);
         }
     }
+    return 0;
 }
 extern int setPhyMode(MSD_U8 devNum, MSD_U8 portNum, char mode[]);
-void CustomizedPhyModeCases(void)
+int CustomizedPhyModeCases(void)
 {
     MSD_U8 portNum[11];
     char mode[11][10];
@@ -1289,6 +1290,7 @@ void CustomizedPhyModeCases(void)
 
 	/* Oak/Spruce support extended(bit 16) */
 	//if ((qddev->devName == MSD_OAK) || (qddev->devName == MSD_SPRUCE))
+    return 0;
 }
 
 static char* reflectMSD_STATUS(MSD_STATUS status)
@@ -1418,8 +1420,8 @@ static int setPortU32U32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -1475,8 +1477,8 @@ static int setPortU32U64(void)
         }
 
         /*connect module name with subCmd*/
-        strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-        strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+        strcat(temp, CMD_ARGS[0]);
+        strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -1530,8 +1532,8 @@ static int getPortU32PU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
         {
@@ -1590,8 +1592,8 @@ static int setPortU32U32U32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -1648,8 +1650,8 @@ static int getPortU32U32PU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
         {
@@ -1710,8 +1712,8 @@ static int setPortU32U32U32U32(void)
 		}
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
 		if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
 		{
@@ -1770,8 +1772,8 @@ static int getPortU32U32U32PU32(void)
 		}
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
 		if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
 		{
@@ -1826,8 +1828,8 @@ static int getPortPU32PU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
         {
@@ -1882,8 +1884,8 @@ static int setPortU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -1936,8 +1938,8 @@ static int getPortPU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
         {
@@ -1989,8 +1991,8 @@ static int setU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -2040,8 +2042,8 @@ static int getPU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0],strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1],strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
         {
@@ -2095,8 +2097,8 @@ static int setU32U32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -2147,8 +2149,8 @@ static int getU32PU32(void)
         }
 
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].getCmd) == 0)
         {
@@ -2197,8 +2199,8 @@ static int setDev(void)
         }
         
 		/*connect module name with subCmd*/
-		strncat(temp, CMD_ARGS[0], strlen(CMD_ARGS[0]));
-		strncat(temp, CMD_ARGS[1], strlen(CMD_ARGS[1]));
+		strcat(temp, CMD_ARGS[0]);
+		strcat(temp, CMD_ARGS[1]);
 
         if (strIcmp(temp, pairCmdList[index].setCmd) == 0)
         {
@@ -11979,146 +11981,146 @@ static void displayCounter(MSD_STATS_COUNTER_SET *statsCounter, MSD_BOOL fullban
     char *cmd = "mib";
     /* Bank 0 */
     if (checkValidItem(cmd, "getPortCounter", "InGoodOctetsLo"))
-        CLI_INFO("InGoodOctetsLo       %8lu   \n", statsCounter->InGoodOctetsLo);
+        CLI_INFO("InGoodOctetsLo       %8u   \n", statsCounter->InGoodOctetsLo);
     if (checkValidItem(cmd, "getPortCounter", "InGoodOctetsHi"))
-        CLI_INFO("InGoodOctetsHi       %8lu   \n", statsCounter->InGoodOctetsHi);
+        CLI_INFO("InGoodOctetsHi       %8u   \n", statsCounter->InGoodOctetsHi);
     if (checkValidItem(cmd, "getPortCounter", "InBadOctets"))
-        CLI_INFO("InBadOctets          %8lu   \n", statsCounter->InBadOctets);
+        CLI_INFO("InBadOctets          %8u   \n", statsCounter->InBadOctets);
     if (checkValidItem(cmd, "getPortCounter", "OutFCSErr"))
-        CLI_INFO("OutFCSErr            %8lu   \n", statsCounter->OutFCSErr);
+        CLI_INFO("OutFCSErr            %8u   \n", statsCounter->OutFCSErr);
     if (checkValidItem(cmd, "getPortCounter", "InUnicasts"))
-        CLI_INFO("InUnicasts           %8lu   \n", statsCounter->InUnicasts);
+        CLI_INFO("InUnicasts           %8u   \n", statsCounter->InUnicasts);
     if (checkValidItem(cmd, "getPortCounter", "Deferred"))
-        CLI_INFO("Deferred/OutPFrames  %8lu   \n", statsCounter->Deferred);
+        CLI_INFO("Deferred/OutPFrames  %8u   \n", statsCounter->Deferred);
     if (checkValidItem(cmd, "getPortCounter", "InBroadcasts"))
-        CLI_INFO("InBroadcasts         %8lu   \n", statsCounter->InBroadcasts);
+        CLI_INFO("InBroadcasts         %8u   \n", statsCounter->InBroadcasts);
     if (checkValidItem(cmd, "getPortCounter", "InMulticasts"))
-        CLI_INFO("InMulticasts         %8lu   \n", statsCounter->InMulticasts);
+        CLI_INFO("InMulticasts         %8u   \n", statsCounter->InMulticasts);
     /*
     Histogram Counters : Rx Only, Tx Only, or both Rx and Tx
     (refer to Histogram Mode)
     */
     if (checkValidItem(cmd, "getPortCounter", "64Octets"))
-        CLI_INFO("Octets64             %8lu   \n", statsCounter->Octets64);
+        CLI_INFO("Octets64             %8u   \n", statsCounter->Octets64);
     if (checkValidItem(cmd, "getPortCounter", "127Octets"))
-        CLI_INFO("Octets127            %8lu   \n", statsCounter->Octets127);
+        CLI_INFO("Octets127            %8u   \n", statsCounter->Octets127);
     if (checkValidItem(cmd, "getPortCounter", "255Octets"))
-        CLI_INFO("Octets255            %8lu   \n", statsCounter->Octets255);
+        CLI_INFO("Octets255            %8u   \n", statsCounter->Octets255);
     if (checkValidItem(cmd, "getPortCounter", "511Octets"))
-        CLI_INFO("Octets511            %8lu   \n", statsCounter->Octets511);
+        CLI_INFO("Octets511            %8u   \n", statsCounter->Octets511);
     if (checkValidItem(cmd, "getPortCounter", "1023Octets"))
-        CLI_INFO("Octets1023           %8lu   \n", statsCounter->Octets1023);
+        CLI_INFO("Octets1023           %8u   \n", statsCounter->Octets1023);
     if (checkValidItem(cmd, "getPortCounter", "MaxOctets"))
-        CLI_INFO("OctetsMax            %8lu   \n", statsCounter->OctetsMax);
+        CLI_INFO("OctetsMax            %8u   \n", statsCounter->OctetsMax);
     if (checkValidItem(cmd, "getPortCounter", "OutOctetsLo"))
-        CLI_INFO("OutOctetsLo          %8lu   \n", statsCounter->OutOctetsLo);
+        CLI_INFO("OutOctetsLo          %8u   \n", statsCounter->OutOctetsLo);
     if (checkValidItem(cmd, "getPortCounter", "OutOctetsHi"))
-        CLI_INFO("OutOctetsHi          %8lu   \n", statsCounter->OutOctetsHi);
+        CLI_INFO("OutOctetsHi          %8u   \n", statsCounter->OutOctetsHi);
     if (checkValidItem(cmd, "getPortCounter", "OutUnicasts"))
-        CLI_INFO("OutUnicasts          %8lu   \n", statsCounter->OutUnicasts);
+        CLI_INFO("OutUnicasts          %8u   \n", statsCounter->OutUnicasts);
     if (checkValidItem(cmd, "getPortCounter", "Excessive"))
-        CLI_INFO("Excessive/InPFrames  %8lu   \n", statsCounter->Excessive);
+        CLI_INFO("Excessive/InPFrames  %8u   \n", statsCounter->Excessive);
     if (checkValidItem(cmd, "getPortCounter", "OutMulticasts"))
-        CLI_INFO("OutMulticasts        %8lu   \n", statsCounter->OutMulticasts);
+        CLI_INFO("OutMulticasts        %8u   \n", statsCounter->OutMulticasts);
     if (checkValidItem(cmd, "getPortCounter", "OutBroadcasts"))
-        CLI_INFO("OutBroadcasts        %8lu   \n", statsCounter->OutBroadcasts);
+        CLI_INFO("OutBroadcasts        %8u   \n", statsCounter->OutBroadcasts);
     if (checkValidItem(cmd, "getPortCounter", "Single"))
-        CLI_INFO("Single/InBadPFrags   %8lu   \n", statsCounter->Single);
+        CLI_INFO("Single/InBadPFrags   %8u   \n", statsCounter->Single);
 
     if (checkValidItem(cmd, "getPortCounter", "OutPause"))
-        CLI_INFO("OutPause             %8lu   \n", statsCounter->OutPause);
+        CLI_INFO("OutPause             %8u   \n", statsCounter->OutPause);
     if (checkValidItem(cmd, "getPortCounter", "InPause"))
-        CLI_INFO("InPause              %8lu   \n", statsCounter->InPause);
+        CLI_INFO("InPause              %8u   \n", statsCounter->InPause);
     if (checkValidItem(cmd, "getPortCounter", "Multiple"))
-        CLI_INFO("Multiple/InPFrags    %8lu   \n", statsCounter->Multiple);
+        CLI_INFO("Multiple/InPFrags    %8u   \n", statsCounter->Multiple);
     if (checkValidItem(cmd, "getPortCounter", "InUndersize"))
-        CLI_INFO("InUndersize          %8lu   \n", statsCounter->InUndersize);
+        CLI_INFO("InUndersize          %8u   \n", statsCounter->InUndersize);
     if (checkValidItem(cmd, "getPortCounter", "InFragments"))
-        CLI_INFO("InFragments          %8lu   \n", statsCounter->InFragments);
+        CLI_INFO("InFragments          %8u   \n", statsCounter->InFragments);
     if (checkValidItem(cmd, "getPortCounter", "InOversize"))
-        CLI_INFO("InOversize           %8lu   \n", statsCounter->InOversize);
+        CLI_INFO("InOversize           %8u   \n", statsCounter->InOversize);
     if (checkValidItem(cmd, "getPortCounter", "InJabber"))
-        CLI_INFO("InJabber             %8lu   \n", statsCounter->InJabber);
+        CLI_INFO("InJabber             %8u   \n", statsCounter->InJabber);
     if (checkValidItem(cmd, "getPortCounter", "InRxErr"))
-        CLI_INFO("InRxErr              %8lu   \n", statsCounter->InRxErr);
+        CLI_INFO("InRxErr              %8u   \n", statsCounter->InRxErr);
     if (checkValidItem(cmd, "getPortCounter", "InFCSErr"))
-        CLI_INFO("InFCSErr             %8lu   \n", statsCounter->InFCSErr);
+        CLI_INFO("InFCSErr             %8u   \n", statsCounter->InFCSErr);
     if (checkValidItem(cmd, "getPortCounter", "Collisions"))
-        CLI_INFO("Collisions/OutPFrags %8lu   \n", statsCounter->Collisions);
+        CLI_INFO("Collisions/OutPFrags %8u   \n", statsCounter->Collisions);
     if (checkValidItem(cmd, "getPortCounter", "Late"))
-        CLI_INFO("Late/InPAssemblyErr  %8lu   \n", statsCounter->Late);
+        CLI_INFO("Late/InPAssemblyErr  %8u   \n", statsCounter->Late);
 
     /* Bank 1 */
     if (fullbank == 1)
     {
         if (checkValidItem(cmd, "getPortCounter", "InDiscards"))
-            CLI_INFO("InDiscards           %8lu   \n", statsCounter->InDiscards);
+            CLI_INFO("InDiscards           %8u   \n", statsCounter->InDiscards);
         if (checkValidItem(cmd, "getPortCounter", "InFiltered"))
-            CLI_INFO("InFiltered           %8lu   \n", statsCounter->InFiltered);
+            CLI_INFO("InFiltered           %8u   \n", statsCounter->InFiltered);
         if (checkValidItem(cmd, "getPortCounter", "InAccepted"))
-            CLI_INFO("InAccepted           %8lu   \n", statsCounter->InAccepted);
+            CLI_INFO("InAccepted           %8u   \n", statsCounter->InAccepted);
         if (checkValidItem(cmd, "getPortCounter", "InBadAccepted"))
-            CLI_INFO("InBadAccepted        %8lu   \n", statsCounter->InBadAccepted);
+            CLI_INFO("InBadAccepted        %8u   \n", statsCounter->InBadAccepted);
         if (checkValidItem(cmd, "getPortCounter", "InGoodAvbClassA"))
-            CLI_INFO("InGoodAvbClassA      %8lu   \n", statsCounter->InGoodAvbClassA);
+            CLI_INFO("InGoodAvbClassA      %8u   \n", statsCounter->InGoodAvbClassA);
         if (checkValidItem(cmd, "getPortCounter", "InGoodAvbClassB"))
-            CLI_INFO("InGoodAvbClassB      %8lu   \n", statsCounter->InGoodAvbClassB);
+            CLI_INFO("InGoodAvbClassB      %8u   \n", statsCounter->InGoodAvbClassB);
         if (checkValidItem(cmd, "getPortCounter", "InBadAvbClassA"))
-            CLI_INFO("InBadAvbClassA       %8lu   \n", statsCounter->InBadAvbClassA);
+            CLI_INFO("InBadAvbClassA       %8u   \n", statsCounter->InBadAvbClassA);
         if (checkValidItem(cmd, "getPortCounter", "InBadAvbClassB"))
-            CLI_INFO("InBadAvbClassB       %8lu   \n", statsCounter->InBadAvbClassB);
+            CLI_INFO("InBadAvbClassB       %8u   \n", statsCounter->InBadAvbClassB);
         if (checkValidItem(cmd, "getPortCounter", "TCAMCounter0"))
-            CLI_INFO("TCAMCounter0         %8lu   \n", statsCounter->TCAMCounter0);
+            CLI_INFO("TCAMCounter0         %8u   \n", statsCounter->TCAMCounter0);
         if (checkValidItem(cmd, "getPortCounter", "TCAMCounter1"))
-            CLI_INFO("TCAMCounter1         %8lu   \n", statsCounter->TCAMCounter1);
+            CLI_INFO("TCAMCounter1         %8u   \n", statsCounter->TCAMCounter1);
         if (checkValidItem(cmd, "getPortCounter", "TCAMCounter2"))
-            CLI_INFO("TCAMCounter2         %8lu   \n", statsCounter->TCAMCounter2);
+            CLI_INFO("TCAMCounter2         %8u   \n", statsCounter->TCAMCounter2);
         if (checkValidItem(cmd, "getPortCounter", "TCAMCounter3"))
-            CLI_INFO("TCAMCounter3         %8lu   \n", statsCounter->TCAMCounter3);
+            CLI_INFO("TCAMCounter3         %8u   \n", statsCounter->TCAMCounter3);
         if (checkValidItem(cmd, "getPortCounter", "InDroppedAvbA"))
-            CLI_INFO("InDroppedAvbA        %8lu   \n", statsCounter->InDroppedAvbA);
+            CLI_INFO("InDroppedAvbA        %8u   \n", statsCounter->InDroppedAvbA);
         if (checkValidItem(cmd, "getPortCounter", "InDroppedAvbB"))
-            CLI_INFO("InDroppedAvbB        %8lu   \n", statsCounter->InDroppedAvbB);
+            CLI_INFO("InDroppedAvbB        %8u   \n", statsCounter->InDroppedAvbB);
         if (checkValidItem(cmd, "getPortCounter", "InDaUnknown"))
-            CLI_INFO("InDaUnknown          %8lu   \n", statsCounter->InDaUnknown);
+            CLI_INFO("InDaUnknown          %8u   \n", statsCounter->InDaUnknown);
         if (checkValidItem(cmd, "getPortCounter", "InMGMT"))
-            CLI_INFO("InMGMT               %8lu   \n", statsCounter->InMGMT);
+            CLI_INFO("InMGMT               %8u   \n", statsCounter->InMGMT);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue0"))
-            CLI_INFO("OutQueue0            %8lu   \n", statsCounter->OutQueue0);
+            CLI_INFO("OutQueue0            %8u   \n", statsCounter->OutQueue0);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue1"))
-            CLI_INFO("OutQueue1            %8lu   \n", statsCounter->OutQueue1);
+            CLI_INFO("OutQueue1            %8u   \n", statsCounter->OutQueue1);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue2"))
-            CLI_INFO("OutQueue2            %8lu   \n", statsCounter->OutQueue2);
+            CLI_INFO("OutQueue2            %8u   \n", statsCounter->OutQueue2);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue3"))
-            CLI_INFO("OutQueue3            %8lu   \n", statsCounter->OutQueue3);
+            CLI_INFO("OutQueue3            %8u   \n", statsCounter->OutQueue3);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue4"))
-            CLI_INFO("OutQueue4            %8lu   \n", statsCounter->OutQueue4);
+            CLI_INFO("OutQueue4            %8u   \n", statsCounter->OutQueue4);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue5"))
-            CLI_INFO("OutQueue5            %8lu   \n", statsCounter->OutQueue5);
+            CLI_INFO("OutQueue5            %8u   \n", statsCounter->OutQueue5);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue6"))
-            CLI_INFO("OutQueue6            %8lu   \n", statsCounter->OutQueue6);
+            CLI_INFO("OutQueue6            %8u   \n", statsCounter->OutQueue6);
         if (checkValidItem(cmd, "getPortCounter", "OutQueue7"))
-            CLI_INFO("OutQueue7            %8lu   \n", statsCounter->OutQueue7);
+            CLI_INFO("OutQueue7            %8u   \n", statsCounter->OutQueue7);
         if (checkValidItem(cmd, "getPortCounter", "OutCutThrough"))
-            CLI_INFO("OutCutThrough        %8lu   \n", statsCounter->OutCutThrough);
+            CLI_INFO("OutCutThrough        %8u   \n", statsCounter->OutCutThrough);
         if (checkValidItem(cmd, "getPortCounter", "InBadQbv"))
-            CLI_INFO("InBadQbv             %8lu   \n", statsCounter->InBadQbv);
+            CLI_INFO("InBadQbv             %8u   \n", statsCounter->InBadQbv);
         if (checkValidItem(cmd, "getPortCounter", "OutOctetsA"))
-            CLI_INFO("OutOctetsA           %8lu   \n", statsCounter->OutOctetsA);
+            CLI_INFO("OutOctetsA           %8u   \n", statsCounter->OutOctetsA);
         if (checkValidItem(cmd, "getPortCounter", "OutOctetsB"))
-            CLI_INFO("OutOctetsB           %8lu   \n", statsCounter->OutOctetsB);
+            CLI_INFO("OutOctetsB           %8u   \n", statsCounter->OutOctetsB);
         if (checkValidItem(cmd, "getPortCounter", "OutYel"))
-            CLI_INFO("OutYellow            %8lu   \n", statsCounter->OutYel);
+            CLI_INFO("OutYellow            %8u   \n", statsCounter->OutYel);
         if (checkValidItem(cmd, "getPortCounter", "OutDroppedYel"))
-            CLI_INFO("OutDroppedYel        %8lu   \n", statsCounter->OutDroppedYel);
+            CLI_INFO("OutDroppedYel        %8u   \n", statsCounter->OutDroppedYel);
         if (checkValidItem(cmd, "getPortCounter", "OutDiscards"))
-            CLI_INFO("OutDiscards          %8lu   \n", statsCounter->OutDiscards);
+            CLI_INFO("OutDiscards          %8u   \n", statsCounter->OutDiscards);
         if (checkValidItem(cmd, "getPortCounter", "OutMGMT"))
-            CLI_INFO("OutMGMT              %8lu   \n", statsCounter->OutMGMT);
+            CLI_INFO("OutMGMT              %8u   \n", statsCounter->OutMGMT);
 		if (checkValidItem(cmd, "getPortCounter", "DropEvents"))
-			CLI_INFO("DropEvents           %8lu   \n", statsCounter->DropEvents);
+			CLI_INFO("DropEvents           %8u   \n", statsCounter->DropEvents);
         if (checkValidItem(cmd, "getPortCounter", "AtsFiltered"))
-            CLI_INFO("AtsFiltered          %8lu   \n", statsCounter->AtsFiltered);
+            CLI_INFO("AtsFiltered          %8u   \n", statsCounter->AtsFiltered);
     }
 }
 
@@ -12165,7 +12167,7 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
             index++;
         }
     }
-    ret = sprintf(tempStr + 19 + index * 10, "\n\0");
+    ret = sprintf(tempStr + 19 + index * 10, "\n");
     CLI_INFO("%s", tempStr);
 
     /* Bank 0 */
@@ -12182,12 +12184,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InGoodOctetsLo);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InGoodOctetsLo);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InGoodOctetsHi"))
@@ -12203,12 +12205,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InGoodOctetsHi);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InGoodOctetsHi);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InBadOctets"))
@@ -12224,12 +12226,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InBadOctets);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InBadOctets);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutFCSErr"))
@@ -12245,12 +12247,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutFCSErr);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutFCSErr);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InUnicasts"))
@@ -12266,12 +12268,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InUnicasts);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InUnicasts);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "Deferred"))
@@ -12287,12 +12289,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Deferred);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Deferred);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InBroadcasts"))
@@ -12308,12 +12310,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InBroadcasts);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InBroadcasts);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InMulticasts"))
@@ -12329,12 +12331,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InMulticasts);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InMulticasts);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     /*
@@ -12354,12 +12356,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Octets64);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Octets64);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "127Octets"))
@@ -12375,12 +12377,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Octets127);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Octets127);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "255Octets"))
@@ -12396,12 +12398,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Octets255);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Octets255);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "511Octets"))
@@ -12417,12 +12419,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Octets511);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Octets511);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "1023Octets"))
@@ -12438,12 +12440,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Octets1023);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Octets1023);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "MaxOctets"))
@@ -12459,12 +12461,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OctetsMax);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OctetsMax);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutOctetsLo"))
@@ -12480,12 +12482,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutOctetsLo);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutOctetsLo);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutOctetsHi"))
@@ -12501,12 +12503,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutOctetsHi);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutOctetsHi);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutUnicasts"))
@@ -12522,12 +12524,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutUnicasts);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutUnicasts);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "Excessive"))
@@ -12543,12 +12545,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Excessive);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Excessive);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutMulticasts"))
@@ -12564,12 +12566,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutMulticasts);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutMulticasts);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutBroadcasts"))
@@ -12585,12 +12587,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutBroadcasts);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutBroadcasts);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "Single"))
@@ -12606,12 +12608,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Single);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Single);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
 
@@ -12628,12 +12630,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutPause);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutPause);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InPause"))
@@ -12649,12 +12651,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InPause);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InPause);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "Multiple"))
@@ -12670,12 +12672,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Multiple);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Multiple);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InUndersize"))
@@ -12691,12 +12693,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InUndersize);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InUndersize);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InFragments"))
@@ -12712,12 +12714,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InFragments);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InFragments);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InOversize"))
@@ -12733,12 +12735,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InOversize);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InOversize);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InJabber"))
@@ -12754,12 +12756,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InJabber);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InJabber);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InRxErr"))
@@ -12775,12 +12777,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InRxErr);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InRxErr);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InFCSErr"))
@@ -12796,12 +12798,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InFCSErr);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InFCSErr);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "Collisions"))
@@ -12817,12 +12819,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Collisions);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Collisions);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "Late"))
@@ -12838,12 +12840,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->Late);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->Late);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
 
@@ -12861,12 +12863,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InDiscards);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InDiscards);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InFiltered"))
@@ -12882,12 +12884,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InFiltered);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InFiltered);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InAccepted"))
@@ -12903,12 +12905,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InAccepted);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InAccepted);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InBadAccepted"))
@@ -12924,12 +12926,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InBadAccepted);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InBadAccepted);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InGoodAvbClassA"))
@@ -12945,12 +12947,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InGoodAvbClassA);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InGoodAvbClassA);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InGoodAvbClassB"))
@@ -12966,12 +12968,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InGoodAvbClassB);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InGoodAvbClassB);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InBadAvbClassA"))
@@ -12987,12 +12989,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InBadAvbClassA);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InBadAvbClassA);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InBadAvbClassB"))
@@ -13008,12 +13010,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InBadAvbClassB);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InBadAvbClassB);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "TCAMCounter0"))
@@ -13029,12 +13031,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->TCAMCounter0);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->TCAMCounter0);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "TCAMCounter1"))
@@ -13050,12 +13052,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->TCAMCounter1);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->TCAMCounter1);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "TCAMCounter2"))
@@ -13071,12 +13073,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->TCAMCounter2);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->TCAMCounter2);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "TCAMCounter3"))
@@ -13092,12 +13094,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->TCAMCounter3);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->TCAMCounter3);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InDroppedAvbA"))
@@ -13113,12 +13115,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InDroppedAvbA);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InDroppedAvbA);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InDroppedAvbB"))
@@ -13134,12 +13136,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InDroppedAvbB);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InDroppedAvbB);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InDaUnknown"))
@@ -13155,12 +13157,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InDaUnknown);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InDaUnknown);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InMGMT"))
@@ -13176,12 +13178,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InMGMT);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InMGMT);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue0"))
@@ -13197,12 +13199,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue0);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue0);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue1"))
@@ -13218,12 +13220,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue1);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue1);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue2"))
@@ -13239,12 +13241,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue2);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue2);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue3"))
@@ -13260,12 +13262,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue3);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue3);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue4"))
@@ -13281,12 +13283,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue4);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue4);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue5"))
@@ -13302,12 +13304,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue5);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue5);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue6"))
@@ -13323,12 +13325,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue6);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue6);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutQueue7"))
@@ -13344,12 +13346,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutQueue7);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutQueue7);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutCutThrough"))
@@ -13365,12 +13367,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutCutThrough);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutCutThrough);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "InBadQbv"))
@@ -13386,12 +13388,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->InBadQbv);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->InBadQbv);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutOctetsA"))
@@ -13407,12 +13409,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutOctetsA);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutOctetsA);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutOctetsB"))
@@ -13428,12 +13430,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutOctetsB);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutOctetsB);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutYel"))
@@ -13449,12 +13451,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutYel);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutYel);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutDroppedYel"))
@@ -13470,12 +13472,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutDroppedYel);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutDroppedYel);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutDiscards"))
@@ -13491,12 +13493,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutDiscards);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutDiscards);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
     if (checkValidItem(cmd, "getPortCounter", "OutMGMT"))
@@ -13512,12 +13514,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + index * 10, "%8lu", statsCounterList[port]->OutMGMT);
+                ret = sprintf(tempStr + 16 + index * 10, "%8u", statsCounterList[port]->OutMGMT);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }
         }
-        ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+        ret = sprintf(tempStr + 16 + index * 10, "\n");
         CLI_INFO("%s", tempStr);
     }
 	if (checkValidItem(cmd, "getPortCounter", "DropEvents"))
@@ -13533,12 +13535,12 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
 		{
 			if (portList[port] >= 0)
 			{
-				ret = sprintf(tempStr + 16 + (index * 10), "%8lu", statsCounterList[port]->DropEvents);
+				ret = sprintf(tempStr + 16 + (index * 10), "%8u", statsCounterList[port]->DropEvents);
 				tempStr[strlen(tempStr)] = ' ';
 				index++;
 			}
 		}
-		ret = sprintf(tempStr + 16 + index * 10, "\n\0");
+		ret = sprintf(tempStr + 16 + index * 10, "\n");
 		CLI_INFO("%s", tempStr);
 	}
     if (checkValidItem(cmd, "getPortCounter", "AtsFiltered"))
@@ -13554,7 +13556,7 @@ static void displayDumpCounters(int portList[], MSD_STATS_COUNTER_SET *statsCoun
         {
             if (portList[port] >= 0)
             {
-                ret = sprintf(tempStr + 16 + (index * 10), "%8lu", statsCounterList[port]->AtsFiltered);
+                ret = sprintf(tempStr + 16 + (index * 10), "%8u", statsCounterList[port]->AtsFiltered);
                 tempStr[strlen(tempStr)] = ' ';
                 index++;
             }

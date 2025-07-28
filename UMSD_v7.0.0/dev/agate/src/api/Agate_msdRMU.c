@@ -104,9 +104,10 @@ MSD_STATUS Agate_msdRmuGetID
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
-		
+    }
+
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
 	if (retVal != MSD_OK) {
@@ -202,8 +203,9 @@ MSD_STATUS Agate_msdRmuAtuDump
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+    }
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -297,8 +299,9 @@ MSD_STATUS Agate_msdRmuMibDump
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+    }
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -385,8 +388,9 @@ MSD_STATUS Agate_msdRmuMib2Dump
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+    }
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -577,8 +581,9 @@ MSD_STATUS Agate_msdRmuMultiRegAccess
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+    }
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);

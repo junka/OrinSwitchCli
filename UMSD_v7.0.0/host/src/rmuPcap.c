@@ -20,7 +20,6 @@ void pcap_rmuGetDeviceList()
 {
 	pcap_if_t *interfaces;
 	char errbuf[PCAP_ERRBUF_SIZE];
-
 	/* Retrieve the device list from the local machine */
 	if (pcap_findalldevs(&interfaces, errbuf) == -1)
 	{

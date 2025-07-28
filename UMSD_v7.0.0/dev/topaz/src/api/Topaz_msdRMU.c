@@ -114,8 +114,9 @@ MSD_STATUS Topaz_msdRmuGetID
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -211,8 +212,9 @@ MSD_STATUS Topaz_msdRmuAtuDump
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -306,8 +308,9 @@ MSD_STATUS Topaz_msdRmuMib2Dump
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -496,8 +499,9 @@ MSD_STATUS Topaz_msdRmuMultiRegAccess
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -602,8 +606,9 @@ MSD_STATUS Topaz_msdRmuTCAMDump
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -694,8 +699,9 @@ MSD_STATUS Topaz_msdRmuTCAMWrite
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
@@ -794,8 +800,9 @@ MSD_STATUS Topaz_msdRmuTCAMRead
         delta = 0;
     else if (dev->rmuMode == MSD_RMU_DSA_MODE)
         delta = 4;
-    else
+    else {
         delta = 0;
+	}
 
 	/*Request Packet*/
 	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);

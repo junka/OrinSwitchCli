@@ -5,6 +5,7 @@
 #include <winsock2.h>
 #include <windows.h>
 #else
+#include <unistd.h>
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
@@ -49,7 +50,7 @@ static int cmd_subcmd_help(struct cli_def *cli, const char *command, char *argv[
 
     for (p = cli->commands; p; p = p->next)
 	{               
-		strncpy(temp, cli->commandname, strlen(cli->commandname));
+		strcpy(temp, cli->commandname);
         token = strtok(temp, " ");
 		if (token != NULL)
 		{
@@ -244,13 +245,13 @@ int cliCommand()
                     while (filterList != NULL)
                     {
                         char arr[100] = { 0 };
-                        strncpy(arr, filterList->string,strlen(filterList->string));
+                        strcpy(arr, filterList->string);
                         if (arr[0] == '-')
                         {
                             memset(arr, 0, 100);
-							strncat(arr, temp1->string, strlen(temp1->string));
-                            strncat(arr, " ",1);
-							strncat(arr, temp2->string, strlen(temp2->string));
+							strcat(arr, temp1->string);
+                            strcat(arr, " ");
+							strcat(arr, temp2->string);
 
                             set_filter_cmd(filterList->string, arr);                      
                         }

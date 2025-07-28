@@ -51,11 +51,12 @@ MSD_STATUS Pearl_gstatsGetPortCounterIntf
 )
 {
 	PEARL_MSD_STATS_COUNTERS pearl_counter;
-	if (counter > 0x1f)
+	if (counter > 0x1f) {
 		pearl_counter = (counter & 0xff)+ PEARL_MSD_TYPE_BANK;
-	else
+	} else {
 		pearl_counter = counter;
-		return Pearl_gstatsGetPortCounter(dev, port, pearl_counter, statsData);
+	}
+	return Pearl_gstatsGetPortCounter(dev, port, pearl_counter, statsData);
 }
 
 /*******************************************************************************

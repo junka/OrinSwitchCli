@@ -10,6 +10,7 @@
 #include <Iptypes.h>  
 #include <IPHlpApi.h>
 #else
+#include <unistd.h>
 #include   <sys/ioctl.h> 
 #include   <sys/socket.h> 
 #include   <netinet/in.h> 
@@ -634,7 +635,11 @@ int main(int argc, char *argv[])
 	MSD_STATUS status = 0;
 
     filename = getCfgFile(argc, argv);
-	ret = openBusWithCfgFile(filename, &bus_interface, &baseAddr);
+    if (filename == NULL) {
+        ret = openBusInterface(&bus_interface, &baseAddr);
+    } else {
+	    ret = openBusWithCfgFile(filename, &bus_interface, &baseAddr);
+    }
 
 	if (ret != 0)
 	{
