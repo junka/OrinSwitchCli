@@ -338,8 +338,8 @@ MSD_STATUS Agate_gtcamFindEntryIntf
 	}
 	msdMemSet((void*)(tcamData), 0, sizeof(MSD_TCAM_DATA));
 
-    if (*found == MSD_FALSE) {
-        return retVal;
+	if (*found == MSD_FALSE) {
+		return retVal;
 	}
 
 	tcamData->frameType = tcam.frameType;

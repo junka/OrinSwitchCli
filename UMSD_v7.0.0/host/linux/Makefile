@@ -2,10 +2,14 @@
 
 include $(MSD_USER_BASE)/host/linux/makedef
 
-CFLAGS += $(MSD_INCLUDE) -DUSE_SEMAPHORE $(TOPAZ) $(PERIDOT) $(AGATE) $(PEARL) $(AMETHYST) $(OAK) $(SPRUCE) $(BONSAIZ1) $(FIR) $(BONSAI) $(DEBUG_DEFINES)
-LDFLAGS += -fPIC -L$(MSD_PATH)/host/linux/libMRegAccess -L$(MSD_PATH)/host/lib/libcli -L$(MSD_PATH)/host/lib/libpcap -L$(MSD_PATH)/host/lib/libusb/libusb/.libs -lMRegAccess -lusb-1.0 -lpcap -lcli -pthread -lstdc++
+CFLAGS += $(MSD_INCLUDE) -g -DUSE_SEMAPHORE $(TOPAZ) $(PERIDOT) $(AGATE) $(PEARL) $(AMETHYST) $(OAK) $(SPRUCE) $(BONSAIZ1) $(FIR) $(BONSAI) $(DEBUG_DEFINES) $(LIBPCAP_DEFINES) 
+LDFLAGS += -fPIC -L$(MSD_PATH)/host/linux/libMRegAccess -L$(MSD_PATH)/host/lib/libcli -L$(MSD_PATH)/host/lib/libusb/libusb/.libs -lMRegAccess -lusb-1.0 -lcli -pthread -lstdc++
 
-HOST=aarch64-linux-gnu
+ifeq ($(LIBPCAP), YES)
+LDFLAGS += -L$(MSD_PATH)/host/lib/libpcap -lpcap
+endif
+
+HOST?=x86_64-linux-gnu
 EXEC = UMSD_MCLI
 MSD_LIB = $(MSD_PATH)/library/$(MSD_PROJ_NAME).o
 
@@ -13,23 +17,27 @@ OBJECTS = $(SAMPLE_OBJS) $(UNITTEST_OBJS) $(SWTEST_OBJS)
 
 all: $(EXEC) $(MSD_LIB)
 
+ifeq ($(LIBPCAP), YES)
+build_libpcap:
+	cd $(MSD_PATH)/host/lib/libpcap && \
+    if [ -f configure ]; then ./configure --disable-dbus --disable-rdma --enable-usb=no --disable-bluetooth --without-ibverbs --with-pcap=linux --host=$(HOST); \
+    elif [ -f autogen.sh ]; then ./autogen.sh && ./configure --disable-dbus --disable-rdma --enable-usb=no --disable-bluetooth --without-ibverbs --with-pcap=linux --host=$(HOST); \
+    fi; \
+    make;
+endif
+
 $(MSD_LIB):
 	mkdir -p $(MSD_PATH)/library
 	make -C $(MSD_PATH)
 
+ifeq ($(LIBPCAP), YES)
+$(EXEC): build_libpcap
+endif
+
 $(EXEC): $(OBJECTS) $(MSD_LIB)
-	cd $(MSD_PATH)/host/lib/libpcap && \
-	if [ ! -f Makefile ]; then \
-		if [ -f configure ]; then ./configure --with-pcap=linux --host=$(HOST); \
-		elif [ -f autogen.sh ]; then ./autogen.sh && ./configure --with-pcap=linux --host=$(HOST); \
-		fi; \
-	fi; \
-	make;
 	cd $(MSD_PATH)/host/lib/libusb && \
-	if [ ! -f Makefile ]; then \
-		if [ -f configure ]; then ./configure --host=$(HOST) --disable-udev; \
-		elif [ -f autogen.sh ]; then ./autogen.sh && ./configure --host=$(HOST) --disable-udev; \
-		fi; \
+	if [ -f configure ]; then ./configure --host=$(HOST) --disable-udev; \
+	elif [ -f autogen.sh ]; then ./autogen.sh && ./configure --host=$(HOST) --disable-udev; \
 	fi; \
 	make;
 	make -C $(MSD_PATH)/host/linux/libMRegAccess;

@@ -207,6 +207,10 @@ int cliCommand()
 
     //Get all the API information
     rootAPIJSON = parseAPIJSONfile();
+    if (rootAPIJSON == NULL) {
+        return -1;
+    }
+
     temp = rootAPIJSON->child;
     temp1 = temp->child;
     temp1 = cjson_sort(temp1);

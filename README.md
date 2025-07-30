@@ -7,6 +7,7 @@
  export CC=aarch64-linux-gnu-gcc
  export CXX=aarch64-linux-gnu-g++
  export LD=aarch64-linux-gnu-ld
+ export HOST=aarch64-linux-gnu
  cd UMSD_v7.0.0
  source setenv
  make
