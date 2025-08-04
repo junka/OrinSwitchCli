@@ -96,10 +96,6 @@ MSD_STATUS msdLoadDriver
     dev->rmuMode = cfg->rmuMode;
     dev->eTypeValue = cfg->eTypeValue;
 
-	// MSD_U16 id;
-	// msdRMUGetID(dev->devNum, &id);
-	// printf("ID %u\n", id);
-
 	if (msdRegister(dev, &(cfg->BSPFunctions)) != MSD_TRUE)
     {
 		MSD_DBG_ERROR(("msdRegister Failed.\n"));

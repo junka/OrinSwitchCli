@@ -5,8 +5,6 @@
 
 void pcap_rmuGetDeviceList();
 int pcap_rmuOpenEthDevice();
-int pcap_rmuSendPacket(unsigned char *packet);
-int pcap_rmuReceivePacket(unsigned char **packet, unsigned char id);
 int pcap_rmuCloseEthDevice();
 int send_and_receive_packet(
 		unsigned char *req_packet,

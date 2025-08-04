@@ -10,6 +10,8 @@
 #include <linux/if.h>
 #include <linux/if_ether.h>
 #include <linux/if_packet.h>
+#include <errno.h>
+#include <sys/ioctl.h>
 #endif
 
 #include <stdio.h>
@@ -21,7 +23,7 @@
 #ifdef LIBPCAP
 static pcap_t *fp_pcap;
 #else
-static int sockfd;
+static int sockfd = -1;
 #endif
 char    pcap_device_name[512] = { 0 };
 char    AdapterList[Max_Num_Adapter][512];
@@ -46,8 +48,6 @@ void pcap_rmuGetDeviceList()
 	printf("\n================ NIC CARD List ================\n");
 	for (pcap_if_t *d = interfaces; d != NULL; d = d->next)
 	{
-		//strcpy(pcap_device_name, d->name);
-		//printf("device: %s\n", d->description);
 		strcpy(AdapterList[NumOfNIC], d->name);
 		printf("( %d ) %s\n", ++NumOfNIC, d->name);
 		if ((d->description) != NULL)
@@ -101,7 +101,7 @@ int pcap_rmuOpenEthDevice()
 #ifdef LIBPCAP
 	char *dev;
 	char errbuf[PCAP_ERRBUF_SIZE];
-    char packet_filter[512] = { 0 };
+	char packet_filter[512] = { 0 };
 	struct bpf_program fcode;
 	bpf_u_int32 NetMask;
 	printf("\nUsing Interface: %s\n\n", pcap_device_name /*dev*/);
@@ -149,51 +149,58 @@ int pcap_rmuOpenEthDevice()
 	}
 #else
 	struct ifreq ifr;
-
-	if ((sockfd = socket(AF_PACKET, SOCK_RAW, htons(ETH_P_ALL))) == -1) {
+	sockfd = socket(AF_PACKET, SOCK_RAW, htons(ETH_P_ALL));
+	if (sockfd == -1) {
 		perror("Error opening raw socket");
 		return 1;
 	}
 
-	// Bind the socket to the specified network interface
 	memset(&ifr, 0, sizeof(struct ifreq));
-	strncpy(ifr.ifr_name, pcap_device_name, IFNAMSIZ - 1);
-	if (setsockopt(sockfd, SOL_SOCKET, SO_BINDTODEVICE, (void *)&ifr, sizeof(struct ifreq)) < 0)
+	memcpy(ifr.ifr_name, pcap_device_name, strlen(pcap_device_name)+1);
+	ioctl(sockfd, SIOCGIFINDEX, &ifr);
+
+	struct sockaddr_ll addr;
+	memset(&addr, 0, sizeof(addr));
+    addr.sll_family = PF_PACKET;
+    addr.sll_protocol = htons(ETH_P_ALL);
+    addr.sll_ifindex = ifr.ifr_ifindex;
+    addr.sll_halen = ETH_ALEN;
+	if (bind(sockfd, (struct sockaddr*)&addr, sizeof(struct sockaddr_ll)) < 0) {
+		perror("Error binding socket to interface");
+		close(sockfd);
+		return 1;
+	}
+
+	if (setsockopt(sockfd, SOL_SOCKET, SO_BINDTODEVICE, (void*)&ifr, sizeof(struct ifreq)) < 0)
 	{
 		perror("Error binding socket to device");
 		close(sockfd);
 		return 1;
 	}
 
-	// Note: Additional filtering logic can be implemented here if needed
-	// using BPF (Berkeley Packet Filter) or other mechanisms.
 	struct sock_filter bpfcode[] = {
-		{ 0x28, 0, 0, 0x0000000e },
-		{ 0x15, 0, 7, 0x00009101 },
 		{ 0x80, 0, 0, 0x00000000 },
 		{ 0x25, 5, 0, 0x00000200 },
+		{ 0x28, 0, 0, 0x0000000c },
+		{ 0x15, 0, 3, 0x00009101 },
 		{ 0x30, 0, 0, 0x00000010 },
-		{ 0x15, 0, 3, 0x00000004 },
-		{ 0x30, 0, 0, 0x00000011 },
-		{ 0x15, 0, 1, 0x00000000 },
+		{ 0x15, 0, 1, 0x00000004 },
 		{ 0x6, 0, 0, 0x00040000 },
 		{ 0x6, 0, 0, 0x00000000 },
 	};
 	struct sock_filter bpfcode2[] = {
 		{ 0x80, 0, 0, 0x00000000 },
-		{ 0x25, 5, 0, 0x00000200 },
+		{ 0x25, 3, 0, 0x00000200 },
 		{ 0x30, 0, 0, 0x0000000c },
-		{ 0x15, 0, 3, 0x00000004 },
-		{ 0x30, 0, 0, 0x0000000d },
-		{ 0x15, 0, 1, 0x00000000 },
+		{ 0x15, 0, 1, 0x00000004 },
 		{ 0x6, 0, 0, 0x00040000 },
 		{ 0x6, 0, 0, 0x00000000 },
 	};
 	struct sock_filter *pbpfcode;
 	size_t bpfcode_size;
 	if (gRmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE) {
-        bpfcode[1].k = gEtherTypeValue;
-		bpfcode[5].k = sohoDevNum & 0x1F;
+		// bpfcode[3].k = gEtherTypeValue;
+		// bpfcode[5].k = sohoDevNum & 0x1F;
 		pbpfcode = bpfcode;
 		bpfcode_size = sizeof(bpfcode) / sizeof(struct sock_filter);
     } else if (gRmuMode == MSD_RMU_DSA_MODE) {
@@ -214,78 +221,6 @@ int pcap_rmuOpenEthDevice()
 
 #endif
 	return 0;
-}
-
-int pcap_rmuSendPacket(unsigned char *packet)
-{
-#ifdef LIBPCAP
-	if (pcap_sendpacket(fp_pcap,	// Adapter
-		packet,				// buffer with the packet
-		150					// size
-		) != 0)
-	{
-		fprintf(stderr, "\nError sending the packet: %s\n", pcap_geterr(fp_pcap));
-		return 1;
-	}
-#else
-
-	// Send the packet
-	if (send(sockfd, packet, 150, 0) <= 0)
-	{
-		perror("Error sending the packet");
-		return 1;
-	}
-
-#endif
-	return 0;
-}
-
-int pcap_rmuReceivePacket(unsigned char **packet, unsigned char id)
-{
-	unsigned int exit = 0;
-	unsigned int drop_cnt = 0;
-#ifdef LIBPCAP
-	struct pcap_pkthdr *mypkt_hdr;
-
-	while (exit == 0)
-	{
-		pcap_next_ex(fp_pcap, &mypkt_hdr, (const u_char **)packet);
-
-		if (mypkt_hdr->len != 0)
-		{
-			if (*((*packet) + 19) == id)
-			{
-				exit = 1;
-			}
-		}
-
-		drop_cnt++;
-		if (drop_cnt > 100)
-		{
-			printf("Packet drop count exceeds limit: %d\n", drop_cnt);
-			exit = 1;
-		}
-	}
-	return mypkt_hdr->len;
-#else
-	int retlen;
-	while (exit == 0) {
-		retlen = recv(sockfd, *packet, 150, 0);
-		if (retlen > 0) {
-			if (*((*packet) + 19) == id)
-			{
-				exit = 1;
-			}
-		}
-		drop_cnt++;
-		if (drop_cnt > 100)
-		{
-			printf("Packet drop count exceeds limit: %d\n", drop_cnt);
-			exit = 1;
-		}
-	}
-	return retlen;
-#endif
 }
 
 int pcap_rmuCloseEthDevice()
@@ -310,7 +245,6 @@ int send_and_receive_packet(
 	unsigned char **rsp_packet,
 	unsigned int *rsp_pktlen)
 {
-	unsigned int retVal;
 	unsigned int size = 512;
 	unsigned int exit = 0;
 	unsigned int drop_cnt = 0;
@@ -341,7 +275,7 @@ int send_and_receive_packet(
         seqNumOffset = 15;
 
 #ifdef LIBPCAP
-	retVal = pcap_sendpacket(fp_pcap, req_packet, size);
+	unsigned int retVal = pcap_sendpacket(fp_pcap, req_packet, size);
 	if (retVal)
 	{
 		fprintf(stderr, "\nError sending packet: %s\n", pcap_geterr(fp_pcap));
@@ -356,8 +290,7 @@ int send_and_receive_packet(
 
 		if (mypkt_hdr->len != 0)
 		{
-			// dump_packet(&rsp_packet, mypkt_hdr->len, "Received Packet:");
-			if (*(req_packet + seqNumOffset) != *(*(rsp_packet)+seqNumOffset)) // Check sequence number of dsatag
+			if (*(req_packet + seqNumOffset) != *(*(rsp_packet) + seqNumOffset)) // Check sequence number of dsatag
 			{
 				 printf("Error: DSA tag sequence numbers does not match - req: %X, rsp: %X\n",
                      *(req_packet + seqNumOffset), *((*rsp_packet) + seqNumOffset));
@@ -368,7 +301,6 @@ int send_and_receive_packet(
 			{
 				if (*(req_packet + 6) != *(*(rsp_packet)))
 				{
-
 					;
 				}
 				else
@@ -388,23 +320,25 @@ int send_and_receive_packet(
 
 	
 #else
-	retVal = send(sockfd, req_packet, size, 0);
-	if (retVal != 0)
-	{
-		fprintf(stderr, "\nError sending packet\n");
+	if (sockfd < 0) {
+		fprintf(stderr, "Socket not opened. Call pcap_rmuOpenEthDevice() first.\n");
+		return -1;
+	}
+	ssize_t retVal = send(sockfd, req_packet, size, 0);
+	if (retVal < 0) {
+		fprintf(stderr, "\nError sending packet: %d (%s)\n", errno, strerror(errno));
 		return retVal;
+	} else if (retVal != size) {
+		fprintf(stderr, "\nError sending packet: sent %ld bytes, expected %u bytes\n", retVal, size);
+		return -1;
 	}
 
 	while (exit == 0)
 	{
 		retVal = recv(sockfd, *rsp_packet, req_pktlen, 0);
-		if(retVal != 1)
-			continue;
-
-		if (retVal != 0)
+		if (retVal > 0)
 		{
-			// dump_packet(&rsp_packet, mypkt_hdr->len, "Received Packet:");
-			if (*(req_packet + seqNumOffset) != *(*(rsp_packet)+seqNumOffset)) // Check sequence number of dsatag
+			if (*(req_packet + seqNumOffset) != *(*(rsp_packet) + seqNumOffset)) // Check sequence number of dsatag
 			{
 				 printf("Error: DSA tag sequence numbers does not match - req: %X, rsp: %X\n",
                      *(req_packet + seqNumOffset), *((*rsp_packet) + seqNumOffset));
@@ -415,12 +349,14 @@ int send_and_receive_packet(
 			{
 				if (*(req_packet + 6) != *(*(rsp_packet)))
 				{
-
 					;
 				}
 				else
 					exit = 1;
 			}
+		} else {
+			fprintf(stderr, "\nError receive packet: %d\n", errno);
+			continue;
 		}
 
 		drop_cnt++;

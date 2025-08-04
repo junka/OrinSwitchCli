@@ -301,6 +301,7 @@ static int openBusWithCfgFile(char *filename, int *bus_interface, MSD_U32 *baseA
 				return   3;
 			}
 			memcpy(AdapterMACAddr, ifreq.ifr_hwaddr.sa_data, 6);
+            close(sock);
 #endif
 			if (pcap_rmuOpenEthDevice() != 0)
 			{
