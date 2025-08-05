@@ -199,8 +199,8 @@ int pcap_rmuOpenEthDevice()
 	struct sock_filter *pbpfcode;
 	size_t bpfcode_size;
 	if (gRmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE) {
-		// bpfcode[3].k = gEtherTypeValue;
-		// bpfcode[5].k = sohoDevNum & 0x1F;
+		bpfcode[3].k = gEtherTypeValue;
+		bpfcode[5].k = sohoDevNum & 0x1F;
 		pbpfcode = bpfcode;
 		bpfcode_size = sizeof(bpfcode) / sizeof(struct sock_filter);
     } else if (gRmuMode == MSD_RMU_DSA_MODE) {
@@ -333,22 +333,14 @@ int send_and_receive_packet(
 		return -1;
 	}
 
-	while (exit == 0)
-	{
+	while (exit == 0) {
 		retVal = recv(sockfd, *rsp_packet, req_pktlen, 0);
-		if (retVal > 0)
-		{
-			if (*(req_packet + seqNumOffset) != *(*(rsp_packet) + seqNumOffset)) // Check sequence number of dsatag
-			{
+		if (retVal > 0) {
+			if (*(req_packet + seqNumOffset) != *(*(rsp_packet) + seqNumOffset)) {
 				 printf("Error: DSA tag sequence numbers does not match - req: %X, rsp: %X\n",
                      *(req_packet + seqNumOffset), *((*rsp_packet) + seqNumOffset));
-
-				//exit = 1;
-			}
-			else
-			{
-				if (*(req_packet + 6) != *(*(rsp_packet)))
-				{
+			} else {
+				if (*(req_packet + 6) != *(*(rsp_packet))) {
 					;
 				}
 				else
@@ -360,8 +352,7 @@ int send_and_receive_packet(
 		}
 
 		drop_cnt++;
-		if (drop_cnt > drop_cnt_limit)
-		{
+		if (drop_cnt > drop_cnt_limit) {
 			printf("Packet drop count exceeds limit: %d\n", drop_cnt_limit);
 			//exit = 1;
 			return -1;
@@ -369,8 +360,7 @@ int send_and_receive_packet(
 	}
 	*rsp_pktlen = retVal;
 #endif
-	if (*rsp_pktlen < req_pktlen)
-	{
+	if (*rsp_pktlen < req_pktlen) {
 		printf("Error: rsp_pktlen - %d < req_pktlen - %d\n", *rsp_pktlen, req_pktlen);
 		return -1;
 	}

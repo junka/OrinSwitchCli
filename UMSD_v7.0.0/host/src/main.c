@@ -163,8 +163,8 @@ static int openBusWithCfgFile(char *filename, int *bus_interface, MSD_U32 *baseA
     BUS_CONF_STRUCT bus_conf;
 
     memset(&bus_conf, 0, sizeof(BUS_CONF_STRUCT));
-	bus_conf_parse(filename, &bus_conf);
-    
+    bus_conf_parse(filename, &bus_conf);
+
     if (gFakeDevice != 0)
         return 0;
 
@@ -513,10 +513,15 @@ static int openBusInterface(int *bus_interface, MSD_U32 *baseAddr)
 			int nicId = 0;
 
 			gRmuMode = MSD_RMU_ETHERT_TYPE_DSA_MODE;
-			printf("Please enter the Target Device number and Ether Type value\n(hex, Trg_Dev=0x0 and Etype=0x9101 please enter 0x0 0x9101 for example):");
-			if (scanf("%x %x", (int*)&sohoDevNum, (int*)&gEtherTypeValue) == 0)
+			printf("Please enter the Ether Type value\n(hex, Etype=0x9101 please enter 0x9101 for example):");
+			if (scanf("%x", (int*)&gEtherTypeValue) == 0)
 				printf("Failed to read input Target Devcie number and Ether Type\n");
 			clean_stdin();
+
+            printf("Please enter the Target Device number\n(hex, Trg_Dev=0x0 please enter 0x0 for example):");
+            if (scanf("%x", (int*)&sohoDevNum) == 0)
+                printf("Failed to read the input Target Device number\n");
+            clean_stdin();
 
 			gFWRmuFlag = 1;
 

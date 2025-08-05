@@ -951,6 +951,7 @@ CLI_COMMAND_STRUCT directCMDList[] =
     { "unittest", &UnitTestCases },
     { "sample", &SampleCases },
 #endif
+    { "getPhyMode", &readPhyMode },
     { "setPhyMode", &CustomizedPhyModeCases },
     { "enableHwSem", &enableHwSemaphore},
     { "disableHwSem", &disableHwSemaphore},
@@ -1109,7 +1110,8 @@ EXTERN_CLI_STRUCT externCLICMDList[] =
 #ifdef UNITTEST
     { "unittest", directCMDList }, /*UnitTestCases, NULL, NULL, "unittest   : Run the Unit test cases", "unittest   : Run the Unit test cases\n" },*/
     { "sample", directCMDList }, /*SampleCases, NULL, NULL, "sample     : Run the sample cases", "sample     : Run the sample cases\n" },*/
-#endif	           
+#endif
+    { "getPhyMode", directCMDList }, /*CustomizedCases, NULL, NULL, "customized : Run customized cases", "customized : Run customized cases\n" },*/
     { "setPhyMode", directCMDList }, /*CustomizedCases, NULL, NULL, "customized : Run customized cases", "customized : Run customized cases\n" },*/
     { "enableHwSem", directCMDList },
     { "disableHwSem", directCMDList },
@@ -1253,6 +1255,7 @@ int CustomizedVlanCases(void)
     return 0;
 }
 extern int setPhyMode(MSD_U8 devNum, MSD_U8 portNum, char mode[]);
+extern char * getPhyMode(MSD_U8 devNum, int portNum);
 int CustomizedPhyModeCases(void)
 {
     MSD_U8 portNum[11];
@@ -1290,6 +1293,26 @@ int CustomizedPhyModeCases(void)
 
 	/* Oak/Spruce support extended(bit 16) */
 	//if ((qddev->devName == MSD_OAK) || (qddev->devName == MSD_SPRUCE))
+    return 0;
+}
+
+int readPhyMode(void) {
+    MSD_U8 portNum[11];
+
+    if (nargs < 2 || nargs > 12)
+    {
+        CLI_ERROR("Syntax Error, Using command as follows: getPhyMode  <phyAddr> ...\n");
+        return 1;
+    }
+    for (int i = 0; i < nargs - 1; i++) {
+        portNum[i] = (MSD_U8)strtoul(CMD_ARGS[ i + 1 ], NULL, 0);
+        if (portNum[i] > qddev->numOfPorts) {
+            CLI_ERROR("Invaild port number, Please check again.\n");
+            return 1;
+        }
+        char *mode = getPhyMode(sohoDevNum, portNum[i]);
+        CLI_INFO("Port = %d: %s\n", portNum[i], mode);
+    }
     return 0;
 }
 

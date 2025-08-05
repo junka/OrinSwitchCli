@@ -185,7 +185,7 @@ int setMasterOrSlave(MSD_U8 devNum, int phyAddr, char mode[])
     }
     //printf("Set PHY register data success\n");
     //printf("Write - dev: 0x%X, reg: 0x%X, data = 0x%X \n", devAddr, regAddr, phyData);
-//-------------------------------------
+    //-------------------------------------
     regAddr = 0x0018;
     data = 0xA401 + (phyAddr << 5) ;
     retVal = msdSetAnyExtendedReg(devNum, devAddr, regAddr, data);
@@ -219,4 +219,11 @@ int setPhyMode(MSD_U8 devNum, int portNum, char mode[])
         return 1;
     return 0;
 //--------------------------------
+}
+
+char * getPhyMode(MSD_U8 devNum, int portNum)
+{
+    DeviceMode mode;
+    MSD_U32 phyData = checkPhyData(&devNum, &portNum);
+    return (phyData == 0xC001) ? "Master" : ((phyData == 0x8001) ? "Slave" : "Unknown");
 }

@@ -149,6 +149,7 @@ int strIcmp(const char* p1, const char* p2);
 int UnitTestCases(void);
 int SampleCases(void);
 int CustomizedPhyModeCases(void);
+int readPhyMode(void);
 int CustomizedVlanCases(void);
 int resetPortBasedVlanCases(void);
 
