@@ -25,6 +25,7 @@ make
  UMSD_MCLI application be created in UMSD_v7.0.0/host/linux
 
 ## usage
+### Telnet mode
 - modify umsd.cfg nic_name with the correct interface name
 - run ```sudo ./USMD_CLI -f umsd.cfg ```
 - telnet 0 8888
@@ -35,3 +36,7 @@ make
 
 >or show vlan configuration:\
 >UMSD_MCLI> vlan dump
+
+### Direct Command line mode, non-interactive mode
+- use umsd.cfg file like above
+- run ```sudo ./USMD_CLI -f umsd.cfg - vlan dump``` with command appended after dash, use like what we use for telnet mode

@@ -178,7 +178,11 @@ static cJSON* cjson_sort(cJSON *json)
     return json;
 }
 
-int cliCommand()
+static void printf_callback(struct cli_def *cli, const char *string) {
+    printf("%s\n", string);
+}
+
+int cliCommand(int argc, char *argv[])
 {
 	struct cli_command *c, *c1;
 	struct cli_def *cli;
@@ -205,6 +209,9 @@ int cliCommand()
 	cli_set_hostname(cli, "UMSD_MCLI");
 	cli_telnet_protocol(cli, 1);
 
+    if (argc > 3)  {
+        cli_print_callback(cli, printf_callback);
+    }
     //Get all the API information
     rootAPIJSON = parseAPIJSONfile();
     if (rootAPIJSON == NULL) {
@@ -350,59 +357,69 @@ int cliCommand()
     }
 
 #else
-	if ((s = socket(AF_INET, SOCK_STREAM, 0)) < 0)
-	{
-		perror("socket");
-		return 1;
-	}
-	setsockopt(s, SOL_SOCKET, SO_REUSEADDR, &on, sizeof(on));
+    if (argc > 3) {
+        char cmd[CLI_MAX_LINE_LENGTH] = {0};
+        for (i = 4; i < argc; i++) {
+            strcat(cmd, argv[i]);
+            if (i < argc - 1) strcat(cmd, " ");
+        }
+        cli_run_command(cli, cmd);
+    } else {
 
-	memset(&addr, 0, sizeof(addr));
-	addr.sin_family = AF_INET;
-	addr.sin_addr.s_addr = htonl(INADDR_ANY);
-	addr.sin_port = htons(g_telnet_port);
-	if (bind(s, (struct sockaddr *) &addr, sizeof(addr)) < 0)
-	{
-        close(s);
-		perror("bind");
-		return 1;
-	}
+        if ((s = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+        {
+            perror("socket");
+            return 1;
+        }
+        setsockopt(s, SOL_SOCKET, SO_REUSEADDR, &on, sizeof(on));
 
-	if (listen(s, 1) < 0)
-	{
-        close(s);
-		perror("listen");
-		return 1;
-	}
+        memset(&addr, 0, sizeof(addr));
+        addr.sin_family = AF_INET;
+        addr.sin_addr.s_addr = htonl(INADDR_ANY);
+        addr.sin_port = htons(g_telnet_port);
+        if (bind(s, (struct sockaddr *) &addr, sizeof(addr)) < 0)
+        {
+            close(s);
+            perror("bind");
+            return 1;
+        }
 
-	printf("Listening on port %d for telnet\n", g_telnet_port);
+        if (listen(s, 1) < 0)
+        {
+            close(s);
+            perror("listen");
+            return 1;
+        }
 
-	while ((x = accept(s, NULL, 0)))
-	{
-		int pid = fork();
-		if (pid < 0)
-		{
-            close(x);
-			perror("fork");
-			return 1;
-		}
+        printf("Listening on port %d for telnet\n", g_telnet_port);
 
-		/* parent */
-		if (pid > 0)
-		{
-			socklen_t len = sizeof(addr);
-			if (getpeername(x, (struct sockaddr *) &addr, &len) >= 0)
-				printf(" * accepted connection from %s\n", inet_ntoa(addr.sin_addr));
+        while ((x = accept(s, NULL, 0)))
+        {
+            int pid = fork();
+            if (pid < 0)
+            {
+                close(x);
+                perror("fork");
+                return 1;
+            }
 
-			close(x);
-			continue;
-		}
+            /* parent */
+            if (pid > 0)
+            {
+                socklen_t len = sizeof(addr);
+                if (getpeername(x, (struct sockaddr *) &addr, &len) >= 0)
+                    printf(" * accepted connection from %s\n", inet_ntoa(addr.sin_addr));
 
-		/* child */
-		close(s);
-		cli_loop(cli, x);
-		exit(0);
-	}
+                close(x);
+                continue;
+            }
+
+            /* child */
+            close(s);
+            cli_loop(cli, x);
+            exit(0);
+        }
+    }
 #endif
 
 	apiCLI_free_buf();

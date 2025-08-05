@@ -41,7 +41,7 @@ MSD_STATUS qdInit(int baseAddr, int bus_interface, MSD_U16 tempDeviceId);
 void qdClose();
 void clean_stdin(void);
 void apiCLI(void);
-int cliCommand();
+int cliCommand(int argc, char *argv[]);
 int strIcmp(const char* p1, const char* p2);
 
 char* SWGetDeviceName(int devId)
@@ -611,12 +611,7 @@ static char* getCfgFile(int argc, char *argv[])
         cmd = argv[index];
         index++;
 
-        if (*cmd != '-')
-        {
-            printf("Invalid option input: %s\n", cmd);
-            return NULL;
-        }
-        else
+        if (*cmd == '-')
         {
             value = argv[index];
             index++;
@@ -737,7 +732,7 @@ int main(int argc, char *argv[])
     }
 
 	/*apiCLI(); */
-	cliCommand();
+	cliCommand(argc, argv);
 
     pcap_rmuCloseEthDevice();
 
