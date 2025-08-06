@@ -2325,6 +2325,14 @@
 					"":	"rmu getID\n"
 				}
 			},
+			"getFwVersion":	{
+				"help":	"rmu getFwVersion : Get the current fw version\n",
+				"paraList":	{
+				},
+				"example":	{
+					"":	"rmu getFwVersion\n"
+				}
+			},
 			"dumpAtu":	{
 				"help":	"rmu dumpAtu <continueCode> : Dump ATU entry from the specified starting address\n",
 				"paraList":	{

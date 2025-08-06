@@ -322,6 +322,15 @@ MSD_STATUS msdRMURegisterDump
     OUT MSD_RegList *dataList
 );
 
+MSD_STATUS msdRMUFwVersionGet
+(
+    IN  MSD_U8 devNum,
+    OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+);
+
 #ifdef __cplusplus
 }
 #endif

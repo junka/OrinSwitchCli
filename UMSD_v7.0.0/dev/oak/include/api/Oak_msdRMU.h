@@ -399,6 +399,24 @@ MSD_STATUS Oak_msdRmuRegDump
     OUT MSD_RegList *dataList
 );
 
+
+MSD_STATUS Oak_msdRmuFwVersionGet
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+);
+MSD_STATUS Oak_msdRmuFwVersionGetIntf
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+);
+
 #ifdef __cplusplus
 }
 #endif

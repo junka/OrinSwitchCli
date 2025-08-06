@@ -2,7 +2,7 @@
 
 include $(MSD_USER_BASE)/host/linux/makedef
 
-CFLAGS += $(MSD_INCLUDE) -g -DUSE_SEMAPHORE $(TOPAZ) $(PERIDOT) $(AGATE) $(PEARL) $(AMETHYST) $(OAK) $(SPRUCE) $(BONSAIZ1) $(FIR) $(BONSAI) $(DEBUG_DEFINES) $(LIBPCAP_DEFINES) 
+CFLAGS += $(MSD_INCLUDE) -g -fno-omit-frame-pointer -DUSE_SEMAPHORE $(TOPAZ) $(PERIDOT) $(AGATE) $(PEARL) $(AMETHYST) $(OAK) $(SPRUCE) $(BONSAIZ1) $(FIR) $(BONSAI) $(DEBUG_DEFINES) $(LIBPCAP_DEFINES) 
 LDFLAGS += -fPIC -L$(MSD_PATH)/host/linux/libMRegAccess -L$(MSD_PATH)/host/lib/libcli -L$(MSD_PATH)/host/lib/libusb/libusb/.libs -lMRegAccess -lusb-1.0 -lcli -pthread -lstdc++
 
 ifeq ($(LIBPCAP), YES)
@@ -47,7 +47,7 @@ $(EXEC): $(OBJECTS) $(MSD_LIB)
 
 %.o: %.c	
 	@if [ ! -d obj ]; then mkdir obj; fi
-	$(CC) $(CFLAGS) -c -O3 $< -o obj/$(notdir $@)
+	$(CC) $(CFLAGS) -c $< -o obj/$(notdir $@)
 	
 clean:
 	make -C $(MSD_PATH)/host/linux/libMRegAccess clean;

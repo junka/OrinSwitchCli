@@ -23118,6 +23118,42 @@
             ], 
             "type": "MSD_STATUS"
         }, 
+        "msdRMUFwVersionGet": {
+            "comment": "/*******************************************************************************\n* msdRMUGetID\n*\n* DESCRIPTION:\n*       Gets the current Device ID.\n*\n* INPUTS:\n*       None\n*\n* OUTPUTS:\n*       id - DUT Id.\n*\n* RETURNS:\n*       MSD_OK      - on success.\n*       MSD_FAIL    - on error.\n*       MSD_BAD_PARAM - if invalid parameter is given\n*       MSD_NOT_SUPPORTED - device not supported\n*\n* COMMENTS:\n*\n*******************************************************************************/", 
+            "param_descr": {
+                "version": "DUT FW version."
+            }, 
+            "name": "msdRMUGetID", 
+            "descr": "Gets the current Device Fw version.", 
+            "params": [
+                [
+                    "IN", 
+                    "MSD_U8", 
+                    "devNum"
+                ], 
+                [
+                    "OUT", 
+                    "MSD_U16", 
+                    "*version"
+                ]
+            ], 
+            "aparams": [
+                {
+                    "type": "MSD_U8", 
+                    "name": "devNum", 
+                    "dir": "IN", 
+                    "class": "int"
+                }, 
+                {
+                    "descr": "DUT Id.", 
+                    "type": "MSD_U16", 
+                    "name": "id", 
+                    "dir": "OUT", 
+                    "class": "int"
+                }
+            ], 
+            "type": "MSD_STATUS"
+        }, 
         "msdPortMulticastFloodBlockSet": {
             "comment": "/*******************************************************************************\n* msdPortMulticastFloodBlockSet\n*\n* DESCRIPTION:\n*       This routine sets egress flooding mode of unknown multicast of a switch port.\n*       When this mode is set to MSD_TRUE, multicast frames with unknown DA\n*       addresses will not egress out this port.\n*       when this mode is set to MSD_FALSE, normal switch operation will occurs and\n*       multicast frames with unknown DA addresses are allowed to egress out this\n*       port (assuming the VLAN settings allow the frame to egress this port too).\n*\n* INPUTS:\n*       devNum  - physical devie number\n*       portNum - logical port number\n*       mode - MSD_TRUE  to do not egress out the unknown DA multicast frames and\n*               MSD_FALSE for normal switch operation\n*\n* OUTPUTS:\n*       None.\n*\n* RETURNS:\n*       MSD_OK  - on success\n*       MSD_FAIL  - on error\n*       MSD_BAD_PARAM - if invalid parameter is given\n*       MSD_NOT_SUPPORTED - device not support\n*\n* COMMENTS:\n*\t\tNone.\n*\n*******************************************************************************/", 
             "param_descr": {

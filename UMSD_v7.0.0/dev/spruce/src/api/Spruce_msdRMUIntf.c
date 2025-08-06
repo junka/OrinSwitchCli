@@ -689,3 +689,14 @@ OUT MSD_TCAM_DATA *tcamEntry
 	
 	return retVal;
 }
+
+MSD_STATUS Spruce_msdRmuFwVersionGetIntf(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+)
+{
+	return Spruce_msdRmuFwVersionGet(dev, major, minor, build, version);
+}

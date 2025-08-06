@@ -2066,6 +2066,7 @@ static MSD_STATUS InitDevObj_Oak(MSD_QD_DEV *dev)
 	dev->SwitchDevObj.RMUObj.grmuMib2Dump = &Oak_msdRmuMib2DumpIntf;
 	dev->SwitchDevObj.RMUObj.grmuMultiRegAccess = &Oak_msdRmuMultiRegAccessIntf;
 	dev->SwitchDevObj.RMUObj.grmuRegDump = &Oak_msdRmuRegDump;
+	dev->SwitchDevObj.RMUObj.grmuFwVersionGet = &Oak_msdRmuFwVersionGetIntf;
 
 	dev->SwitchDevObj.SmiPhyRegAccessObj.msdGetSMIC45PhyReg = &Oak_msdGetSMIC45PhyReg;
 	dev->SwitchDevObj.SmiPhyRegAccessObj.msdSetSMIC45PhyReg = &Oak_msdSetSMIC45PhyReg;
@@ -2487,6 +2488,7 @@ static MSD_STATUS InitDevObj_Spruce(MSD_QD_DEV *dev)
 	dev->SwitchDevObj.RMUObj.grmuMib2Dump = &Spruce_msdRmuMib2DumpIntf;
 	dev->SwitchDevObj.RMUObj.grmuMultiRegAccess = &Spruce_msdRmuMultiRegAccessIntf;
 	dev->SwitchDevObj.RMUObj.grmuRegDump = &Spruce_msdRmuRegDump;
+	dev->SwitchDevObj.RMUObj.grmuFwVersionGet = &Spruce_msdRmuFwVersionGetIntf;
 
 	dev->SwitchDevObj.SmiPhyRegAccessObj.msdGetSMIC45PhyReg = &Spruce_msdGetSMIC45PhyReg;
 	dev->SwitchDevObj.SmiPhyRegAccessObj.msdSetSMIC45PhyReg = &Spruce_msdSetSMIC45PhyReg;
@@ -4419,6 +4421,7 @@ static MSD_STATUS InitObj(MSD_QD_DEV *dev)
 	dev->SwitchDevObj.RMUObj.grmuTCAMWrite = NULL;
 	dev->SwitchDevObj.RMUObj.grmuMultiRegAccess = NULL;
     dev->SwitchDevObj.RMUObj.grmuRegDump = NULL;
+    dev->SwitchDevObj.RMUObj.grmuFwVersionGet = NULL;
 
 	dev->SwitchDevObj.SmiPhyRegAccessObj.msdGetSMIC45PhyReg = NULL;
 	dev->SwitchDevObj.SmiPhyRegAccessObj.msdSetSMIC45PhyReg = NULL;

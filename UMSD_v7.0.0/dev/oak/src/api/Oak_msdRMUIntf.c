@@ -689,3 +689,14 @@ OUT MSD_TCAM_DATA *tcamEntry
 	
 	return retVal;
 }
+
+MSD_STATUS Oak_msdRmuFwVersionGetIntf(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+)
+{
+	return Oak_msdRmuFwVersionGet(dev, major, minor, build, version);
+}

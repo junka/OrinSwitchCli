@@ -530,3 +530,34 @@ MSD_STATUS msdRMURegisterDump
 
     return retVal;    
 }
+
+MSD_STATUS msdRMUFwVersionGet
+(
+    IN  MSD_U8  devNum,
+	OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+)
+{
+	MSD_STATUS retVal;
+	MSD_QD_DEV* dev = sohoDevGet(devNum);
+	if (NULL == dev)
+	{
+		MSD_DBG_ERROR(("Dev is NULL for devNum %d.\n", devNum));
+		retVal = MSD_FAIL;
+    }
+	else
+	{
+		if (dev->SwitchDevObj.RMUObj.grmuFwVersionGet != NULL)
+		{
+			retVal = dev->SwitchDevObj.RMUObj.grmuFwVersionGet(dev, major, minor, build, version);
+		}
+		else
+		{
+			retVal = MSD_NOT_SUPPORTED;
+		}
+	}
+
+    return retVal;    
+}

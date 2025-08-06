@@ -20,6 +20,7 @@
 #include <spruce/include/api/Spruce_msdRMU.h>
 #include <spruce/include/api/Spruce_msdApiInternal.h>
 #include <platform/msdSem.h>
+#include <string.h>
 
 static MSD_U32 dump_atuPacket
 (
@@ -173,6 +174,96 @@ MSD_STATUS Spruce_msdRmuGetID
 	*id = ((*(rspEthPacketPtr + 24U - delta) & (MSD_U16)0xff) << 8) | (*(rspEthPacketPtr + 25U - delta) & (MSD_U16)0xff);
 
 	MSD_DBG_INFO(("Spruce_msdRmuGetID Exit.\n"));
+	return MSD_OK;
+}
+
+
+MSD_STATUS Spruce_msdRmuFwVersionGet
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U16 *major,
+	OUT MSD_U16 *minor,
+	OUT MSD_U16 *build,
+	OUT char *version
+)
+{
+	MSD_Packet ReqPkt;
+	/*Packet RspPkt;*/
+	MSD_U8 reqEthPacket[512];
+	MSD_U8 rspEthPacket[512];
+	MSD_U32 req_pktlen, rsp_pktlen;
+	MSD_STATUS retVal = 0;
+    MSD_U8 delta;
+
+	MSD_RMU_CMD cmd = MSD_FWVersionGet;
+
+	MSD_U8 *rspEthPacketPtr = &(rspEthPacket[0]);
+
+	MSD_DBG_INFO(("Spruce_msdRmuFwVersionGet Called.\n"));
+
+	if (NULL == version)
+	{
+		MSD_DBG_ERROR(("input version is NULL.\n"));
+		return MSD_BAD_PARAM;
+	}
+
+	if (dev->rmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE)
+	{
+		delta = 0;
+	}
+	else if (dev->rmuMode == MSD_RMU_DSA_MODE)
+	{
+		delta = (MSD_U8)4;
+	}
+	else
+	{
+		delta = 0;
+	}
+		
+	/*Request Packet*/
+	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
+	if (retVal != MSD_OK) 
+	{
+		MSD_DBG_ERROR(("msdRmuReqPktCreate returned: %s.\n", msdDisplayStatus(retVal)));
+		return retVal;
+	}
+
+	msdMemSet(reqEthPacket, 0, sizeof(reqEthPacket));
+
+	retVal = msdRmuPackEthReqPkt(&ReqPkt, cmd, reqEthPacket);
+	if (retVal != MSD_OK) 
+	{
+		MSD_DBG_ERROR(("msdRmuPackEthReqPkt returned: %s.\n", msdDisplayStatus(retVal)));
+		return retVal;
+	}
+
+	req_pktlen = (MSD_U32)((MSD_RMU_PACKET_PREFIX_SIZE - (MSD_U32)delta) + 2U);
+
+	retVal = msdRmuTxRxPkt(dev, reqEthPacket, req_pktlen, &rspEthPacketPtr, &rsp_pktlen);
+	if ((retVal != MSD_OK) || (rsp_pktlen == 0U))
+	{
+		MSD_DBG_ERROR(("rmu_tx_rx returned: %s with rsp_pktLen %d.\n", msdDisplayStatus(retVal), (MSD_32)rsp_pktlen));
+		return MSD_FAIL;
+	}
+
+	/* Receive Packet */
+	if (rsp_pktlen >= req_pktlen) 
+	{
+		/*dump_packet(&rspEthPacket, req_pktlen,
+		//	"Read Register Response Packet");
+		//msdRmuParseEthPacket(&rspEthPacket, RspPkt);*/
+	}
+	else 
+	{
+		MSD_DBG_ERROR(("response_pktlen [%d] < request_pktlen [%d]\n", rsp_pktlen, req_pktlen));
+		return MSD_FAIL;
+	}
+	*major = (*(rspEthPacketPtr + 28U - delta) & (MSD_U16)0xff) << 8 | (*(rspEthPacketPtr + 29U - delta) & (MSD_U16)0xff);
+	*minor = (*(rspEthPacketPtr + 30U - delta) & (MSD_U16)0xff) << 8 | (*(rspEthPacketPtr + 31U - delta) & (MSD_U16)0xff);
+	*build = (*(rspEthPacketPtr + 32U - delta) & (MSD_U16)0xff) << 8 | (*(rspEthPacketPtr + 33U - delta) & (MSD_U16)0xff);
+	memcpy(version, rspEthPacketPtr + 34U - delta, 256U);
+	
+	MSD_DBG_INFO(("Spruce_msdRmuFwVersionGet Exit.\n"));
 	return MSD_OK;
 }
 

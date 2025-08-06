@@ -333,7 +333,7 @@ int send_and_receive_packet(
 	}
 
 	while (exit == 0) {
-		retVal = recv(sockfd, *rsp_packet, req_pktlen, 0);
+		retVal = recv(sockfd, *rsp_packet, 512, 0);
 		if (retVal > 0) {
 			// printf("Response Packet First 12 Bytes: %ld\n", retVal);
 			// for (int i = 0; i < 14; i++) {
@@ -372,7 +372,6 @@ int send_and_receive_packet(
 	return 0;
 }
 
-extern MSD_STATUS qdInit(int baseAddr, int bus_interface, MSD_U16 tempDeviceId);
 void scanTargetDevicesList(MSD_RMU_MODE rmuMode, uint16_t eTypeValue, const char *name)
 {
 	struct sock_filter bpfcode[] = {
