@@ -6,7 +6,7 @@ CFLAGS += $(MSD_INCLUDE) -g -fno-omit-frame-pointer -DUSE_SEMAPHORE $(TOPAZ) $(P
 LDFLAGS += -fPIC -L$(MSD_PATH)/host/linux/libMRegAccess -L$(MSD_PATH)/host/lib/libcli -L$(MSD_PATH)/host/lib/libusb/libusb/.libs -lMRegAccess -lusb-1.0 -lcli -pthread -lstdc++
 
 ifeq ($(LIBPCAP), YES)
-LDFLAGS += -L$(MSD_PATH)/host/lib/libpcap -lpcap
+LDFLAGS += -lpcap
 endif
 
 HOST?=x86_64-linux-gnu
@@ -16,15 +16,6 @@ MSD_LIB = $(MSD_PATH)/library/$(MSD_PROJ_NAME).o
 OBJECTS = $(SAMPLE_OBJS) $(UNITTEST_OBJS) $(SWTEST_OBJS)
 
 all: $(EXEC) $(MSD_LIB)
-
-ifeq ($(LIBPCAP), YES)
-build_libpcap:
-	cd $(MSD_PATH)/host/lib/libpcap && \
-    if [ -f configure ]; then ./configure --disable-dbus --disable-rdma --enable-usb=no --disable-bluetooth --without-ibverbs --with-pcap=linux --host=$(HOST); \
-    elif [ -f autogen.sh ]; then ./autogen.sh && ./configure --disable-dbus --disable-rdma --enable-usb=no --disable-bluetooth --without-ibverbs --with-pcap=linux --host=$(HOST); \
-    fi; \
-    make;
-endif
 
 $(MSD_LIB):
 	mkdir -p $(MSD_PATH)/library
@@ -52,9 +43,6 @@ $(EXEC): $(OBJECTS) $(MSD_LIB)
 clean:
 	make -C $(MSD_PATH)/host/linux/libMRegAccess clean;
 	make -C $(MSD_PATH)/host/lib/libcli clean;
-	if [ -f $(MSD_PATH)/host/lib/libpcap/Makefile ]; then \
-		make -C $(MSD_PATH)/host/lib/libpcap clean; \
-	fi; \
 	if [ -f $(MSD_PATH)/host/lib/libusb/Makefile ]; then \
 		make -C $(MSD_PATH)/host/lib/libusb clean; \
 	fi;
