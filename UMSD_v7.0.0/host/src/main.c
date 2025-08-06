@@ -249,6 +249,7 @@ static int openBusWithCfgFile(char *filename, int *bus_interface, MSD_U32 *baseA
             }
             memcpy(AdapterMACAddr, ifreq.ifr_hwaddr.sa_data, 6);
 #endif
+            scanTargetDevicesList(gRmuMode, gEtherTypeValue, pcap_device_name);
             if (pcap_rmuOpenEthDevice() != 0)
             {
                 printf("NIC Open Failed\n");
@@ -303,6 +304,8 @@ static int openBusWithCfgFile(char *filename, int *bus_interface, MSD_U32 *baseA
 			memcpy(AdapterMACAddr, ifreq.ifr_hwaddr.sa_data, 6);
             close(sock);
 #endif
+            scanTargetDevicesList(gRmuMode, gEtherTypeValue, pcap_device_name);
+
 			if (pcap_rmuOpenEthDevice() != 0)
 			{
 				printf("NIC Open Failed\n");

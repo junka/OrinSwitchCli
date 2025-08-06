@@ -25,6 +25,13 @@ make
  UMSD_MCLI application be created in UMSD_v7.0.0/host/linux
 
 ## usage
+
+### umsd.cfg
+basically we are using FW_RMU mode, the parameters that would need modifications are
+- nic_name should always be modified before run command with the right interface
+- dev_num from 0 to 31, could be scanned automatically
+- ether_type packet ether proto, 0x9100 or 0x9101
+
 ### Telnet mode
 - modify umsd.cfg nic_name with the correct interface name
 - run ```sudo ./USMD_CLI -f umsd.cfg ```

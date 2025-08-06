@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "libcli.h": "c",
-        "apicli.h": "c"
-    }
-}

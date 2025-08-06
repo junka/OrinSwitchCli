@@ -49,7 +49,7 @@ MSD_STATUS msdRMUGetID
 )
 {
 	MSD_STATUS retVal;
-    MSD_QD_DEV* dev = sohoDevGet(devNum);
+	MSD_QD_DEV* dev = sohoDevGet(devNum);
 	if (NULL == dev)
 	{
 		MSD_DBG_ERROR(("Dev is NULL for devNum %d.\n", devNum));

@@ -318,7 +318,6 @@ int send_and_receive_packet(
 	}
 	*rsp_pktlen = mypkt_hdr->len;
 
-	
 #else
 	if (sockfd < 0) {
 		fprintf(stderr, "Socket not opened. Call pcap_rmuOpenEthDevice() first.\n");
@@ -336,6 +335,11 @@ int send_and_receive_packet(
 	while (exit == 0) {
 		retVal = recv(sockfd, *rsp_packet, req_pktlen, 0);
 		if (retVal > 0) {
+			// printf("Response Packet First 12 Bytes: %ld\n", retVal);
+			// for (int i = 0; i < 14; i++) {
+			// 	printf("%02x ", *(*(rsp_packet) + i));
+			// }
+			// printf("\n");
 			if (*(req_packet + seqNumOffset) != *(*(rsp_packet) + seqNumOffset)) {
 				 printf("Error: DSA tag sequence numbers does not match - req: %X, rsp: %X\n",
                      *(req_packet + seqNumOffset), *((*rsp_packet) + seqNumOffset));
@@ -347,8 +351,9 @@ int send_and_receive_packet(
 					exit = 1;
 			}
 		} else {
-			fprintf(stderr, "\nError receive packet: %d\n", errno);
-			continue;
+			// fprintf(stderr, "\nError receive packet: %d (%s)\n", errno, strerror(errno));
+			// exit = 1;
+			return -1;
 		}
 
 		drop_cnt++;
@@ -365,4 +370,179 @@ int send_and_receive_packet(
 		return -1;
 	}
 	return 0;
+}
+
+extern MSD_STATUS qdInit(int baseAddr, int bus_interface, MSD_U16 tempDeviceId);
+void scanTargetDevicesList(MSD_RMU_MODE rmuMode, uint16_t eTypeValue, const char *name)
+{
+	struct sock_filter bpfcode[] = {
+		{ 0x80, 0, 0, 0x00000000 },
+		{ 0x25, 5, 0, 0x00000200 },
+		{ 0x28, 0, 0, 0x0000000c },
+		{ 0x15, 0, 3, 0x00009101 },
+		{ 0x30, 0, 0, 0x00000010 },
+		{ 0x15, 0, 1, 0x00000004 },
+		{ 0x6, 0, 0, 0x00040000 },
+		{ 0x6, 0, 0, 0x00000000 },
+	};
+	struct sock_filter bpfcode2[] = {
+		{ 0x80, 0, 0, 0x00000000 },
+		{ 0x25, 3, 0, 0x00000200 },
+		{ 0x30, 0, 0, 0x0000000c },
+		{ 0x15, 0, 1, 0x00000004 },
+		{ 0x6, 0, 0, 0x00040000 },
+		{ 0x6, 0, 0, 0x00000000 },
+	};
+
+	MSD_Packet packet;
+	/*Packet RspPkt;*/
+	MSD_U8 reqEthPacket[512];
+	MSD_U8 rspEthPacket[512];
+	MSD_U32 req_pktlen, rsp_pktlen;
+	MSD_STATUS retVal = 0;
+	MSD_U8 delta;
+
+	MSD_RMU_CMD cmd = MSD_GetID;
+
+	MSD_U8 *rspEthPacketPtr = &(rspEthPacket[0]);
+
+	if (rmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE)
+		delta = 0;
+	else if (rmuMode == MSD_RMU_DSA_MODE)
+		delta = 4;
+	else {
+		delta = 0;
+	}
+
+	MSD_U16 lengthType = 0;
+	MSD_U8 pri = 6;
+
+	MSD_U8 DA[6] = { 0x01, 0x50, 0x43, 0x00, 0x00, 0x00 };
+	MSD_U8 SA[6] = { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };	/* will be override with corrent cpu address by upper application. */
+	/* MSD_U8 SA[6] = { 0x28, 0xD2, 0x44, 0x8C, 0xF9, 0xF3 };	// will be override with corrent cpu address by upper application. */
+
+	/* Overwrite DA, pri, length type field*/
+	if (rmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE)
+	{
+		DA[5] = 0x3;
+		lengthType = 0x000E;
+		pri = 7;
+	}
+	else
+	{
+		lengthType = 0x0800;
+	}
+
+	struct ifreq ifr;
+	sockfd = socket(AF_PACKET, SOCK_RAW, htons(ETH_P_ALL));
+	if (sockfd == -1) {
+		perror("Error opening raw socket");
+		return ;
+	}
+	memset(&ifr, 0, sizeof(struct ifreq));
+	memcpy(ifr.ifr_name, name, strlen(name)+1);
+	ioctl(sockfd, SIOCGIFINDEX, &ifr);
+
+	struct sockaddr_ll addr;
+	memset(&addr, 0, sizeof(addr));
+	addr.sll_family = AF_PACKET;
+	addr.sll_protocol = htons(ETH_P_ALL);
+	addr.sll_ifindex = ifr.ifr_ifindex;
+	addr.sll_halen = ETH_ALEN;
+	if (bind(sockfd, (struct sockaddr*)&addr, sizeof(struct sockaddr_ll)) < 0) {
+		perror("Error binding socket to interface");
+		close(sockfd);
+		return;
+	}
+
+	if (setsockopt(sockfd, SOL_SOCKET, SO_BINDTODEVICE, (void*)&ifr, sizeof(struct ifreq)) < 0)
+	{
+		perror("Error binding socket to device");
+		close(sockfd);
+		return;
+	}
+
+	struct timeval timeout;
+	timeout.tv_sec = 0;
+	timeout.tv_usec = 10000;
+
+	if (setsockopt(sockfd, SOL_SOCKET, SO_RCVTIMEO, &timeout, sizeof(timeout)) < 0) {
+		perror("Error setting socket receive timeout");
+		close(sockfd);
+		return ;
+	}
+
+
+	for (int devnum = 0; devnum < 32; devnum++) {
+		struct sock_filter *pbpfcode;
+		size_t bpfcode_size;
+		if (rmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE) {
+			bpfcode[3].k = eTypeValue;
+			bpfcode[5].k = devnum & 0x1F;
+			pbpfcode = bpfcode;
+			bpfcode_size = sizeof(bpfcode) / sizeof(struct sock_filter);
+		} else if (rmuMode == MSD_RMU_DSA_MODE) {
+			bpfcode2[3].k = devnum & 0x1F;
+			pbpfcode = bpfcode2;
+			bpfcode_size = sizeof(bpfcode2) / sizeof(struct sock_filter);
+		}
+		struct sock_fprog prog = {
+			.len = bpfcode_size,
+			.filter  = pbpfcode
+		};
+		int ret = setsockopt(sockfd, SOL_SOCKET, SO_ATTACH_FILTER, &prog, sizeof(prog));
+		if (ret < 0) {
+			perror("Error attach filter to device");
+			close(sockfd);
+			return ;
+		}
+
+		msdMemSet(&packet, 0, sizeof(MSD_Packet));
+
+		msdMemCpy(&packet.DA, DA, sizeof(DA));
+		msdMemCpy(&packet.SA, SA, sizeof(SA));
+		packet.rmuMode = rmuMode;
+		packet.etherType = (eTypeValue << 16);
+
+		MSD_U32	dsaTag = 0;
+		MSD_U8	trg_dev = devnum;
+		MSD_U8	seq_num = devnum;
+
+		dsaTag |= 1 << 30;
+		dsaTag |= ((trg_dev & 0x1f) << 24);
+		dsaTag |= 0x3E << 18;
+		dsaTag |= (1 << 17);
+		dsaTag |= (pri & 0x7) << 13;
+		dsaTag |= (0xf << 8);
+		dsaTag |= seq_num & 0xff;
+
+		packet.dsaTag = dsaTag;
+		packet.lenType = lengthType;
+		packet.reqFmt = 0x0;
+		packet.reqCode = 0;
+		packet.reqData._reqData = 0x0;
+
+		msdMemSet(reqEthPacket, 0, sizeof(reqEthPacket));
+		msdRmuPackEthReqPkt(&packet, MSD_GetID, reqEthPacket);
+		req_pktlen = MSD_RMU_PACKET_PREFIX_SIZE - delta + 2;
+
+		retVal = send_and_receive_packet(
+			reqEthPacket,
+			req_pktlen,
+			&rspEthPacketPtr,
+			&rsp_pktlen);
+		if (retVal != MSD_OK || rsp_pktlen == 0) {
+			setsockopt(sockfd, SOL_SOCKET, SO_DETACH_FILTER, NULL, 0);
+			continue;
+		}
+		MSD_U16 id = ((*(rspEthPacketPtr + 24 - delta) & 0xff) << 8) | (*(rspEthPacketPtr + 25 - delta) & 0xff);
+
+		printf("Get out Device ID: %X, MAC: %02x:%02x:%02x:%02x:%02x:%02x\n", id, *(rspEthPacketPtr + 6), *(rspEthPacketPtr + 7),
+			*(rspEthPacketPtr + 8), *(rspEthPacketPtr + 9), *(rspEthPacketPtr + 10), *(rspEthPacketPtr + 11));
+		setsockopt(sockfd, SOL_SOCKET, SO_DETACH_FILTER, NULL, 0);
+
+		sohoDevNum = *(rspEthPacketPtr + 11) & 0x1F;
+	}
+	printf("\nScan completed.\n");
+	close(sockfd);
 }
