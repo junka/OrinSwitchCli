@@ -2333,6 +2333,14 @@
 					"":	"rmu getFwVersion\n"
 				}
 			},
+			"getRegVersion":	{
+				"help":	"rmu getRegVersion : Get the current cfg crc\n",
+				"paraList":	{
+				},
+				"example":	{
+					"":	"rmu getRegVersion\n"
+				}
+			},
 			"dumpAtu":	{
 				"help":	"rmu dumpAtu <continueCode> : Dump ATU entry from the specified starting address\n",
 				"paraList":	{

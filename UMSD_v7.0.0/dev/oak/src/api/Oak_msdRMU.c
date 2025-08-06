@@ -1172,6 +1172,92 @@ MSD_STATUS Oak_msdRmuFwVersionGet
 	return MSD_OK;
 }
 
+
+MSD_STATUS Oak_msdRmuRegVersionGet
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+)
+{
+	MSD_Packet ReqPkt;
+	/*Packet RspPkt;*/
+	MSD_U8 reqEthPacket[512];
+	MSD_U8 rspEthPacket[512];
+	MSD_U32 req_pktlen, rsp_pktlen;
+	MSD_STATUS retVal = 0;
+    MSD_U8 delta;
+
+	MSD_RMU_CMD cmd = MSD_RegVersionGet;
+
+	MSD_U8 *rspEthPacketPtr = &(rspEthPacket[0]);
+
+	MSD_DBG_INFO(("Oak_msdRmuRegVersionGet Called.\n"));
+
+	if (NULL == crc)
+	{
+		MSD_DBG_ERROR(("input crc is NULL.\n"));
+		return MSD_BAD_PARAM;
+	}
+
+	if (dev->rmuMode == MSD_RMU_ETHERT_TYPE_DSA_MODE)
+	{
+		delta = 0;
+	}
+	else if (dev->rmuMode == MSD_RMU_DSA_MODE)
+	{
+		delta = (MSD_U8)4;
+	}
+	else
+	{
+		delta = 0;
+	}
+		
+	/*Request Packet*/
+	retVal = msdRmuReqPktCreate(dev, cmd, &ReqPkt);
+	if (retVal != MSD_OK) 
+	{
+		MSD_DBG_ERROR(("msdRmuReqPktCreate returned: %s.\n", msdDisplayStatus(retVal)));
+		return retVal;
+	}
+
+	msdMemSet(reqEthPacket, 0, sizeof(reqEthPacket));
+
+	retVal = msdRmuPackEthReqPkt(&ReqPkt, cmd, reqEthPacket);
+	if (retVal != MSD_OK) 
+	{
+		MSD_DBG_ERROR(("msdRmuPackEthReqPkt returned: %s.\n", msdDisplayStatus(retVal)));
+		return retVal;
+	}
+
+	req_pktlen = (MSD_U32)((MSD_RMU_PACKET_PREFIX_SIZE - (MSD_U32)delta) + 2U);
+
+	retVal = msdRmuTxRxPkt(dev, reqEthPacket, req_pktlen, &rspEthPacketPtr, &rsp_pktlen);
+	if ((retVal != MSD_OK) || (rsp_pktlen == 0U))
+	{
+		MSD_DBG_ERROR(("rmu_tx_rx returned: %s with rsp_pktLen %d.\n", msdDisplayStatus(retVal), (MSD_32)rsp_pktlen));
+		return MSD_FAIL;
+	}
+
+	/* Receive Packet */
+	if (rsp_pktlen >= req_pktlen) 
+	{
+		/*dump_packet(&rspEthPacket, req_pktlen,
+		//	"Read Register Response Packet");
+		//msdRmuParseEthPacket(&rspEthPacket, RspPkt);*/
+	}
+	else 
+	{
+		MSD_DBG_ERROR(("response_pktlen [%d] < request_pktlen [%d]\n", rsp_pktlen, req_pktlen));
+		return MSD_FAIL;
+	}
+	*crc = (*(rspEthPacketPtr + 28U - delta) & (MSD_U32)0xff) << 24 | (*(rspEthPacketPtr + 29U - delta) & (MSD_U32)0xff) << 16 |
+	       (*(rspEthPacketPtr + 30U - delta) & (MSD_U32)0xff) << 8 | (*(rspEthPacketPtr + 31U - delta) & (MSD_U32)0xff);
+
+	MSD_DBG_INFO(("Oak_msdRmuRegVersionGet Exit.\n"));
+	return MSD_OK;
+}
+
+
 /****************************************************************************/
 /* Internal functions.                                                  */
 /****************************************************************************/

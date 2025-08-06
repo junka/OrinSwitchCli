@@ -292,6 +292,7 @@ int rmuTcamRead(void);
 int rmuTcamWrite(void);
 int rmuDumpReg(void);
 int rmuGetFwVersion(void);
+int rmuGetRegVersion(void);
 
 int portGetVlanPorts(void);
 int portSetVlanPorts(void);

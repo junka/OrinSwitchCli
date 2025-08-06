@@ -1170,6 +1170,8 @@ OUT MSD_U16 *data
 #define MSD_RMU_REQ_CODE_MULTI_REGRW	0x2000
 #define MSD_RMU_REQ_CODE_MULTI_TCAM		0x2030
 
+
+#define MSD_RMU_REQ_CODE_REG_VERSION_READ 0xF270
 #define MSD_RMU_REQ_CODE_FW_VERSION_GET 0xF293
 
 /*
@@ -1317,6 +1319,10 @@ MSD_STATUS msdRmuReqPktCreate
 			packet->reqCode = MSD_RMU_REQ_CODE_FW_VERSION_GET;
 			/* packet->reqData._reqData = 0x0; */
 			break;
+		case MSD_RegVersionGet:
+			packet->reqFmt = 0x0001;
+			packet->reqCode = MSD_RMU_REQ_CODE_REG_VERSION_READ;
+			break;
 		default:
 			retVal = MSD_NOT_SUPPORTED;
 			break;
@@ -1427,6 +1433,7 @@ MSD_STATUS msdRmuPackEthReqPkt
 		case MSD_DumpMIB2Clear:
 		case MSD_DumpTCAM:
 		case MSD_FWVersionGet:
+		case MSD_RegVersionGet:
 			tmp16 = packet->reqData._reqData;
 			msdU16VauleCpy(pktPtr, tmp16);
 			break;

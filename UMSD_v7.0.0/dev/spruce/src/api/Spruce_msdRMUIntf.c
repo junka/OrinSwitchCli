@@ -700,3 +700,11 @@ MSD_STATUS Spruce_msdRmuFwVersionGetIntf(
 {
 	return Spruce_msdRmuFwVersionGet(dev, major, minor, build, version);
 }
+
+MSD_STATUS Spruce_msdRmuRegVersionGetIntf(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+)
+{
+	return Spruce_msdRmuRegVersionGet(dev, crc);
+}

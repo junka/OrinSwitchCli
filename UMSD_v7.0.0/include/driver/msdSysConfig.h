@@ -620,6 +620,7 @@ typedef MSD_STATUS(*FMSD_grmuTCAMWrite)(MSD_QD_DEV *dev, MSD_U32 tcamPointer, MS
 typedef MSD_STATUS(*FMSD_grmuTCAMRead)(MSD_QD_DEV *dev, MSD_U32 tcamPointer, MSD_TCAM_DATA *tcamEntry);
 typedef MSD_STATUS(*FMSD_grmuRegDump)(MSD_QD_DEV *dev, MSD_U8 devAddr, MSD_RegList *dataList);
 typedef MSD_STATUS(*FMSD_grmuFwVersionGet)(MSD_QD_DEV *dev, MSD_U16 *major, MSD_U16 *minor, MSD_U16 *build, char *version);
+typedef MSD_STATUS(*FMSD_grmuRegVersionGet)(MSD_QD_DEV *dev, MSD_U32 *crc);
 
 typedef MSD_STATUS(*FMSD_msdSetSMIC45PhyReg)(MSD_QD_DEV *dev, MSD_U8 devAddr, MSD_U8 phyAddr, MSD_U16 regAddr, MSD_U16 data);
 typedef MSD_STATUS(*FMSD_msdGetSMIC45PhyReg)(MSD_QD_DEV *dev, MSD_U8 devAddr, MSD_U8 phyAddr, MSD_U16 regAddr, MSD_U16 *data);
@@ -1336,6 +1337,7 @@ typedef struct
 	FMSD_grmuMultiRegAccess grmuMultiRegAccess;
     FMSD_grmuRegDump grmuRegDump;
 	FMSD_grmuFwVersionGet grmuFwVersionGet;
+	FMSD_grmuRegVersionGet grmuRegVersionGet;
 } SwitchDevRMUObj_;
 
 typedef struct

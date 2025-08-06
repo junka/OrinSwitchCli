@@ -700,3 +700,11 @@ MSD_STATUS Oak_msdRmuFwVersionGetIntf(
 {
 	return Oak_msdRmuFwVersionGet(dev, major, minor, build, version);
 }
+
+MSD_STATUS Oak_msdRmuRegVersionGetIntf(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+)
+{
+	return Oak_msdRmuRegVersionGet(dev, crc);
+}

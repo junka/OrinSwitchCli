@@ -561,3 +561,31 @@ MSD_STATUS msdRMUFwVersionGet
 
     return retVal;    
 }
+
+MSD_STATUS msdRMURegVersionGet
+(
+    IN  MSD_U8  devNum,
+	OUT MSD_U32 *crc
+)
+{
+	MSD_STATUS retVal;
+	MSD_QD_DEV* dev = sohoDevGet(devNum);
+	if (NULL == dev)
+	{
+		MSD_DBG_ERROR(("Dev is NULL for devNum %d.\n", devNum));
+		retVal = MSD_FAIL;
+    }
+	else
+	{
+		if (dev->SwitchDevObj.RMUObj.grmuRegVersionGet != NULL)
+		{
+			retVal = dev->SwitchDevObj.RMUObj.grmuRegVersionGet(dev, crc);
+		}
+		else
+		{
+			retVal = MSD_NOT_SUPPORTED;
+		}
+	}
+
+    return retVal;    
+}

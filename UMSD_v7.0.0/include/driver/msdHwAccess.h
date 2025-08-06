@@ -689,7 +689,8 @@ typedef enum {
 	MSD_RegRW,
 	MSD_DumpTCAM,
 	MSD_TCAMRW,
-    MSD_FWVersionGet
+    MSD_FWVersionGet,
+    MSD_RegVersionGet
 } MSD_RMU_CMD;
 
 MSD_STATUS msdRmuReqPktCreate

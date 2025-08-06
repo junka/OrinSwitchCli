@@ -417,6 +417,19 @@ MSD_STATUS Oak_msdRmuFwVersionGetIntf
 	OUT char *version
 );
 
+MSD_STATUS Oak_msdRmuRegVersionGet
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+);
+
+MSD_STATUS Oak_msdRmuRegVersionGetIntf
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+);
+
+
 #ifdef __cplusplus
 }
 #endif

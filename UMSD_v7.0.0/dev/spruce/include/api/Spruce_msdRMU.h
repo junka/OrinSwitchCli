@@ -416,6 +416,19 @@ MSD_STATUS Spruce_msdRmuFwVersionGetIntf
 	OUT char *version
 );
 
+
+MSD_STATUS Spruce_msdRmuRegVersionGet
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+);
+
+MSD_STATUS Spruce_msdRmuRegVersionGetIntf
+(
+	IN  MSD_QD_DEV *dev,
+	OUT MSD_U32 *crc
+);
+
 #ifdef __cplusplus
 }
 #endif

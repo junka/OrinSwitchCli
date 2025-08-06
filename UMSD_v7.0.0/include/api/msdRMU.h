@@ -331,6 +331,12 @@ MSD_STATUS msdRMUFwVersionGet
 	OUT char *version
 );
 
+MSD_STATUS msdRMURegVersionGet
+(
+    IN  MSD_U8 devNum,
+    OUT MSD_U32 *crc
+);
+
 #ifdef __cplusplus
 }
 #endif

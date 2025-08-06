@@ -594,6 +594,7 @@ CLI_COMMAND_STRUCT rmuCMDList[] =
 {
     { "getID", &rmuGetID },
     { "getFwVersion", &rmuGetFwVersion },
+    { "getRegVersion", &rmuGetRegVersion },
     { "dumpAtu", &rmuDumpAtu },
     { "dumpEcid", &rmuDumpEcid },
     { "dumpMib2", &rmuDumpMib2 },
@@ -14135,6 +14136,41 @@ int rmuGetFwVersion(void)
     }
 
     CLI_INFO("Get out Device Fw Version: %d.%d.%d %s\n", major, minor, build, version);
+    return 0;
+}
+
+int rmuGetRegVersion(void)
+{
+    MSD_STATUS retVal;
+    MSD_U32 crc;
+
+    if (nargs != 2)
+    {
+        cJSON *cmdJSON = cJSON_GetObjectItem(rootJSON, CMD_ARGS[0]);
+		cJSON *subJSON = cJSON_GetObjectItem(cJSON_GetObjectItem(cmdJSON, "subcmd"), CMD_ARGS[1]);
+        CLI_ERROR("Syntax Error, Using command as follows: %s", cJSON_GetObjectItem(subJSON, "help")->valuestring);
+        return 1;
+    }
+
+    if (checkRMUInterface() != MSD_OK)
+    {
+        CLI_ERROR("This method only support RMU interface\n");
+        return 1;
+    }
+
+    retVal = msdRMURegVersionGet(sohoDevNum, &crc);
+    if (retVal != MSD_OK) {
+        if (retVal == MSD_NOT_SUPPORTED)
+        {
+            CLI_WARNING("The device maybe not support this feature, please double checked\n");
+            return MSD_NOT_SUPPORTED;
+        }
+        CLI_ERROR("Error get the Reg Version ret[%d: %s]"
+            "\n", retVal, reflectMSD_STATUS(retVal));
+        return MSD_FAIL;
+    }
+
+    CLI_INFO("Get out Device Reg Version: %x\n", crc);
     return 0;
 }
 int rmuDumpAtu(void)
